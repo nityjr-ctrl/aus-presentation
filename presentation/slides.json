@@ -1,0 +1,705 @@
+[
+  {
+    "n": 1,
+    "title": "The decision before theatre",
+    "type": "decisions",
+    "lead": "Severe leakage is only the starting point",
+    "rows": [
+      [
+        "Implant",
+        "SUI, safe storage, reliable emptying and usable pump"
+      ],
+      [
+        "Optimise",
+        "A treatable bladder or functional problem dominates"
+      ],
+      [
+        "Investigate",
+        "The mechanism, measurements or anatomy remain uncertain"
+      ],
+      [
+        "Reconsider",
+        "Safe function or independent device use is unlikely"
+      ]
+    ]
+  },
+  {
+    "n": 2,
+    "title": "Evidence and device boundaries",
+    "type": "table",
+    "headers": [
+      "Source",
+      "What it can tell us"
+    ],
+    "rows": [
+      [
+        "Guidelines and consensus",
+        "A recommended clinical pathway"
+      ],
+      [
+        "Clinical studies",
+        "Outcomes in a defined population"
+      ],
+      [
+        "Manufacturer IFU",
+        "Permitted use and device precautions"
+      ],
+      [
+        "Expert or local practice",
+        "A practical choice with stated uncertainty"
+      ]
+    ],
+    "bottom": "BAUS 2025 anchors the talk. AMS 800 evidence requires separate interpretation for ContiClassic."
+  },
+  {
+    "n": 3,
+    "title": "Leakage mechanism and patient goals",
+    "type": "columns",
+    "cols": [
+      [
+        "Characterise the leak",
+        "Demonstrated stress leakage",
+        "Urgency, night-time symptoms and emptying",
+        "Pad use, pad weight and activity"
+      ],
+      [
+        "Define useful improvement",
+        "Recovery trajectory and prior treatment",
+        "A validated symptom and quality-of-life measure",
+        "The activity the patient wants back"
+      ]
+    ],
+    "bottom": "Pad count alone cannot decide eligibility."
+  },
+  {
+    "n": 4,
+    "title": "Timing after prostate treatment",
+    "type": "table",
+    "headers": [
+      "Guidance",
+      "At six months",
+      "At twelve months"
+    ],
+    "rows": [
+      [
+        "BAUS",
+        "At least six months\u2019 recovery for severe SUI",
+        "At least twelve months for mild\u2013moderate SUI"
+      ],
+      [
+        "AUA",
+        "Surgery may be offered for bothersome, non-improving SUI despite conservative care",
+        "Offer surgery for persisting bothersome SUI"
+      ]
+    ],
+    "bottom": "Recovery trajectory still matters. Sling suitability depends on severity, tissue and treatment history."
+  },
+  {
+    "n": 5,
+    "title": "Pump use over time",
+    "type": "image",
+    "asset": "uroops-exploded.png",
+    "label": "Pump assessment",
+    "items": [
+      "Watch the patient operate a demonstration pump",
+      "Check reach, strength and understanding",
+      "Agree an accessible position before surgery",
+      "Consider future frailty and loss of independence"
+    ]
+  },
+  {
+    "n": 6,
+    "title": "Flexible cystoscopy before implantation",
+    "type": "columns",
+    "cols": [
+      [
+        "Guidance",
+        "AUA recommends cystourethroscopy before SUI surgery",
+        "BAUS selects cystoscopy within its VUDS pathway",
+        "Advance inspection is a practical preference"
+      ],
+      [
+        "Findings that change the plan",
+        "Stricture, BNC or VUAS",
+        "Erosion, foreign material or stones",
+        "Tumour or likely repeated instrumentation"
+      ]
+    ],
+    "bottom": "Suspected narrowing needs definition. Unplanned dilation can obscure the decision."
+  },
+  {
+    "n": 7,
+    "title": "Urodynamics: BAUS, EAU and AUA",
+    "type": "table",
+    "headers": [
+      "Guideline",
+      "Position",
+      "Clinical implication"
+    ],
+    "rows": [
+      [
+        "BAUS",
+        "Video-urodynamics for surgical candidates",
+        "Follow the investigation pathway"
+      ],
+      [
+        "EAU",
+        "UDS before invasive treatment, weak recommendation",
+        "Interpret alongside the selective-testing narrative"
+      ],
+      [
+        "AUA",
+        "UDS when diagnosis or counselling benefits",
+        "State the uncertainty the test should resolve"
+      ]
+    ],
+    "bottom": "The key question: which result would change the treatment or counselling?"
+  },
+  {
+    "n": 8,
+    "title": "Interpreting an imperfect study",
+    "type": "steps",
+    "rows": [
+      [
+        "1",
+        "Dominant symptoms and demonstrated SUI"
+      ],
+      [
+        "2",
+        "Urine, bladder diary, free flow and repeated residual"
+      ],
+      [
+        "3",
+        "Urethral anatomy and future access"
+      ],
+      [
+        "4",
+        "The chosen guideline-based UDS strategy"
+      ],
+      [
+        "5",
+        "Storage safety, emptying and outlet stability"
+      ]
+    ],
+    "bottom": "Low capacity can reflect leakage. A weak laboratory contraction needs the real voiding history."
+  },
+  {
+    "n": 9,
+    "title": "Consent: improvement and lifetime burden",
+    "type": "outcomes",
+    "bottom": "Different endpoints and populations. These figures do not compare device efficacy. Consent includes future revision, erosion and residual leakage."
+  },
+  {
+    "n": 10,
+    "title": "Case 1: six pads and urgency",
+    "type": "case",
+    "case": "01",
+    "facts": [
+      "Demonstrated post-prostatectomy stress leakage",
+      "Urgency leakage and detrusor overactivity",
+      "Reassuring compliance and emptying",
+      "Goal: walk without soaking his clothes"
+    ],
+    "question": "Implant now or optimise first?",
+    "options": "Implant / Optimise / Investigate / Reconsider",
+    "bottom": "DO alone need not exclude general AUS surgery. ContiClassic labelling requires bladder conditions to be controlled or resolved."
+  },
+  {
+    "n": 11,
+    "title": "Urgency treatment and emptying",
+    "type": "steps",
+    "rows": [
+      [
+        "1",
+        "Address reversible contributors and symptom burden"
+      ],
+      [
+        "2",
+        "Choose medication with cognition and residual urine in mind"
+      ],
+      [
+        "3",
+        "Plan retention and repeated access before botulinum toxin"
+      ],
+      [
+        "4",
+        "Treat persistent urgency as a separate outcome after AUS"
+      ]
+    ],
+    "bottom": "No universally superior treatment sequence around a cuff has been established."
+  },
+  {
+    "n": 12,
+    "title": "Case 2: weak contraction and residual urine",
+    "type": "case",
+    "case": "02",
+    "facts": [
+      "Stress leakage with slow voiding",
+      "Repeatedly raised residual urine",
+      "Weak contraction and abdominal straining",
+      "Obstruction and test inhibition remain possible"
+    ],
+    "question": "Would a reliable emptying plan change your answer?",
+    "options": "Implant / Investigate / Reconsider",
+    "bottom": "Selected DU cohorts do not establish safety in unresolved retention. There is no universal residual cutoff."
+  },
+  {
+    "n": 13,
+    "title": "Catheterisation with a cuff in place",
+    "type": "statement",
+    "lead": "Cuff fully deflated.\nDevice deactivated.",
+    "items": [
+      "Establish the reason and likely frequency of catheterisation",
+      "Test competence and agree the drainage route before implantation",
+      "Plan repeated or prolonged access with specialist input"
+    ],
+    "bottom": "Follow the actual device instructions before instrumentation. No universal French-size rule applies."
+  },
+  {
+    "n": 14,
+    "title": "Detrusor overactivity and poor compliance",
+    "type": "physiology",
+    "bottom": "Schematic traces only, with arbitrary units. Confirm trace quality and assess renal function or upper tracts when indicated."
+  },
+  {
+    "n": 15,
+    "title": "Three different sites of narrowing",
+    "type": "image",
+    "asset": "uroops-sagittal.png",
+    "label": "Anatomical distinctions",
+    "items": [
+      "Anterior stricture: urethra and spongiosum",
+      "Bladder-neck contracture: prostate partly present",
+      "VUAS: anastomosis after radical prostatectomy"
+    ],
+    "bottom": "Symptoms, flow, residual and anatomy must support a stable outlet."
+  },
+  {
+    "n": 16,
+    "title": "Reassessment and urethral stability",
+    "type": "table",
+    "headers": [
+      "Guideline",
+      "Interval",
+      "The relevant pathway"
+    ],
+    "rows": [
+      [
+        "AUA",
+        "At least 4\u20136 weeks",
+        "Interval cystoscopy after symptomatic BNC/VUAS treatment"
+      ],
+      [
+        "EAU",
+        "3\u20136 months",
+        "Advice after redo vesicourethral anastomosis"
+      ],
+      [
+        "BAUS",
+        "At least six months without recurrence",
+        "After treatment of post-prostatectomy narrowing"
+      ]
+    ],
+    "bottom": "These intervals describe different pathways. Recurrence pattern, tissue quality and future access remain decisive."
+  },
+  {
+    "n": 17,
+    "title": "Case 3: radiation and recurrent VUAS",
+    "type": "case",
+    "case": "03",
+    "facts": [
+      "Radical prostatectomy and salvage radiotherapy",
+      "Severe SUI between endoscopic treatments",
+      "Recurrent vesicourethral anastomotic stenosis",
+      "Patency still depends on further intervention"
+    ],
+    "question": "Implant, stage reconstruction or reconsider the endpoint?",
+    "options": "Implant / Stage / Reconsider",
+    "bottom": "A specialist reconstructive plan comes first. Radiation-associated risk estimates do not give a personal probability of failure."
+  },
+  {
+    "n": 18,
+    "title": "AUS after urethral reconstruction",
+    "type": "columns",
+    "cols": [
+      [
+        "The reconstruction history",
+        "Repair site and operative report",
+        "Transecting or non-transecting repair",
+        "Prior erosion, graft or posterior reconstruction"
+      ],
+      [
+        "The next operation",
+        "Preserve remaining tissue and attachments",
+        "Select viable cuff-bearing tissue",
+        "Reassess unsafe planes or stage the procedure"
+      ]
+    ],
+    "bottom": "New observational data support a detailed history, without proving one reconstructive technique superior."
+  },
+  {
+    "n": 19,
+    "title": "Transcorporal placement: role and costs",
+    "type": "columns",
+    "cols": [
+      [
+        "Selected role",
+        "A compromised urethra with a hazardous dorsal plane",
+        "A manoeuvre addressing a defined dissection problem",
+        "Comparative erosion protection remains uncertain"
+      ],
+      [
+        "Costs and limitations",
+        "Corporal injury and bleeding",
+        "Sexual consequences and future prosthesis surgery",
+        "Confounding by indication in comparative series"
+      ]
+    ],
+    "bottom": "Tandem cuffs and other salvage procedures require a specific indication and specialist judgement."
+  },
+  {
+    "n": 20,
+    "title": "The fifteen-minute wash question",
+    "type": "wash",
+    "lead": "No direct AUS outcome evidence establishes a fixed 15-minute preparation",
+    "rows": [
+      [
+        "Patient washing",
+        "Preoperative hygiene"
+      ],
+      [
+        "Skin preparation",
+        "Correct product, site, contact and drying"
+      ],
+      [
+        "Hand antisepsis",
+        "The team\u2019s hands and forearms"
+      ],
+      [
+        "Irrigation and device preparation",
+        "Separate interventions and compatibility rules"
+      ]
+    ],
+    "bottom": "BAUS\u2019s five-minute topical field scrub is consensus with extrapolation. Product timings address different activities."
+  },
+  {
+    "n": 21,
+    "title": "Skin culture reduction and clinical infection",
+    "type": "prepchart",
+    "bottom": "Yeung 2013: 100 initial GU prosthetic procedures, 50 per arm. Immediate skin cultures, not AUS infection or a duration trial."
+  },
+  {
+    "n": 22,
+    "title": "Urine and antibiotic disagreements",
+    "type": "table",
+    "headers": [
+      "Question",
+      "Evidence or instruction"
+    ],
+    "rows": [
+      [
+        "Symptomatic infection",
+        "Treat and reassess before implantation"
+      ],
+      [
+        "Asymptomatic bacteriuria",
+        "BAUS urine pathway and IDSA\u2019s AUS-specific position differ"
+      ],
+      [
+        "Prophylaxis",
+        "Complete before incision and plan appropriate redosing"
+      ],
+      [
+        "Postoperative antibiotics",
+        "Observational AUS data show no convincing benefit. The retrieved ContiClassic IFU describes a longer regimen."
+      ]
+    ],
+    "bottom": "Verify current regional labelling and agree a documented local microbiology and implant-service protocol."
+  },
+  {
+    "n": 23,
+    "title": "Contamination control during implantation",
+    "type": "steps",
+    "asset": "uroops-step-2.png",
+    "label": "Handling sequence",
+    "items": [
+      "Protect the implant until the field is ready",
+      "Limit skin contact and unnecessary handling",
+      "Use fresh sterile gloves and a clean handling pause",
+      "Separate irrigation, device dipping and internal filling"
+    ],
+    "bottom": "Bundle studies cannot isolate the benefit of each component. Compatibility remains device-specific.",
+    "rows": [
+      [
+        "1",
+        "Protect the implant until the field is ready"
+      ],
+      [
+        "2",
+        "Limit skin contact and unnecessary handling"
+      ],
+      [
+        "3",
+        "Use fresh sterile gloves and a clean handling pause"
+      ],
+      [
+        "4",
+        "Separate irrigation, device dipping and internal filling"
+      ]
+    ]
+  },
+  {
+    "n": 24,
+    "title": "The pre-implant theatre checklist",
+    "type": "table",
+    "headers": [
+      "Check",
+      "Basis"
+    ],
+    "rows": [
+      [
+        "Indication, infection review, prophylaxis and asepsis",
+        "Guidance-supported"
+      ],
+      [
+        "Antiseptic, drying, antibiotic choice and redosing",
+        "Product and local policy"
+      ],
+      [
+        "Model, sizes, pressure, preparation and drainage",
+        "Current device instructions and local plan"
+      ],
+      [
+        "Clean handling pause and contamination response",
+        "Expert implementation"
+      ],
+      [
+        "Fixed 15 minutes, best irrigant, prolonged prophylaxis",
+        "Unresolved evidence"
+      ]
+    ]
+  },
+  {
+    "n": 25,
+    "title": "Positioning and exposure",
+    "type": "image",
+    "asset": "uroops-surgeon.png",
+    "label": "The access plan",
+    "items": [
+      "Respect hip mobility and protect pressure points",
+      "Plan perineal, abdominal and pump access together",
+      "Review scars, mesh, previous devices and repairs",
+      "Improve limited exposure before further dissection"
+    ]
+  },
+  {
+    "n": 26,
+    "title": "Bulbar dissection and tissue preservation",
+    "type": "image",
+    "asset": "uroops-cuff-site.png",
+    "label": "The cuff-bearing segment",
+    "items": [
+      "Viable tissue with adequate spongiosal support",
+      "Dorsal dissection under direct control",
+      "Mobilisation limited to the required length",
+      "Uncertain plane or integrity prompts reassessment"
+    ]
+  },
+  {
+    "n": 27,
+    "title": "Cuff measurement and fit",
+    "type": "image",
+    "asset": "uroops-aus.png",
+    "label": "Sizing errors",
+    "items": [
+      "Release traction and artificial compression",
+      "Confirm which tissue the cuff will enclose",
+      "Use the exact system\u2019s supplied sizing method",
+      "Recheck poor fit rather than increasing pressure"
+    ]
+  },
+  {
+    "n": 28,
+    "title": "Urethral injury or contamination",
+    "type": "statement",
+    "lead": "The endpoint can change\nto repair and safe drainage",
+    "items": [
+      "Confirm uncertain integrity with controlled testing or endoscopy",
+      "Recognised urethral injury prompts stopping implantation",
+      "Replace contaminated disposables and restore the clean setup"
+    ],
+    "bottom": "An improvised antiseptic soak cannot rescue a contaminated single-use implant."
+  },
+  {
+    "n": 29,
+    "title": "Balloon pocket and pressure selection",
+    "type": "device",
+    "asset": "conticlassic-000.png",
+    "bottom": "A safe pocket and the correct pressure component are separate decisions. Fill volumes and selection rules require the current OR protocol."
+  },
+  {
+    "n": 30,
+    "title": "Pump position and patient access",
+    "type": "image",
+    "asset": "uroops-three-spaces.png",
+    "label": "A functional position",
+    "items": [
+      "Use the accessible side agreed in clinic",
+      "Avoid crowding, skin tension and testicular compression",
+      "Check orientation and tubing traction before closure",
+      "Recheck access with the patient at activation"
+    ]
+  },
+  {
+    "n": 31,
+    "title": "System checks and handover",
+    "type": "steps",
+    "rows": [
+      [
+        "1",
+        "Trace tubing for tension, bends and entrapment"
+      ],
+      [
+        "2",
+        "Confirm compatible connections and device function"
+      ],
+      [
+        "3",
+        "Confirm an open cuff and correct deactivation"
+      ],
+      [
+        "4",
+        "Record device details, drainage and the urgent contact route"
+      ]
+    ],
+    "bottom": "Connector preparation, filling and purging follow the actual product protocol."
+  },
+  {
+    "n": 32,
+    "title": "UroOps 3D: anatomy and component routes",
+    "type": "demo",
+    "asset": "uroops-final.png",
+    "label": "Four-minute demonstration",
+    "bottom": "Teaching schematic, clinical review pending. The model illustrates relationships and does not replace device instructions."
+  },
+  {
+    "n": 33,
+    "title": "Aftercare, activation and urgent review",
+    "type": "columns",
+    "cols": [
+      [
+        "Planned care",
+        "Early catheter removal when appropriate, with verified emptying",
+        "ContiClassic: 4\u20136 weeks deactivated until pain and oedema settle",
+        "Activation includes patient demonstration and device information"
+      ],
+      [
+        "Earlier assessment",
+        "Retention or difficult voiding",
+        "Worsening pain, erythema, discharge or fever",
+        "Suspected infection or erosion needs specialist review"
+      ]
+    ],
+    "bottom": "Clear device information and contact routes protect future catheterisation and endoscopy."
+  },
+  {
+    "n": 34,
+    "title": "Case 4: leakage after three good years",
+    "type": "case",
+    "case": "04",
+    "facts": [
+      "An initially useful AUS result",
+      "Recurrent leakage after three years",
+      "Leakage mechanism and pump use still need assessment",
+      "Erosion, mechanics and bladder dysfunction remain possible"
+    ],
+    "question": "What would you investigate before choosing revision?",
+    "options": "Use / Urethra / Mechanics / Bladder",
+    "bottom": "Urethral atrophy requires investigation. Time alone does not justify cuff downsizing or pressure escalation."
+  },
+  {
+    "n": 35,
+    "title": "Established benefit and unresolved questions",
+    "type": "columns",
+    "cols": [
+      [
+        "Supported or plausible",
+        "Selected patients gain substantial continence benefit",
+        "Tissue preservation and contamination control have strong rationale",
+        "Future access belongs in the operative plan"
+      ],
+      [
+        "Still uncertain",
+        "The best salvage strategy for a fragile urethra",
+        "Optimal irrigants and preparation duration",
+        "Comparable long-term ContiClassic outcomes"
+      ]
+    ],
+    "bottom": "Biological plausibility and comparative clinical proof support different claims."
+  },
+  {
+    "n": 36,
+    "title": "Five decisions before implantation",
+    "type": "steps",
+    "rows": [
+      [
+        "1",
+        "Demonstrated SUI and a meaningful patient goal"
+      ],
+      [
+        "2",
+        "Pump use, access and future capability"
+      ],
+      [
+        "3",
+        "Investigations resolving anatomy, storage and emptying"
+      ],
+      [
+        "4",
+        "Separate DO, DU and poor compliance"
+      ],
+      [
+        "5",
+        "A stable urethra and future access plan"
+      ]
+    ]
+  },
+  {
+    "n": 37,
+    "title": "Five decisions protecting the result",
+    "type": "steps",
+    "rows": [
+      [
+        "6",
+        "Correct antisepsis and appropriate prophylaxis"
+      ],
+      [
+        "7",
+        "Preserved tissue and undistorted measurement"
+      ],
+      [
+        "8",
+        "Actual device protocol and explicit stop conditions"
+      ],
+      [
+        "9",
+        "Verified deactivation, drainage and patient teaching"
+      ],
+      [
+        "10",
+        "A diagnosis before choosing revision"
+      ]
+    ]
+  },
+  {
+    "n": 38,
+    "title": "Discussion",
+    "type": "discussion",
+    "items": [
+      "Which bladder finding makes you defer an implant?",
+      "What establishes urethral stability in your practice?",
+      "Which preparation or salvage practice needs a trial?"
+    ],
+    "bottom": "Which finding would change your plan?"
+  }
+]
