@@ -49,7 +49,7 @@
         "A practical choice with stated uncertainty"
       ]
     ],
-    "bottom": "BAUS 2025 anchors the talk. AMS 800 evidence requires separate interpretation for ContiClassic."
+    "bottom": "BAUS 2025 · AUA amendment 2024 · EAU 2026. Meeting abstracts are separate evidence. Device results are not interchangeable."
   },
   {
     "n": 3,
@@ -69,7 +69,7 @@
         "The activity the patient wants back"
       ]
     ],
-    "bottom": "Pad count alone cannot decide eligibility."
+    "bottom": "Pad count is useful; 2026 data show wide weight variability at 2–4 pads/day. Measure when severity is uncertain."
   },
   {
     "n": 4,
@@ -83,8 +83,8 @@
     "rows": [
       [
         "BAUS",
-        "At least six months\u2019 recovery for severe SUI",
-        "At least twelve months for mild\u2013moderate SUI"
+        "At least six months’ recovery for severe SUI",
+        "At least twelve months for mild–moderate SUI"
       ],
       [
         "AUA",
@@ -92,7 +92,7 @@
         "Offer surgery for persisting bothersome SUI"
       ]
     ],
-    "bottom": "Recovery trajectory still matters. Sling suitability depends on severity, tissue and treatment history."
+    "bottom": "MASTER 2026: sling remained non-inferior at 24 months; further surgery 11% after sling versus 2% after AUS. Selected population."
   },
   {
     "n": 5,
@@ -104,7 +104,7 @@
       "Watch the patient operate a demonstration pump",
       "Check reach, strength and understanding",
       "Agree an accessible position before surgery",
-      "Consider future frailty and loss of independence"
+      "Assess frailty as well as future pump use"
     ]
   },
   {
@@ -125,7 +125,7 @@
         "Tumour or likely repeated instrumentation"
       ]
     ],
-    "bottom": "Suspected narrowing needs definition. Unplanned dilation can obscure the decision."
+    "bottom": "AUA 2026 IP09-22 revisits testing; full results unverified. Existing cystoscopy guidance remains applicable."
   },
   {
     "n": 7,
@@ -153,7 +153,7 @@
         "State the uncertainty the test should resolve"
       ]
     ],
-    "bottom": "The key question: which result would change the treatment or counselling?"
+    "bottom": "BAUS 2025, EAU 2026 and AUA 2024 differ. AUA 2026 IP09-22 is conference material; full results remain unverified."
   },
   {
     "n": 8,
@@ -187,7 +187,7 @@
     "n": 9,
     "title": "Consent: improvement and lifetime burden",
     "type": "outcomes",
-    "bottom": "Different endpoints and populations. These figures do not compare device efficacy. Consent includes future revision, erosion and residual leakage."
+    "bottom": "These endpoints do not compare devices. Long-term regret data reinforce counselling about leakage and future surgery."
   },
   {
     "n": 10,
@@ -253,7 +253,7 @@
       "Test competence and agree the drainage route before implantation",
       "Plan repeated or prolonged access with specialist input"
     ],
-    "bottom": "Follow the actual device instructions before instrumentation. No universal French-size rule applies."
+    "bottom": "2026 survey highlights deactivation training gaps. Follow the actual device instructions; no universal French-size rule applies."
   },
   {
     "n": 14,
@@ -286,12 +286,12 @@
     "rows": [
       [
         "AUA",
-        "At least 4\u20136 weeks",
+        "At least 4–6 weeks",
         "Interval cystoscopy after symptomatic BNC/VUAS treatment"
       ],
       [
         "EAU",
-        "3\u20136 months",
+        "3–6 months",
         "Advice after redo vesicourethral anastomosis"
       ],
       [
@@ -315,7 +315,7 @@
     ],
     "question": "Implant, stage reconstruction or reconsider the endpoint?",
     "options": "Implant / Stage / Reconsider",
-    "bottom": "A specialist reconstructive plan comes first. Radiation-associated risk estimates do not give a personal probability of failure."
+    "bottom": "Radiation increases risk. A 2025 timing study does not establish a fixed waiting rule; stable patency and reconstruction come first."
   },
   {
     "n": 18,
@@ -335,7 +335,7 @@
         "Reassess unsafe planes or stage the procedure"
       ]
     ],
-    "bottom": "New observational data support a detailed history, without proving one reconstructive technique superior."
+    "bottom": "2026 meta-analysis: prior urethroplasty is associated with more explantation; transecting repairs carry higher erosion risk. Observational."
   },
   {
     "n": 19,
@@ -344,7 +344,7 @@
     "cols": [
       [
         "Selected role",
-        "A compromised urethra with a hazardous dorsal plane",
+        "A hazardous dorsal dissection plane",
         "A manoeuvre addressing a defined dissection problem",
         "Comparative erosion protection remains uncertain"
       ],
@@ -355,7 +355,7 @@
         "Confounding by indication in comparative series"
       ]
     ],
-    "bottom": "Tandem cuffs and other salvage procedures require a specific indication and specialist judgement."
+    "bottom": "Latest systematic review suggests less erosion but more revision. Non-randomised data do not prove causal protection."
   },
   {
     "n": 20,
@@ -373,14 +373,14 @@
       ],
       [
         "Hand antisepsis",
-        "The team\u2019s hands and forearms"
+        "The team’s hands and forearms"
       ],
       [
         "Irrigation and device preparation",
         "Separate interventions and compatibility rules"
       ]
     ],
-    "bottom": "BAUS\u2019s five-minute topical field scrub is consensus with extrapolation. Product timings address different activities."
+    "bottom": "BAUS’s five-minute topical field scrub is consensus with extrapolation. Product timings address different activities."
   },
   {
     "n": 21,
@@ -403,7 +403,7 @@
       ],
       [
         "Asymptomatic bacteriuria",
-        "BAUS urine pathway and IDSA\u2019s AUS-specific position differ"
+        "BAUS urine pathway and IDSA’s AUS-specific position differ"
       ],
       [
         "Prophylaxis",
@@ -411,10 +411,10 @@
       ],
       [
         "Postoperative antibiotics",
-        "Observational AUS data show no convincing benefit. The retrieved ContiClassic IFU describes a longer regimen."
+        "Older observational data show no clear benefit; retrieved ContiClassic IFU differs."
       ]
     ],
-    "bottom": "Verify current regional labelling and agree a documented local microbiology and implant-service protocol."
+    "bottom": "AUA 2026 IP09-18 addresses postoperative antibiotics; full results unverified. Reconcile regional IFU and local microbiology policy."
   },
   {
     "n": 23,
@@ -428,7 +428,7 @@
       "Use fresh sterile gloves and a clean handling pause",
       "Separate irrigation, device dipping and internal filling"
     ],
-    "bottom": "Bundle studies cannot isolate the benefit of each component. Compatibility remains device-specific.",
+    "bottom": "2026 uncoated AMS 800 cohort: 90-day SSI 1/59 with gentamicin versus 2/114 without. Wide uncertainty; no equivalence proof.",
     "rows": [
       [
         "1",
@@ -514,7 +514,7 @@
     "items": [
       "Release traction and artificial compression",
       "Confirm which tissue the cuff will enclose",
-      "Use the exact system\u2019s supplied sizing method",
+      "Use the exact system’s supplied sizing method",
       "Recheck poor fit rather than increasing pressure"
     ]
   },
@@ -572,7 +572,7 @@
         "Record device details, drainage and the urgent contact route"
       ]
     ],
-    "bottom": "Connector preparation, filling and purging follow the actual product protocol."
+    "bottom": "Deactivation and urgent-contact instructions matter: a 2026 survey identifies training gaps. Filling follows the actual product protocol."
   },
   {
     "n": 32,
@@ -589,8 +589,8 @@
     "cols": [
       [
         "Planned care",
-        "Early catheter removal when appropriate, with verified emptying",
-        "ContiClassic: 4\u20136 weeks deactivated until pain and oedema settle",
+        "Selected day-case care with verified emptying",
+        "ContiClassic: 4–6 weeks deactivated until pain and oedema settle",
         "Activation includes patient demonstration and device information"
       ],
       [
@@ -600,7 +600,7 @@
         "Suspected infection or erosion needs specialist review"
       ]
     ],
-    "bottom": "Clear device information and contact routes protect future catheterisation and endoscopy."
+    "bottom": "BAUS 2026 day-case audit and comparative studies support selected pathways. Confirm emptying, support and rapid access to review."
   },
   {
     "n": 34,
@@ -615,7 +615,7 @@
     ],
     "question": "What would you investigate before choosing revision?",
     "options": "Use / Urethra / Mechanics / Bladder",
-    "bottom": "Urethral atrophy requires investigation. Time alone does not justify cuff downsizing or pressure escalation."
+    "bottom": "2026 PRB fatigue study adds a mechanical explanation. Diagnose the cause; do not automatically downsize or replace the balloon."
   },
   {
     "n": 35,
@@ -635,7 +635,7 @@
         "Comparable long-term ContiClassic outcomes"
       ]
     ],
-    "bottom": "Biological plausibility and comparative clinical proof support different claims."
+    "bottom": "2026 reviews and early electronic-AUS data add options, while comparative and long-term evidence remains limited."
   },
   {
     "n": 36,

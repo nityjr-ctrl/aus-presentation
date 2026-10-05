@@ -1,16 +1,16 @@
 # Artificial urinary sphincter surgery
 
-## An ST5 presenter's guide to all 46 slides
+## An ST5 presenter's guide to all 49 slides
 
 Prepared for Nity G | Evidence checked 5 October 2026
 
-This guide follows the attached PowerPoint, **Superseded conversion draft - AUS teaching (image issue corrected in final deck)**. Physical slide 1 is the cover; physical slides 2-39 correspond to teaching slides 01-38. Slides 40-46 are backups. Numbers here always mean physical PowerPoint slides. The attachment and its notes are source material; their stage directions and requests were not treated as instructions to change your files or clinical protocols.
+This guide follows the corrected final AUS teaching deck, updated against evidence available on 5 October 2026. Physical slide 1 is the cover; slides 2–39 are teaching slides 01–38. Slides 40–42 are clinical backups and 43–49 are references. The original 38 teaching slides and 60-minute clock remain. The 2026 updates are integrated into the relevant teaching slides and notes; new reference backups sit outside that clock.
 
-Use each speaking line as a starting point, then explain the clinical reasoning in your own words. The evidence paragraphs explain why a citation appears on that slide. The four reference slides contain a source-by-source evidence dictionary, including study design, findings and limits. Citation codes are linked to those entries in the PDF.
+Use each speaking line as a starting point, then explain the clinical reasoning in your own words. The evidence paragraphs explain why a citation appears on that slide. The seven reference slides contain a source-by-source evidence dictionary, including study design, findings and limits. Citation codes are linked to those entries in the PDF.
 
 The deck's central question is whether the patient, bladder and urethra can support useful continence over time. An AUS provides hydraulic outlet coaptation for intrinsic sphincter deficiency. Squeezing the pump transfers fluid out of the cuff temporarily to permit voiding; the cuff subsequently refills. Treating sphincter failure does not automatically treat storage dysfunction or guarantee safe emptying.
 
-The supplied file is explicitly superseded. This explanation preserves its content and numbering; use the corrected final deck for presentation. Its schematic images demonstrate relationships, and its pressure traces use arbitrary values. Neither supplies validated operative anatomy or clinical thresholds. Meeting/date and personal disclosures still need to reflect the actual event and presenters. Device details require the applicable regional ContiClassic IFU and separate Operating Room Protocol; the publicly retrieved 2023 IFU does not establish current country/lot applicability.
+The earlier supplied conversion draft remains superseded. This revision follows the corrected final deck and explains the added evidence. Guideline years remain accurate: BAUS 2025, AUA amended 2024 and EAU 2026; no replacement BAUS/AUA 2026 PPI-SUI guideline was identified. The 2026 meeting abstracts are labelled separately. Full AUA IP09-17, IP09-18 and IP09-22 methods/results were unavailable; their verified topics are included without inferred numerical results or a change in practice. Device details still require the current applicable regional IFU and separate OR protocol; the retrieved ContiClassic REV.03 (2023) does not establish country/lot applicability. Schematic anatomy and traces remain teaching illustrations. Add the actual meeting/date and personal disclosures.
 
 ## The clinical distinctions to know before rehearsing
 
@@ -75,6 +75,12 @@ Most established AUS evidence concerns AMS 800. Similar hydraulic architecture d
 
 BAUS25, EAU26 and AUA24 are pathway sources. ICS16 and AP23 focus on AMS 800 practice. CCIFU is ContiClassic manufacturer labelling, not a comparative trial. Explicitly identify when a technical claim comes from one system. Sponsor acknowledgement and personal relationships should be accurate and separate from interpretation of evidence.
 
+### Current evidence and 2026 update
+
+**AUASTATUS26:** The AUA's July 2026 register still lists Incontinence after Prostate Treatment as amended in 2024. No 2026 amendment was identified. BAUS's relevant PPI-SUI consensus remains the 2025 publication. Meeting abstracts and the AUA 2026 educational Update Series are separate from a new guideline. Preserve the actual publication years.
+
+**DEVICE26:** The contemporary review describes new hydraulic and electronic designs, while emphasising the lack of robust direct comparisons and long-term outcomes for many devices. It supports keeping engineering advantages separate from proven clinical superiority. A review combining clinical, regulatory, manufacturer and preclinical materials is context rather than a head-to-head trial. Early ContiClassic safety cannot be compared with AMS 800 continence as if the endpoints were interchangeable.
+
 ### A speaking line
 
 "For every recommendation I will distinguish clinical evidence, consensus, manufacturer instructions and my interpretation of how to apply them."
@@ -94,6 +100,10 @@ Record severity in context. Six lightly used pads differ from six saturated pads
 ### Evidence meaning
 
 BAUS25, EAU26 and AUA24 support structured assessment and patient-centred counselling. They do not make pad number an independent eligibility test. The slide combines symptoms, objective demonstration, severity and desired benefit as clinical reasoning.
+
+### Current evidence and 2026 update
+
+**PAD26:** A retrospective analysis of prospectively collected follow-up included 2,040 men and 8,787 paired measurements. Pad count tracked leakage well overall (Spearman rho 0.94), but two-to-four pads/day had considerable weight variability. Repeated observations are not independent additional patients; single-centre first-year post-RP follow-up is not a universal AUS selection rule. Pad weight is particularly helpful when the intermediate count, activity or pad type leaves severity uncertain.
 
 ### A speaking line
 
@@ -115,6 +125,10 @@ A sling can suit selected men with less severe leakage and favourable tissue. Gr
 
 BAUS25 and AUA24 provide source-specific timing recommendations; EAU26 supplies the wider treatment context. MASTER22 randomised 380 men to sling or AUS and met its non-inferiority criterion on its primary endpoint. It excluded prior continence implants and unresolved narrowing. This does not make sling and AUS equivalent for irradiated complex revisions, nor establish timing after prostatectomy.
 
+### Current evidence and 2026 update
+
+**MASTER26:** This is extended follow-up of the same 380 randomised men, not a second independent trial. At 24 months, sling met the prespecified non-inferiority criterion on the strict self-reported continence endpoint: risk difference -0.006 (95% CI -0.092 to 0.080), or -0.6 percentage points (-9.2 to +8.0). Further surgery was reported in 20 men (11%) after sling and four (2%) after AUS. Secondary outcomes generally favoured AUS. The 15-percentage-point margin applies to the prespecified endpoint, not every outcome. Do not translate non-inferiority into identical effectiveness, zero-pad equivalence or an endorsement for irradiated/reconstructed revision cases. Abstract symptom-score means and adjusted difference are distinct estimates; do not subtract them and label it the adjusted effect.
+
 ### A speaking line
 
 "Timing follows severity and recovery trajectory. The sling trial informs selected primary cases; it does not remove the importance of tissue quality and prior treatment."
@@ -134,6 +148,10 @@ Assessment includes understanding cycling, deactivation and the need to alert cl
 ### Evidence meaning
 
 AUA24 and ICS16 require adequate physical and cognitive capability; CCIFU describes the dexterity requirement and operating precautions. Demonstration, seated reach and prospective frailty assessment are practical implementations. These citations do not validate a universal dexterity score or an age cutoff. The schematic image illustrates pump location, not proven patient accessibility.
+
+### Current evidence and 2026 update
+
+**FRAIL26:** In 7,252 men undergoing AUS or sling, claims-defined frailty was associated with 30-day complications independently of age and comorbidity. Relative to not frail, adjusted relative risks were 1.5 for prefrail and 2.5 for mildly-to-severely frail men. Revision/removal was also associated with frailty. Mixed AUS/sling procedures, historical Medicare data and a claims frailty index. These relative risks are not an individual AUS-specific absolute probability, and they do not validate a bedside pump score. Use a practical frailty assessment alongside observed dexterity and cognition.
 
 ### A speaking line
 
@@ -155,6 +173,10 @@ AUA recommends cystourethroscopy before SUI surgery. BAUS uses selected cystosco
 
 AUA24 supplies an expert-opinion recommendation for preoperative cystourethroscopy. BAUS25 describes its investigation pathway. EAU26 and EAUSTR26 support targeted assessment of bladder pathology and narrowing. The proposal to avoid unplanned diagnostic-session dilation is clinical judgement: dilation changes the outlet and can obscure the next decision.
 
+### Current evidence and 2026 update
+
+**AUAUDS26:** The 2026 male-incontinence session revisited the value of preoperative UDS and cystoscopy. Programme/title verified; complete methods, results and denominators unavailable. No numerical result or change in practice is inferred. This is conference material, not an AUA guideline.
+
 ### A speaking line
 
 "I want to discover pathology while there is time to explain and plan it, especially anything that makes repeated instrumentation likely."
@@ -174,6 +196,12 @@ State the test question first. Is stress leakage uncertain? Does urgency dominat
 ### Evidence meaning
 
 BAUS25 is consensus-based pathway guidance; EAU26's weak recommendation signals limited certainty/context dependence; AUA24's conditional Grade C recommendation supports selective use. ICS16 also describes selective investigation. These documents are not a randomised comparison of routine and selective UDS demonstrating universal improvement in AUS outcomes.
+
+### Current evidence and 2026 update
+
+**AUASTATUS26:** The AUA's July 2026 register still lists Incontinence after Prostate Treatment as amended in 2024. No 2026 amendment was identified. BAUS's relevant PPI-SUI consensus remains the 2025 publication. Meeting abstracts and the AUA 2026 educational Update Series are separate from a new guideline. Preserve the actual publication years.
+
+**AUAUDS26:** The 2026 male-incontinence session revisited the value of preoperative UDS and cystoscopy. Programme/title verified; complete methods, results and denominators unavailable. No numerical result or change in practice is inferred. This is conference material, not an AUA guideline.
 
 ### A speaking line
 
@@ -214,6 +242,16 @@ Consent should include residual SUI, persistent or new urgency, retention, infec
 ### Evidence meaning
 
 AUSCO26: prospective single-arm AMS 800 study, 115 implants; 61/101 evaluable participants reported zero pads (60.4%). Different endpoints had different denominators. CCSAFETY: uncontrolled early ContiClassic report, 116 recipients, 93.2% twelve-month Kaplan-Meier survival. Full detailed continence outcomes were not established from the accessible abstract. AUA24 supports lifetime counselling; RT22 adds observational radiation-associated risk. These data cannot rank devices against one another.
+
+### Current evidence and 2026 update
+
+**FRAIL26:** In 7,252 men undergoing AUS or sling, claims-defined frailty was associated with 30-day complications independently of age and comorbidity. Relative to not frail, adjusted relative risks were 1.5 for prefrail and 2.5 for mildly-to-severely frail men. Revision/removal was also associated with frailty. Mixed AUS/sling procedures, historical Medicare data and a claims frailty index. These relative risks are not an individual AUS-specific absolute probability, and they do not validate a bedside pump score. Use a practical frailty assessment alongside observed dexterity and cognition.
+
+**REGRET26:** Ninety-one men responded (87.5%), with median follow-up 82 months. Reoperation was the only independent predictor of regret in the reported model (+18 points on the Decisional Regret Scale). Continence benefit persisted but deteriorated over time. A retrospective single-centre survivor/respondent cohort without a nonsurgical comparator. Association does not prove reoperation causes all regret or predict an individual response. Counselling should include residual leakage, future surgery and psychological burden. Online December 2025; 2026 issue.
+
+**DEVICE26:** The contemporary review describes new hydraulic and electronic designs, while emphasising the lack of robust direct comparisons and long-term outcomes for many devices. It supports keeping engineering advantages separate from proven clinical superiority. A review combining clinical, regulatory, manufacturer and preclinical materials is context rather than a head-to-head trial. Early ContiClassic safety cannot be compared with AMS 800 continence as if the endpoints were interchangeable.
+
+**REPORT26:** A retrospective 227-implant series using systematic complication capture reported 47% early complications, predominantly minor, and 7.9% major complications requiring intervention. Five-year explantation-free survival was 73%. Selected techniques included distal double cuffs and transcorporal cuffs. These results are not a universal primary single-bulbar-cuff complication rate. Systematic reporting and endpoint definitions explain why superficially similar published percentages differ.
 
 ### A speaking line
 
@@ -295,6 +333,12 @@ Before passing an instrument, fully deflate the cuff and deactivate the actual s
 
 CIC23 described 57 selected patients with a CIC history; only 18 continued or started CIC after AUS. Non-significant differences do not demonstrate equal safety. CATH13 associated catheterisation lasting more than 48 hours with erosion in an observational cohort. That exposure definition is not a guarantee of safety up to 48 hours. CCIFU and ICS16 provide instrumentation precautions and device-aware drainage principles.
 
+### Current evidence and 2026 update
+
+**BAUSSCI26:** A small retrospective SCI series explored predominantly bulbar placement. It is a specialist discussion point. Small selected cohort; no direct bladder-neck comparator and no equivalence proof. Keep safe storage and an emptying plan central.
+
+**INSTR26:** A survey of 286 Turkish urologists identified training and confidence gaps in AUS deactivation and instrumentation. It reinforces the practical value of patient/device information and a clear urgent-contact route. A self-selected knowledge survey, not a catheter-safety trial. Its proposed diameter/duration answers cannot become universal rules for every cuff, tissue or device. Follow the actual system's instructions.
+
 ### A speaking line
 
 "The patient and any future clinician must know there is a cuff. Deflation and deactivation come before instrumentation, with the drainage route planned in advance."
@@ -314,6 +358,10 @@ Closing an incompetent outlet can permit more urine storage. If that storage occ
 ### Evidence meaning
 
 UDS09 found adverse preoperative UDS features did not necessarily worsen postoperative pad use, while specifically raising concern that good continence does not establish safe storage. ICS16 and BAUS25 support bladder assessment. CCIFU warns about poor compliance/small fibrotic bladder and requires relevant bladder conditions to be addressed. The diagram has arbitrary units and supplies no threshold.
+
+### Current evidence and 2026 update
+
+**BAUSSCI26:** A small retrospective SCI series explored predominantly bulbar placement. It is a specialist discussion point. Small selected cohort; no direct bladder-neck comparator and no equivalence proof. Keep safe storage and an emptying plan central.
 
 ### A speaking line
 
@@ -375,6 +423,10 @@ My preferred initial answer is stage a specialist reconstructive plan. Stable re
 
 RT22 pooled 18 observational studies and associated radiation with worse complete continence and more erosion/explantation. These pooled associations do not give his individual probability or prove that radiation alone contraindicates AUS. BAUS25, EAUSTR26 and AUA24 supply outlet stability and reconstructive guidance. The proposed sequence applies those principles to a fictional complex case.
 
+### Current evidence and 2026 update
+
+**RTTIME25:** In 283 men, prior radiation was associated with cuff removal (HR 3.30, 95% CI 1.05-10.40). Exploratory modelling suggested a later-implantation trend after radiation, but this was not statistically significant. The wide interval and retrospective spline analysis do not validate a 635-day or 1.74-year waiting rule. Radiation risk, oncological timing, urethral stability and individual function must be considered separately.
+
 ### A speaking line
 
 "I would defer the implant while we agree a durable reconstructive endpoint. Radiation adds risk, but the immediate problem is recurrent stenosis and likely further access."
@@ -394,6 +446,10 @@ Limit mobilisation and preserve remaining attachments rather than reproducing vi
 ### Evidence meaning
 
 URETH26 retrospectively examined 178 cases from 15 institutions; complications requiring explantation occurred in 56.2% after transecting versus 23.5% after non-transecting urethroplasty. Case selection, anatomy, disease severity and follow-up can confound that comparison. BAUS25, AUA24 and ICS16 provide the clinical framework. The cohort supports detailed counselling/history, but does not prove every transection caused failure or was avoidable.
+
+### Current evidence and 2026 update
+
+**URETHMETA26:** Four studies included 533 men. Prior urethroplasty was associated with higher explantation risk (RR 2.05, 95% CI 1.08-3.89); its pooled erosion difference was not statistically significant. Within repair-technique comparisons, transecting versus non-transecting repair was associated with higher erosion (RR 2.34, 1.30-4.21) and explantation (RR 2.38, 1.59-3.57). These are separate comparisons. Pooled observational studies, some overlapping with Davis, do not make the association causal or independently validate one reconstructive strategy. Explain tissue quality and individual anatomy.
 
 ### A speaking line
 
@@ -415,6 +471,10 @@ Comparisons are difficult because surgeons often reserve this approach for the m
 
 TC20's 76-patient fragile-urethra retrospective series favoured transcorporal revision outcomes; its erosion difference was not statistically significant. TC23's different high-risk series associated transcorporal placement with more infection/erosion-related explants. BAUS25 and AP23 recognise specialist salvage choices. Conflicting observational studies do not establish universal protection from erosion or prove that transcorporal placement itself causes the worse result.
 
+### Current evidence and 2026 update
+
+**TCSYS25:** Twenty studies were included, eight comparative. The meta-analysis associated transcorporal placement with more revisions (OR 2.99, 95% CI 1.16-7.75), less erosion (OR 0.35, 0.15-0.81) and infection (OR 0.33, 0.12-0.95), with no significant explantation difference. Non-randomised series and heterogeneous risk selection; pooled estimates conflict with some individual cohorts. Search ended January 2024 despite online publication in November 2025. Present it as a specialist option with uncertain causal protection, not proof that every fragile urethra should receive it.
+
 ### A speaking line
 
 "I would choose transcorporal placement for a defined dissection problem, while explaining its costs and the uncertainty about comparative erosion protection."
@@ -434,6 +494,10 @@ The sources do not establish a fixed fifteen-minute preparation as an AUS outcom
 ### Evidence meaning
 
 BAUS25 provides the actual consensus recommendation. NICE supports preoperative soap washing and appropriate antiseptic site preparation. WHO09 concerns hand hygiene, including surgical hand preparation. PREP24 compares different povidone protocols across sequential eras, rather than randomising fifteen minutes against a shorter duration. The slide challenges an unproven fixed ritual while retaining proper antisepsis.
+
+### Current evidence and 2026 update
+
+**IRRIG26:** The before-after study included 173 uncoated AMS 800 procedures in 164 men: 59 gentamicin-containing and 114 gentamicin-free. Ninety-day SSI occurred in 1/59 (1.7%) and 2/114 (1.8%), respectively; the risk difference was +0.1 percentage points (95% CI -7.4 to +4.7). No significant difference was detected. Only three SSIs occurred. The interval allows clinically relevant benefit or harm, so this is not equivalence. Device immersion and wound irrigation changed together; saline immersion and Betadine-containing irrigation continued. Broad IV prophylaxis and ten-day oral antibiotics continued, with an oral-drug change in the later era. It cannot establish that no preparation is needed, that oral prophylaxis is unnecessary, or that the same result applies to coated AMS 800 or ContiClassic.
 
 ### A speaking line
 
@@ -475,6 +539,10 @@ The disagreement is real. BAUS asks for preoperative urine assessment/treatment 
 
 IDSA19's device recommendation is weak with very-low-quality evidence. BAUS25 supplies UK perioperative guidance. AUAABX20 supports appropriate timing, redosing and avoiding unnecessary prolonged prophylaxis. ABX18's claims-based cohort found no association between postoperative oral antibiotics and lower early AUS explantation. CCIFU's retrieved version describes 48 hours IV and five days oral antibiotics after discharge. That label description is not proof of benefit, and should be reconciled with applicable regional instructions and local experts.
 
+### Current evidence and 2026 update
+
+**AUAABX26:** The 2026 meeting included an AUS postoperative-antibiotic report. Its title states no infection benefit. Programme/title verified; complete methods, results and denominators unavailable. No numerical result or change in practice is inferred. This is conference material, not an AUA guideline.
+
 ### A speaking line
 
 "I would separate symptomatic infection from ASB, then document the agreed implant-service and microbiology protocol, including any device-label difference."
@@ -495,6 +563,10 @@ Keep wound irrigation, external dipping and internal filling separate. An absorb
 
 TOUCH23 compares a minimal-touch approach with a historical cohort. Lower crude infection figures are encouraging, but twelve-month cumulative-incidence differences did not meet statistical significance, and the bundle cannot identify the benefit of a single component. NICE does not recommend wound irrigation solely to prevent SSI. AP23 supplies AMS 800 consensus, including regional antibiotic context; CCIFU supplies ContiClassic-specific instructions/compatibility boundaries.
 
+### Current evidence and 2026 update
+
+**IRRIG26:** The before-after study included 173 uncoated AMS 800 procedures in 164 men: 59 gentamicin-containing and 114 gentamicin-free. Ninety-day SSI occurred in 1/59 (1.7%) and 2/114 (1.8%), respectively; the risk difference was +0.1 percentage points (95% CI -7.4 to +4.7). No significant difference was detected. Only three SSIs occurred. The interval allows clinically relevant benefit or harm, so this is not equivalence. Device immersion and wound irrigation changed together; saline immersion and Betadine-containing irrigation continued. Broad IV prophylaxis and ten-day oral antibiotics continued, with an oral-drug change in the later era. It cannot establish that no preparation is needed, that oral prophylaxis is unnecessary, or that the same result applies to coated AMS 800 or ContiClassic.
+
 ### A speaking line
 
 "Contamination control has a strong practical rationale. The bundle studies cannot tell us which individual step accounts for any improvement."
@@ -514,6 +586,10 @@ Agree drainage and the response to urethral injury or contamination. These are m
 ### Evidence meaning
 
 NICE supplies general infection-prevention standards; BAUS25 supplies the AUS pathway; AUAABX20 supports antimicrobial principles; CCIFU supplies product requirements. The rows deliberately distinguish guidance-supported actions from local/product choices and expert implementation. There is no cited validation that this exact checklist predicts an outcome, and a fixed wash time is not a proxy for overall quality.
+
+### Current evidence and 2026 update
+
+**IRRIG26:** The before-after study included 173 uncoated AMS 800 procedures in 164 men: 59 gentamicin-containing and 114 gentamicin-free. Ninety-day SSI occurred in 1/59 (1.7%) and 2/114 (1.8%), respectively; the risk difference was +0.1 percentage points (95% CI -7.4 to +4.7). No significant difference was detected. Only three SSIs occurred. The interval allows clinically relevant benefit or harm, so this is not equivalence. Device immersion and wound irrigation changed together; saline immersion and Betadine-containing irrigation continued. Broad IV prophylaxis and ten-day oral antibiotics continued, with an oral-drug change in the later era. It cannot establish that no preparation is needed, that oral prophylaxis is unnecessary, or that the same result applies to coated AMS 800 or ContiClassic.
 
 ### A speaking line
 
@@ -655,6 +731,10 @@ Handover records the device model, cuff site/size, pressure component and balloo
 
 CCIFU supplies the product requirements; ICS16 and AP23 give AMS 800 system-check and aftercare consensus. CATH13 adds observational evidence of catheter-associated erosion. Brief catheterisation recommendations from AMS consensus are not independently verified ContiClassic duration rules. Detailed connector, filling and purging sequences remain dependent on the actual operative protocol.
 
+### Current evidence and 2026 update
+
+**INSTR26:** A survey of 286 Turkish urologists identified training and confidence gaps in AUS deactivation and instrumentation. It reinforces the practical value of patient/device information and a clear urgent-contact route. A self-selected knowledge survey, not a catheter-safety trial. Its proposed diameter/duration answers cannot become universal rules for every cuff, tissue or device. Follow the actual system's instructions.
+
 ### A speaking line
 
 "I want verified device function and an open, deactivated cuff, followed by a handover that protects the patient from unsafe future instrumentation."
@@ -695,6 +775,14 @@ Activation is a review and teaching visit: assess healing, operate the device wi
 
 CCIFU describes four to six weeks deactivated and deferring activation until pain/oedema settle. BAUS25 and AUA24 supply follow-up, patient education and complication-management principles. CATH13 reinforces catheter precautions. These do not make the activation calendar override symptoms or establish a universal drainage plan after every operation.
 
+### Current evidence and 2026 update
+
+**BAUSDAY26:** An audit of 98 men reported 88% same-day discharge. It supports feasibility within an established service. Conference audit with short follow-up and selection; does not establish long-term equivalence or antibiotic policy.
+
+**DAYMETA26:** Six studies included 2,424 men; four (1,085) entered the meta-analysis. No statistically significant difference was detected in retention (RR 1.44, 95% CI 0.81-2.56) or 90-day emergency visits (RR 0.91, 0.59-1.42). Moderate-to-serious bias and wide intervals prevent equivalence claims. Same-day catheter-free discharge is a selected pathway, not a universal instruction. Online August 2025; March 2026 issue.
+
+**DAYCASE26:** A retrospective primary AMS 800 comparison included 126 ambulatory and 51 inpatient men. The evaluable 30-day composite was 14/124 (11.3%) versus 4/49 (8.2%), p=0.78. Inpatient selection depended on ASA score and social circumstances. Confounding and different enrolled/evaluable denominators matter. The abstract's early/severe complication percentages are not sufficiently clear for additional teaching statistics. A nonsignificant result is not proof of equal safety.
+
 ### A speaking line
 
 "At activation I need a healed, usable device and a patient who can demonstrate operation and empty safely. Red flags are assessed before routine follow-up."
@@ -715,6 +803,16 @@ Avoid booking a smaller cuff solely because time has passed. The diagnosis may b
 
 ATROPHY20's selected revision cohort attributed relatively few failures to atrophy and more to pressure-regulating balloon failure. Its erosion exclusions, surgeon setting and definitions prevent universal prevalence claims. BAUS25 and AUA24 support mechanism-based evaluation; CCIFU describes device-related complications and operation. None justifies automatic cuff downsizing or pressure escalation at three years.
 
+### Current evidence and 2026 update
+
+**AUASAFER26:** SAFER compared in situ urethroplasty with conservative management at explantation for cuff erosion. Programme/title verified; complete methods, results and denominators unavailable. No numerical result or change in practice is inferred. This is conference material, not an AUA guideline.
+
+**PRBFAT26:** Mechanical testing compared 32 retrieved balloons with one new balloon; seven underwent additional testing. Age correlated with increased stiffness and reduced wall thickness; microcracks were seen in the four oldest specimens tested microscopically. Retrieved components are selected samples; laboratory ageing is mechanistic evidence, not a trial of balloon-only versus complete-system revision. Do not replace a balloon solely because three years have elapsed. Online December 2025; 2026 issue.
+
+**EROSION26:** In a selected single-centre series of 16 men, one developed a stricture after repair at eroded-cuff explantation (6.3%); seven developed wound dehiscence requiring closure (43.8%). The low stricture rate therefore sits beside a substantial wound-treatment burden. No drainage-only comparator, small sample and median 14-month follow-up. This is not an interim SAFER comparative result and does not establish universal immediate repair. Partial and circumferential erosions require different reconstructive assessments.
+
+**SECOND26:** The national cohort included 1,619 second AUS implants: 1,165 replacements and 454 reimplantations after removal. Median follow-up was 53 months; reintervention-free survival was 68% at five years and 61% at ten years. Only 21% of men whose first device was removed received a subsequent implant. Administrative observational data distinguish replacement from reimplantation after removal. These results are not primary-implant survival, pad-free continence or a randomised choice of revision method. They strengthen consent about the uncertain path after erosion/explantation.
+
 ### A speaking line
 
 "I would investigate use, urethra, mechanics and bladder before choosing revision. Elapsed time does not diagnose urethral atrophy."
@@ -734,6 +832,12 @@ State uncertainty where it changes counselling or planning. There is no single p
 ### Evidence meaning
 
 MASTER22 provides randomised comparative information in selected primary cases. TC20 and TC23 show conflicting salvage associations in different retrospective populations. PREP24 offers limited preparation data with reporting concerns. CCSAFETY supplies early uncontrolled ContiClassic safety/survival information. Combining those sources does not produce stronger certainty than their designs allow.
+
+### Current evidence and 2026 update
+
+**DEVICE26:** The contemporary review describes new hydraulic and electronic designs, while emphasising the lack of robust direct comparisons and long-term outcomes for many devices. It supports keeping engineering advantages separate from proven clinical superiority. A review combining clinical, regulatory, manufacturer and preclinical materials is context rather than a head-to-head trial. Early ContiClassic safety cannot be compared with AMS 800 continence as if the endpoints were interchangeable.
+
+**UROACTIVE26:** Six men received the electronic UroActive AUS; all activated successfully, with no explant or surgical revision during one year after activation. Nine device deficiencies involved the remote control. A very small single-arm feasibility study. Zero observed revisions is not zero risk or comparative superiority; it does not establish replacement of manual hydraulic devices in routine practice.
 
 ### A speaking line
 
@@ -827,21 +931,25 @@ AUSCO is prospective but uncontrolled and manufacturer-funded. The ContiClassic 
 
 ### Clinical explanation
 
-The strongest design here is MASTER's randomisation, but its result still needs its primary endpoint and margin. The sling-minus-AUS success difference was -3.4 percentage points, with a 95% CI from -11.7 to +4.8; the interval excluded the prespecified -15-point non-inferiority margin. It permits uncertainty about the actual difference and does not establish identical outcomes.
+This table separates a randomised clinical comparison, a skin-culture surrogate trial and a sequential-era infection study. MASTER 2026 is the 24-month follow-up of the same 380 men randomised in MASTER 2022; it is not an independent second trial. The sling-minus-AUS success difference at 24 months was -0.6 percentage points (95% CI -9.2 to +8.0). The interval remained above the prespecified -15-point non-inferiority margin. This supports the trial's primary conclusion in its selected population, without establishing identical outcomes or general equivalence.
 
-Yeung's randomisation addresses skin culture positivity; Bourgi's sequential-era comparison addresses intensified preparation and early device outcomes with substantial reporting limitations. Keep the endpoints separate.
+Further surgery was reported in 20 sling patients (11%) and four AUS patients (2%). These outcomes, and other secondary measures favouring AUS, matter when explaining what non-inferiority does and does not mean to a patient. The trial excluded previous sling/AUS surgery and unresolved narrowing.
 
 ### Evidence meaning
 
-MASTER22 enrolled 380 men and excluded prior sling/AUS and unresolved narrowing. Both groups improved, while several secondary results favoured AUS. YEUNG13 found 4/50 versus 16/50 positive post-preparation cultures (8% versus 32%). PREP24 enrolled 156 AMS 800 procedures and reported no clear adjusted advantage; abstract and table group denominators differ. Its published infection percentages should not be used as dependable counselling estimates or clean inputs for an NNT.
+MASTER22 and MASTER26 should be read together. YEUNG13 found 4/50 versus 16/50 positive post-preparation skin cultures (8% versus 32%) in mixed genitourinary prosthetic procedures; it did not test clinical AUS infection or a specific preparation duration.
+
+IRRIG26 compared gentamicin immersion/irrigation with withdrawal in 173 uncoated AMS 800 procedures: 90-day SSI occurred in 1/59 versus 2/114. Only three events, wide confidence intervals and sequential-era confounding prevent an equivalence conclusion. Broad intravenous and ten-day oral prophylaxis continued, as did other antiseptic measures. The exposure combined device immersion and wound irrigation, so their separate effects cannot be inferred. It does not establish a ContiClassic preparation protocol.
+
+PREP24 remains in the source dictionary as an earlier preparation study, with its reporting limitations; it is no longer the third row of this updated backup table.
 
 ### A speaking line
 
-"Randomisation strengthens a study's comparison, but it only supports the endpoint tested. A culture trial and a reporting-limited era comparison cannot settle AUS infection-prevention duration."
+"MASTER's 24-month follow-up retained non-inferiority on its primary endpoint, while further surgery favoured AUS. A culture trial and a small sequential-era infection study answer different questions."
 
 ### Be ready for
 
-Non-significance is not equivalence. Small event counts and imprecise confidence intervals can leave clinically important differences unresolved.
+Non-significance is not equivalence. Preserve denominators, the timepoint and the co-interventions when discussing preparation studies. No single study settles local antibiotic policy or device-specific instructions.
 
 ## Slide 42 | Evidence gaps
 
@@ -863,7 +971,7 @@ The slide synthesises limitations across the cited literature and introduces no 
 
 For late leakage, standardised investigation and failure definitions matter as much as comparing revision operations: the cause assigned to failure can depend on how thoroughly the device was investigated.
 
-## Slide 43 | References 1 of 4: clinical guidance and device use
+## Slide 43 | References 1 of 7: clinical guidance and device use
 
 This reference slide contains pathway, consensus, product and urodynamic-standard sources. These documents explain what a service recommends or a device requires. They should not be presented as nine independent outcome trials. The citation year usually means publication/edition year; some papers appeared online earlier.
 
@@ -903,7 +1011,7 @@ Standards for uroflowmetry, cystometry and pressure-flow testing, including qual
 
 Evidence-based options for evaluating and treating OAB through shared decision-making, including behavioural, pharmacological and procedural approaches. It helps explain medication choice, adverse effects, residual assessment and the retention implications of botulinum toxin. It addresses OAB generally; it does not establish an optimal sequence around AUS implantation. The publication abstract/metadata were checked, alongside the treatment principles already contained in the supplied deck. [OAB guideline publication](https://doi.org/10.1097/JU.0000000000003985).
 
-## Slide 44 | References 2 of 4: preparation, outcomes and storage symptoms
+## Slide 44 | References 2 of 7: preparation, outcomes and storage symptoms
 
 This page deliberately places general infection guidance beside product information and studies with different endpoints. In discussion, identify whether you are citing a recommended practice, a manufacturer's precaution, a surrogate endpoint or a clinical result. The studies below do not establish one common success rate.
 
@@ -943,7 +1051,7 @@ Selected cohort of 129 men with post-RP incontinence undergoing first AUS, mean 
 
 Selected 129-patient first-AUS post-RP cohort. Preoperative OAB did not worsen overall continence results, but 71% with mixed SUI/OAB continued to have OAB and 23% with initially pure SUI developed new OAB. These are cohort-specific counselling observations, not universal probabilities. They explain why improvement in SUI and persistent urgency can coexist. Do not assume DO and OAB are interchangeable or borrow identical follow-up from UDS09. Abstract checked. [Lai OAB study](https://pubmed.ncbi.nlm.nih.gov/21497853/).
 
-## Slide 45 | References 3 of 4: bladder function and the fragile urethra
+## Slide 45 | References 3 of 7: bladder function and the fragile urethra
 
 Most studies on this reference slide are observational. They help identify concerns and selected feasible pathways, but do not establish an individual's absolute risk or prove which intervention prevents failure. Distinguish a whole implantation cohort from a cohort selected because patients already required reintervention.
 
@@ -983,7 +1091,7 @@ Retrospective multicentre series, 178 cases from 15 institutions; median follow-
 
 Retrospective series of 76 patients; 24 underwent transcorporal placement. Revision was 20.8% versus 36.5% (P=.05); erosion 8.3% versus 17.3% (P=.09), favouring transcorporal numerically. The erosion result was not statistically significant, and allocation was not randomised. This suggests a possible specialist role but cannot establish universal protection or equal functional outcomes from a non-significant comparison. Interpret alongside the different high-risk cohort in TC23. Abstract checked. [Redmond study](https://doi.org/10.5489/cuaj.6431).
 
-## Slide 46 | References 4 of 4: salvage, preparation and durability
+## Slide 46 | References 4 of 7: salvage, preparation and durability
 
 This final reference slide supports careful interpretation of salvage choices, recurrence diagnosis, infection-control practices and lifetime counselling. Early outcomes, clinical infection, pad reduction and freedom from secondary surgery remain different endpoints. Below, numerical findings always belong to the study population and time window described.
 
@@ -1019,6 +1127,203 @@ Historical specialist cohort of 1,082 primary implants, median follow-up 4.1 yea
 
 Prospective single-arm study at 17 sites, 115 primary implants. At twelve months after activation, 91/97 achieved at least 50% pad-weight improvement and 61/101 reported zero pads; missing outcome denominators differ. Nine participants (7.8% of implanted patients) had revisions in the reported period. Manufacturer funding, expert-centre selection, no control group and one-year follow-up constrain comparative/lifetime inference. It supplies useful contemporary counselling data, not an AMS-versus-ContiClassic comparison. Abstract and indexed primary-results table were checked. Online 2025; 2026 issue. [AUSCO study](https://pmc.ncbi.nlm.nih.gov/articles/PMC12794701/).
 
+## Slide 47 | References 5 of 7 — current evidence additions
+
+These sources supplement the existing references. Publication year, access level and population are shown explicitly.
+
+### AUASTATUS26 | AUA current guideline register, July 2026
+
+The AUA's July 2026 register still lists Incontinence after Prostate Treatment as amended in 2024. No 2026 amendment was identified. BAUS's relevant PPI-SUI consensus remains the 2025 publication.
+
+**Limits:** Meeting abstracts and the AUA 2026 educational Update Series are separate from a new guideline. Preserve the actual publication years.
+
+**Source and access:** [AUA current guideline register, July 2026](https://helpdesk.auanet.org/hc/en-us/articles/40948838469143-Guidelines). AUA current guideline register, July 2026. Official AUA page read in full. First available: 2026.
+
+### BAUSDAY26 | BAUS 2026 P4-8: day-case AUS audit
+
+An audit of 98 men reported 88% same-day discharge. It supports feasibility within an established service.
+
+**Limits:** Conference audit with short follow-up and selection; does not establish long-term equivalence or antibiotic policy.
+
+**Source and access:** [BAUS 2026 P4-8: day-case AUS audit](https://journals.sagepub.com/doi/full/10.1177/20514158261451299). BAUS 2026 P4-8: day-case AUS audit. Published BAUS abstract read in full. First available: 2026.
+
+### BAUSSCI26 | BAUS 2026 P12-7: bulbar AUS in SCI
+
+A small retrospective SCI series explored predominantly bulbar placement. It is a specialist discussion point.
+
+**Limits:** Small selected cohort; no direct bladder-neck comparator and no equivalence proof. Keep safe storage and an emptying plan central.
+
+**Source and access:** [BAUS 2026 P12-7: bulbar AUS in SCI](https://journals.sagepub.com/doi/full/10.1177/20514158261451299). BAUS 2026 P12-7: bulbar AUS in SCI. Published BAUS abstract read in full. First available: 2026.
+
+### AUAUDS26 | AUA 2026 IP09-22: pre-AUS UDS and cystoscopy
+
+The 2026 male-incontinence session revisited the value of preoperative UDS and cystoscopy.
+
+**Limits:** Programme/title verified; complete methods, results and denominators unavailable. No numerical result or change in practice is inferred. This is conference material, not an AUA guideline.
+
+**Source and access:** [AUA 2026 IP09-22: pre-AUS UDS and cystoscopy](https://doi.org/10.1097/01.JU.0001191316.72449.22.22). AUA 2026 IP09-22: pre-AUS UDS and cystoscopy. Official journal/programme record and publisher-deposited Crossref metadata only. First available: 2026.
+
+### AUAABX26 | AUA 2026 IP09-18: postoperative antibiotics
+
+The 2026 meeting included an AUS postoperative-antibiotic report. Its title states no infection benefit.
+
+**Limits:** Programme/title verified; complete methods, results and denominators unavailable. No numerical result or change in practice is inferred. This is conference material, not an AUA guideline.
+
+**Source and access:** [AUA 2026 IP09-18: postoperative antibiotics](https://doi.org/10.1097/01.JU.0001191316.72449.22.18). AUA 2026 IP09-18: postoperative antibiotics. Official journal/programme record and publisher-deposited Crossref metadata only. First available: 2026.
+
+### AUASAFER26 | AUA 2026 IP09-17: SAFER erosion management
+
+SAFER compared in situ urethroplasty with conservative management at explantation for cuff erosion.
+
+**Limits:** Programme/title verified; complete methods, results and denominators unavailable. No numerical result or change in practice is inferred. This is conference material, not an AUA guideline.
+
+**Source and access:** [AUA 2026 IP09-17: SAFER erosion management](https://doi.org/10.1097/01.JU.0001191316.72449.22.17). AUA 2026 IP09-17: SAFER erosion management. Official journal/programme record and publisher-deposited Crossref metadata only. First available: 2026.
+
+### MASTER26 | MASTER: 24-month RCT results, 2026
+
+This is extended follow-up of the same 380 randomised men, not a second independent trial. At 24 months, sling met the prespecified non-inferiority criterion on the strict self-reported continence endpoint: risk difference -0.006 (95% CI -0.092 to 0.080), or -0.6 percentage points (-9.2 to +8.0). Further surgery was reported in 20 men (11%) after sling and four (2%) after AUS. Secondary outcomes generally favoured AUS.
+
+**Limits:** The 15-percentage-point margin applies to the prespecified endpoint, not every outcome. Do not translate non-inferiority into identical effectiveness, zero-pad equivalence or an endorsement for irradiated/reconstructed revision cases. Abstract symptom-score means and adjusted difference are distinct estimates; do not subtract them and label it the adjusted effect.
+
+**Source and access:** [The 24-mo Outcomes from the Noninferiority Randomised Controlled Trial of Surgery for Men with Urodynamic Stress Incontinence After Prostate Surgery (MASTER).](https://doi.org/10.1016/j.euf.2026.07.012). Constable L, Drake MJ, Cooper D, MacLennan G, Harding C, Mundy A, McCormack K, Norrie J, Ramsay C, Smith R, Cotterill N, Kilonzo M, Abrams P, MASTER trial team. | European urology focus 2026 | DOI 10.1016/j.euf.2026.07.012. Publisher abstract via Europe PMC. First available: 2026-08-26.
+
+### URETHMETA26 | Prior urethroplasty: meta-analysis, 2026
+
+Four studies included 533 men. Prior urethroplasty was associated with higher explantation risk (RR 2.05, 95% CI 1.08-3.89); its pooled erosion difference was not statistically significant. Within repair-technique comparisons, transecting versus non-transecting repair was associated with higher erosion (RR 2.34, 1.30-4.21) and explantation (RR 2.38, 1.59-3.57).
+
+**Limits:** These are separate comparisons. Pooled observational studies, some overlapping with Davis, do not make the association causal or independently validate one reconstructive strategy. Explain tissue quality and individual anatomy.
+
+**Source and access:** [Association of Prior Urethroplasty and Technique With Outcomes After Artificial Urinary Sphincter Implantation: A Systematic Review and Meta-analysis.](https://doi.org/10.1016/j.urology.2026.05.024). Deameh MG, Mohamed H, Abdelshafi A, Mohamed T, Ramez M. | Urology 2026 | DOI 10.1016/j.urology.2026.05.024. Publisher abstract via Europe PMC. First available: 2026-06-04.
+
+## Slide 48 | References 6 of 7 — current evidence additions
+
+These sources supplement the existing references. Publication year, access level and population are shown explicitly.
+
+### IRRIG26 | Gentamicin withdrawal: AMS 800 cohort, 2026
+
+The before-after study included 173 uncoated AMS 800 procedures in 164 men: 59 gentamicin-containing and 114 gentamicin-free. Ninety-day SSI occurred in 1/59 (1.7%) and 2/114 (1.8%), respectively; the risk difference was +0.1 percentage points (95% CI -7.4 to +4.7). No significant difference was detected.
+
+**Limits:** Only three SSIs occurred. The interval allows clinically relevant benefit or harm, so this is not equivalence. Device immersion and wound irrigation changed together; saline immersion and Betadine-containing irrigation continued. Broad IV prophylaxis and ten-day oral antibiotics continued, with an oral-drug change in the later era. It cannot establish that no preparation is needed, that oral prophylaxis is unnecessary, or that the same result applies to coated AMS 800 or ContiClassic.
+
+**Source and access:** [Early Outcomes After Discontinuing Routine Gentamicin Irrigation During AMS 800 Artificial Urinary Sphincter Implantation: A Single-Centre Retrospective Before-After Cohort Study.](https://doi.org/10.3390/antibiotics15090894). Skrzypczyk MA, Pliszka A, Białek Ł, Rydzińska M, Karoń W, Dobruch J, Lemiński A. | Antibiotics (Basel, Switzerland) 2026 | DOI 10.3390/antibiotics15090894. Full open article read. First available: 2026-09-11.
+
+### DAYMETA26 | Day-case AUS meta-analysis: 2026 issue
+
+Six studies included 2,424 men; four (1,085) entered the meta-analysis. No statistically significant difference was detected in retention (RR 1.44, 95% CI 0.81-2.56) or 90-day emergency visits (RR 0.91, 0.59-1.42).
+
+**Limits:** Moderate-to-serious bias and wide intervals prevent equivalence claims. Same-day catheter-free discharge is a selected pathway, not a universal instruction. Online August 2025; March 2026 issue.
+
+**Source and access:** [Same-day catheter-free discharge versus overnight observation after artificial urinary sphincter surgery: a systematic review and meta-analysis.](https://doi.org/10.1007/s11255-025-04711-y). Grigoryan B, Kasyan G, Baboudjian M, Pushkar D. | International urology and nephrology 2026 | DOI 10.1007/s11255-025-04711-y. Publisher abstract via Europe PMC. First available: 2025-08-09.
+
+### DAYCASE26 | Day-case versus inpatient AUS: 177 men, 2026
+
+A retrospective primary AMS 800 comparison included 126 ambulatory and 51 inpatient men. The evaluable 30-day composite was 14/124 (11.3%) versus 4/49 (8.2%), p=0.78.
+
+**Limits:** Inpatient selection depended on ASA score and social circumstances. Confounding and different enrolled/evaluable denominators matter. The abstract's early/severe complication percentages are not sufficiently clear for additional teaching statistics. A nonsignificant result is not proof of equal safety.
+
+**Source and access:** [Day-case versus conventional inpatient artificial urinary sphincter implantation: A single-center comparative study of 177 patients.](https://doi.org/10.1016/j.fjurol.2026.103135). Youssef MW, Perrin L, Denormandie AC, Chartier-Kastler E, Lenfant L. | The French journal of urology 2026 | DOI 10.1016/j.fjurol.2026.103135. Publisher abstract via Europe PMC. First available: 2026-05-29.
+
+### FRAIL26 | Frailty and SUI surgery: Medicare cohort, 2026
+
+In 7,252 men undergoing AUS or sling, claims-defined frailty was associated with 30-day complications independently of age and comorbidity. Relative to not frail, adjusted relative risks were 1.5 for prefrail and 2.5 for mildly-to-severely frail men. Revision/removal was also associated with frailty.
+
+**Limits:** Mixed AUS/sling procedures, historical Medicare data and a claims frailty index. These relative risks are not an individual AUS-specific absolute probability, and they do not validate a bedside pump score. Use a practical frailty assessment alongside observed dexterity and cognition.
+
+**Source and access:** [Frailty Is Associated With Postoperative Complications and Device Removal and Revision in Men Undergoing Surgery for Stress Urinary Incontinence.](https://doi.org/10.1097/ju.0000000000005102). Nik-Ahd F, Dreyfuss LD, Wang L, Shatkin-Margolis A, Boscardin WJ, Hampson LA, Breyer BN, Covinsky K, Suskind AM. | The Journal of urology 2026 | DOI 10.1097/ju.0000000000005102. Publisher abstract via Europe PMC. First available: 2026-07-15.
+
+### PAD26 | Pad count versus 24-hour weight: 2026
+
+A retrospective analysis of prospectively collected follow-up included 2,040 men and 8,787 paired measurements. Pad count tracked leakage well overall (Spearman rho 0.94), but two-to-four pads/day had considerable weight variability.
+
+**Limits:** Repeated observations are not independent additional patients; single-centre first-year post-RP follow-up is not a universal AUS selection rule. Pad weight is particularly helpful when the intermediate count, activity or pad type leaves severity uncertain.
+
+**Source and access:** [The 24-h pad test in the assessment of post-prostatectomy incontinence: is there still a role for counting pads per day?](https://doi.org/10.1111/bju.70224). Domínguez Argomedo R, de Pablos-Rodríguez P, Palop Moscardó A, Gómez-Ferrer Lozano Á, Calvo Bernasconi I, Casanova Ramón-Borja JL, Collado Serra A. | BJU international 2026 | DOI 10.1111/bju.70224. Publisher abstract via Europe PMC. First available: 2026-03-11.
+
+### PRBFAT26 | PRB material fatigue: 2026 issue
+
+Mechanical testing compared 32 retrieved balloons with one new balloon; seven underwent additional testing. Age correlated with increased stiffness and reduced wall thickness; microcracks were seen in the four oldest specimens tested microscopically.
+
+**Limits:** Retrieved components are selected samples; laboratory ageing is mechanistic evidence, not a trial of balloon-only versus complete-system revision. Do not replace a balloon solely because three years have elapsed. Online December 2025; 2026 issue.
+
+**Source and access:** [Time Dependent Material Fatigue of the Artificial Urinary Sphincter Pressure-regulating Balloon: A Mechanical and Microscopic Analysis.](https://doi.org/10.1016/j.urology.2025.12.031). Salvino MJ, Schroeder TE, Grimaud LW, Peterson AC. | Urology 2026 | DOI 10.1016/j.urology.2025.12.031. Publisher abstract via Europe PMC. First available: 2025-12-19.
+
+### REGRET26 | Long-term decisional regret after AUS, 2026 issue
+
+Ninety-one men responded (87.5%), with median follow-up 82 months. Reoperation was the only independent predictor of regret in the reported model (+18 points on the Decisional Regret Scale). Continence benefit persisted but deteriorated over time.
+
+**Limits:** A retrospective single-centre survivor/respondent cohort without a nonsurgical comparator. Association does not prove reoperation causes all regret or predict an individual response. Counselling should include residual leakage, future surgery and psychological burden. Online December 2025; 2026 issue.
+
+**Source and access:** [Decisional Regret and Long-term Quality of Life After Artificial Urinary Sphincter Implantation Following Radical Prostatectomy.](https://doi.org/10.1016/j.euros.2025.12.006). Roth I, Beisland C, Hjelle KM, Moen CA, Beisland EG, Juliebø-Jones P. | European urology open science 2026 | DOI 10.1016/j.euros.2025.12.006. Full open article read. First available: 2025-12-26.
+
+### INSTR26 | AUS instrumentation knowledge survey, 2026
+
+A survey of 286 Turkish urologists identified training and confidence gaps in AUS deactivation and instrumentation. It reinforces the practical value of patient/device information and a clear urgent-contact route.
+
+**Limits:** A self-selected knowledge survey, not a catheter-safety trial. Its proposed diameter/duration answers cannot become universal rules for every cuff, tissue or device. Follow the actual system's instructions.
+
+**Source and access:** [Artificial Urinary Sphincter in Male Patients Requiring Urethral Instrumentation: Is It a Challenge?](https://doi.org/10.1002/nau.70417). Girgin R. | Neurourology and urodynamics 2026 | DOI 10.1002/nau.70417. Publisher abstract via Europe PMC. First available: 2026-08-17.
+
+## Slide 49 | References 7 of 7 — current evidence additions
+
+These sources supplement the existing references. Publication year, access level and population are shown explicitly.
+
+### EROSION26 | Immediate urethral repair at explantation, 2026
+
+In a selected single-centre series of 16 men, one developed a stricture after repair at eroded-cuff explantation (6.3%); seven developed wound dehiscence requiring closure (43.8%). The low stricture rate therefore sits beside a substantial wound-treatment burden.
+
+**Limits:** No drainage-only comparator, small sample and median 14-month follow-up. This is not an interim SAFER comparative result and does not establish universal immediate repair. Partial and circumferential erosions require different reconstructive assessments.
+
+**Source and access:** [In situ urethroplasty at the time of artificial urinary sphincter explantation for urethral erosion: an 18-year single-center experience.](https://doi.org/10.1007/s00345-026-06629-1). Park CR, Kim JH, Oh KT. | World journal of urology 2026 | DOI 10.1007/s00345-026-06629-1. Publisher abstract via Europe PMC. First available: 2026-07-27.
+
+### DEVICE26 | Emerging AUS devices review, 2026
+
+The contemporary review describes new hydraulic and electronic designs, while emphasising the lack of robust direct comparisons and long-term outcomes for many devices. It supports keeping engineering advantages separate from proven clinical superiority.
+
+**Limits:** A review combining clinical, regulatory, manufacturer and preclinical materials is context rather than a head-to-head trial. Early ContiClassic safety cannot be compared with AMS 800 continence as if the endpoints were interchangeable.
+
+**Source and access:** [New and Emerging Artificial Urinary Sphincters for Male Stress Urinary Incontinence: From Gold Standard to Next Generation.](https://doi.org/10.1002/nau.70400). Schnell EC, Wang CN, Rovner ES. | Neurourology and urodynamics 2026 | DOI 10.1002/nau.70400. Publisher abstract via Europe PMC. First available: 2026-08-03.
+
+### SECOND26 | Second AUS survival: national French cohort, 2026
+
+The national cohort included 1,619 second AUS implants: 1,165 replacements and 454 reimplantations after removal. Median follow-up was 53 months; reintervention-free survival was 68% at five years and 61% at ten years. Only 21% of men whose first device was removed received a subsequent implant.
+
+**Limits:** Administrative observational data distinguish replacement from reimplantation after removal. These results are not primary-implant survival, pad-free continence or a randomised choice of revision method. They strengthen consent about the uncertain path after erosion/explantation.
+
+**Source and access:** [Survival Without Reintervention of Second Artificial Urinary Sphincter Implants in Men: A National Healthcare Data System-Based Study in France.](https://doi.org/10.1590/s1677-5538.ibju.2025.0374). Tokarski E, Taillé Y, Chartier-Kastler E, Lukacs B, Seisen T, Roupret M, Beaugerie A, Vicaut E, Mozer PC, Lenfant L. | International braz j urol : official journal of the Brazilian Society of Urology 2026 | DOI 10.1590/s1677-5538.ibju.2025.0374. Full open article read. First available: 2026-01-01.
+
+### TCSYS25 | Transcorporal systematic review, online 2025
+
+Twenty studies were included, eight comparative. The meta-analysis associated transcorporal placement with more revisions (OR 2.99, 95% CI 1.16-7.75), less erosion (OR 0.35, 0.15-0.81) and infection (OR 0.33, 0.12-0.95), with no significant explantation difference.
+
+**Limits:** Non-randomised series and heterogeneous risk selection; pooled estimates conflict with some individual cohorts. Search ended January 2024 despite online publication in November 2025. Present it as a specialist option with uncertain causal protection, not proof that every fragile urethra should receive it.
+
+**Source and access:** [Transcorporal Cuff-placement in Artificial Urinary Sphincter Surgery: A Systematic Review.](https://doi.org/10.1016/j.urology.2025.11.222). Domínguez Gutiérrez A, Hevia Palacios M, López Curtis DA, Muriel García A, Álvarez Díaz N, Javier BRF. | Urology 2026 | DOI 10.1016/j.urology.2025.11.222. Publisher abstract via Europe PMC. First available: 2025-11-12.
+
+### RTTIME25 | Radiation and cuff-removal timing cohort, 2025
+
+In 283 men, prior radiation was associated with cuff removal (HR 3.30, 95% CI 1.05-10.40). Exploratory modelling suggested a later-implantation trend after radiation, but this was not statistically significant.
+
+**Limits:** The wide interval and retrospective spline analysis do not validate a 635-day or 1.74-year waiting rule. Radiation risk, oncological timing, urethral stability and individual function must be considered separately.
+
+**Source and access:** [The impact of pelvic radiation on artificial urinary sphincter cuff survival and optimal timing for implantation.](https://doi.org/10.1007/s00345-025-05625-1). Lee JH, Lee KS, Ko KJ. | World journal of urology 2025 | DOI 10.1007/s00345-025-05625-1. Publisher abstract via Europe PMC. First available: 2025-04-18.
+
+### UROACTIVE26 | Electronic AUS: first-in-human study, 2026
+
+Six men received the electronic UroActive AUS; all activated successfully, with no explant or surgical revision during one year after activation. Nine device deficiencies involved the remote control.
+
+**Limits:** A very small single-arm feasibility study. Zero observed revisions is not zero risk or comparative superiority; it does not establish replacement of manual hydraulic devices in routine practice.
+
+**Source and access:** [First-In-Human Assessment of the UroActive Electronic Artificial Urinary Sphincter for Treating Male Patients with Stress Urinary Incontinence.](https://doi.org/10.1097/ju.0000000000004945). Mozer P, Beaugerie A, Perrouin-Verbe MA, Denormandie A, Cotte J, Plassais C, Tran S, Elliott D, Chartier-Kastler E. | The Journal of urology 2026 | DOI 10.1097/ju.0000000000004945. Publisher abstract via Europe PMC. First available: 2026-01-21.
+
+### REPORT26 | Standardised complication reporting: 2026
+
+A retrospective 227-implant series using systematic complication capture reported 47% early complications, predominantly minor, and 7.9% major complications requiring intervention. Five-year explantation-free survival was 73%.
+
+**Limits:** Selected techniques included distal double cuffs and transcorporal cuffs. These results are not a universal primary single-bulbar-cuff complication rate. Systematic reporting and endpoint definitions explain why superficially similar published percentages differ.
+
+**Source and access:** [Standardized reporting of perioperative complications after male artificial urinary sphincter implantation.](https://doi.org/10.1007/s00345-026-06246-y). Roessler N, Vetterlein MW, Konrad THJ, Schulz RJ, Wagner MC, Klemm J, Shariat SF, Dahlem R, Fisch M, Ludwig TA. | World journal of urology 2026 | DOI 10.1007/s00345-026-06246-y. Full open article read. First available: 2026-02-10.
+
+
 ## Rehearsal prompts and evidence language
 
 - **What contraindicates implantation?** Distinguish unresolved infection, unsafe storage, inability to empty/use the pump and unstable narrowing. DO alone is different; the actual device label may be more restrictive.
@@ -1035,4 +1340,11 @@ This is an educational explanation of the supplied deck for an ST5 urologist, wi
 
 Relevant BAUS, AUA IPT, ICS AUS and ContiClassic PDF sections, EAU online chapters, NICE/IDSA recommendations, AP23 text, ChloraPrep product information and PREP24 text were checked. Journal abstracts/metadata were checked via primary publication/index records, including Europe PMC records when PubMed presented an access challenge. Abstract-only limits are labelled in each source entry. The separately referenced ContiClassic OR protocol and current regional/lot applicability remain unverified. This does not constitute clinical or manufacturer approval of the teaching images.
 
-Project provenance: existing repository nityjr-ctrl/aus-presentation, canonical local copy C:\NityProjects\AUS-Presentation\repo, branch manuscript/aus-expert-60min. Prior visual-deck checkpoint 53f2f410bf28de2292f902975d8aac9b797639cb, committed 1 October 2026 at 01:12:51 Europe/London and verified on the configured remote. The attachment was downloaded/modified locally on 5 October 2026 and is explicitly labelled superseded. This guide follows that attachment, rather than assuming a later cloud deck is identical. Repository visibility was verified as public on 5 October 2026; its earlier map entry described the original creation as private.
+Project provenance: existing public repository nityjr-ctrl/aus-presentation, canonical copy C:\NityProjects\AUS-Presentation\repo, branch manuscript/aus-expert-60min. The corrected native Google Slides deck was read and exported from its actual 1 October 2026 version, then updated on 5 October 2026. This guide follows the updated corrected deck, rather than the supplied superseded conversion draft. The previous presenter-guide checkpoint fb238613dc7ddb0734ac9cfbd397f72c5316b3b6 (5 October 2026, 14:15:57 BST) was verified on origin before editing. The publication audit records the new slide and guide checkpoint.
+
+
+## Evidence currency and version
+
+All 38 teaching slides and seven original backup/reference slides were reviewed against the cited primary sources and relevant 2025–2026 records available by 5 October 2026. This is a practical presentation evidence audit, not a registered systematic review. Historical RCTs, physiology studies and longer follow-up cohorts remain when they answer a different question from newer evidence. The search screened indexed 2025–2026 AUS/PPI records, official guideline lists, current EAU chapters, manufacturer material, and BAUS/AUA 2026 meeting records. Future-dated ICS presentations are not described as already presented.
+
+The corrected cloud deck was read from its actual 1 October version, preserving the corrected images. The update remains in nityjr-ctrl/aus-presentation on manuscript/aus-expert-60min, based on fb238613dc7ddb0734ac9cfbd397f72c5316b3b6 (5 October 2026 14:15:57 BST, present on origin before editing). The separate evidence audit records the subsequent publication checkpoint. No clinical patient data are included.

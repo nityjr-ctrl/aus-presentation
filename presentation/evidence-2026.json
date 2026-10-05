@@ -1,0 +1,338 @@
+[
+  {
+    "code": "AUASTATUS26",
+    "label": "AUA current guideline register, July 2026",
+    "url": "https://helpdesk.auanet.org/hc/en-us/articles/40948838469143-Guidelines",
+    "title": "AUA current guideline register, July 2026",
+    "date": "2026",
+    "citation": "AUA current guideline register, July 2026",
+    "slides": [
+      2,
+      7
+    ],
+    "meaning": "The AUA's July 2026 register still lists Incontinence after Prostate Treatment as amended in 2024. No 2026 amendment was identified. BAUS's relevant PPI-SUI consensus remains the 2025 publication.",
+    "limits": "Meeting abstracts and the AUA 2026 educational Update Series are separate from a new guideline. Preserve the actual publication years.",
+    "access": "Official AUA page read in full"
+  },
+  {
+    "code": "BAUSDAY26",
+    "label": "BAUS 2026 P4-8: day-case AUS audit",
+    "url": "https://journals.sagepub.com/doi/full/10.1177/20514158261451299",
+    "title": "BAUS 2026 P4-8: day-case AUS audit",
+    "date": "2026",
+    "citation": "BAUS 2026 P4-8: day-case AUS audit",
+    "slides": [
+      33
+    ],
+    "meaning": "An audit of 98 men reported 88% same-day discharge. It supports feasibility within an established service.",
+    "limits": "Conference audit with short follow-up and selection; does not establish long-term equivalence or antibiotic policy.",
+    "access": "Published BAUS abstract read in full"
+  },
+  {
+    "code": "BAUSSCI26",
+    "label": "BAUS 2026 P12-7: bulbar AUS in SCI",
+    "url": "https://journals.sagepub.com/doi/full/10.1177/20514158261451299",
+    "title": "BAUS 2026 P12-7: bulbar AUS in SCI",
+    "date": "2026",
+    "citation": "BAUS 2026 P12-7: bulbar AUS in SCI",
+    "slides": [
+      13,
+      14
+    ],
+    "meaning": "A small retrospective SCI series explored predominantly bulbar placement. It is a specialist discussion point.",
+    "limits": "Small selected cohort; no direct bladder-neck comparator and no equivalence proof. Keep safe storage and an emptying plan central.",
+    "access": "Published BAUS abstract read in full"
+  },
+  {
+    "code": "AUAUDS26",
+    "label": "AUA 2026 IP09-22: pre-AUS UDS and cystoscopy",
+    "url": "https://doi.org/10.1097/01.JU.0001191316.72449.22.22",
+    "title": "AUA 2026 IP09-22: pre-AUS UDS and cystoscopy",
+    "date": "2026",
+    "citation": "AUA 2026 IP09-22: pre-AUS UDS and cystoscopy",
+    "slides": [
+      6,
+      7
+    ],
+    "meaning": "The 2026 male-incontinence session revisited the value of preoperative UDS and cystoscopy.",
+    "limits": "Programme/title verified; complete methods, results and denominators unavailable. No numerical result or change in practice is inferred. This is conference material, not an AUA guideline.",
+    "access": "Official journal/programme record and publisher-deposited Crossref metadata only"
+  },
+  {
+    "code": "AUAABX26",
+    "label": "AUA 2026 IP09-18: postoperative antibiotics",
+    "url": "https://doi.org/10.1097/01.JU.0001191316.72449.22.18",
+    "title": "AUA 2026 IP09-18: postoperative antibiotics",
+    "date": "2026",
+    "citation": "AUA 2026 IP09-18: postoperative antibiotics",
+    "slides": [
+      22
+    ],
+    "meaning": "The 2026 meeting included an AUS postoperative-antibiotic report. Its title states no infection benefit.",
+    "limits": "Programme/title verified; complete methods, results and denominators unavailable. No numerical result or change in practice is inferred. This is conference material, not an AUA guideline.",
+    "access": "Official journal/programme record and publisher-deposited Crossref metadata only"
+  },
+  {
+    "code": "AUASAFER26",
+    "label": "AUA 2026 IP09-17: SAFER erosion management",
+    "url": "https://doi.org/10.1097/01.JU.0001191316.72449.22.17",
+    "title": "AUA 2026 IP09-17: SAFER erosion management",
+    "date": "2026",
+    "citation": "AUA 2026 IP09-17: SAFER erosion management",
+    "slides": [
+      34
+    ],
+    "meaning": "SAFER compared in situ urethroplasty with conservative management at explantation for cuff erosion.",
+    "limits": "Programme/title verified; complete methods, results and denominators unavailable. No numerical result or change in practice is inferred. This is conference material, not an AUA guideline.",
+    "access": "Official journal/programme record and publisher-deposited Crossref metadata only"
+  },
+  {
+    "code": "MASTER26",
+    "label": "MASTER: 24-month RCT results, 2026",
+    "url": "https://doi.org/10.1016/j.euf.2026.07.012",
+    "title": "The 24-mo Outcomes from the Noninferiority Randomised Controlled Trial of Surgery for Men with Urodynamic Stress Incontinence After Prostate Surgery (MASTER).",
+    "date": "2026-08-26",
+    "citation": "Constable L, Drake MJ, Cooper D, MacLennan G, Harding C, Mundy A, McCormack K, Norrie J, Ramsay C, Smith R, Cotterill N, Kilonzo M, Abrams P, MASTER trial team. | European urology focus 2026 | DOI 10.1016/j.euf.2026.07.012",
+    "slides": [
+      4,
+      41
+    ],
+    "meaning": "This is extended follow-up of the same 380 randomised men, not a second independent trial. At 24 months, sling met the prespecified non-inferiority criterion on the strict self-reported continence endpoint: risk difference -0.006 (95% CI -0.092 to 0.080), or -0.6 percentage points (-9.2 to +8.0). Further surgery was reported in 20 men (11%) after sling and four (2%) after AUS. Secondary outcomes generally favoured AUS.",
+    "limits": "The 15-percentage-point margin applies to the prespecified endpoint, not every outcome. Do not translate non-inferiority into identical effectiveness, zero-pad equivalence or an endorsement for irradiated/reconstructed revision cases. Abstract symptom-score means and adjusted difference are distinct estimates; do not subtract them and label it the adjusted effect.",
+    "access": "Publisher abstract via Europe PMC"
+  },
+  {
+    "code": "URETHMETA26",
+    "label": "Prior urethroplasty: meta-analysis, 2026",
+    "url": "https://doi.org/10.1016/j.urology.2026.05.024",
+    "title": "Association of Prior Urethroplasty and Technique With Outcomes After Artificial Urinary Sphincter Implantation: A Systematic Review and Meta-analysis.",
+    "date": "2026-06-04",
+    "citation": "Deameh MG, Mohamed H, Abdelshafi A, Mohamed T, Ramez M. | Urology 2026 | DOI 10.1016/j.urology.2026.05.024",
+    "slides": [
+      18
+    ],
+    "meaning": "Four studies included 533 men. Prior urethroplasty was associated with higher explantation risk (RR 2.05, 95% CI 1.08-3.89); its pooled erosion difference was not statistically significant. Within repair-technique comparisons, transecting versus non-transecting repair was associated with higher erosion (RR 2.34, 1.30-4.21) and explantation (RR 2.38, 1.59-3.57).",
+    "limits": "These are separate comparisons. Pooled observational studies, some overlapping with Davis, do not make the association causal or independently validate one reconstructive strategy. Explain tissue quality and individual anatomy.",
+    "access": "Publisher abstract via Europe PMC"
+  },
+  {
+    "code": "IRRIG26",
+    "label": "Gentamicin withdrawal: AMS 800 cohort, 2026",
+    "url": "https://doi.org/10.3390/antibiotics15090894",
+    "title": "Early Outcomes After Discontinuing Routine Gentamicin Irrigation During AMS 800 Artificial Urinary Sphincter Implantation: A Single-Centre Retrospective Before-After Cohort Study.",
+    "date": "2026-09-11",
+    "citation": "Skrzypczyk MA, Pliszka A, Białek Ł, Rydzińska M, Karoń W, Dobruch J, Lemiński A. | Antibiotics (Basel, Switzerland) 2026 | DOI 10.3390/antibiotics15090894",
+    "slides": [
+      20,
+      23,
+      24,
+      41
+    ],
+    "meaning": "The before-after study included 173 uncoated AMS 800 procedures in 164 men: 59 gentamicin-containing and 114 gentamicin-free. Ninety-day SSI occurred in 1/59 (1.7%) and 2/114 (1.8%), respectively; the risk difference was +0.1 percentage points (95% CI -7.4 to +4.7). No significant difference was detected.",
+    "limits": "Only three SSIs occurred. The interval allows clinically relevant benefit or harm, so this is not equivalence. Device immersion and wound irrigation changed together; saline immersion and Betadine-containing irrigation continued. Broad IV prophylaxis and ten-day oral antibiotics continued, with an oral-drug change in the later era. It cannot establish that no preparation is needed, that oral prophylaxis is unnecessary, or that the same result applies to coated AMS 800 or ContiClassic.",
+    "access": "Full open article read"
+  },
+  {
+    "code": "DAYMETA26",
+    "label": "Day-case AUS meta-analysis: 2026 issue",
+    "url": "https://doi.org/10.1007/s11255-025-04711-y",
+    "title": "Same-day catheter-free discharge versus overnight observation after artificial urinary sphincter surgery: a systematic review and meta-analysis.",
+    "date": "2025-08-09",
+    "citation": "Grigoryan B, Kasyan G, Baboudjian M, Pushkar D. | International urology and nephrology 2026 | DOI 10.1007/s11255-025-04711-y",
+    "slides": [
+      33
+    ],
+    "meaning": "Six studies included 2,424 men; four (1,085) entered the meta-analysis. No statistically significant difference was detected in retention (RR 1.44, 95% CI 0.81-2.56) or 90-day emergency visits (RR 0.91, 0.59-1.42).",
+    "limits": "Moderate-to-serious bias and wide intervals prevent equivalence claims. Same-day catheter-free discharge is a selected pathway, not a universal instruction. Online August 2025; March 2026 issue.",
+    "access": "Publisher abstract via Europe PMC"
+  },
+  {
+    "code": "DAYCASE26",
+    "label": "Day-case versus inpatient AUS: 177 men, 2026",
+    "url": "https://doi.org/10.1016/j.fjurol.2026.103135",
+    "title": "Day-case versus conventional inpatient artificial urinary sphincter implantation: A single-center comparative study of 177 patients.",
+    "date": "2026-05-29",
+    "citation": "Youssef MW, Perrin L, Denormandie AC, Chartier-Kastler E, Lenfant L. | The French journal of urology 2026 | DOI 10.1016/j.fjurol.2026.103135",
+    "slides": [
+      33
+    ],
+    "meaning": "A retrospective primary AMS 800 comparison included 126 ambulatory and 51 inpatient men. The evaluable 30-day composite was 14/124 (11.3%) versus 4/49 (8.2%), p=0.78.",
+    "limits": "Inpatient selection depended on ASA score and social circumstances. Confounding and different enrolled/evaluable denominators matter. The abstract's early/severe complication percentages are not sufficiently clear for additional teaching statistics. A nonsignificant result is not proof of equal safety.",
+    "access": "Publisher abstract via Europe PMC"
+  },
+  {
+    "code": "FRAIL26",
+    "label": "Frailty and SUI surgery: Medicare cohort, 2026",
+    "url": "https://doi.org/10.1097/ju.0000000000005102",
+    "title": "Frailty Is Associated With Postoperative Complications and Device Removal and Revision in Men Undergoing Surgery for Stress Urinary Incontinence.",
+    "date": "2026-07-15",
+    "citation": "Nik-Ahd F, Dreyfuss LD, Wang L, Shatkin-Margolis A, Boscardin WJ, Hampson LA, Breyer BN, Covinsky K, Suskind AM. | The Journal of urology 2026 | DOI 10.1097/ju.0000000000005102",
+    "slides": [
+      5,
+      9
+    ],
+    "meaning": "In 7,252 men undergoing AUS or sling, claims-defined frailty was associated with 30-day complications independently of age and comorbidity. Relative to not frail, adjusted relative risks were 1.5 for prefrail and 2.5 for mildly-to-severely frail men. Revision/removal was also associated with frailty.",
+    "limits": "Mixed AUS/sling procedures, historical Medicare data and a claims frailty index. These relative risks are not an individual AUS-specific absolute probability, and they do not validate a bedside pump score. Use a practical frailty assessment alongside observed dexterity and cognition.",
+    "access": "Publisher abstract via Europe PMC"
+  },
+  {
+    "code": "PAD26",
+    "label": "Pad count versus 24-hour weight: 2026",
+    "url": "https://doi.org/10.1111/bju.70224",
+    "title": "The 24-h pad test in the assessment of post-prostatectomy incontinence: is there still a role for counting pads per day?",
+    "date": "2026-03-11",
+    "citation": "Domínguez Argomedo R, de Pablos-Rodríguez P, Palop Moscardó A, Gómez-Ferrer Lozano Á, Calvo Bernasconi I, Casanova Ramón-Borja JL, Collado Serra A. | BJU international 2026 | DOI 10.1111/bju.70224",
+    "slides": [
+      3
+    ],
+    "meaning": "A retrospective analysis of prospectively collected follow-up included 2,040 men and 8,787 paired measurements. Pad count tracked leakage well overall (Spearman rho 0.94), but two-to-four pads/day had considerable weight variability.",
+    "limits": "Repeated observations are not independent additional patients; single-centre first-year post-RP follow-up is not a universal AUS selection rule. Pad weight is particularly helpful when the intermediate count, activity or pad type leaves severity uncertain.",
+    "access": "Publisher abstract via Europe PMC"
+  },
+  {
+    "code": "PRBFAT26",
+    "label": "PRB material fatigue: 2026 issue",
+    "url": "https://doi.org/10.1016/j.urology.2025.12.031",
+    "title": "Time Dependent Material Fatigue of the Artificial Urinary Sphincter Pressure-regulating Balloon: A Mechanical and Microscopic Analysis.",
+    "date": "2025-12-19",
+    "citation": "Salvino MJ, Schroeder TE, Grimaud LW, Peterson AC. | Urology 2026 | DOI 10.1016/j.urology.2025.12.031",
+    "slides": [
+      34
+    ],
+    "meaning": "Mechanical testing compared 32 retrieved balloons with one new balloon; seven underwent additional testing. Age correlated with increased stiffness and reduced wall thickness; microcracks were seen in the four oldest specimens tested microscopically.",
+    "limits": "Retrieved components are selected samples; laboratory ageing is mechanistic evidence, not a trial of balloon-only versus complete-system revision. Do not replace a balloon solely because three years have elapsed. Online December 2025; 2026 issue.",
+    "access": "Publisher abstract via Europe PMC"
+  },
+  {
+    "code": "REGRET26",
+    "label": "Long-term decisional regret after AUS, 2026 issue",
+    "url": "https://doi.org/10.1016/j.euros.2025.12.006",
+    "title": "Decisional Regret and Long-term Quality of Life After Artificial Urinary Sphincter Implantation Following Radical Prostatectomy.",
+    "date": "2025-12-26",
+    "citation": "Roth I, Beisland C, Hjelle KM, Moen CA, Beisland EG, Juliebø-Jones P. | European urology open science 2026 | DOI 10.1016/j.euros.2025.12.006",
+    "slides": [
+      9,
+      40
+    ],
+    "meaning": "Ninety-one men responded (87.5%), with median follow-up 82 months. Reoperation was the only independent predictor of regret in the reported model (+18 points on the Decisional Regret Scale). Continence benefit persisted but deteriorated over time.",
+    "limits": "A retrospective single-centre survivor/respondent cohort without a nonsurgical comparator. Association does not prove reoperation causes all regret or predict an individual response. Counselling should include residual leakage, future surgery and psychological burden. Online December 2025; 2026 issue.",
+    "access": "Full open article read"
+  },
+  {
+    "code": "INSTR26",
+    "label": "AUS instrumentation knowledge survey, 2026",
+    "url": "https://doi.org/10.1002/nau.70417",
+    "title": "Artificial Urinary Sphincter in Male Patients Requiring Urethral Instrumentation: Is It a Challenge?",
+    "date": "2026-08-17",
+    "citation": "Girgin R. | Neurourology and urodynamics 2026 | DOI 10.1002/nau.70417",
+    "slides": [
+      13,
+      31
+    ],
+    "meaning": "A survey of 286 Turkish urologists identified training and confidence gaps in AUS deactivation and instrumentation. It reinforces the practical value of patient/device information and a clear urgent-contact route.",
+    "limits": "A self-selected knowledge survey, not a catheter-safety trial. Its proposed diameter/duration answers cannot become universal rules for every cuff, tissue or device. Follow the actual system's instructions.",
+    "access": "Publisher abstract via Europe PMC"
+  },
+  {
+    "code": "EROSION26",
+    "label": "Immediate urethral repair at explantation, 2026",
+    "url": "https://doi.org/10.1007/s00345-026-06629-1",
+    "title": "In situ urethroplasty at the time of artificial urinary sphincter explantation for urethral erosion: an 18-year single-center experience.",
+    "date": "2026-07-27",
+    "citation": "Park CR, Kim JH, Oh KT. | World journal of urology 2026 | DOI 10.1007/s00345-026-06629-1",
+    "slides": [
+      34
+    ],
+    "meaning": "In a selected single-centre series of 16 men, one developed a stricture after repair at eroded-cuff explantation (6.3%); seven developed wound dehiscence requiring closure (43.8%). The low stricture rate therefore sits beside a substantial wound-treatment burden.",
+    "limits": "No drainage-only comparator, small sample and median 14-month follow-up. This is not an interim SAFER comparative result and does not establish universal immediate repair. Partial and circumferential erosions require different reconstructive assessments.",
+    "access": "Publisher abstract via Europe PMC"
+  },
+  {
+    "code": "DEVICE26",
+    "label": "Emerging AUS devices review, 2026",
+    "url": "https://doi.org/10.1002/nau.70400",
+    "title": "New and Emerging Artificial Urinary Sphincters for Male Stress Urinary Incontinence: From Gold Standard to Next Generation.",
+    "date": "2026-08-03",
+    "citation": "Schnell EC, Wang CN, Rovner ES. | Neurourology and urodynamics 2026 | DOI 10.1002/nau.70400",
+    "slides": [
+      2,
+      9,
+      35
+    ],
+    "meaning": "The contemporary review describes new hydraulic and electronic designs, while emphasising the lack of robust direct comparisons and long-term outcomes for many devices. It supports keeping engineering advantages separate from proven clinical superiority.",
+    "limits": "A review combining clinical, regulatory, manufacturer and preclinical materials is context rather than a head-to-head trial. Early ContiClassic safety cannot be compared with AMS 800 continence as if the endpoints were interchangeable.",
+    "access": "Publisher abstract via Europe PMC"
+  },
+  {
+    "code": "SECOND26",
+    "label": "Second AUS survival: national French cohort, 2026",
+    "url": "https://doi.org/10.1590/s1677-5538.ibju.2025.0374",
+    "title": "Survival Without Reintervention of Second Artificial Urinary Sphincter Implants in Men: A National Healthcare Data System-Based Study in France.",
+    "date": "2026-01-01",
+    "citation": "Tokarski E, Taillé Y, Chartier-Kastler E, Lukacs B, Seisen T, Roupret M, Beaugerie A, Vicaut E, Mozer PC, Lenfant L. | International braz j urol : official journal of the Brazilian Society of Urology 2026 | DOI 10.1590/s1677-5538.ibju.2025.0374",
+    "slides": [
+      34,
+      40
+    ],
+    "meaning": "The national cohort included 1,619 second AUS implants: 1,165 replacements and 454 reimplantations after removal. Median follow-up was 53 months; reintervention-free survival was 68% at five years and 61% at ten years. Only 21% of men whose first device was removed received a subsequent implant.",
+    "limits": "Administrative observational data distinguish replacement from reimplantation after removal. These results are not primary-implant survival, pad-free continence or a randomised choice of revision method. They strengthen consent about the uncertain path after erosion/explantation.",
+    "access": "Full open article read"
+  },
+  {
+    "code": "TCSYS25",
+    "label": "Transcorporal systematic review, online 2025",
+    "url": "https://doi.org/10.1016/j.urology.2025.11.222",
+    "title": "Transcorporal Cuff-placement in Artificial Urinary Sphincter Surgery: A Systematic Review.",
+    "date": "2025-11-12",
+    "citation": "Domínguez Gutiérrez A, Hevia Palacios M, López Curtis DA, Muriel García A, Álvarez Díaz N, Javier BRF. | Urology 2026 | DOI 10.1016/j.urology.2025.11.222",
+    "slides": [
+      19
+    ],
+    "meaning": "Twenty studies were included, eight comparative. The meta-analysis associated transcorporal placement with more revisions (OR 2.99, 95% CI 1.16-7.75), less erosion (OR 0.35, 0.15-0.81) and infection (OR 0.33, 0.12-0.95), with no significant explantation difference.",
+    "limits": "Non-randomised series and heterogeneous risk selection; pooled estimates conflict with some individual cohorts. Search ended January 2024 despite online publication in November 2025. Present it as a specialist option with uncertain causal protection, not proof that every fragile urethra should receive it.",
+    "access": "Publisher abstract via Europe PMC"
+  },
+  {
+    "code": "RTTIME25",
+    "label": "Radiation and cuff-removal timing cohort, 2025",
+    "url": "https://doi.org/10.1007/s00345-025-05625-1",
+    "title": "The impact of pelvic radiation on artificial urinary sphincter cuff survival and optimal timing for implantation.",
+    "date": "2025-04-18",
+    "citation": "Lee JH, Lee KS, Ko KJ. | World journal of urology 2025 | DOI 10.1007/s00345-025-05625-1",
+    "slides": [
+      17
+    ],
+    "meaning": "In 283 men, prior radiation was associated with cuff removal (HR 3.30, 95% CI 1.05-10.40). Exploratory modelling suggested a later-implantation trend after radiation, but this was not statistically significant.",
+    "limits": "The wide interval and retrospective spline analysis do not validate a 635-day or 1.74-year waiting rule. Radiation risk, oncological timing, urethral stability and individual function must be considered separately.",
+    "access": "Publisher abstract via Europe PMC"
+  },
+  {
+    "code": "UROACTIVE26",
+    "label": "Electronic AUS: first-in-human study, 2026",
+    "url": "https://doi.org/10.1097/ju.0000000000004945",
+    "title": "First-In-Human Assessment of the UroActive Electronic Artificial Urinary Sphincter for Treating Male Patients with Stress Urinary Incontinence.",
+    "date": "2026-01-21",
+    "citation": "Mozer P, Beaugerie A, Perrouin-Verbe MA, Denormandie A, Cotte J, Plassais C, Tran S, Elliott D, Chartier-Kastler E. | The Journal of urology 2026 | DOI 10.1097/ju.0000000000004945",
+    "slides": [
+      35
+    ],
+    "meaning": "Six men received the electronic UroActive AUS; all activated successfully, with no explant or surgical revision during one year after activation. Nine device deficiencies involved the remote control.",
+    "limits": "A very small single-arm feasibility study. Zero observed revisions is not zero risk or comparative superiority; it does not establish replacement of manual hydraulic devices in routine practice.",
+    "access": "Publisher abstract via Europe PMC"
+  },
+  {
+    "code": "REPORT26",
+    "label": "Standardised complication reporting: 2026",
+    "url": "https://doi.org/10.1007/s00345-026-06246-y",
+    "title": "Standardized reporting of perioperative complications after male artificial urinary sphincter implantation.",
+    "date": "2026-02-10",
+    "citation": "Roessler N, Vetterlein MW, Konrad THJ, Schulz RJ, Wagner MC, Klemm J, Shariat SF, Dahlem R, Fisch M, Ludwig TA. | World journal of urology 2026 | DOI 10.1007/s00345-026-06246-y",
+    "slides": [
+      9,
+      40
+    ],
+    "meaning": "A retrospective 227-implant series using systematic complication capture reported 47% early complications, predominantly minor, and 7.9% major complications requiring intervention. Five-year explantation-free survival was 73%.",
+    "limits": "Selected techniques included distal double cuffs and transcorporal cuffs. These results are not a universal primary single-bulbar-cuff complication rate. Systematic reporting and endpoint definitions explain why superficially similar published percentages differ.",
+    "access": "Full open article read"
+  }
+]

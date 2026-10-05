@@ -12,7 +12,7 @@
     }
   ],
   "sourceRepository": "https://github.com/nityjr-ctrl/aus-presentation",
-  "sourceCommit": "75f5354",
+  "sourceCommit": "See Git commit containing this checkpoint",
   "sourceManuscript": "AUS-expert-presentation.md",
   "googleSlides": {
     "presentationId": "1DbVurIgp3NeP9eeTm9jgekOyHzaTBbv3GfhC9eMolVo",
@@ -20,37 +20,43 @@
     "mimeType": "application/vnd.google-apps.presentation",
     "parentFolderId": "1qnw9Hm7ibsBIkSrj0uLmAMdevttxkf-z",
     "readback": {
-      "slideCount": 46,
+      "slideCount": 49,
       "nativeTables": 8,
       "images": 12,
-      "slidesWithNotes": 46,
+      "slidesWithNotes": 49,
       "sheetsCharts": 0
     },
     "conversionLimit": "Three PPTX charts converted to images. Text and eight tables remain native editable objects.",
-    "visualCheck": "All 46 converted pages reviewed in montage; representative pages and changed chart/image pages reviewed at larger size."
+    "visualCheck": "All 49 cloud-exported PDF pages and all 49 local slide renders reviewed; changed evidence tables and references checked at larger size.",
+    "revisionId": "S--4mxKHZqlHYw"
   },
   "checkpoint": {
     "file": "AUS-teaching-deck.pptx",
-    "sha256": "e3db84276569d44ed87cb16245d937310821d2dd4b9b583784a56a8fb62d95d6",
-    "byteCount": 4445784,
-    "validation": "validation.json",
-    "nativeCharts": 3,
-    "embeddedChartWorkbooks": 3,
+    "sha256": "d13e3fc578cbfa3b20a639e5e5a4be48dd45177c6184e8182d36129b5c7ae12d",
+    "byteCount": 4513210,
+    "nativeCharts": 0,
+    "embeddedChartWorkbooks": 0,
     "geometryFindings": 0,
-    "geometryWarnings": 0
+    "geometryWarnings": 0,
+    "validation": "Package, source-bound fonts, layout and Artifact Tool re-import passed; private reports retained in originating task."
   },
   "structure": {
-    "slides": 46,
+    "slides": 49,
     "teachingSlides": 38,
     "coverSlides": 1,
-    "backupSlides": 7,
+    "backupSlides": 10,
     "durationMinutes": 60,
-    "fictionalCases": 4
+    "fictionalCases": 4,
+    "referenceSlides": 7,
+    "clinicalBackupSlides": 3,
+    "citationCodes": 58
   },
   "beforeDelivery": [
     "Meeting and date",
     "Both presenters' actual personal disclosures",
     "Applicable current regional device IFU and separate OR protocol",
     "Local perioperative protocol"
-  ]
+  ],
+  "evidenceUpdated": "2026-10-05",
+  "previousCheckpoint": "fb238613dc7ddb0734ac9cfbd397f72c5316b3b6"
 }

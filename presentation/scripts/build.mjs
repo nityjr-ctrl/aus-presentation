@@ -1,8 +1,9 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { Presentation, PresentationFile } from '@oai/artifact-tool';
-import { finalizePresentation, applyPresentationChartFont } from '/opt/codex/skills/builtins/presentations/container_tools/artifact_tool_utils.mjs';
+const skillDir=process.env.PRESENTATIONS_SKILL_DIR ?? (process.platform==='win32' ? 'C:/Users/nityj/.codex/plugins/cache/openai-primary-runtime/presentations/26.904.11930/skills/presentations' : '/opt/codex/skills/builtins/presentations');
+const { finalizePresentation, applyPresentationChartFont }=await import(pathToFileURL(path.join(skillDir,'container_tools/artifact_tool_utils.mjs')).href);
 
 process.env.RUNTIME_NODE=process.env.CODEX_PRIMARY_RUNTIME_NODE;
 process.env.RUNTIME_NODE_MODULES=process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES;
@@ -133,23 +134,10 @@ for(const d of specs){
 
 // Backup material is outside the 60-minute clock.
 function backup(title){const s=base({title});text(s,'Backup: outside the timed talk',64,674,1152,24,16,C.muted);return s;}
-{
- const s=backup('Outcome evidence: device and endpoint');
- table(s,['Study and population','Endpoint and result','Limits'],[
- ['AUSCO 2026: AMS 800\n115 primary implants, 25 irradiated','12 months after activation\n91/97 ≥50% pad-weight reduction\n61/101 zero pads','Prospective single-arm, funded by manufacturer. Missing data, one year, expert centres'],
- ['Linder 2015: AMS 800\n1,082 primary implants, 27% irradiated','Freedom from any secondary surgery\nKM 74% at five years\n57% at ten years','Historical specialist cohort. Continence and revision-free survival differ'],
- ['Wilson 2024: ContiClassic\n116 recipients, mixed indications','Eight revisions\n12-month KM device survival 93.2%','Abstract-level. Continence, revision mix and radiation strata unverified']
- ],{h:420,widths:[370,390,392],size:23});
- s.speakerNotes.textFrame.setText('Outcome definitions, populations and limitations follow the repository outcome-context table. Sources: '+['AUSCO26','LINDER15','CCSAFETY'].map(x=>x+' '+source.refs[x]).join('\n'));
-}
-{
- const s=backup('Comparative and preparation evidence');
- table(s,['Study','Finding','Limits'],[
- ['MASTER 2022\n380 randomised men','Sling met prespecified non-inferiority criterion. Both groups improved','Selected men after prostate surgery. Previous sling/AUS and unresolved narrowing excluded'],
- ['Yeung 2013\n100 initial GU prosthetic procedures','Post-preparation skin culture positivity\n8% versus 32%','Surrogate outcome. Mixed devices. No AUS infection or duration conclusion'],
- ['Bourgi 2024\n156 AMS 800 procedures','No demonstrated advantage for intensified povidone protocol','Sequential eras, reporting inconsistencies and inadequate follow-up detail']
- ],{h:420,widths:[320,420,412],size:24});
- s.speakerNotes.textFrame.setText(['MASTER22','YEUNG13','PREP24'].map(x=>x+' '+source.refs[x]).join('\n'));
+for(const d of source.backupTables){
+ const s=backup(d.title);
+ table(s,d.headers,d.rows,{h:d.height,widths:d.widths,size:d.fontSize});
+ s.speakerNotes.textFrame.setText(d.notes);
 }
 {
  const s=backup('Evidence gaps');
@@ -157,9 +145,11 @@ function backup(title){const s=base({title});text(s,'Backup: outside the timed t
  s.speakerNotes.textFrame.setText('Evidence gaps preserved from section 7 of the manuscript. No new clinical thresholds or device superiority claims are introduced.');
 }
 const refGroups=[['BAUS25','EAU26','AUA24','EAUSTR26','ICS16','AP23','CCIFU','ICSUDS17','AUAOAB24'],['NICE','WHO09','CHLORA26','IDSA19','AUAABX20','CCSAFETY','MASTER22','UDS09','OAB11'],['DO24','DOFAIL23','DU23','CIC23','CATH13','UDS14','RT22','URETH26','TC20'],['TC23','ATROPHY20','PREP24','YEUNG13','ABX18','TOUCH23','LINDER15','AUSCO26']];
+for(let start=0;start<source.evidenceAdditions.length;start+=8)refGroups.push(source.evidenceAdditions.slice(start,start+8).map(x=>x.code));
 const labels={BAUS25:'BAUS consensus, BJU Int 2025',EAU26:'EAU male LUTS guidelines, 2026',AUA24:'AUA/GURS/SUFU IPT amendment, 2024',EAUSTR26:'EAU urethral strictures guidelines, 2026',ICS16:'ICS AUS consensus, NUU 2016',AP23:'Asia-Pacific AMS 800 consensus, 2023',CCIFU:'Rigicon ContiClassic IFU, REV.03, 2023',ICSUDS17:'ICS good urodynamic practices, 2017',AUAOAB24:'AUA/SUFU idiopathic OAB guideline, 2024',NICE:'NICE NG125: surgical site infection',WHO09:'WHO hand hygiene guidance, 2009',CHLORA26:'ChloraPrep UK product information, 2026',IDSA19:'IDSA asymptomatic bacteriuria, 2019',AUAABX20:'AUA antimicrobial prophylaxis, 2020',CCSAFETY:'Wilson: ContiClassic safety, IJIR 2024',MASTER22:'MASTER randomised trial, HTA 2022',UDS09:'Lai: pre-AUS urodynamics, Urology 2009',OAB11:'Lai: OAB and post-prostatectomy AUS, 2011',DO24:'Bhatt: preoperative DO systematic review, 2024',DOFAIL23:'Krughoff: earlier AUS failure, 2023',DU23:'Han: AUS with detrusor underactivity, 2023',CIC23:'Krughoff: CIC after bulbar AUS, 2023',CATH13:'Seideman: prolonged catheterisation, 2013',UDS14:'Weissbart: absent leak during UDS, 2014',RT22:'Zhang: radiation meta-analysis, 2022',URETH26:'Davis: AUS after urethroplasty, 2026',TC20:'Redmond: transcorporal fragile urethra, 2020',TC23:'Kurtzman: high-risk transcorporal AUS, 2023',ATROPHY20:'Bergeson: urethral atrophy and revision, 2020',PREP24:'Bourgi: AUS preparation protocols, 2024',YEUNG13:'Yeung: GU skin preparation RCT, 2013',ABX18:'Adamsky: postoperative antibiotics, 2018',TOUCH23:'Ziegelmann: minimal-touch AUS, 2023',LINDER15:'Linder: long-term AMS 800 outcomes, 2015',AUSCO26:'Kaufman: AMS 800 AUSCO study, 2026'};
+Object.assign(labels,Object.fromEntries(source.evidenceAdditions.map(x=>[x.code,x.label])));
 for(let g=0;g<refGroups.length;g++){
- const s=backup('References '+(g+1)+' of 4');
+ const s=backup('References '+(g+1)+' of '+refGroups.length);
  refGroups[g].forEach((id,i)=>{let x=64+(i%2)*600,y=185+Math.floor(i/2)*84;text(s,id,x,y,540,28,20,C.teal,true);let t=text(s,labels[id],x,y+30,545,51,24);t.text.get(labels[id]).link={uri:source.refs[id],isExternal:true};});
  s.speakerNotes.textFrame.setText('Full bibliography with access limits:\n\n'+source.biblio+'\n\nLinked references on this slide:\n'+refGroups[g].map(x=>x+' '+source.refs[x]).join('\n'));
 }
@@ -169,7 +159,7 @@ await fs.mkdir(path.join(root,'output'),{recursive:true});
 const candidatePath=path.join(root,'build','candidate.pptx');await (await PresentationFile.exportPptx(p)).save(candidatePath);
 console.log('Draft exported',p.slides.items.length,'slides');
 const finalPath=path.join(root,'output',`AUS-teaching-${new Date().toISOString().replace(/[:.]/g,'-')}.pptx`);
-const result=await finalizePresentation({workspaceDir:root,candidatePath,finalPath,pythonExecutable:process.env.CODEX_PRIMARY_RUNTIME_PYTHON,integrityValidatorPath:'/opt/codex/skills/builtins/presentations/container_tools/inspect_presentation_package_integrity.py',layoutValidatorPath:'/opt/codex/skills/builtins/presentations/container_tools/inspect_presentation_layout_geometry.py',layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit',...tables.flatMap(n=>['--require-native-table-slide',String(n)])],explicitTotalSlideCount:46,requiredNativeTableOwnerSlides:tables,requiredNativeChartOwnerSlides:[...new Set(charts)],fontPolicy:{basis:'design',families:[FONT]},materializeLiteralChartWorkbooks:true,verifyArtifactToolImport:true,receiptPath:path.join(root,'build',`validation-${new Date().toISOString().replace(/[:.]/g,'-')}.json`)});
+const result=await finalizePresentation({workspaceDir:root,candidatePath,finalPath,pythonExecutable:process.env.CODEX_PRIMARY_RUNTIME_PYTHON,integrityValidatorPath:path.join(skillDir,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(skillDir,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit',...tables.flatMap(n=>['--require-native-table-slide',String(n)])],explicitTotalSlideCount:49,requiredNativeTableOwnerSlides:tables,requiredNativeChartOwnerSlides:[...new Set(charts)],fontPolicy:{basis:'design',families:[FONT]},materializeLiteralChartWorkbooks:true,verifyArtifactToolImport:true,receiptPath:path.join(root,'build',`validation-${new Date().toISOString().replace(/[:.]/g,'-')}.json`)});
 console.log('Validated final deck:',result.finalPath);
 for(let i=0;i<p.slides.items.length;i++){
  const blob=await p.export({slide:p.slides.items[i],format:'png',scale:1});await fs.writeFile(path.join(root,'build','renders',`slide-${String(i+1).padStart(2,'0')}.png`),new Uint8Array(await blob.arrayBuffer()));

@@ -2,20 +2,22 @@
 
 Presenters: **Mr Abu Yousif, Urology Consultant**, and **Nity G, ST5 Urology Registrar**.
 
-The visual companion to `AUS-expert-presentation.md` retains its 38 teaching slides and 60-minute clock. A cover and seven backup slides bring the file to 46 slides. The four-minute UroOps demonstration and five-minute discussion retain their original allocations.
+The visual companion to `AUS-expert-presentation.md` retains its 38 teaching slides and 60-minute clock. A cover, three clinical backups and seven reference slides bring the file to 49 slides. The four-minute UroOps demonstration and five-minute discussion retain their original allocations.
 
 The deck uses a restrained clinical teaching style: readable text, case votes, source comparisons, operative schematics and selected evidence graphics. Longer explanations and the original reference limits remain in speaker notes. It does not claim a personal case series, clinical validation of UroOps, device superiority or an actual preparation duration.
 
 ## Contents
 
-- `AUS-teaching-deck.pptx`: checked build used to create native Google Slides.
+- `AUS-teaching-deck.pptx`: checked 49-slide update of the corrected final deck.
 - `slides.json`: displayed wording and layout choices for the 38 teaching slides.
 - `source.json`: source notes, running clock, reference links and prepared questions.
 - `scripts/build.mjs`: deck builder using the supplied Codex `@oai/artifact-tool` runtime.
 - `assets/`: used illustrations with provenance in `assets/SOURCES.md`.
-- `delivery.json`: verified native Google Slides destination and build metadata.
+- `delivery.json`: verified native Google Slides destination and checkpoint metadata.
+- `evidence-2026.json`: added source cards, clinical meaning, limitations and access level.
+- `EVIDENCE-AUDIT-2026-10-05.md`: slide-by-slide currency decisions.
 
-The Google Slides link in `delivery.json` is the working presentation. Readback verified 46 slides, both presenter credits, 46 sets of speaker notes and eight native tables. The Google-exported PDF was rendered for visual review. Three charts converted to images in Google Slides; the checkpoint retains editable charts and embedded workbooks. The repository file is the reproducible checkpoint, rather than a sync service for subsequent cloud edits.
+The Google Slides link in `delivery.json` is the working presentation. Readback verified 49 slides, both presenter credits, 49 sets of speaker notes and eight native tables. The Google-exported PDF was rendered for visual review. The current checkpoint preserves the corrected cloud images, including three charts converted to images. The original native-chart checkpoint is preserved in Git history. The design builder can regenerate native charts. The repository file is the checked 5 October evidence checkpoint. Subsequent cloud edits do not automatically synchronise.
 
 ## Before the meeting
 
@@ -23,4 +25,4 @@ Add the meeting/date and each presenter's accurate disclosures. Rehearse the Uro
 
 ## Rebuilding in the Codex runtime
 
-Use the provided Node, Python and module paths, with a `scripts/node_modules` symlink to `CODEX_PRIMARY_RUNTIME_NODE_MODULES`, then run `scripts/build.mjs` using `CODEX_PRIMARY_RUNTIME_NODE`. The script creates a newly named PPTX in `output/`, runs the packaged presentation checks, and renders every slide in `build/renders/`. These transient directories are ignored by Git. Review the rendered slides before a new native Google Slides import.
+Use the provided Node, Python and module paths, with a `scripts/node_modules` symlink to `CODEX_PRIMARY_RUNTIME_NODE_MODULES`, then run `scripts/build.mjs` using `CODEX_PRIMARY_RUNTIME_NODE`. The script creates a newly named PPTX in `output/`, runs the packaged presentation checks, and renders every slide in `build/renders/`. These transient directories are ignored by Git. Set `PRESENTATIONS_SKILL_DIR` to the installed presentations skill when needed. The builder uses the updated 2026 source and backup tables but creates a fresh design build, which may differ slightly from the surgically updated cloud checkpoint. Review every rendered slide before a new import; the existing Google deck has already been updated in place.
