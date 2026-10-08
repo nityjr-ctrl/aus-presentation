@@ -1,0 +1,689 @@
+{
+  "schema": "aus-deck-3d-steps/1",
+  "note": "One entry per 3D slide. nodes: stable node names kept in that step's GLB (all other nodes are removed); opacity: per-node overrides (0..1); state: scrotalLift, cycle (t in seconds sampled from the 8 s Cycle AUS animation, null = rest pose), keepAnimation. camera: UroOps focus name, lens mm, azimuth and elevation in degrees; build-steps.mjs writes the resolved metres and scene-EMU values into camera.resolved. frame and disclaimer: inches on the 13.333 x 7.5 in slide.",
+  "slides": [
+    {
+      "slide": 26,
+      "id": "aus-26-exposure",
+      "title": "Positioning and exposure",
+      "uroopsSteps": [
+        "orient",
+        "expose"
+      ],
+      "nodes": [
+        "Pubis_L",
+        "Pubis_R",
+        "Scrotum_shell",
+        "Penile_skin",
+        "Perineal_skin",
+        "Perineal_incision",
+        "Bulbospongiosus",
+        "Corpus_spongiosum",
+        "Urethra",
+        "Catheter"
+      ],
+      "opacity": {
+        "Corpus_spongiosum": 0.25,
+        "Urethra": 0.25,
+        "Scrotum_shell": 0.45,
+        "Perineal_skin": 0.55
+      },
+      "state": {
+        "scrotalLift": true,
+        "cycle": null,
+        "keepAnimation": false
+      },
+      "camera": {
+        "focus": "Lithotomy",
+        "mm": 150,
+        "az": 0,
+        "el": -80,
+        "resolved": {
+          "focusMetres": [
+            0,
+            -0.08,
+            0.03
+          ],
+          "posMetres": [
+            0,
+            -0.262154,
+            0.062119
+          ],
+          "distanceMetres": 0.184964,
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "fovDegrees": 50,
+          "am3d": {
+            "pos": [
+              40201,
+              -25515753,
+              4560504
+            ],
+            "lookAt": [
+              40201,
+              -6695383,
+              1241965
+            ],
+            "up": [
+              0,
+              36000000,
+              0
+            ],
+            "fov": 3000000
+          }
+        }
+      },
+      "frame": {
+        "left": 0.67,
+        "top": 1.98,
+        "width": 7.3,
+        "height": 3.75
+      },
+      "disclaimer": {
+        "left": 0.67,
+        "top": 6.2,
+        "width": 7.3,
+        "height": 0.3
+      },
+      "removePicture": true,
+      "morph": false,
+      "note": "3D: point at the lifted scrotum and the midline over the bulb; the bulbospongiosus is still intact."
+    },
+    {
+      "slide": 27,
+      "id": "aus-27-dissection",
+      "title": "Bulbar dissection and tissue preservation",
+      "uroopsSteps": [
+        "plane",
+        "mobilise"
+      ],
+      "nodes": [
+        "Pubis_L",
+        "Pubis_R",
+        "Scrotum_shell",
+        "Bulbospongiosus_L",
+        "Bulbospongiosus_R",
+        "Corpus_spongiosum",
+        "Urethra",
+        "Crus_L",
+        "Crus_R",
+        "Perineal_body",
+        "Catheter"
+      ],
+      "opacity": {
+        "Pubis_L": 0.25,
+        "Pubis_R": 0.25,
+        "Scrotum_shell": 0.45
+      },
+      "state": {
+        "scrotalLift": true,
+        "cycle": null,
+        "keepAnimation": false
+      },
+      "camera": {
+        "focus": "Bulb",
+        "mm": 70,
+        "az": -18,
+        "el": -74,
+        "resolved": {
+          "focusMetres": [
+            0,
+            -0.073272,
+            0.039689
+          ],
+          "posMetres": [
+            -0.007352,
+            -0.156245,
+            0.062317
+          ],
+          "distanceMetres": 0.086316,
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "fovDegrees": 50,
+          "am3d": {
+            "pos": [
+              -719432,
+              -14573078,
+              4581002
+            ],
+            "lookAt": [
+              40201,
+              -6000231,
+              2243091
+            ],
+            "up": [
+              0,
+              36000000,
+              0
+            ],
+            "fov": 3000000
+          }
+        }
+      },
+      "frame": {
+        "left": 0.67,
+        "top": 1.98,
+        "width": 7.3,
+        "height": 3.75
+      },
+      "disclaimer": {
+        "left": 0.67,
+        "top": 6.2,
+        "width": 7.3,
+        "height": 0.3
+      },
+      "removePicture": true,
+      "morph": true,
+      "note": "3D: bulbospongiosus split and drawn back; the corpus spongiosum lies between the diverging crura, with the perineal body behind and the catheter inside."
+    },
+    {
+      "slide": 28,
+      "id": "aus-28-sizing",
+      "title": "Cuff measurement and fit",
+      "uroopsSteps": [
+        "size",
+        "cuff"
+      ],
+      "nodes": [
+        "Pubis_L",
+        "Pubis_R",
+        "Scrotum_shell",
+        "Bulbospongiosus_L",
+        "Bulbospongiosus_R",
+        "Corpus_spongiosum",
+        "Urethra",
+        "Crus_L",
+        "Crus_R",
+        "Perineal_body",
+        "Catheter",
+        "Sizer",
+        "Cuff",
+        "Tubing_cuff_stub"
+      ],
+      "opacity": {
+        "Pubis_L": 0.25,
+        "Pubis_R": 0.25,
+        "Scrotum_shell": 0.45,
+        "Cuff": 0.3,
+        "Tubing_cuff_stub": 0.3
+      },
+      "state": {
+        "scrotalLift": true,
+        "cycle": null,
+        "keepAnimation": false
+      },
+      "camera": {
+        "focus": "Bulb",
+        "mm": 56,
+        "az": -20,
+        "el": -72,
+        "resolved": {
+          "focusMetres": [
+            0,
+            -0.073272,
+            0.039689
+          ],
+          "posMetres": [
+            -0.007298,
+            -0.138945,
+            0.059741
+          ],
+          "distanceMetres": 0.069053,
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "fovDegrees": 50,
+          "am3d": {
+            "pos": [
+              -713861,
+              -12785698,
+              4314862
+            ],
+            "lookAt": [
+              40201,
+              -6000231,
+              2243091
+            ],
+            "up": [
+              0,
+              36000000,
+              0
+            ],
+            "fov": 3000000
+          }
+        }
+      },
+      "frame": {
+        "left": 0.67,
+        "top": 1.98,
+        "width": 7.3,
+        "height": 3.75
+      },
+      "disclaimer": {
+        "left": 0.67,
+        "top": 6.2,
+        "width": 7.3,
+        "height": 0.3
+      },
+      "removePicture": true,
+      "morph": true,
+      "note": "3D: the sizer sits round the proximal bulbar urethra without compressing it; the ghosted cuff beside it shows where the tubing will leave laterally."
+    },
+    {
+      "slide": 30,
+      "id": "aus-30-balloon",
+      "title": "Balloon pocket and pressure selection",
+      "uroopsSteps": [
+        "prb"
+      ],
+      "nodes": [
+        "Pubis_L",
+        "Pubis_R",
+        "Bladder",
+        "Abdominal_wall",
+        "Wall_incision",
+        "Retzius",
+        "Balloon",
+        "Tubing_balloon_stub",
+        "Clamp",
+        "Corpus_spongiosum",
+        "Urethra",
+        "Cuff"
+      ],
+      "opacity": {
+        "Corpus_spongiosum": 0.25,
+        "Urethra": 0.25,
+        "Cuff": 0.25
+      },
+      "state": {
+        "scrotalLift": false,
+        "cycle": null,
+        "keepAnimation": false
+      },
+      "camera": {
+        "focus": "Retzius",
+        "mm": 96,
+        "az": 45,
+        "el": 22,
+        "resolved": {
+          "focusMetres": [
+            0.0215,
+            0.0145,
+            0.0385
+          ],
+          "posMetres": [
+            0.09911,
+            0.058845,
+            0.11611
+          ],
+          "distanceMetres": 0.118377,
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "fovDegrees": 50,
+          "am3d": {
+            "pos": [
+              10280377,
+              7650243,
+              10138962
+            ],
+            "lookAt": [
+              2261611,
+              3068486,
+              2120197
+            ],
+            "up": [
+              0,
+              36000000,
+              0
+            ],
+            "fov": 3000000
+          }
+        }
+      },
+      "frame": {
+        "left": 0.9,
+        "top": 1.77,
+        "width": 6,
+        "height": 4.1
+      },
+      "disclaimer": {
+        "left": 0.9,
+        "top": 5.92,
+        "width": 6,
+        "height": 0.3
+      },
+      "removePicture": true,
+      "morph": false,
+      "note": "3D: the balloon sits in the space of Retzius behind the pubis, placed through the small lower abdominal incision; its tubing is held with a rubber-shod clamp.",
+      "disclaimerColour": "B5C6CB"
+    },
+    {
+      "slide": 31,
+      "id": "aus-31-pump",
+      "title": "Pump position and patient access",
+      "uroopsSteps": [
+        "pump"
+      ],
+      "nodes": [
+        "Pubis_L",
+        "Pubis_R",
+        "Scrotum_shell",
+        "Testis_L",
+        "Testis_R",
+        "Pump",
+        "Tubing_pump_stubs",
+        "Penile_skin"
+      ],
+      "opacity": {
+        "Pubis_L": 0.25,
+        "Pubis_R": 0.25,
+        "Scrotum_shell": 0.45
+      },
+      "state": {
+        "scrotalLift": false,
+        "cycle": null,
+        "keepAnimation": false
+      },
+      "camera": {
+        "focus": "Scrotum",
+        "mm": 82,
+        "az": 10,
+        "el": -5,
+        "resolved": {
+          "focusMetres": [
+            0.0195,
+            -0.1505,
+            0.065
+          ],
+          "posMetres": [
+            0.036991,
+            -0.159313,
+            0.164198
+          ],
+          "distanceMetres": 0.101114,
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "fovDegrees": 50,
+          "am3d": {
+            "pos": [
+              3862199,
+              -14890072,
+              15107531
+            ],
+            "lookAt": [
+              2054968,
+              -13979540,
+              4858213
+            ],
+            "up": [
+              0,
+              36000000,
+              0
+            ],
+            "fov": 3000000
+          }
+        }
+      },
+      "frame": {
+        "left": 0.67,
+        "top": 1.98,
+        "width": 7.3,
+        "height": 3.75
+      },
+      "disclaimer": {
+        "left": 0.67,
+        "top": 6.2,
+        "width": 7.3,
+        "height": 0.3
+      },
+      "removePicture": true,
+      "morph": true,
+      "note": "3D: the pump sits in the dependent pouch in front of the left testis, deactivation button facing forward where he can find it."
+    },
+    {
+      "slide": 32,
+      "id": "aus-32-check",
+      "title": "System checks and handover",
+      "uroopsSteps": [
+        "check",
+        "close"
+      ],
+      "nodes": [
+        "Pubis_L",
+        "Pubis_R",
+        "Bladder",
+        "Corpus_spongiosum",
+        "Urethra",
+        "Crus_L",
+        "Crus_R",
+        "Bulbospongiosus",
+        "Penile_skin",
+        "Scrotum_shell",
+        "Testis_L",
+        "Testis_R",
+        "Cuff",
+        "Lumen",
+        "Balloon",
+        "Pump",
+        "Tubing_cuff",
+        "Tubing_balloon",
+        "Connector_cuff",
+        "Connector_balloon"
+      ],
+      "opacity": {
+        "Bulbospongiosus": 0.3,
+        "Scrotum_shell": 0.45
+      },
+      "state": {
+        "scrotalLift": false,
+        "cycle": {
+          "Cuff_lip": 2,
+          "Lumen": 2,
+          "Balloon_shell": 2,
+          "Balloon_disc": 2,
+          "Pump_bulb": 0.8
+        },
+        "keepAnimation": false
+      },
+      "camera": {
+        "focus": "Scrotum",
+        "mm": 92,
+        "az": 10,
+        "el": -5,
+        "resolved": {
+          "focusMetres": [
+            0.0195,
+            -0.1505,
+            0.065
+          ],
+          "posMetres": [
+            0.039124,
+            -0.160387,
+            0.176296
+          ],
+          "distanceMetres": 0.113444,
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "fovDegrees": 50,
+          "am3d": {
+            "pos": [
+              4082593,
+              -15001112,
+              16357448
+            ],
+            "lookAt": [
+              2054968,
+              -13979540,
+              4858213
+            ],
+            "up": [
+              0,
+              36000000,
+              0
+            ],
+            "fov": 3000000
+          }
+        }
+      },
+      "frame": {
+        "left": 8.6,
+        "top": 1.9,
+        "width": 4,
+        "height": 3.85
+      },
+      "disclaimer": {
+        "left": 8.6,
+        "top": 5.8,
+        "width": 4,
+        "height": 0.45
+      },
+      "removePicture": false,
+      "morph": true,
+      "note": "3D: squeeze the pump, cuff opens, fluid to the balloon; leave it deactivated with the cuff open.",
+      "narrowTextBoxes": {
+        "shapeIds": [
+          512,
+          514,
+          516,
+          518
+        ],
+        "width": 6.8,
+        "reason": "the four row text boxes ran under the 3D frame in the LibreOffice render; width reduced from 11.04 in to 6.8 in, text unchanged (decision of 8 October 2026)"
+      }
+    },
+    {
+      "slide": 33,
+      "id": "aus-33-overview",
+      "title": "UroOps 3D: anatomy and component routes",
+      "uroopsSteps": [
+        "connect"
+      ],
+      "nodes": [
+        "Pubis_L",
+        "Pubis_R",
+        "Bladder",
+        "Corpus_spongiosum",
+        "Urethra",
+        "Crus_L",
+        "Crus_R",
+        "Bulbospongiosus",
+        "Penile_skin",
+        "Scrotum_shell",
+        "Testis_L",
+        "Testis_R",
+        "Cuff",
+        "Lumen",
+        "Balloon",
+        "Pump",
+        "Tubing_cuff",
+        "Tubing_balloon",
+        "Connector_cuff",
+        "Connector_balloon"
+      ],
+      "opacity": {
+        "Bulbospongiosus": 0.3,
+        "Scrotum_shell": 0.45
+      },
+      "state": {
+        "scrotalLift": false,
+        "cycle": null,
+        "keepAnimation": true
+      },
+      "camera": {
+        "focus": "Device",
+        "mm": 240,
+        "az": 38,
+        "el": -6,
+        "resolved": {
+          "focusMetres": [
+            0.02,
+            -0.07,
+            0.06
+          ],
+          "posMetres": [
+            0.201202,
+            -0.100934,
+            0.291928
+          ],
+          "distanceMetres": 0.295942,
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "fovDegrees": 50,
+          "am3d": {
+            "pos": [
+              20828662,
+              -8858350,
+              28304715
+            ],
+            "lookAt": [
+              2106629,
+              -5662170,
+              4341606
+            ],
+            "up": [
+              0,
+              36000000,
+              0
+            ],
+            "fov": 3000000
+          }
+        }
+      },
+      "frame": {
+        "left": 0.67,
+        "top": 1.97,
+        "width": 8.54,
+        "height": 3.4
+      },
+      "disclaimer": {
+        "left": 0.67,
+        "top": 5.42,
+        "width": 8.54,
+        "height": 0.3
+      },
+      "removePicture": true,
+      "morph": true,
+      "note": "3D: the whole system in place; drag the model to turn it, and follow the blue line to the cuff and the dark line to the balloon."
+    }
+  ],
+  "sceneFrame": {
+    "note": "Union bounding box of all step GLBs (metres), shared through the Frame_anchor node. am3d trans uses meterPerModelUnit = 1/(2*maxHalf) and preTrans = -centre*mpu*36e6 EMU, as PowerPoint does on insert.",
+    "min": [
+      -0.137284,
+      -0.189412,
+      -0.088919
+    ],
+    "max": [
+      0.136506,
+      0.159015,
+      0.124878
+    ],
+    "centre": [
+      -0.000389,
+      -0.015198,
+      0.01798
+    ],
+    "meterPerModelUnit": 2.870038,
+    "emuPerMetre": 36000000
+  }
+}

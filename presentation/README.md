@@ -19,6 +19,10 @@ The deck uses a restrained clinical teaching style: readable text, case votes, s
 
 The Google Slides link in `delivery.json` is the working presentation. Readback verified 49 slides, both presenter credits, 49 sets of speaker notes and eight native tables. The Google-exported PDF was rendered for visual review. The current checkpoint preserves the corrected cloud images, including three charts converted to images. The original native-chart checkpoint is preserved in Git history. The design builder can regenerate native charts. The repository file is the checked 5 October evidence checkpoint. Subsequent cloud edits do not automatically synchronise.
 
+## 3D version (8 October 2026)
+
+`AUS-teaching-deck-3d.pptx` is the same deck with native PowerPoint 3D models of the UroOps 3D AUS steps on slides 26 to 28 and 30 to 33 (Morph between them, picture fallbacks), a disclaimer and one "3D:" speaker-note line on each, and a backup video slide at 40. It is untested in real PowerPoint: open `3d/test-one-slide.pptx` first, and present from `AUS-teaching-deck.pptx` if anything needs repair. Build scripts, checklist and limits are in `3d/README.md`.
+
 ## Before the meeting
 
 Add the meeting/date and each presenter's accurate disclosures. Rehearse the UroOps views and timed narration. The model describes itself as a teaching schematic with clinical review pending. Obtain the applicable current ContiClassic IFU and separate OR protocol, and reconcile the local antiseptic, urine and antibiotic policy. The deck deliberately omits unverified fill volumes and product preparation sequences.

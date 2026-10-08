@@ -1,0 +1,17 @@
+{
+  "name": "aus-teaching-deck-3d",
+  "private": true,
+  "type": "module",
+  "description": "Builds the per-step AUS teaching GLBs, fallback renders, backup video and the 3D deck from the public UroOps 3D spatial export.",
+  "scripts": {
+    "build:steps": "node build-steps.mjs",
+    "render": "node render-fallbacks.mjs",
+    "video": "node record-video.mjs"
+  },
+  "dependencies": {
+    "@gltf-transform/core": "4.4.0",
+    "@gltf-transform/functions": "4.4.0",
+    "playwright": "1.62.0",
+    "three": "0.186.1"
+  }
+}
