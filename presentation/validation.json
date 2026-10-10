@@ -1,24 +1,53 @@
 {
   "schemaVersion": "presentation-checkpoint-verification.v1",
-  "checkedDate": "2026-10-05",
-  "finalSha256": "d13e3fc578cbfa3b20a639e5e5a4be48dd45177c6184e8182d36129b5c7ae12d",
-  "byteCount": 4513210,
+  "checkedDate": "2026-10-10",
+  "finalSha256": "7ed5126beed0260d2fd592d11497fe8bc59572d64d2fb7c47ee33594503de439",
+  "byteCount": 11819783,
   "slides": 49,
   "teachingSlides": 38,
   "nativeTables": 8,
   "nativeCharts": 0,
-  "cloudImages": 12,
   "citationCodes": 58,
   "durationMinutes": 60,
-  "packageIntegrity": "pass",
-  "layoutFindings": 0,
-  "layoutWarnings": 0,
-  "fontFamilies": [
-    "Arial"
-  ],
-  "fontBasis": "SHA-bound corrected source deck",
-  "artifactToolReimport": "passed",
-  "visualReview": "All local and cloud slides reviewed; transcorporal text-fit repair verified",
+  "packageIntegrity": "pass: every XML part parses and every internal relationship target exists",
+  "powerPointOpen": "Opened read-only in desktop PowerPoint without a repair prompt; changed slides exported and reviewed",
+  "spokenWords": 6300,
+  "timingBasis": "135 words per minute with three seconds per slide change; every slide within its allocation; not rehearsed aloud",
+  "notRerun": "Artifact Tool re-import, layout findings and font checks from 5 October were not repeated on this file. Slide layout outside the replaced pictures and the cover credits is unchanged from the 5 October checkpoint.",
+  "animatedDeck": {
+    "file": "AUS-teaching-deck-3d.pptx",
+    "sha256": "13efaba1d37ee86b9a7c9d819f05aad70ea75ae613dc054512f3fa80535823bc",
+    "byteCount": 69794959,
+    "slides": 50,
+    "embeddedVideos": 8,
+    "packageIntegrity": "pass",
+    "powerPointOpen": "Opened without repair; eight media shapes; one autoplay effect on each of slides 26 to 28 and 30 to 33",
+    "notChecked": "Autoplay and looping were not watched in slide-show mode"
+  },
   "clinicalEvidenceAudit": "EVIDENCE-AUDIT-2026-10-05.md",
-  "claimBoundary": "Package and layout checks do not establish clinical accuracy or native PowerPoint rendering; primary-source interpretation and access limits are recorded separately. Detailed transient validation reports remain in the originating task."
+  "claimBoundary": "Package checks and a clean PowerPoint open do not establish clinical accuracy. No evidence statement changed in the 10 October revision; primary-source interpretation and access limits are recorded separately.",
+  "previousCheckpoint": {
+    "schemaVersion": "presentation-checkpoint-verification.v1",
+    "checkedDate": "2026-10-05",
+    "finalSha256": "d13e3fc578cbfa3b20a639e5e5a4be48dd45177c6184e8182d36129b5c7ae12d",
+    "byteCount": 4513210,
+    "slides": 49,
+    "teachingSlides": 38,
+    "nativeTables": 8,
+    "nativeCharts": 0,
+    "cloudImages": 12,
+    "citationCodes": 58,
+    "durationMinutes": 60,
+    "packageIntegrity": "pass",
+    "layoutFindings": 0,
+    "layoutWarnings": 0,
+    "fontFamilies": [
+      "Arial"
+    ],
+    "fontBasis": "SHA-bound corrected source deck",
+    "artifactToolReimport": "passed",
+    "visualReview": "All local and cloud slides reviewed; transcorporal text-fit repair verified",
+    "clinicalEvidenceAudit": "EVIDENCE-AUDIT-2026-10-05.md",
+    "claimBoundary": "Package and layout checks do not establish clinical accuracy or native PowerPoint rendering; primary-source interpretation and access limits are recorded separately. Detailed transient validation reports remain in the originating task."
+  }
 }

@@ -1,4 +1,30 @@
-# AUS deck with embedded 3D models
+# AUS deck with embedded animation
+
+## Current state: 10 October 2026
+
+The native PowerPoint 3D models described further down are no longer in `../AUS-teaching-deck-3d.pptx`. They rendered flat and pale next to the UroOps 3D scene, so the step slides now carry clips recorded from the public scene itself.
+
+| Slide | Clip (`video/`, not in Git) | Lesson steps | Length |
+|---|---|---|---|
+| 26 | `aus-26-exposure.mp4` | 1 and 2 | 18 s |
+| 27 | `aus-27-dissection.mp4` | 3 and 4 | 18 s |
+| 28 | `aus-28-sizing.mp4` | 5 and 6 | 18 s |
+| 30 | `aus-30-balloon.mp4` | 7 | 12 s |
+| 31 | `aus-31-pump.mp4` | 8 | 12 s |
+| 32 | `aus-32-check.mp4` | 10 and 11 | 18 s |
+| 33 | `aus-33-overview.mp4` | 9 | 12 s |
+| 40 | `aus-flow-1080p.mp4` | all eleven, with the site's narration captions | 102 s |
+
+- **Playback:** each step clip starts when its slide appears and loops until the next click. Slide 40 plays on click. No clip has sound.
+- **Pictures:** `renders/*.png` are now the poster frames of the clips, and PowerPoint shows them if a clip cannot play.
+- **How they were made:** `capture/clip.mjs` steps the public lesson timeline (https://uroops3d.com/lab/aus) in small increments and saves each frame at twice the display size, and ffmpeg joins the frames at 30 frames a second. `capture/stills.mjs` and `capture/crop.py` make the stills, and `capture/embed.py` put both into the decks. `embed.py` expects the 8 October deck with models, so it cannot be run again on the current file.
+- **What is hidden:** the page controls, the corner preview mark and, on the step clips, the narration caption and any label that states a number, a device instruction or back-table preparation. The slide 40 video keeps the captions.
+- **Checked:** PowerPoint on the build PC opens the deck without repair and reports eight media shapes. Nobody has yet watched the clips autoplay in a slide show, so run slides 26 to 33 once with F5 on the lectern PC.
+- **Kept for reference:** `steps/*.glb`, `embed-3d.py`, `validate.py`, `test-one-slide.pptx` and `validation-3d.json` belong to the 8 October model build. The Morph transitions between the step slides are still in the deck.
+
+The rest of this file describes the 8 October build.
+
+## 8 October 2026 build (superseded)
 
 Built 8 October 2026 on branch `feat/3d-embedded-aus`. The lectern PC at the last talk was locked to the slide show and the web demo failed, so everything now lives inside the PPTX.
 

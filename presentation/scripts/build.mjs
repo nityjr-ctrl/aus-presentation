@@ -54,11 +54,13 @@ function chart(s,type,opts){const ch=s.charts.add(type,opts);applyPresentationCh
  text(s,'Patient selection, difficult bladders\nand difficult urethras',64,360,540,116,31,C.muted);
  rule(s,64,520,84);
  text(s,'[Meeting and date]',64,478,535,30,21,C.muted);
- text(s,'Mr Abu Yousif',64,542,535,32,25,C.ink,true);
- text(s,'Urology Consultant',64,575,535,30,22,C.muted);
- text(s,'Nity G',64,619,535,32,25,C.ink,true);
- text(s,'ST5 Urology Registrar',64,652,535,30,22,C.muted);
- s.speakerNotes.textFrame.setText('Cover, displayed before the timed teaching session. Presenters supplied by the user: Mr Abu Yousif, Urology Consultant, and Nity G, ST5 Urology Registrar. Add the meeting and date. Add personal disclosures to the evidence slide before presenting. Image: AI-generated illustrative theatre scene, not a record of an actual operation. No personal operative experience or local outcomes are asserted.');
+ text(s,'Mr Andrew Baird',64,533,535,27,22,C.ink,true);
+ text(s,'Urology Consultant',64,561,535,24,19,C.muted);
+ text(s,'Mr Abu Yousif',64,591,535,27,22,C.ink,true);
+ text(s,'Urology Consultant',64,619,535,24,19,C.muted);
+ text(s,'Nity G',64,649,535,27,22,C.ink,true);
+ text(s,'ST5 Urology Registrar',64,677,535,24,19,C.muted);
+ s.speakerNotes.textFrame.setText('Cover, displayed before the timed teaching session. Presenters supplied by the user: Mr Andrew Baird, Urology Consultant, Mr Abu Yousif, Urology Consultant, and Nity G, ST5 Urology Registrar. Add the meeting and date. Add personal disclosures to the evidence slide before presenting. Image: AI-generated illustrative theatre scene, not a record of an actual operation. No personal operative experience or local outcomes are asserted.');
 }
 
 for(const d of specs){
