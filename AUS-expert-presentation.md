@@ -12,7 +12,7 @@
 
 **Reading the manuscript:** On-slide wording is the proposed displayed text. Speaker notes are spoken prose; bracketed stage directions are not spoken. Evidence-status notes and bibliography details are preparation material. References are linked by short identifiers. No PowerPoint, slide design or images accompany this manuscript.
 
-**Device boundary:** The public ContiClassic IFU reviewed is CC-IFU, REV.03, footer date 12.10.2023. Its separate Operating Room Protocol was not available for verification. The current regional IFU and protocol for the actual supplied product must therefore be confirmed before turning this educational material into an operative protocol. Unverified filling volumes, component preparation sequences and pressure-selection rules have deliberately not been invented.
+**Device boundary:** The public ContiClassic IFU reviewed is CC-IFU, REV.03, footer date 12.10.2023. Its separate Operating Room Protocol was not available for verification. The current regional IFU and protocol for the actual supplied product must therefore be confirmed before turning this educational material into an operative protocol. This manuscript deliberately does not invent filling volumes, component preparation sequences or pressure-selection rules that could not be verified.
 
 ## 2. Learning objectives
 
@@ -57,11 +57,11 @@ The demonstration occupies 46:00-50:00, exactly four minutes. The fallback repla
 
 An AUS can be a technically satisfactory implant and a disappointing treatment. The cuff may coapt, the pump may cycle, and the patient may still avoid leaving the house because urgency, difficult emptying or fear of another procedure dominates his life.
 
-Today I want to follow the decisions that separate those outcomes. We will start with what the patient actually wants, then examine the bladder we are asking to store urine and the urethra we are asking to tolerate a cuff. We will spend time on preparation and the small operative decisions that are difficult to rescue later.
+Today we want to follow the decisions that separate those outcomes. We will start with what the patient actually wants, then examine the bladder and urethra that are to be operated on.
 
-The recurring question is straightforward: would I implant now, optimise first, investigate further, or reconsider whether an AUS is the right treatment? Those choices need reasons, not simply a favourite operation.
+We will spend time on evidence based preparation and the small operative decisions that are difficult to rescue later.
 
-The four cases are fictional. They are deliberately plausible rather than unusual. Please choose an initial answer when each appears, and notice which new finding would make you change it. [Pause for five seconds.] That is the level at which I hope we can discuss the evidence.
+One question will keep coming back: would I implant now, optimise first, investigate further, or reconsider whether an AUS is the right treatment? Each of those choices needs rationalization.
 
 **References:** [BAUS25]; [AUA24]; [ICS16].
 
@@ -80,13 +80,15 @@ The four cases are fictional. They are deliberately plausible rather than unusua
 
 **Speaker notes**
 
-Thank you to Rigicon for organising the meeting. The clinical discussion needs to remain independent of the sponsor. Device choice should follow evidence, patient suitability and the instructions applicable to that device.
+Thank you to Rigicon for organising the meeting. The clinical discussion needs to stay independent of the sponsor, so device choice should follow the evidence, patient suitability and the instructions for that device.
 
-We have useful guidance, but agreement among experts is not the same as a comparative trial. A manufacturer's instruction tells us how its product is intended to be used; it does not establish that the product outperforms another. A retrospective series can identify a concern without proving that the proposed solution prevents it.
+We have useful guidance, but agreement among experts is not the same as a comparative trial. A manufacturer's instruction tells us how its product is intended to be used. It tells us nothing about whether that product outperforms another.
 
-The BAUS consensus is particularly useful because it makes the clinical pathway explicit. We will compare it with EAU and AUA guidance where their approaches differ. The international ICS and Asia-Pacific consensus documents are also valuable, but both are specifically centred on AMS 800.
+A retrospective series can identify a concern without proving that the proposed solution prevents it.
 
-Our aims are to choose investigations intelligently, distinguish three different bladder problems, preserve a usable urethra, challenge preparation rituals and diagnose failure before choosing revision. Where the evidence stops, I will say so. [Brief pause.] The most useful expert discussion often starts at that boundary.
+The BAUS consensus is particularly useful because it sets out the clinical pathway. We will compare it with EAU and AUA guidance where they differ. The ICS and Asia-Pacific consensus documents are also useful, but both are centred on AMS 800.
+
+Our aims are to choose investigations sensibly, separate three different bladder problems, preserve a usable urethra, question preparation rituals and diagnose failure before choosing revision. Where the evidence stops, we will say so.
 
 **References:** [BAUS25]; [EAU26]; [AUA24]; [ICS16]; [AP23]; [CCIFU].
 
@@ -105,13 +107,15 @@ Our aims are to choose investigations intelligently, distinguish three different
 
 **Speaker notes**
 
-Start with a description of a bad day. Does he leak when standing, walking or coughing? Does an irresistible urge precede the leak? Does he remain dry overnight, or does nocturnal leakage suggest another contributor? Mixed symptoms are common, but the word mixed must not replace an explanation.
+Start with a description of a bad day. Does he leak when standing, walking or coughing? Does an urge come before the leak? Is he dry overnight, or does night-time leakage suggest another cause?
 
-Demonstrate stress leakage with a suitably filled bladder and a practical provocative test. If the history and examination disagree, investigate that disagreement. A dry examination performed after he has just emptied his bladder proves very little.
+Mixed symptoms are common, but the word mixed must not replace an explanation.
 
-Pad number is easy to record but depends on pad capacity and the patient's changing behaviour. A pad-weight assessment can quantify leakage when severity or progress is uncertain; record the collection conditions and activity. A diary helps separate urinary frequency from precautionary voiding to prevent stress leakage.
+Demonstrate stress leakage with a suitably filled bladder and a practical provocative test. If the history and examination disagree, investigate that disagreement. A dry examination just after he has emptied his bladder proves very little.
 
-Then ask what improvement would justify an implant. Being able to walk the golf course, return to work or manage one precautionary pad may matter more than a categorical label of continence. Record a validated symptom and quality-of-life measure, but keep the patient's own goal beside it. We need both when judging success.
+Pad number is easy to record, but it depends on pad capacity and the patient's changing behaviour. A pad-weight assessment can quantify leakage when severity or progress is uncertain, provided the collection conditions and activity are recorded. A diary helps separate urinary frequency from precautionary voiding.
+
+Then ask what improvement would justify an implant. Walking the golf course, returning to work or managing with one precautionary pad may matter more than a label of continence. Record a validated symptom and quality-of-life measure, and keep the patient's own goal beside it.
 
 **References:** [BAUS25]; [EAU26]; [AUA24].
 
@@ -130,13 +134,15 @@ Then ask what improvement would justify an implant. Being able to walk the golf 
 
 **Speaker notes**
 
-Do not let conservative management become an indefinite holding pattern. Equally, do not interrupt convincing recovery without a reason. Establish what has been tried, whether pelvic-floor training was properly taught, and whether leakage is still improving.
+Do not let conservative management drift on indefinitely. But do not interrupt a convincing recovery without a reason either. Establish what has been tried, whether pelvic-floor training was properly taught, and whether leakage is still improving.
 
-BAUS allows a recovery period of at least six months for severe leakage and twelve for mild-to-moderate leakage. The AUA permits surgery from six months when bothersome stress leakage is not improving despite conservative treatment, and recommends offering it at one year when it persists. Anticipated salvage treatment, recurrence and the patient's recovery trajectory still belong in the decision.
+BAUS allows a recovery period of at least six months for severe leakage and twelve for mild-to-moderate leakage. The AUA permits surgery from six months when bothersome stress leakage is not improving despite conservative treatment, and recommends offering it at one year when it persists.
 
-A sling remains an option for selected men with less severe leakage and favourable tissues. Severe leakage and previous radiation generally move the discussion towards AUS; the AUA specifically favours AUS over slings or adjustable balloons in irradiated men seeking surgery. Containment, collecting devices and continued conservative care remain legitimate choices.
+Anticipated salvage treatment, recurrence and the patient's recovery so far still belong in the decision.
 
-The MASTER trial supports an informed comparison, but its non-inferiority result does not mean that the procedures are interchangeable in every subgroup. It excluded previous continence implants and unresolved narrowing. Avoid exporting that result into complex revision practice.
+A sling remains an option for selected men with less severe leakage and favourable tissues. Severe leakage and previous radiation generally move the discussion towards AUS. The AUA specifically favours AUS over slings or adjustable balloons in irradiated men seeking surgery. Containment, collecting devices and continued conservative care remain legitimate choices.
+
+The MASTER trial supports an informed comparison, but its non-inferiority result does not make the procedures interchangeable in every subgroup. It excluded previous continence implants and unresolved narrowing, so it should not be applied to complex revision practice.
 
 **References:** [AUA24]; [BAUS25]; [EAU26]; [MASTER22].
 
@@ -155,13 +161,13 @@ The MASTER trial supports an informed comparison, but its non-inferiority result
 
 **Speaker notes**
 
-Ask the patient to operate a demonstration pump. Watch what happens rather than asking whether his hands are all right. Arthritis, neuropathy, tremor and weak pinch may emerge only when the task is attempted.
+Ask the patient to operate a demonstration pump, and watch what happens. Arthritis, neuropathy, tremor and weak pinch may only show when he attempts the task.
 
-Access matters as much as strength. Can he reach the proposed hemiscrotum while seated? Obesity, a high scrotum, limited hip movement or another scrotal device can make a technically satisfactory pump unusable. Agree the side with him; dominant hand alone is not the answer.
+Access matters as much as strength. Can he reach the proposed side of the scrotum while seated? Obesity, a high scrotum, limited hip movement or another scrotal device can make a well placed pump unusable. Agree the side with him, because his dominant hand alone does not settle it.
 
-Assess whether he understands cycling, deactivation and what to tell another clinician before catheterisation. Cognitive decline and progressive disease change the long-term plan. Family support is helpful, but does not automatically solve inability to operate a device when alone.
+Check that he understands cycling, deactivation and what to tell another clinician before catheterisation. Cognitive decline and progressive disease change the long-term plan. Family support helps, but it does not automatically help a man who cannot operate the device when he is alone.
 
-Frailty is not simply an age cutoff. Balance anaesthetic burden, recovery, expected benefit and the likelihood of future revision. If safe independent use is unlikely, reconsider the treatment rather than burying that concern in the consent form.
+Frailty is more than an age cutoff. Balance anaesthetic burden, recovery, expected benefit and the likelihood of future revision. If safe independent use is unlikely, reconsider the treatment.
 
 **References:** [AUA24]; [ICS16]; [CCIFU].
 
@@ -180,13 +186,15 @@ Frailty is not simply an age cutoff. Balance anaesthetic burden, recovery, expec
 
 **Speaker notes**
 
-Here, flexion means flexible cystoscopy. AUA recommends it before stress-incontinence surgery. BAUS selects cystoscopy for indications alongside its video-urodynamics pathway, or combines it with standard urodynamics where video is unavailable. EAU describes selective cystoscopy for narrowing or bladder pathology, with a weak general LUTS recommendation when findings would change diagnosis or treatment.
+Here, flexion means flexible cystoscopy. The AUA recommends it before stress-incontinence surgery. BAUS selects cystoscopy for indications alongside its video-urodynamics pathway, or combines it with standard urodynamics where video is unavailable. EAU describes selective cystoscopy for narrowing or bladder pathology, with a weak general recommendation when the findings would change diagnosis or treatment.
 
-My practical preference before an AUS is to inspect the urethra and bladder in advance, so an unexpected finding can be discussed before the day of implantation. That preference should be labelled as such, rather than attributed to unanimous guideline agreement. Repeat assessment is appropriate after intervening urethral treatment or new obstructive symptoms.
+Our practical preference before an AUS is to inspect the urethra and bladder in advance, so that an unexpected finding can be discussed before the day of implantation. That is our preference, because the guidelines do not agree. Repeat the assessment after any urethral treatment or new obstructive symptoms.
 
 Look for a stricture, vesicourethral anastomotic stenosis, bladder-neck contracture, foreign material or previous cuff erosion. Bladder stones, tumour and significant radiation changes may alter treatment or predict repeated instrumentation.
 
-With suspected narrowing, add flow and residual assessment and define the site and length. Retrograde urethrography, sometimes with a voiding study, is useful when reconstruction is being considered or the segment cannot be characterised endoscopically. Do not turn a diagnostic cystoscopy into unplanned dilation simply to complete the examination.
+With suspected narrowing, add flow and residual assessment and define the site and length. Retrograde urethrography, sometimes with a voiding study, is useful when reconstruction is being considered or the segment cannot be assessed endoscopically.
+
+Do not turn a diagnostic cystoscopy into an unplanned dilation simply to complete the examination.
 
 **References:** [BAUS25]; [AUA24]; [EAU26]; [EAUSTR26].
 
@@ -205,13 +213,15 @@ With suspected narrowing, add flow and residual assessment and define the site a
 
 **Speaker notes**
 
-BAUS favours video-urodynamics in the surgical pathway. EAU's table recommends urodynamics before invasive treatment, with weak strength; its surrounding narrative still discusses selective testing and limited outcome evidence. AUA permits testing when diagnosis or counselling benefits, rather than making it universal. The older ICS consensus also takes a selective approach.
+BAUS favours video-urodynamics in the surgical pathway. EAU recommends urodynamics before invasive treatment, with weak strength, and its narrative still discusses selective testing and limited outcome evidence. The AUA permits testing when it helps diagnosis or counselling. The older ICS consensus also takes a selective approach.
 
-The yield is greatest when stress leakage is uncertain, urgency is dominant, emptying is poor, compliance is a concern, or previous treatment makes the mechanism complicated. In an uncomplicated man with demonstrable severe stress leakage, reassuring emptying and no concerning storage symptoms, urodynamics may add little under the AUA approach. That does not erase the different BAUS and EAU positions.
+The yield is greatest when stress leakage is uncertain, urgency is dominant, emptying is poor, compliance is a concern, or previous treatment has complicated the mechanism.
 
-Before requesting the test, state the question: is this unsafe storage, obstruction, weak contraction, or simply a bladder that never gets a chance to fill? Decide in advance what would change surgery or counselling.
+In an uncomplicated man with demonstrable severe stress leakage, reassuring emptying and no worrying storage symptoms, urodynamics may add little under the AUA approach. BAUS and EAU still take a different position.
 
-No comparative trial identified in this search established that routine testing itself improves AUS outcomes for every candidate. A sensible investigation can be recommended by consensus without its universal use having been proven superior.
+Before requesting the test, state the question. Is this unsafe storage, obstruction, weak contraction, or a bladder that never gets a chance to fill? Decide in advance what would change surgery or counselling.
+
+We found no comparative trial showing that routine testing itself improves AUS outcomes for every candidate. A consensus can recommend a sensible investigation without proof that its universal use is superior.
 
 **References:** [BAUS25]; [EAU26]; [AUA24]; [ICS16].
 
@@ -230,13 +240,15 @@ No comparative trial identified in this search established that routine testing 
 
 **Speaker notes**
 
-A man who leaks throughout filling may never reach a meaningful storage challenge. A small recorded capacity can reflect leakage, urgency, discomfort, filling conditions or genuinely poor storage. Those possibilities have different implications.
+A man who leaks throughout filling may never reach a meaningful storage challenge. A small recorded capacity can reflect leakage, urgency, discomfort, filling conditions or genuinely poor storage, and each of those leads to a different decision.
 
-Review the actual traces, pressure subtraction, filling rate, leakage and the reason filling stopped. A compliance value calculated during artefact or substantial unaccounted leakage should not acquire authority simply because the machine printed it. Compare with his diary and usual voided volumes.
+Review the actual traces, pressure subtraction, filling rate, leakage and the reason filling stopped. A compliance value calculated during artefact or substantial unrecorded leakage carries no authority just because the machine printed it. Compare it with his diary and usual voided volumes.
 
-An intubated pressure-flow study may inhibit voiding or alter outlet behaviour. Conversely, a man who empties by abdominal straining through a very incompetent outlet may not behave the same after continence surgery. Repeat free flow and residual measurements under representative conditions, and explain the remaining uncertainty.
+A catheter in place during a pressure-flow study may inhibit voiding or alter outlet behaviour. And a man who empties by abdominal straining through a very incompetent outlet may not behave the same after continence surgery. Repeat free flow and residual measurements under representative conditions, and explain the remaining uncertainty.
 
-The pathway is: establish the dominant symptom and demonstrable stress leakage; assess urine, diary, flow and residual; evaluate urethral anatomy; use the chosen guideline-based urodynamic strategy; then classify storage safety, emptying and outlet stability. If a study is technically inadequate and the result would determine whether implantation is safe, investigate further. Do not convert an uninterpretable trace into either a contraindication or reassurance.
+The pathway runs like this. Establish the dominant symptom and demonstrable stress leakage. Assess urine, diary, flow and residual, and evaluate the urethral anatomy. Use the chosen guideline-based urodynamic strategy, then classify storage safety, emptying and outlet stability.
+
+If a study is technically inadequate and its result would decide whether implantation is safe, investigate further. An uninterpretable trace is neither a contraindication nor reassurance.
 
 **References:** [BAUS25]; [AUA24]; [ICS16]; [UDS14].
 
@@ -255,11 +267,13 @@ The pathway is: establish the dominant symptom and demonstrable stress leakage; 
 
 **Speaker notes**
 
-Consent includes residual leakage, urgency, erosion, infection, mechanical failure and revision. Radiation and previous surgery change those risks; future instrumentation needs precautions.
+Consent includes residual leakage, urgency, erosion, infection, mechanical failure and revision. Radiation and previous surgery change those risks, and future instrumentation needs precautions.
 
-AUSCO gives contemporary AMS 800 context: 115 primary implants, including 25 previously irradiated men. At twelve months after activation, 61 of 101 reporting participants used zero pads. It was a manufacturer-funded, single-arm study in expert centres; missing outcomes and one-year follow-up limit inference.
+AUSCO gives contemporary AMS 800 context: 115 primary implants, including 25 previously irradiated men. At twelve months after activation, 61 of 101 reporting participants used zero pads. It was a manufacturer-funded, single-arm study in expert centres, and missing outcomes and one-year follow-up limit what we can infer.
 
-The first 116-recipient ContiClassic series reported 93.2% Kaplan-Meier device survival at twelve months. A standardised continence result and primary/revision or radiation subgroup outcomes could not be verified in the accessible abstract. That is early survival information, not pad freedom or a comparative device claim.
+The first 116-recipient ContiClassic series reported 93.2% Kaplan-Meier device survival at twelve months. A standardised continence result and primary, revision or radiation subgroup outcomes could not be verified in the accessible abstract.
+
+That tells us about early device survival. It does not tell us about pad freedom, and it makes no comparison between devices.
 
 Quote each endpoint with its population and time horizon. The patient should know what the device may improve and what happens if it has to be removed.
 
@@ -282,11 +296,15 @@ Quote each endpoint with its population and time horizon. The patient should kno
 
 This fictional patient uses six pads on an active day. Stress leakage is clearly demonstrated. He also has urgency leakage, and urodynamics shows detrusor overactivity, with reassuring storage pressures between contractions and adequate emptying. His urethra is patent.
 
-Would you implant now or treat the bladder first? [Pause for eight seconds.] Both may be defensible in general AUS practice, depending on which symptom dominates, the severity of urgency and the device's instructions.
+Would you implant now or treat the bladder first? [Pause for eight seconds.] Both may be defensible in general AUS practice, depending on which symptom dominates, how severe the urgency is and what the device's instructions say.
 
-Overactive bladder is a symptom syndrome. Detrusor overactivity is an observation during filling. One does not perfectly predict the other. A systematic review found insufficient grounds to deny stress-incontinence surgery solely because DO was present, but the studies and definitions were heterogeneous. That is not a guarantee that urgency or device durability is unaffected.
+Overactive bladder is a symptom syndrome, whereas detrusor overactivity is an observation during filling. One does not perfectly predict the other.
 
-My approach would be to offer treatment for bothersome storage symptoms, agree a separate goal for urgency, and reassess. If stress leakage remains the dominant burden and storage is safe, AUS can remain appropriate. For ContiClassic specifically, the retrieved IFU requires these bladder conditions to be treated and controlled or resolved; irresolvable instability is contraindicated. General reassurance about DO must not override that device boundary.
+A systematic review found insufficient grounds to deny stress-incontinence surgery solely because DO was present, but the studies and definitions were heterogeneous. It does not guarantee that urgency or device durability is unaffected.
+
+Our approach would be to offer treatment for bothersome storage symptoms, agree a separate goal for urgency, and reassess. If stress leakage remains the dominant burden and storage is safe, AUS can remain appropriate.
+
+For ContiClassic specifically, the retrieved IFU requires these bladder conditions to be treated and controlled or resolved, and irresolvable instability is contraindicated. General reassurance about DO must not override that device boundary.
 
 **References:** [DO24]; [OAB11]; [DOFAIL23]; [CCIFU].
 
@@ -305,13 +323,15 @@ My approach would be to offer treatment for bothersome storage symptoms, agree a
 
 **Speaker notes**
 
-Begin with the reversible contributors: fluid pattern, caffeine, constipation, infection when clinically suspected, and medications. Bladder training and an appropriate antimuscarinic or beta-3 agonist may be useful, chosen with the patient's comorbidity, interactions and residual urine in mind. The lecture is not prescribing a universal drug sequence.
+Begin with the reversible contributors: fluid pattern, caffeine, constipation, infection when clinically suspected, and medications. Bladder training and an appropriate antimuscarinic or beta-3 agonist may be useful, chosen with the patient's comorbidity, interactions and residual urine in mind. We are not prescribing a universal drug sequence.
 
-Botulinum toxin can be effective for refractory urgency, but its implications matter before an AUS. Could this patient catheterise if needed? How would repeated cystoscopic injections be delivered safely through the future cuff? If retention develops, a successful storage treatment may have created a different functional problem.
+Botulinum toxin can be effective for refractory urgency, but think through its consequences before an AUS. Could this patient catheterise if needed? How would repeated cystoscopic injections be delivered safely through the future cuff? If retention develops, we have exchanged one functional problem for another.
 
-Neuromodulation can also be considered through an appropriate overactive-bladder pathway. Its suitability does not eliminate the need to establish whether the outlet is stable and emptying is adequate.
+Neuromodulation can also be considered through an appropriate overactive-bladder pathway. We still need to establish that the outlet is stable and emptying is adequate.
 
-Return to the patient's two outcomes: stress leakage and urgency leakage. Improvement in one is not failure because the other persists, provided that possibility was properly discussed. Conversely, do not dismiss severe postoperative urgency as an inevitable inconvenience. Reassess it, including infection, residual urine and device function, before simply escalating medication.
+Return to the patient's two outcomes: stress leakage and urgency leakage. Improvement in one is not failure because the other persists, provided that possibility was properly discussed.
+
+But do not dismiss severe postoperative urgency as an inevitable inconvenience. Reassess it, including infection, residual urine and device function, before escalating medication.
 
 **References:** [BAUS25]; [AUAOAB24]; [OAB11]; [CCIFU].
 
@@ -332,13 +352,15 @@ Return to the patient's two outcomes: stress leakage and urgency leakage. Improv
 
 Our second fictional patient has demonstrable stress leakage but voids slowly, strains and repeatedly leaves urine behind. The pressure-flow study shows a weak contraction. Is that enough to refuse him an AUS? [Pause for eight seconds.]
 
-First exclude a narrowing, review medications and neurological history, and compare the laboratory void with his usual void. A large residual with a weak contraction is a problem to explain; it is not a self-explanatory diagnosis. A technically poor study should not define his future treatment.
+First exclude a narrowing, review medications and neurological history, and compare the laboratory void with his usual void. A large residual with a weak contraction still needs an explanation. A technically poor study should not define his future treatment.
 
-Selected retrospective data suggest that men labelled as having detrusor underactivity can do reasonably well after AUS. However, one such study excluded early complications requiring revision, and the accessible report does not allow confident extrapolation to every patient with severe retention or an acontractile bladder.
+Selected retrospective data suggest that men labelled as having detrusor underactivity can do reasonably well after AUS. But one such study excluded early complications requiring revision, and the accessible report does not allow confident extrapolation to every patient with severe retention or an acontractile bladder.
 
-An AUS opens during cycling, so it is different from a permanently obstructive outlet procedure. Nevertheless, we cannot promise that a man who empties mainly by straining will empty equally well after implantation.
+An AUS opens during cycling, so it differs from a permanently obstructive outlet procedure. Even so, we cannot promise that a man who empties mainly by straining will empty equally well after implantation.
 
-My initial decision is investigate further and establish a practical emptying plan. If that becomes reliable, implantation may be reasonable. If he cannot empty or safely manage the likely rescue strategy, reconsider AUS. There is no universal residual or contractility number that makes this decision for us.
+Our initial decision is to investigate further and establish a practical emptying plan. If that becomes reliable, implantation may be reasonable. If he cannot empty or safely manage the likely rescue strategy, reconsider AUS.
+
+No universal residual or contractility number makes this decision for us.
 
 **References:** [DU23]; [AUA24]; [ICSUDS17]; [CCIFU].
 
@@ -357,13 +379,13 @@ My initial decision is investigate further and establish a practical emptying pl
 
 **Speaker notes**
 
-The prospect of intermittent catheterisation is not an automatic exclusion from AUS, but neither is it a minor footnote. A small, selected retrospective series supports the feasibility of bulbar AUS in some men who continue catheterisation. It does not demonstrate safety equivalence with men who never catheterise.
+Intermittent catheterisation does not automatically exclude an AUS, but it changes both the consent and the operation. A small, selected retrospective series supports the feasibility of bulbar AUS in some men who continue catheterisation. It does not demonstrate equivalent safety to men who never catheterise.
 
-Clarify whether the problem is weak emptying, recurrent narrowing or an unresolved outlet that would be better treated first. Establish actual catheter competence, including access and recognition of resistance. Do not discover after implantation that the patient can squeeze a pump but cannot perform the drainage strategy you have proposed.
+Clarify whether the problem is weak emptying, recurrent narrowing or an unresolved outlet that would be better treated first. Establish actual catheter competence, including access and recognition of resistance. We do not want to discover after implantation that the patient can squeeze a pump but cannot carry out the drainage plan.
 
-Any catheterisation requires the cuff to be fully deflated and the device deactivated according to its instructions. Use the least traumatic appropriate instrumentation; stop when resistance is unexplained. A deflated cuff's advertised internal diameter is not a safe catheter-size chart because urethral tissue occupies that space.
+Any catheterisation requires the cuff to be fully deflated and the device deactivated according to its instructions. Use the least traumatic appropriate instrument, and stop when resistance is unexplained. A deflated cuff's advertised internal diameter is not a safe catheter-size chart, because urethral tissue occupies that space.
 
-Repeated instrumentation and prolonged indwelling drainage deserve a specialist plan, potentially including an alternative drainage route. Observational evidence links prolonged urethral catheterisation with erosion. It does not establish a universally safe duration or prove that careful intermittent catheterisation carries the same risk.
+Repeated instrumentation and prolonged indwelling drainage need a specialist plan, which may include an alternative drainage route. Observational evidence links prolonged urethral catheterisation with erosion. It does not establish a universally safe duration, or prove that careful intermittent catheterisation carries the same risk.
 
 **References:** [CIC23]; [CATH13]; [CCIFU]; [ICS16].
 
@@ -387,9 +409,11 @@ Poor compliance needs its own decision. It describes the pressure-volume relatio
 
 Check the trace and the circumstances. Was there a sustained rise in detrusor pressure, adequate filling and valid subtraction? Consider radiation, fibrosis, neurological disease and the effect of chronic leakage. Assess renal function and upper tracts when there is concern about high-pressure storage or impaired emptying.
 
-Optimise the bladder and repeat the assessment that will show whether storage is acceptable. Refractory cases may need reconstructive or diversion advice; increasing outlet resistance is not the immediate objective. Continence studies reporting acceptable pad use with abnormal urodynamics do not prove renal safety.
+Optimise the bladder and repeat the assessment that will show whether storage is acceptable. Refractory cases may need reconstructive or diversion advice before anyone increases outlet resistance. Continence studies reporting acceptable pad use with abnormal urodynamics do not prove renal safety.
 
-Our four decisions are now clearer. Implant when the leakage mechanism, storage, emptying and device suitability align. Optimise when a treatable bladder problem is dominant. Investigate when the measurements are unreliable or the mechanism uncertain. Reconsider AUS when safe storage, emptying or device operation cannot be achieved. Those categories are a clinical framework, not a validated score.
+Our four decisions are now clearer. Implant when the leakage mechanism, storage, emptying and device suitability align. Optimise when a treatable bladder problem is dominant. Investigate when the measurements are unreliable or the mechanism uncertain. Reconsider AUS when safe storage, emptying or device operation cannot be achieved.
+
+Those categories are a clinical framework and have not been validated as a score.
 
 **References:** [UDS09]; [ICS16]; [BAUS25]; [CCIFU].
 
@@ -408,13 +432,15 @@ Our four decisions are now clearer. Implant when the leakage mechanism, storage,
 
 **Speaker notes**
 
-The shorthand stricture hides different operations and different risks. An anterior urethral stricture involves the urethra and spongiosum. Bladder-neck contracture commonly follows surgery with the prostate still present in part. After radical prostatectomy, the relevant narrowing is usually the vesicourethral anastomosis. Use the anatomy in the discussion and in the referral.
+The shorthand stricture hides different operations and different risks. An anterior urethral stricture involves the urethra and spongiosum. Bladder-neck contracture commonly follows surgery with part of the prostate still present. After radical prostatectomy, the relevant narrowing is usually the vesicourethral anastomosis.
 
-Review every dilation, urethrotomy and reconstruction, including operative reports. Establish how quickly the narrowing recurred and whether patency currently depends on repeated calibration. Add imaging when the anatomy, length or reconstructive plan requires it.
+Use the anatomy in the discussion and in the referral.
 
-Stable does not mean that a scope happened to pass once. It means a credible interval without recurrence, with symptoms, flow, residual and endoscopic findings that support a durable outlet.
+Review every dilation, urethrotomy and reconstruction, including the operative reports. Establish how quickly the narrowing recurred and whether patency currently depends on repeated calibration. Add imaging when the anatomy, length or reconstructive plan requires it.
 
-Finally, think ahead. A patient who is likely to need further incision, tumour surveillance or treatment for radiation bleeding needs an access strategy before a cuff makes those procedures more complicated.
+We call an outlet stable after a credible interval without recurrence, with symptoms, flow, residual and endoscopic findings that support a durable outlet. A scope that happened to pass once does not show that.
+
+Finally, think ahead. A patient who is likely to need further incision, tumour surveillance or treatment for radiation bleeding needs an access plan before a cuff makes those procedures more complicated.
 
 **References:** [EAUSTR26]; [BAUS25]; [AUA24].
 
@@ -433,13 +459,15 @@ Finally, think ahead. A patient who is likely to need further incision, tumour s
 
 **Speaker notes**
 
-BAUS recommends waiting at least six months after treating a post-prostatectomy narrowing, with no recurrence before continence surgery. That is a real consensus recommendation, not a number we should invent or dismiss. However, it is not a randomised demonstration that six months is the unique safe interval.
+BAUS recommends waiting at least six months after treating a post-prostatectomy narrowing, with no recurrence, before continence surgery. That is a genuine consensus recommendation, although it is not a randomised demonstration that six months is the unique safe interval.
 
-The AUA discussion describes interval cystoscopy at least four to six weeks after treatment of symptomatic bladder-neck contracture or anastomotic stenosis. That is a reassessment point, not a guarantee that every reconstructed or irradiated urethra is ready for a cuff. EAU's three-to-six-month advice after redo vesicourethral anastomosis belongs to that particular reconstructive setting.
+The AUA discussion describes interval cystoscopy at least four to six weeks after treatment of symptomatic bladder-neck contracture or anastomotic stenosis. That is a point for reassessment, with no guarantee that every reconstructed or irradiated urethra is ready for a cuff.
 
-Staged treatment gives us an opportunity to observe recurrence and avoid instrumenting a newly implanted cuff. Synchronous treatment has been reported in selected expert series, but should not become the default for aggressive, recurrent disease.
+EAU's three-to-six-month advice after redo vesicourethral anastomosis belongs to that particular reconstructive setting.
 
-My decision would use the recurrence pattern, tissue quality, planned future access and the guideline context. A patient who has repeatedly restenosed after a short interval has not become low risk because the calendar reaches a convenient date.
+Staged treatment lets us observe recurrence and avoid instrumenting a newly implanted cuff. Synchronous treatment has been reported in selected expert series, but should not become the default for aggressive, recurrent disease.
+
+Our decision would use the recurrence pattern, tissue quality, planned future access and the guideline context. A patient who has repeatedly restenosed after a short interval has not become low risk because the calendar reaches a convenient date.
 
 **References:** [BAUS25]; [AUA24]; [EAUSTR26]; [ICS16].
 
@@ -460,11 +488,13 @@ My decision would use the recurrence pattern, tissue quality, planned future acc
 
 This fictional patient has had radical prostatectomy, salvage radiotherapy and repeated treatment of an anastomotic stenosis. He leaks severely when the outlet is open, but the narrowing returns. He understandably wants continence now.
 
-Would you put an AUS into that pathway? [Pause for six seconds.] My first answer is to defer the implant and obtain a specialist reconstructive plan. Current patency is not durable, and more endoscopic treatment is likely. We also need to understand the bladder, including compliance and the burden of radiation cystitis.
+Would you put an AUS into that pathway? [Pause for six seconds.] Our first answer is to defer the implant and obtain a specialist reconstructive plan. Current patency is not durable, and more endoscopic treatment is likely. We also need to understand the bladder, including compliance and the burden of radiation cystitis.
 
-Radiation is associated with worse continence and greater erosion or explantation risk in pooled observational AUS studies. Those estimates combine different follow-up periods and case mixes; they are not his personal probability of failure.
+Radiation is associated with worse continence and greater erosion or explantation risk in pooled observational AUS studies. Those estimates combine different follow-up periods and case mixes, so they cannot give his personal probability of failure.
 
-Definitive reconstruction followed by demonstrated stability and later AUS may be reasonable. In a devastated outlet with unsafe or intolerable bladder function, a different drainage or diversion strategy may ultimately offer the better life. There is more than one defensible endpoint. Repeatedly restoring a narrow lumen is not necessarily progress if it prevents us agreeing a durable plan.
+Definitive reconstruction followed by demonstrated stability and later AUS may be reasonable. In a devastated outlet with unsafe or intolerable bladder function, a different drainage or diversion strategy may ultimately offer the better life.
+
+There is more than one defensible endpoint. Repeatedly reopening a narrow lumen is not necessarily progress if it stops us agreeing a durable plan.
 
 **References:** [RT22]; [BAUS25]; [EAUSTR26]; [AUA24].
 
@@ -483,13 +513,15 @@ Definitive reconstruction followed by demonstrated stability and later AUS may b
 
 **Speaker notes**
 
-Previous urethroplasty is not a single exposure. Was the urethra transected? Was there a graft, a posterior reconstruction, a prior cuff erosion or a fistula? Where is the viable spongiosum now? Those details should change where and how we dissect.
+Previous urethroplasty covers several different operations. Was the urethra transected? Was there a graft, a posterior reconstruction, a prior cuff erosion or a fistula? Where is the viable spongiosum now? Those details should change where and how we dissect.
 
-The operation must preserve what remains rather than reproduce the dissection of a virgin bulbar urethra. Avoid unnecessarily extending mobilisation through a repaired segment. A technically convenient cuff site may carry a poor tissue substrate. If a safe plane cannot be established, pause and reconsider the approach or stage the operation.
+The operation must preserve what remains. Avoid extending mobilisation through a repaired segment unless it is needed. A technically convenient cuff site may have poor tissue. If a safe plane cannot be established, pause and reconsider the approach or stage the operation.
 
-A multicentre cohort published in the 2026 Journal of Urology issue reports different subsequent AUS outcomes after transecting and non-transecting urethroplasty. This adds evidence beyond the older guidance, but it remains observational: stricture severity, anatomy, selection and unequal follow-up confound the comparison. It supports a more detailed reconstructive history and careful counselling, not a retrospective claim that every transection was avoidable.
+A multicentre cohort published in the 2026 Journal of Urology issue reports different subsequent AUS outcomes after transecting and non-transecting urethroplasty. This adds evidence beyond the older guidance, but it remains observational: stricture severity, anatomy, selection and unequal follow-up confound the comparison.
 
-The practical point is to plan the reconstruction and any future continence surgery as connected decisions. After previous erosion and explantation, healing, patency and realistic reimplantation expectations need to be demonstrated again.
+It supports taking a more detailed reconstructive history and counselling carefully, but it cannot support a retrospective claim that every transection was avoidable.
+
+The practical point is to plan the reconstruction and any future continence surgery together. After previous erosion and explantation, healing, patency and realistic reimplantation expectations need to be demonstrated again.
 
 **References:** [URETH26]; [BAUS25]; [AUA24]; [ICS16].
 
@@ -508,13 +540,15 @@ The practical point is to plan the reconstruction and any future continence surg
 
 **Speaker notes**
 
-Transcorporal placement can avoid a hazardous dorsal dissection and incorporate tunical tissue beneath part of the cuff. That is a plausible reconstructive purpose. It does not prove protection from erosion.
+Transcorporal placement can avoid a hazardous dorsal dissection and include tunical tissue beneath part of the cuff. That is a plausible reconstructive purpose, but it does not prove protection from erosion.
 
-The comparative retrospective evidence points in different directions. Some fragile-urethra series favour it; another high-risk series found more infection or erosion-related explantation in the transcorporal group. Surgeons tend to select it for the worst urethras, so confounding by indication is substantial in both directions.
+The comparative retrospective evidence points in different directions. Some fragile-urethra series favour it. Another high-risk series found more infection or erosion-related explantation in the transcorporal group. Surgeons tend to select it for the worst urethras, so confounding by indication is substantial in both directions.
 
-Discuss corporal bleeding, erectile consequences and implications for an existing or future penile prosthesis. Sizing must account for the tissue actually enclosed, using the relevant device protocol; this is not permission to apply an improvised correction factor.
+Discuss corporal bleeding, erectile consequences and the implications for an existing or future penile prosthesis. Sizing must account for the tissue actually enclosed, using the relevant device protocol and no improvised correction factor.
 
-Tandem cuffs, wraps, relocation and capsular procedures also consume tissue or add complexity. Choose a manoeuvre because it addresses a demonstrated problem, with an explicit limitation. If the proposal is simply to squeeze a failing urethra harder, the diagnosis and the endpoint need another look.
+Tandem cuffs, wraps, relocation and capsular procedures also consume tissue or add complexity. Choose a manoeuvre because it addresses a demonstrated problem, and state its limitation.
+
+If the proposal is simply to squeeze a failing urethra harder, the diagnosis and the endpoint need another look.
 
 **References:** [TC20]; [TC23]; [BAUS25]; [AP23].
 
@@ -533,15 +567,15 @@ Tandem cuffs, wraps, relocation and capsular procedures also consume tissue or a
 
 **Speaker notes**
 
-Is a fifteen-minute wash or scrub necessary before AUS implantation? No direct evidence found establishes a universal requirement.
+Is a fifteen-minute wash or scrub necessary before AUS implantation? We found no direct evidence that establishes a universal requirement.
 
 NICE advises soap washing the day before or day of surgery. That is different from operative skin preparation, surgical hand antisepsis, wound irrigation, external device dipping and internal device filling. Identify the activity before debating its duration.
 
-BAUS recommends a five-minute topical field scrub by Delphi consensus, explicitly acknowledging extrapolation from penile prosthesis and other implant surgery. It does not establish fifteen minutes as an AUS standard.
+BAUS recommends a five-minute topical field scrub by Delphi consensus, and acknowledges that this is extrapolated from penile prosthesis and other implant surgery. It does not establish fifteen minutes as an AUS standard.
 
-For hands, use the selected product's surgical antisepsis instructions. For the patient's skin, use the appropriate product and its application, contact and complete drying requirements. Waiting fifteen minutes cannot compensate for missed skin, an unsuitable product, pooled alcohol or a contaminated field.
+For hands, use the selected product's surgical antisepsis instructions. For the patient's skin, use the appropriate product and its application, contact and complete drying requirements.
 
-Absence of evidence for this ritual does not make antisepsis dispensable. We need correct, reproducible preparation.
+Waiting fifteen minutes cannot compensate for missed skin, an unsuitable product, pooled alcohol or a contaminated field. The lack of evidence for this ritual does not make antisepsis dispensable. We need correct, reproducible preparation.
 
 **References:** [BAUS25]; [NICE]; [WHO09]; [PREP24].
 
@@ -560,15 +594,17 @@ Absence of evidence for this ritual does not make antisepsis dispensable. We nee
 
 **Speaker notes**
 
-In a randomised study of one hundred patients having initial genitourinary prosthetic surgery, chlorhexidine-alcohol produced fewer positive post-preparation skin cultures than povidone-iodine. The reported proportions were eight versus thirty-two per cent. That is a microbiological endpoint in a mixed prosthesis population. It is not a demonstrated reduction in ContiClassic infection.
+In a randomised study of one hundred patients having initial genitourinary prosthetic surgery, chlorhexidine-alcohol produced fewer positive post-preparation skin cultures than povidone-iodine. The reported proportions were eight versus thirty-two per cent.
+
+That is a microbiological endpoint in a mixed prosthesis population. The study did not show fewer ContiClassic infections.
 
 A later retrospective AMS 800 study compared different povidone preparation protocols. It did not show an advantage for the intensified protocol, but era effects, reporting inconsistencies and limited follow-up reporting weaken the inference. It did not compare fifteen minutes against a shorter preparation.
 
-General SSI guidance supports an appropriate alcohol-based preparation where suitable, with alternatives for contraindications or anatomical requirements. The exact product matters around genital skin and mucosa. Check allergy, permitted application sites and the product information rather than exporting a study's formulation into every preparation field.
+General SSI guidance supports an appropriate alcohol-based preparation where suitable, with alternatives for contraindications or anatomical requirements. The exact product matters around genital skin and mucosa. Check allergy, permitted application sites and the product information before applying a study's formulation to every field.
 
-Do not remove hair routinely. If required for exposure or adhesion, clipping on the day is the general NICE recommendation; avoid skin trauma. BAUS's permissive wording on razors does not make razors an evidence-based necessity.
+Do not remove hair routinely. If it is required for exposure or adhesion, clipping on the day is the general NICE recommendation, and avoid skin trauma. BAUS's permissive wording on razors does not make razors an evidence-based necessity.
 
-Before draping and diathermy, confirm drying and absence of pooling in skin folds or under the patient. Those are practical safety requirements, not optional additions to the stopwatch.
+Before draping and diathermy, confirm drying and the absence of pooling in skin folds or under the patient. Those are practical safety requirements, whatever the stopwatch says.
 
 **References:** [YEUNG13]; [PREP24]; [NICE]; [CHLORA26]; [BAUS25].
 
@@ -587,13 +623,15 @@ Before draping and diathermy, confirm drying and absence of pooling in skin fold
 
 **Speaker notes**
 
-Treat symptomatic urinary infection and reassess before elective implantation. Asymptomatic bacteriuria is different. BAUS asks for a preoperative urine sample and treatment of infection. IDSA specifically suggests against screening for or treating asymptomatic bacteriuria solely for AUS implantation, although that recommendation rests on very low-quality evidence. Procedures involving urinary mucosal trauma are a separate situation.
+Treat symptomatic urinary infection and reassess before elective implantation. Asymptomatic bacteriuria is different.
 
-Agree the urine pathway with local microbiology rather than equating every positive culture with symptomatic infection. Choose prophylaxis using the implant policy, previous isolates, allergies and renal function. Complete administration at the appropriate time before incision, and redose when the agent and procedure require it.
+BAUS asks for a preoperative urine sample and treatment of infection. IDSA specifically suggests against screening for or treating asymptomatic bacteriuria solely for AUS implantation, although that recommendation rests on very low-quality evidence. Procedures involving urinary mucosal trauma are a separate situation.
+
+Agree the urine pathway with local microbiology, and do not equate every positive culture with symptomatic infection. Choose prophylaxis using the implant policy, previous isolates, allergies and renal function. Complete administration at the appropriate time before incision, and redose when the agent and procedure require it.
 
 Observational AUS evidence has not shown a convincing benefit from routine postoperative oral antibiotics. However, the retrieved ContiClassic IFU describes forty-eight hours of intravenous antibiotics and five days of oral antibiotics after discharge as general care. That conflicts with shorter-prophylaxis stewardship approaches.
 
-The response is to verify current regional labelling and agree a documented protocol with the implant service and microbiology. Do not silently ignore either source, and do not describe an extended regimen as universally proven to prevent infection.
+We would respond by verifying current regional labelling and agreeing a documented protocol with the implant service and microbiology. Do not silently ignore either source, and do not describe an extended regimen as universally proven to prevent infection.
 
 **References:** [IDSA19]; [BAUS25]; [AUAABX20]; [ABX18]; [CCIFU].
 
@@ -612,13 +650,15 @@ The response is to verify current regional labelling and agree a documented prot
 
 **Speaker notes**
 
-There are sensible ways to reduce contamination: prepare the equipment before opening the implant, establish a protected sterile handling area, minimise skin contact, and avoid unnecessary traffic and repeated hand-offs. My preference is fresh sterile gloves before handling the device and after any contamination concern. That is a practical control, not a claim that each glove change has independently been proven to reduce AUS infection.
+There are sensible ways to reduce contamination. Prepare the equipment before opening the implant, establish a protected sterile handling area, minimise skin contact, and avoid unnecessary traffic and repeated hand-offs.
 
-Minimal-touch AUS series are encouraging but compare different eras and unequal follow-up. We cannot attribute their results to one drape or one manoeuvre. Draping should maintain access and a stable clean field; adhesive products still require attention to skin and allergy.
+Our preference is fresh sterile gloves before handling the device and after any contamination concern. We offer that as a practical control, without claiming that each glove change has been proven to reduce AUS infection.
+
+Minimal-touch AUS series are encouraging, but they compare different eras and unequal follow-up. We cannot attribute their results to one drape or one manoeuvre. Draping should maintain access and a stable clean field, and adhesive products still require attention to skin and allergy.
 
 Separate wound irrigation from device dipping and internal filling. General NICE guidance does not support wound irrigation solely to prevent SSI. AUS consensus literature also acknowledges uncertainty about antibiotic irrigants. A hydrophilic coating's ability to absorb a solution does not establish that any chosen antibiotic mixture improves clinical outcomes.
 
-For ContiClassic, follow the verified device instructions and obtain the operative protocol for detailed preparation. Do not substitute a remembered AMS 800 preparation recipe or improvise an unverified antiseptic bath for an implant.
+For ContiClassic, follow the verified device instructions and obtain the operative protocol for detailed preparation. Do not substitute a remembered AMS 800 recipe or improvise an unverified antiseptic bath for an implant.
 
 **References:** [TOUCH23]; [NICE]; [AP23]; [CCIFU].
 
@@ -644,7 +684,7 @@ Then confirm the exact device and compatible components, available cuff sizes, p
 
 Finally, establish what happens if the urethra is injured or sterility is compromised. A checklist is most useful when it makes that response predictable.
 
-Audit completion of these steps. Do not use the duration of a wash as a proxy for the quality of the entire operation.
+Audit completion of these steps. The duration of a wash is not a measure of the quality of the whole operation.
 
 **References:** [NICE]; [BAUS25]; [CCIFU]; [AUAABX20].
 
@@ -663,13 +703,15 @@ Audit completion of these steps. Do not use the duration of a wash as a proxy fo
 
 **Speaker notes**
 
-Positioning should expose the bulbar urethra while protecting pressure points and respecting hip mobility. Check the patient before anaesthesia when restricted movement is likely to matter. Avoid accepting excessive flexion simply because it improves the first view.
+Positioning should expose the bulbar urethra while protecting pressure points and respecting hip mobility. Check the patient before anaesthesia when restricted movement is likely to matter. Do not accept excessive flexion simply because it improves the first view.
 
 For a standard male bulbar implant, a single-cuff perineal approach has guideline support. Other approaches may be appropriate for selected anatomy and experienced operators, but convenience alone should not determine access to a compromised urethra.
 
 Plan where the balloon and pump will go at the same time. Previous pelvic surgery, inguinal mesh, abdominal scars and an existing penile prosthesis alter that plan. Have the relevant operative records available.
 
-If exposure is poor, improve the incision, retraction or positioning deliberately. Excessive traction to compensate for a small working space transfers force to the urethra. The purpose of exposure is to make the next decision visible, not merely to shorten the incision.
+If exposure is poor, improve the incision, retraction or positioning deliberately. Excessive traction to compensate for a small working space transfers force to the urethra.
+
+The purpose of exposure is to make the next decision visible, and a shorter incision is not worth losing that.
 
 **References:** [AUA24]; [ICS16]; [AP23].
 
@@ -690,13 +732,13 @@ If exposure is poor, improve the incision, retraction or positioning deliberatel
 
 The goal is a cuff around a viable urethral segment, not a completely skeletonised urethra. In a straightforward case, the proximal bulbar region often offers useful spongiosal tissue. Prior repair, erosion or scarring may change which segment is safest.
 
-The dorsal relationship to the corporal bodies is where a small error can become a full-thickness injury. Use controlled dissection with a clear view of the plane. Do not pass an instrument blindly behind the urethra and assume that resistance represents a harmless adhesion.
+The dorsal relationship to the corporal bodies is where a small error can become a full-thickness injury. Use controlled dissection with a clear view of the plane. Do not pass an instrument blindly behind the urethra and assume that resistance is a harmless adhesion.
 
-Preserve spongiosum and vascular attachments, limit circumferential mobilisation to what the cuff requires, and control bleeding without indiscriminate thermal injury. In scarred tissue, repeated forceful spreading can be more damaging than a deliberate change of approach.
+Preserve spongiosum and vascular attachments, limit circumferential mobilisation to what the cuff requires, and control bleeding without indiscriminate thermal injury. In scarred tissue, repeated forceful spreading can do more damage than a deliberate change of approach.
 
 If the plane disappears, stop. Improve the view, reassess the site or seek reconstructive help. Transcorporal placement may be an option in selected hands, but it should be a considered plan with consent and appropriate expertise.
 
-Tissue preservation has a clear biological rationale. The precise contribution of each manoeuvre to erosion prevention has not been separated in high-quality comparative trials.
+Tissue preservation has a clear biological rationale. The contribution of each manoeuvre to erosion prevention has not been separated in high-quality comparative trials.
 
 **References:** [ICS16]; [AP23]; [CCIFU]; [URETH26].
 
@@ -715,13 +757,15 @@ Tissue preservation has a clear biological rationale. The precise contribution o
 
 **Speaker notes**
 
-Measurement fails when the tissue being measured is not the tissue that the cuff will ultimately enclose. Retraction can stretch the urethra. A tight measuring tape can compress it. Included fat, scar or muscle can enlarge the apparent circumference. Haematoma and tissue distortion create further uncertainty.
+Measurement fails when the tissue being measured is not the tissue the cuff will finally enclose. Retraction can stretch the urethra, and a tight measuring tape can compress it. Included fat, scar or muscle can enlarge the apparent circumference, and haematoma and tissue distortion add further uncertainty.
 
-Relax the traction, confirm the plane and use the manufacturer's sizing method. Recheck an implausible reading rather than selecting the familiar size from memory. In a reconstruction or transcorporal operation, the enclosed tissue is different; do not apply an unsupported numerical adjustment simply because it is traditional.
+Relax the traction, confirm the plane and use the manufacturer's sizing method. Recheck an implausible reading; do not select the familiar size from memory. In a reconstruction or transcorporal operation the enclosed tissue is different, so do not apply an unsupported numerical adjustment simply because it is traditional.
 
-Too small a cuff can create excessive compression, retention and tissue injury. Too large a cuff can leave poor coaptation and persistent leakage. Neither problem is reliably solved by choosing a stronger pressure-regulating balloon.
+Too small a cuff can cause excessive compression, retention and tissue injury. Too large a cuff can leave poor coaptation and persistent leakage. Neither problem is reliably solved by choosing a stronger pressure-regulating balloon.
 
-Assess the final relationship and device function, with an appropriate integrity check when indicated. If the finding and measurement disagree, investigate the discrepancy. The early ContiClassic safety series included revisions attributed to sizing errors, which reinforces the practical importance of this step without telling us which sizing strategy is superior.
+Assess the final relationship and device function, with an appropriate integrity check when indicated. If the finding and the measurement disagree, investigate the discrepancy.
+
+The early ContiClassic safety series included revisions attributed to sizing errors. That reinforces the importance of this step without telling us which sizing strategy is superior.
 
 More available sizes may help a surgeon choose a fit. Their availability alone is not evidence of better long-term continence or less erosion.
 
@@ -744,11 +788,13 @@ More available sizes may help a surgeon choose a fit. Their availability alone i
 
 Suspect injury when the plane is wrong, the wall appears breached, fluid escapes or there has been difficult instrumentation. Inspection, an appropriate controlled leak test and cystoscopy can help, but a negative test does not make aggressive dissection harmless. No single test has proven superiority for preventing erosion.
 
-Recognised urethral injury should change the objective of the operation. Stop implantation, define the injury, repair when appropriate and establish suitable drainage. Explain the change to the patient afterwards, and plan reassessment of healing and patency before considering another implant. Consensus intervals are guides; the injury and reconstruction determine the actual pathway.
+Recognised urethral injury should change the objective of the operation. Stop implantation, define the injury, repair when appropriate and establish suitable drainage. Explain the change to the patient afterwards, and plan reassessment of healing and patency before considering another implant.
+
+Consensus intervals are guides. The injury and the reconstruction determine the actual pathway.
 
 For contamination, stop handling the device and identify what has been contaminated: a glove, instrument, component or the operative field. Replace contaminated disposable components and restore a clean setup as appropriate. Gross contamination or an uncertain tissue field may justify abandoning implantation and staging it.
 
-These are single-use implants. A dropped or contaminated component should not return to service after an improvised antiseptic soak. Finishing with no implant can be the correct technical outcome when the conditions for safe implantation have disappeared.
+These are single-use implants. A dropped or contaminated component should not return to service after an improvised antiseptic soak. Finishing with no implant can be the correct outcome when the conditions for safe implantation have gone.
 
 **References:** [BAUS25]; [AP23]; [ICS16]; [CCIFU].
 
@@ -769,11 +815,13 @@ These are single-use implants. A dropped or contaminated component should not re
 
 A routine retropubic pocket can become hazardous after pelvic surgery, radiation, mesh repair or previous implants. Review that anatomy before entering the space. Do not overcome unexpected resistance with a stronger finger or instrument: bladder, bowel and vessels may be close to the intended route.
 
-An alternative ectopic or submuscular position may be appropriate in experienced hands, with attention to the device's permitted placement, secure coverage, access and tubing route. These approaches also have limitations, including malposition, palpability and herniation. A different pocket is not automatically a safer pocket unless it is created correctly.
+An alternative ectopic or submuscular position may be appropriate in experienced hands, with attention to the device's permitted placement, secure coverage, access and tubing route. These approaches also have limitations, including malposition, palpability and herniation. A different pocket is only safer if it is created correctly.
 
-Pressure selection is a separate issue. ContiClassic labelling lists ranges including sixty to sixty-nine centimetres of water; AMS 800 consensus commonly discusses sixty-one to seventy. Those labels must not be treated as interchangeable operative instructions.
+Pressure selection is a separate issue. ContiClassic labelling lists ranges including sixty to sixty-nine centimetres of water. AMS 800 consensus commonly discusses sixty-one to seventy. Those labels must not be treated as interchangeable operative instructions.
 
-The public ContiClassic IFU confirms sterile saline filling but directs detailed implantation to a separate Operating Room Protocol. Without that protocol I cannot verify a filling volume or a universal pressure-selection algorithm. Confirm both before surgery. Increasing pressure should never be a substitute for diagnosing a poor cuff fit or a failing urethra.
+The public ContiClassic IFU confirms sterile saline filling but directs detailed implantation to a separate Operating Room Protocol. Without that protocol we cannot verify a filling volume or a universal pressure-selection algorithm. Confirm both before surgery.
+
+Increasing pressure should never be a substitute for diagnosing a poor cuff fit or a failing urethra.
 
 **References:** [CCIFU]; [AP23]; [ICS16].
 
@@ -792,13 +840,13 @@ The public ContiClassic IFU confirms sterile saline filling but directs detailed
 
 **Speaker notes**
 
-The pump position is part of the functional result. The patient has already shown us where he can reach, which hand he uses and whether another scrotal device creates confusion. Use that information.
+The pump position is part of the functional result. The patient has already shown us where he can reach, which hand he uses and whether another scrotal device causes confusion. Use that information.
 
-A dependent, accessible position is generally useful, but the exact pocket must suit the patient and device. Too much dissection can encourage migration; too little space or excessive tension can cause pain, poor access or pressure on adjacent tissue. Keep the pump distinct from the testis and avoid thin, threatened skin.
+A dependent, accessible position is generally useful, but the exact pocket must suit the patient and device. Too much dissection can encourage migration. Too little space or excessive tension can cause pain, poor access or pressure on adjacent tissue. Keep the pump distinct from the testis and avoid thin, threatened skin.
 
-Before closure, consider how the pump will sit when the patient stands, and whether the tubing will pull it upwards. Check that orientation permits both normal cycling and access to the deactivation control.
+Before closure, consider how the pump will sit when the patient stands, and whether the tubing will pull it upwards. Check that its orientation permits both normal cycling and access to the deactivation control.
 
-An easily palpable demonstration pump on a table is not evidence that an oedematous postoperative scrotum will be easy to use. Accessibility should be checked again at activation, with the patient performing the task.
+A demonstration pump that is easy to feel on a table does not tell us that a swollen postoperative scrotum will be easy to use. Check accessibility again at activation, with the patient performing the task.
 
 **References:** [AP23]; [ICS16]; [CCIFU].
 
@@ -821,7 +869,7 @@ Follow each tube between components. Avoid tension, excessive loops, kinks and e
 
 Prepare and connect the system using its own operative protocol. Use compatible components, remove air as instructed and verify the connections. Cycle the device to check function, then confirm that the cuff is open and the device correctly deactivated. Pressing a button without establishing the cuff state is not enough.
 
-Choose an appropriate small, atraumatically placed catheter for the individual cuff and urethra, and plan early removal after an uncomplicated implant. Device instructions and an injury or reconstruction may change that plan; do not improvise a universal catheter size.
+Choose an appropriate small, atraumatically placed catheter for the individual cuff and urethra, and plan early removal after an uncomplicated implant. Device instructions, an injury or a reconstruction may change that plan, and no universal catheter size should be improvised.
 
 The handover should record the model, cuff site and size, balloon specification and position, deactivated state, catheter plan and contact details. The next clinician must know there is an AUS before attempting drainage.
 
@@ -850,7 +898,7 @@ The handover should record the model, cuff site and size, balloon specification 
 
 **00:20-01:05 | Urethra and cuff.**
 
-“Start at the bulbar urethra. The cuff needs to surround a viable segment with adequate supporting spongiosal tissue. It is not a clamp placed anywhere along a convenient tube. The chosen site determines our dissection, measurement and the tissue that will carry repeated pressure. More distal does not automatically mean easier or safer, particularly when the available spongiosum is thin.”
+“Start at the bulbar urethra. The cuff needs to surround a viable segment with adequate supporting spongiosal tissue, so we cannot place it anywhere along a convenient tube. The chosen site determines our dissection, measurement and the tissue that will carry repeated pressure. More distal does not automatically mean easier or safer, particularly when the available spongiosum is thin.”
 
 [Identify the bulbar segment if represented. Pause and orient the audience; avoid claiming that a schematic shows actual tissue perfusion.]
 
@@ -892,7 +940,7 @@ The handover should record the model, cuff site and size, balloon specification 
 
 **02:20-03:10:** “Now consider the balloon. After pelvic surgery, the retropubic space may not behave like the textbook space. Adhesions, mesh, bowel, bladder and vessels change the route. An alternative submuscular pocket may be useful, but it must be deliberately and safely created. The choice of pocket and the choice of pressure are separate decisions. Neither a new pocket nor a higher pressure compensates for a poorly selected cuff site. Unexpected resistance during access should prompt reassessment, not force. Confirm the actual product's placement and preparation instructions before committing to the pocket.”
 
-**03:10-04:00:** “Trace the tubing between all three components. Avoid tension, sharp turns and entrapment under closure. Recheck connections, cycle the system and confirm an open cuff with correct deactivation. [Pause.] The same route helps us investigate a later failure: patient operation, cuff and urethra, tubing, then balloon and fluid system. Future instrumentation has to pass through the cuffed segment, so deactivation and appropriate instrument selection remain essential even when the hydraulics work normally. That is the anatomical logic I wanted the model to demonstrate. Let us return to postoperative care.”
+**03:10-04:00:** “Trace the tubing between all three components. Avoid tension, sharp turns and entrapment under closure. Recheck connections, cycle the system and confirm an open cuff with correct deactivation. [Pause.] The same route helps us investigate a later failure: patient operation, cuff and urethra, tubing, then balloon and fluid system. Future instrumentation has to pass through the cuffed segment, so deactivation and appropriate instrument selection remain essential even when the hydraulics work normally. That is the anatomical logic we wanted the model to demonstrate. Let us return to postoperative care.”
 
 **References:** [ICS16]; [AP23]; [CCIFU]. UroOps link and model-specific verification require presenter input.
 
@@ -911,9 +959,9 @@ The handover should record the model, cuff site and size, balloon specification 
 
 **Speaker notes**
 
-After uncomplicated implantation, remove the catheter early and check voiding. Persistent retention needs assessment of deactivation, oedema, cuff fit and obstruction, with safe drainage rather than repeated blind catheter attempts.
+After uncomplicated implantation, remove the catheter early and check voiding. Persistent retention needs assessment of deactivation, oedema, cuff fit and obstruction, with safe drainage and no repeated blind catheter attempts.
 
-Worsening pain, erythema, discharge, fever or voiding difficulty needs specialist review. Suspected erosion requires device-aware investigation; established infection or erosion generally needs explantation, not antibiotics alone.
+Worsening pain, erythema, discharge, fever or voiding difficulty needs specialist review. Suspected erosion requires device-aware investigation, and established infection or erosion generally needs explantation, not antibiotics alone.
 
 ContiClassic specifies four to six weeks deactivated, until pain and oedema settle. At activation, verify patient operation and emptying. Arrange subsequent functional review and access for problems.
 
@@ -938,7 +986,9 @@ Give him the device card and clear instructions to alert clinicians before cathe
 
 Our fourth fictional patient had three useful years with his AUS and now leaks again. Would you book a smaller cuff? [Pause for five seconds.]
 
-Start by distinguishing persistent leakage since activation from true recurrence after a successful interval. Ask whether this is activity-related leakage, urgency, overflow or difficulty cycling. Observe his technique and check the device state. Review urine and residual, examine the components, and use appropriately deactivated cystoscopy to look for erosion and assess the urethra. Investigate fluid loss or mechanical problems and bladder dysfunction as indicated.
+Start by separating persistent leakage since activation from true recurrence after a successful interval. Ask whether this is activity-related leakage, urgency, overflow or difficulty cycling. Observe his technique and check the device state.
+
+Review urine and residual, examine the components, and use appropriately deactivated cystoscopy to look for erosion and assess the urethra. Investigate fluid loss, mechanical problems and bladder dysfunction as indicated.
 
 Urethral atrophy is an explanation to establish, not a diagnosis made by the passage of time. Modern revision series attribute many failures to the pressure-regulating balloon or other mechanics, and the definition of atrophy often depends on how the revision was investigated. Capsular restriction and poor initial sizing can also complicate the label.
 
@@ -987,7 +1037,9 @@ Make that uncertainty visible in consent and operative planning.
 
 The first five take-home messages belong before theatre. Establish the leakage mechanism and the improvement that matters. Watch the patient use a pump and assess access over time. Choose investigations to answer explicit questions, acknowledging the differences between guidelines.
 
-Keep detrusor overactivity, underactivity and poor compliance separate, because they lead to different decisions. Finally, establish a stable outlet and think through future instrumentation. A successful implant starts with a patient, bladder and urethra that can support the intended result.
+Keep detrusor overactivity, underactivity and poor compliance separate, because they lead to different decisions. Finally, establish a stable outlet and think through future instrumentation.
+
+A successful implant starts with a patient, bladder and urethra that can support the intended result.
 
 **References:** [BAUS25]; [EAU26]; [AUA24]; [DU23]; [ICS16].
 
@@ -1031,7 +1083,7 @@ When leakage returns, diagnose it before selecting a smaller cuff or higher pres
 
 **Speaker notes and moderation plan**
 
-**55:00-55:20:** “I would like to use these final five minutes on decisions rather than preferences alone. Choose one of the cases, tell us what you would do, and identify the finding that would make you change your plan.”
+**55:00-55:20:** “We would like to use these final five minutes on decisions rather than preferences alone. Choose one of the cases, tell us what you would do, and identify the finding that would make you change your plan.”
 
 **55:20-57:20:** Invite a response on bladder dysfunction or urethral stability. Take one contrasting view and a brief reply. Ask, if needed: “Is that a guideline requirement, a device instruction, or your interpretation of the evidence?”
 

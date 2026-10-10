@@ -2,3 +2,5 @@ presentation/build/
 presentation/output/
 presentation/scripts/node_modules
 presentation/.chart-data-*/
+.venv/
+__pycache__/

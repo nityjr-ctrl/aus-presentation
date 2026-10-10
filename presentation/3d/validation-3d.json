@@ -1,0 +1,463 @@
+{
+ "passed": 48,
+ "failed": 0,
+ "checks": [
+  {
+   "check": "steps/aus-26-exposure.glb: under budget",
+   "pass": true,
+   "detail": "476592 bytes, 19990 triangles"
+  },
+  {
+   "check": "steps/aus-27-dissection.glb: under budget",
+   "pass": true,
+   "detail": "548792 bytes, 23770 triangles"
+  },
+  {
+   "check": "steps/aus-28-sizing.glb: under budget",
+   "pass": true,
+   "detail": "615364 bytes, 26650 triangles"
+  },
+  {
+   "check": "steps/aus-30-balloon.glb: under budget",
+   "pass": true,
+   "detail": "588136 bytes, 23676 triangles"
+  },
+  {
+   "check": "steps/aus-31-pump.glb: under budget",
+   "pass": true,
+   "detail": "306828 bytes, 10770 triangles"
+  },
+  {
+   "check": "steps/aus-32-check.glb: under budget",
+   "pass": true,
+   "detail": "682048 bytes, 27490 triangles"
+  },
+  {
+   "check": "steps/aus-33-overview.glb: under budget",
+   "pass": true,
+   "detail": "682636 bytes, 27490 triangles"
+  },
+  {
+   "check": "deck: all 217 XML and .rels parts parse",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "deck: all 285 internal relationships resolve",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "deck: content-type defaults for glb, png, mp4",
+   "pass": true,
+   "detail": "{\"glb\": \"model/gltf.binary\", \"png\": \"image/png\", \"mp4\": \"video/mp4\"}"
+  },
+  {
+   "check": "deck: overrides for all 100 slide and notes parts",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "deck: [Content_Types].xml is the first zip entry",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "deck: 3D frame on slide 26",
+   "pass": true,
+   "detail": "slide 26 (ppt/slides/slide26.xml): 1 model3d, glb ppt/media/model3d1.glb, raster ppt/media/aus-fallback-26.png, fallback ppt/media/aus-fallback-26.png, names ['!!AUS3D', '!!AUS3D'], child order ok True, disclaimer True, morph False (expected False)"
+  },
+  {
+   "check": "deck: 3D frame on slide 27",
+   "pass": true,
+   "detail": "slide 27 (ppt/slides/slide27.xml): 1 model3d, glb ppt/media/model3d2.glb, raster ppt/media/aus-fallback-27.png, fallback ppt/media/aus-fallback-27.png, names ['!!AUS3D', '!!AUS3D'], child order ok True, disclaimer True, morph True (expected True)"
+  },
+  {
+   "check": "deck: 3D frame on slide 28",
+   "pass": true,
+   "detail": "slide 28 (ppt/slides/slide28.xml): 1 model3d, glb ppt/media/model3d3.glb, raster ppt/media/aus-fallback-28.png, fallback ppt/media/aus-fallback-28.png, names ['!!AUS3D', '!!AUS3D'], child order ok True, disclaimer True, morph True (expected True)"
+  },
+  {
+   "check": "deck: 3D frame on slide 30",
+   "pass": true,
+   "detail": "slide 30 (ppt/slides/slide30.xml): 1 model3d, glb ppt/media/model3d4.glb, raster ppt/media/aus-fallback-30.png, fallback ppt/media/aus-fallback-30.png, names ['!!AUS3D', '!!AUS3D'], child order ok True, disclaimer True, morph False (expected False)"
+  },
+  {
+   "check": "deck: 3D frame on slide 31",
+   "pass": true,
+   "detail": "slide 31 (ppt/slides/slide31.xml): 1 model3d, glb ppt/media/model3d5.glb, raster ppt/media/aus-fallback-31.png, fallback ppt/media/aus-fallback-31.png, names ['!!AUS3D', '!!AUS3D'], child order ok True, disclaimer True, morph True (expected True)"
+  },
+  {
+   "check": "deck: 3D frame on slide 32",
+   "pass": true,
+   "detail": "slide 32 (ppt/slides/slide32.xml): 1 model3d, glb ppt/media/model3d6.glb, raster ppt/media/aus-fallback-32.png, fallback ppt/media/aus-fallback-32.png, names ['!!AUS3D', '!!AUS3D'], child order ok True, disclaimer True, morph True (expected True)"
+  },
+  {
+   "check": "deck: 3D frame on slide 33",
+   "pass": true,
+   "detail": "slide 33 (ppt/slides/slide33.xml): 1 model3d, glb ppt/media/model3d7.glb, raster ppt/media/aus-fallback-33.png, fallback ppt/media/aus-fallback-33.png, names ['!!AUS3D', '!!AUS3D'], child order ok True, disclaimer True, morph True (expected True)"
+  },
+  {
+   "check": "deck: aus-26-exposure.glb under 3 MB and 100k triangles",
+   "pass": true,
+   "detail": "476592 bytes, 19990 triangles, 12 nodes, 0 animations"
+  },
+  {
+   "check": "deck: aus-26-exposure.glb carries the attribution",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "deck: aus-27-dissection.glb under 3 MB and 100k triangles",
+   "pass": true,
+   "detail": "548792 bytes, 23770 triangles, 13 nodes, 0 animations"
+  },
+  {
+   "check": "deck: aus-27-dissection.glb carries the attribution",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "deck: aus-28-sizing.glb under 3 MB and 100k triangles",
+   "pass": true,
+   "detail": "615364 bytes, 26650 triangles, 21 nodes, 0 animations"
+  },
+  {
+   "check": "deck: aus-28-sizing.glb carries the attribution",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "deck: aus-30-balloon.glb under 3 MB and 100k triangles",
+   "pass": true,
+   "detail": "588136 bytes, 23676 triangles, 23 nodes, 0 animations"
+  },
+  {
+   "check": "deck: aus-30-balloon.glb carries the attribution",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "deck: aus-31-pump.glb under 3 MB and 100k triangles",
+   "pass": true,
+   "detail": "306828 bytes, 10770 triangles, 16 nodes, 0 animations"
+  },
+  {
+   "check": "deck: aus-31-pump.glb carries the attribution",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "deck: aus-32-check.glb under 3 MB and 100k triangles",
+   "pass": true,
+   "detail": "682048 bytes, 27490 triangles, 37 nodes, 0 animations"
+  },
+  {
+   "check": "deck: aus-32-check.glb carries the attribution",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "deck: aus-33-overview.glb under 3 MB and 100k triangles",
+   "pass": true,
+   "detail": "682636 bytes, 27490 triangles, 37 nodes, 1 animations"
+  },
+  {
+   "check": "deck: aus-33-overview.glb carries the attribution",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "deck: seven 3D frames",
+   "pass": true,
+   "detail": "7"
+  },
+  {
+   "check": "deck: no patient data (no DICOM files or MRN/NHS number strings; 'patient' occurs no more often than in the original deck, outside the added disclaimers and alt text)",
+   "pass": true,
+   "detail": "new {'DICOM': 0, 'patient': 70, 'MRN': 0, 'NHS number': 0}, original {'DICOM': 0, 'patient': 70, 'MRN': 0, 'NHS number': 0}"
+  },
+  {
+   "check": "deck: text runs of all 49 original slides and their notes unchanged (only the disclaimer and one notes line added)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "deck: backup video slide at position 40 with a resolvable MP4 and the backup footer",
+   "pass": true,
+   "detail": "ppt/slides/slide40.xml: texts ['Backup: UroOps 3D AUS flow (video)', '', 'Backup: outside the timed talk'], media ['ppt/media/media1.mp4'], slides 50"
+  },
+  {
+   "check": "test-one-slide: all 21 XML and .rels parts parse",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "test-one-slide: all 19 internal relationships resolve",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "test-one-slide: content-type defaults for glb, png",
+   "pass": true,
+   "detail": "{\"glb\": \"model/gltf.binary\", \"png\": \"image/png\"}"
+  },
+  {
+   "check": "test-one-slide: overrides for all 2 slide and notes parts",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "test-one-slide: [Content_Types].xml is the first zip entry",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "test-one-slide: 3D frame on slide 28",
+   "pass": true,
+   "detail": "slide 28 (ppt/slides/slide28.xml): 1 model3d, glb ppt/media/model3d3.glb, raster ppt/media/aus-fallback-28.png, fallback ppt/media/aus-fallback-28.png, names ['!!AUS3D', '!!AUS3D'], child order ok True, disclaimer True"
+  },
+  {
+   "check": "test-one-slide: aus-28-sizing.glb under 3 MB and 100k triangles",
+   "pass": true,
+   "detail": "615364 bytes, 26650 triangles, 21 nodes, 0 animations"
+  },
+  {
+   "check": "test-one-slide: aus-28-sizing.glb carries the attribution",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "test-one-slide: exactly one slide with one 3D frame",
+   "pass": true,
+   "detail": "1 slides"
+  },
+  {
+   "check": "python-pptx opens AUS-teaching-deck-3d.pptx (50 slides)",
+   "pass": true,
+   "detail": "expected 50"
+  },
+  {
+   "check": "python-pptx opens test-one-slide.pptx (1 slides)",
+   "pass": true,
+   "detail": "expected 1"
+  }
+ ],
+ "glbs": {
+  "aus-26-exposure": {
+   "bytes": 476592,
+   "triangles": 19990,
+   "nodes": [
+    "AUS_teaching_model",
+    "Pubis_L",
+    "Pubis_R",
+    "Urethra",
+    "Penile_skin",
+    "Scrotum_shell",
+    "Corpus_spongiosum",
+    "Bulbospongiosus",
+    "Perineal_skin",
+    "Perineal_incision",
+    "Catheter",
+    "Frame_anchor"
+   ],
+   "animations": 0,
+   "copyright": "Schematic teaching model from UroOps3D (Nity G). Atlas bones and bladder: Z-Anatomy / BodyParts3D, CC-BY-SA 4.0. Not patient-specific. Not a medical device."
+  },
+  "aus-27-dissection": {
+   "bytes": 548792,
+   "triangles": 23770,
+   "nodes": [
+    "AUS_teaching_model",
+    "Pubis_L",
+    "Pubis_R",
+    "Urethra",
+    "Crus_L",
+    "Crus_R",
+    "Scrotum_shell",
+    "Corpus_spongiosum",
+    "Bulbospongiosus_L",
+    "Bulbospongiosus_R",
+    "Perineal_body",
+    "Catheter",
+    "Frame_anchor"
+   ],
+   "animations": 0,
+   "copyright": "Schematic teaching model from UroOps3D (Nity G). Atlas bones and bladder: Z-Anatomy / BodyParts3D, CC-BY-SA 4.0. Not patient-specific. Not a medical device."
+  },
+  "aus-28-sizing": {
+   "bytes": 615364,
+   "triangles": 26650,
+   "nodes": [
+    "AUS_teaching_model",
+    "Pubis_L",
+    "Pubis_R",
+    "Urethra",
+    "Crus_L",
+    "Crus_R",
+    "Scrotum_shell",
+    "Cuff_shell",
+    "Cuff_band",
+    "Cuff_lip",
+    "Cuff_tab",
+    "Cuff_port",
+    "Corpus_spongiosum",
+    "Cuff",
+    "Bulbospongiosus_L",
+    "Bulbospongiosus_R",
+    "Perineal_body",
+    "Sizer",
+    "Catheter",
+    "Tubing_cuff_stub",
+    "Frame_anchor"
+   ],
+   "animations": 0,
+   "copyright": "Schematic teaching model from UroOps3D (Nity G). Atlas bones and bladder: Z-Anatomy / BodyParts3D, CC-BY-SA 4.0. Not patient-specific. Not a medical device."
+  },
+  "aus-30-balloon": {
+   "bytes": 588136,
+   "triangles": 23676,
+   "nodes": [
+    "AUS_teaching_model",
+    "Bladder",
+    "Pubis_L",
+    "Pubis_R",
+    "Urethra",
+    "Cuff_shell",
+    "Cuff_band",
+    "Cuff_lip",
+    "Cuff_tab",
+    "Cuff_port",
+    "Balloon_shell",
+    "Balloon_disc",
+    "Balloon_stem",
+    "Balloon_collar",
+    "Corpus_spongiosum",
+    "Cuff",
+    "Balloon",
+    "Abdominal_wall",
+    "Wall_incision",
+    "Retzius",
+    "Tubing_balloon_stub",
+    "Clamp",
+    "Frame_anchor"
+   ],
+   "animations": 0,
+   "copyright": "Schematic teaching model from UroOps3D (Nity G). Atlas bones and bladder: Z-Anatomy / BodyParts3D, CC-BY-SA 4.0. Not patient-specific. Not a medical device."
+  },
+  "aus-31-pump": {
+   "bytes": 306828,
+   "triangles": 10770,
+   "nodes": [
+    "AUS_teaching_model",
+    "Pubis_L",
+    "Pubis_R",
+    "Penile_skin",
+    "Scrotum_shell",
+    "Testis_L",
+    "Testis_R",
+    "Pump_body",
+    "Pump_valve",
+    "Pump_button",
+    "Pump_bulb",
+    "Pump_port_balloon",
+    "Pump_port_cuff",
+    "Pump",
+    "Tubing_pump_stubs",
+    "Frame_anchor"
+   ],
+   "animations": 0,
+   "copyright": "Schematic teaching model from UroOps3D (Nity G). Atlas bones and bladder: Z-Anatomy / BodyParts3D, CC-BY-SA 4.0. Not patient-specific. Not a medical device."
+  },
+  "aus-32-check": {
+   "bytes": 682048,
+   "triangles": 27490,
+   "nodes": [
+    "AUS_teaching_model",
+    "Bladder",
+    "Pubis_L",
+    "Pubis_R",
+    "Urethra",
+    "Crus_L",
+    "Crus_R",
+    "Penile_skin",
+    "Scrotum_shell",
+    "Testis_L",
+    "Testis_R",
+    "Cuff_shell",
+    "Cuff_band",
+    "Cuff_lip",
+    "Cuff_tab",
+    "Cuff_port",
+    "Balloon_shell",
+    "Balloon_disc",
+    "Balloon_stem",
+    "Balloon_collar",
+    "Pump_body",
+    "Pump_valve",
+    "Pump_button",
+    "Pump_bulb",
+    "Pump_port_balloon",
+    "Pump_port_cuff",
+    "Tubing_cuff",
+    "Tubing_balloon",
+    "Connector_cuff",
+    "Connector_balloon",
+    "Lumen",
+    "Corpus_spongiosum",
+    "Cuff",
+    "Balloon",
+    "Pump",
+    "Bulbospongiosus",
+    "Frame_anchor"
+   ],
+   "animations": 0,
+   "copyright": "Schematic teaching model from UroOps3D (Nity G). Atlas bones and bladder: Z-Anatomy / BodyParts3D, CC-BY-SA 4.0. Not patient-specific. Not a medical device."
+  },
+  "aus-33-overview": {
+   "bytes": 682636,
+   "triangles": 27490,
+   "nodes": [
+    "AUS_teaching_model",
+    "Bladder",
+    "Pubis_L",
+    "Pubis_R",
+    "Urethra",
+    "Crus_L",
+    "Crus_R",
+    "Penile_skin",
+    "Scrotum_shell",
+    "Testis_L",
+    "Testis_R",
+    "Cuff_shell",
+    "Cuff_band",
+    "Cuff_lip",
+    "Cuff_tab",
+    "Cuff_port",
+    "Balloon_shell",
+    "Balloon_disc",
+    "Balloon_stem",
+    "Balloon_collar",
+    "Pump_body",
+    "Pump_valve",
+    "Pump_button",
+    "Pump_bulb",
+    "Pump_port_balloon",
+    "Pump_port_cuff",
+    "Tubing_cuff",
+    "Tubing_balloon",
+    "Connector_cuff",
+    "Connector_balloon",
+    "Lumen",
+    "Corpus_spongiosum",
+    "Cuff",
+    "Balloon",
+    "Pump",
+    "Bulbospongiosus",
+    "Frame_anchor"
+   ],
+   "animations": 1,
+   "copyright": "Schematic teaching model from UroOps3D (Nity G). Atlas bones and bladder: Z-Anatomy / BodyParts3D, CC-BY-SA 4.0. Not patient-specific. Not a medical device."
+  }
+ }
+}

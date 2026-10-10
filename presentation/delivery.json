@@ -1,7 +1,11 @@
 {
   "createdUtc": "2026-10-01",
-  "title": "Artificial urinary sphincter surgery — Mr Abu Yousif & Nity G",
+  "title": "Artificial urinary sphincter surgery: Mr Andrew Baird, Mr Abu Yousif & Nity G",
   "presenters": [
+    {
+      "name": "Mr Andrew Baird",
+      "role": "Urology Consultant"
+    },
     {
       "name": "Mr Abu Yousif",
       "role": "Urology Consultant"
@@ -28,17 +32,26 @@
     },
     "conversionLimit": "Three PPTX charts converted to images. Text and eight tables remain native editable objects.",
     "visualCheck": "All 49 cloud-exported PDF pages and all 49 local slide renders reviewed; changed evidence tables and references checked at larger size.",
-    "revisionId": "S--4mxKHZqlHYw"
+    "revisionId": "S--4mxKHZqlHYw",
+    "status": "Not updated since the 5 October 2026 readback. It still shows two presenters, the 5 October speaker notes and the earlier UroOps pictures. The readback and visual check in this block describe that 5 October version."
   },
   "checkpoint": {
     "file": "AUS-teaching-deck.pptx",
-    "sha256": "d13e3fc578cbfa3b20a639e5e5a4be48dd45177c6184e8182d36129b5c7ae12d",
-    "byteCount": 4513210,
+    "sha256": "888ebeb35ed7b38a8a22849767f002d2712ff28926e36511d64ac895269a8dcf",
+    "byteCount": 11047039,
+    "revised": "2026-10-10",
+    "changesSince2026-10-05": "Three presenters on the cover; speaker notes for teaching slides 01 to 37 rewritten and reduced to spoken text; new UroOps stills on slides 6, 16, 26, 27, 28, 31 and 33. The on-slide clinical-review-pending captions under the UroOps pictures were removed at the owner's request; the speaker notes still carry that statement. Slide order, on-slide wording, tables, charts and citations unchanged.",
     "nativeCharts": 0,
     "embeddedChartWorkbooks": 0,
-    "geometryFindings": 0,
-    "geometryWarnings": 0,
-    "validation": "Package, source-bound fonts, layout and Artifact Tool re-import passed; private reports retained in originating task."
+    "validation": "10 October 2026: every XML part parses and every internal relationship resolves; PowerPoint on the build PC opened the file without repair and exported the changed slides for review. The Artifact Tool layout, font and geometry checks of 5 October were not rerun on this file.",
+    "previous": {
+      "date": "2026-10-05",
+      "sha256": "d13e3fc578cbfa3b20a639e5e5a4be48dd45177c6184e8182d36129b5c7ae12d",
+      "byteCount": 4513210,
+      "geometryFindings": 0,
+      "geometryWarnings": 0,
+      "validation": "Package, source-bound fonts, layout and Artifact Tool re-import passed; private reports retained in originating task."
+    }
   },
   "structure": {
     "slides": 49,
@@ -52,11 +65,23 @@
     "citationCodes": 58
   },
   "beforeDelivery": [
-    "Meeting and date",
-    "Both presenters' actual personal disclosures",
+    "Meeting and date on the standard deck cover",
+    "All three presenters' actual personal disclosures",
     "Applicable current regional device IFU and separate OR protocol",
-    "Local perioperative protocol"
+    "Local perioperative protocol",
+    "Watch slides 26 to 33 and 40 of the animated deck in slide-show mode on the presenting computer",
+    "Bring the Google Slides copy up to date or stop using it"
   ],
   "evidenceUpdated": "2026-10-05",
-  "previousCheckpoint": "fb238613dc7ddb0734ac9cfbd397f72c5316b3b6"
+  "previousCheckpoint": "fb238613dc7ddb0734ac9cfbd397f72c5316b3b6",
+  "animatedDeck": {
+    "file": "AUS-teaching-deck-3d.pptx",
+    "sha256": "41248c6ba736cf6692fc70fd13187e6d20a4b14eeb3fbe9ed0e7ad900cf27e68",
+    "byteCount": 70386836,
+    "slides": 50,
+    "content": "Same deck with looping UroOps clips on slides 26 to 28 and 30 to 33 and a backup video of the whole lesson on slide 40.",
+    "validation": "10 October 2026: XML and relationship checks as above; PowerPoint opened it without repair and reported eight media shapes, with one autoplay effect on each step slide. Playback in slide-show mode was not watched.",
+    "details": "3d/README.md"
+  },
+  "deckRevised": "2026-10-10"
 }
