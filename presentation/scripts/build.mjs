@@ -76,7 +76,6 @@ for(const d of specs){
   await img(s,d.asset,64,190,680,358,'UroOps 3D teaching schematic: '+d.label);
   text(s,d.label,788,190,428,48,29,C.teal,true);
   list(s,d.items,788,254,428,27,d.items.length===3?104:80);
-  text(s,'UroOps 3D teaching schematic. Clinical review pending.',64,562,700,30,18,C.muted);
   s.speakerNotes.append('\nImage source: https://uroops3d.com/lab/aus . Captured 30 September–1 October 2026 (UTC). © UroOps3D / UroRef / Nity G. The site describes this as a schematic ContiClassic model with clinical review pending. Images illustrate spatial relationships, not validated anatomy, tissue perfusion or operative instructions.');
  }
  if(d.type==='case'){

@@ -1,8 +1,8 @@
 {
   "schemaVersion": "presentation-checkpoint-verification.v1",
   "checkedDate": "2026-10-10",
-  "finalSha256": "7ed5126beed0260d2fd592d11497fe8bc59572d64d2fb7c47ee33594503de439",
-  "byteCount": 11819783,
+  "finalSha256": "127d0cd4f6f5e7f56caf6c78a2a9b4ba3e9578ac5379ba023bdb3c7c625cf789",
+  "byteCount": 11818998,
   "slides": 49,
   "teachingSlides": 38,
   "nativeTables": 8,
@@ -16,8 +16,8 @@
   "notRerun": "Artifact Tool re-import, layout findings and font checks from 5 October were not repeated on this file. Slide layout outside the replaced pictures and the cover credits is unchanged from the 5 October checkpoint.",
   "animatedDeck": {
     "file": "AUS-teaching-deck-3d.pptx",
-    "sha256": "13efaba1d37ee86b9a7c9d819f05aad70ea75ae613dc054512f3fa80535823bc",
-    "byteCount": 69794959,
+    "sha256": "9901d5ae4dd08b8e9734a492476e1fc339fbd5b045f98460a8036c2cdf3e212f",
+    "byteCount": 69797834,
     "slides": 50,
     "embeddedVideos": 8,
     "packageIntegrity": "pass",

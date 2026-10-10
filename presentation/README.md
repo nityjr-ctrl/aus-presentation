@@ -26,6 +26,7 @@ The PowerPoint files here are the current deck. The Google Slides copy linked in
 - Cover: Mr Andrew Baird, Mr Abu Yousif and Nity G.
 - Speaker notes for teaching slides 01 to 37 rewritten in a plainer "we" voice, 6,300 spoken words in total. The notes pages now hold the spoken text and, on picture slides, the image credit.
 - New UroOps stills on slides 6, 16, 26, 27, 28, 31 and 33.
+- The "clinical review pending" captions under the UroOps pictures (slides 6, 16, 26 to 28, 31 and 33) were removed from both decks at the owner's request. The image credit in the speaker notes of each picture slide still says so.
 - Slide order, on-slide wording, tables, charts and citations are unchanged from the 5 October evidence checkpoint.
 - The notes and cover changes were patched into the PowerPoint files directly. `source.json` and `scripts/build.mjs` carry the same text, but the builder has not been rerun.
 

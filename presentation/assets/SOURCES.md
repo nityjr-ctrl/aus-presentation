@@ -16,7 +16,7 @@ Source: https://uroops3d.com/lab/aus . Recaptured 10 October 2026 from the publi
 
 Each is 3104 x 1280 pixels (3200 x 1800 for slide 28). The scene panel was enlarged with page CSS only, and nothing was sent to the site. The narration caption, the page controls and the "UrOops3D Preview" corner mark are hidden. Labels that state a number, a device instruction or back-table preparation are hidden too, because the deck does not present unverified device-specific detail. The file names are unchanged so `scripts/build.mjs` still finds them, although three names no longer describe the view.
 
-Attribution: © UroOps3D / UroRef / Nity G. The public page labels the ContiClassic scene as a schematic with clinical review pending. The deck identifies these as teaching schematics. They do not establish geometric accuracy, tissue perfusion, operative safety or manufacturer instructions. The UroOps repository was not opened or edited.
+Attribution: © UroOps3D / UroRef / Nity G. The public page labels the ContiClassic scene as a schematic with clinical review pending. The slides carry no caption under these pictures (removed at the owner's request on 10 October 2026); the speaker notes on each picture slide identify them as teaching schematics. They do not establish geometric accuracy, tissue perfusion, operative safety or manufacturer instructions. The UroOps repository was not opened or edited.
 
 ## ContiClassic device illustration
 

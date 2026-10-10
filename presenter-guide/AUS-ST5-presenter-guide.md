@@ -757,7 +757,7 @@ The hydraulic cycle can reinforce why pump operation opens the cuff temporarily 
 
 ### Evidence meaning
 
-ICS16 and AP23 support general anatomical/surgical teaching centred on AMS 800; CCIFU governs ContiClassic operation and placement boundaries. The UroOps model is a teaching schematic with clinical review pending in the deck. A convincing image cannot validate perfusion, scar planes, dimensions or a safe real-life trajectory, and the same limit applies to the looping clips in the animated version. No new clinical study is cited by the model itself.
+ICS16 and AP23 support general anatomical/surgical teaching centred on AMS 800; CCIFU governs ContiClassic operation and placement boundaries. The UroOps model is a teaching schematic with clinical review pending. The slides no longer say so under each picture, so say it aloud when you open the model. A convincing image cannot validate perfusion, scar planes, dimensions or a safe real-life trajectory, and the same limit applies to the looping clips in the animated version. No new clinical study is cited by the model itself.
 
 ### A speaking line
 
