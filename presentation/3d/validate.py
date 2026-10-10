@@ -3,6 +3,7 @@
 
     python validate.py            # writes validation-3d.json beside this script; exit 1 on any failure
 """
+import argparse
 import json
 import posixpath
 import re
@@ -263,25 +264,31 @@ def python_pptx_load(path, expect):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--deck", type=Path, default=DECK)
+    parser.add_argument("--test", type=Path, default=TEST)
+    parser.add_argument("--report", type=Path, default=HERE / "validation-3d.json")
+    args = parser.parse_args()
+    results.clear()
     steps = json.loads((HERE / "steps.json").read_text(encoding="utf-8"))["slides"]
     for st in steps:
         f = HERE / "steps" / f"{st['id']}.glb"
         g = glb_info(f.read_bytes())
         check(f"steps/{f.name}: under budget", g["bytes"] < MAX_BYTES and g["triangles"] < MAX_TRIS, f"{g['bytes']} bytes, {g['triangles']} triangles")
-    pkg, order, frames, glbs = validate_package(DECK, "deck", steps, True)
+    pkg, order, frames, glbs = validate_package(args.deck, "deck", steps, True)
     check("deck: seven 3D frames", frames == 7, f"{frames}")
     patient_data_scan(pkg, ORIG)
     text_integrity(pkg, order, ORIG, steps)
     video_slide(pkg, order)
     test_step = [s for s in steps if s["slide"] == 28]
-    tpkg, torder, tframes, _ = validate_package(TEST, "test-one-slide", test_step, False)
+    tpkg, torder, tframes, _ = validate_package(args.test, "test-one-slide", test_step, False)
     check("test-one-slide: exactly one slide with one 3D frame", len(torder) == 1 and tframes == 1, f"{len(torder)} slides")
-    python_pptx_load(DECK, 50)
-    python_pptx_load(TEST, 1)
+    python_pptx_load(args.deck, 50)
+    python_pptx_load(args.test, 1)
     passed = sum(r["pass"] for r in results)
     report = {"passed": passed, "failed": len(results) - passed, "checks": results,
               "glbs": {k: {kk: vv for kk, vv in v.items() if kk != "json"} for k, v in glbs.items()}}
-    (HERE / "validation-3d.json").write_text(json.dumps(report, indent=1) + "\n", encoding="utf-8")
+    args.report.write_text(json.dumps(report, indent=1) + "\n", encoding="utf-8")
     for r in results:
         print(("PASS " if r["pass"] else "FAIL ") + r["check"] + ("" if r["pass"] else f"  [{r['detail']}]"))
     print(f"{passed} passed, {len(results) - passed} failed")

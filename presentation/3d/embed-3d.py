@@ -6,14 +6,17 @@ PowerPoint 3D model (am3d, see AM3D-NOTES.md) with its PNG fallback, add the dis
 append one speaker-note paragraph and, where flagged, a Morph transition with a fade fallback.
 Then add one backup video slide after slide 39, and write test-one-slide.pptx (slide 28 only).
 
-Run after build-steps.mjs, render-fallbacks.mjs and record-video.mjs:
+Rebuild from committed models, PNGs and the backup video in the existing 3D deck:
     python embed-3d.py
+
+Use the optional Node scripts only when deliberately regenerating visual assets.
 """
+import argparse
+import hashlib
 import json
+import posixpath
 import re
 import shutil
-import subprocess
-import sys
 import tempfile
 import uuid
 import zipfile
@@ -29,8 +32,7 @@ OUT = PRES / "AUS-teaching-deck-3d.pptx"
 TEST = HERE / "test-one-slide.pptx"
 VIDEO = HERE / "video" / "aus-flow-1080p.mp4"
 POSTER = HERE / "video" / "aus-flow-poster.png"
-SKILL = Path(r"C:\Users\nityj\AppData\Roaming\Claude\local-agent-mode-sessions\skills-plugin"
-             r"\33435f1d-c3d2-4cc2-9e5e-c5beac741445\8b0596ea-46de-42eb-b4d5-faa59f4d8cb6\skills\pptx\scripts")
+VIDEO_SHA256 = "aea54cc59ed74e87e72b0194e76cb95f49329a0277419853ba6997bb2d9c2982"
 
 NS = {
     "p": "http://schemas.openxmlformats.org/presentationml/2006/main",
@@ -265,11 +267,118 @@ def embed_slide(d, step, k, frame):
     return {"slide": step["slide"], "shape_id": sid, "glb": glb_name, "png": png_name, "camera": cam}
 
 
-def run_skill(script, *args):
-    res = subprocess.run([sys.executable, str(SKILL / script), *map(str, args)], cwd=str(SKILL), capture_output=True, text=True)
-    if res.returncode:
-        raise SystemExit(f"{script} failed: {res.stdout}\n{res.stderr}")
-    return res.stdout.strip()
+def target_part(source, target):
+    """Resolve either an absolute or relative OPC relationship target."""
+    return (target.lstrip("/") if target.startswith("/") else
+            posixpath.normpath(posixpath.join(posixpath.dirname(source), target)))
+
+
+def keep_slides(d, names):
+    """Trim both the presentation list and its slide relationships before pruning."""
+    pres = d / "ppt" / "presentation.xml"
+    tree = parse(pres)
+    rt = parse(rels_path(pres))
+    keep = set()
+    for rel in list(rt.getroot()):
+        if rel.get("Type").endswith("/slide"):
+            if Path(rel.get("Target")).name in names:
+                keep.add(rel.get("Id"))
+            else:
+                rt.getroot().remove(rel)
+    for slide in list(tree.getroot().find("p:sldIdLst", NS)):
+        if slide.get(f"{{{NS['r']}}}id") not in keep:
+            slide.getparent().remove(slide)
+    write(tree, pres)
+    write(rt, rels_path(pres))
+
+
+def prune_package(d):
+    """Keep parts reachable from package relationships, including notes and media.
+
+    This replaces the session-local clean.py. External links are left untouched;
+    missing internal targets fail the build instead of creating a broken PPTX.
+    """
+    retained = {"[Content_Types].xml"}
+    pending = [""]
+    visited = set()
+    while pending:
+        source = pending.pop()
+        if source in visited:
+            continue
+        visited.add(source)
+        if source:
+            retained.add(source)
+        rp = rels_path(d / source) if source else d / "_rels" / ".rels"
+        if not rp.exists():
+            continue
+        retained.add(rp.relative_to(d).as_posix())
+        for rel in parse(rp).getroot():
+            if rel.get("TargetMode") == "External":
+                continue
+            target = target_part(source, rel.get("Target"))
+            if target.startswith("../") or not (d / target).is_file():
+                raise ValueError(f"missing internal relationship: {source} -> {target}")
+            pending.append(target)
+    ct = parse(d / "[Content_Types].xml")
+    for entry in list(ct.getroot()):
+        if entry.tag == f"{{{NS['ct']}}}Override" and entry.get("PartName").lstrip("/") not in retained:
+            ct.getroot().remove(entry)
+    write(ct, d / "[Content_Types].xml")
+    for path in d.rglob("*"):
+        if path.is_file() and path.relative_to(d).as_posix() not in retained:
+            path.unlink()
+
+
+def duplicate_backup_template(d):
+    """Copy slide 40 after slide 39, with its shared layout, using native OOXML.
+
+    The template's notes are deliberately not copied: add_movie supplies the
+    backup narration. Original slides, notes and timing parts are never edited.
+    """
+    slides = d / "ppt" / "slides"
+    number = max(int(p.stem[5:]) for p in slides.glob("slide*.xml")) + 1
+    new = f"slide{number}.xml"
+    path = slides / new
+    shutil.copyfile(slides / "slide40.xml", path)
+    rt = parse(rels_path(slides / "slide40.xml"))
+    for rel in list(rt.getroot()):
+        if not rel.get("Type").endswith("/slideLayout"):
+            rt.getroot().remove(rel)
+    write(rt, rels_path(path))
+    pres = d / "ppt" / "presentation.xml"
+    rid = add_rel(rels_path(pres), NS["r"] + "/slide", f"/ppt/slides/{new}")
+    tree = parse(pres)
+    slide_list = tree.getroot().find("p:sldIdLst", NS)
+    sid = max(int(s.get("id")) for s in slide_list) + 1
+    entry = etree.Element(f"{{{NS['p']}}}sldId", id=str(sid))
+    entry.set(f"{{{NS['r']}}}id", rid)
+    slide_list.insert(39, entry)
+    write(tree, pres)
+    ct_path = d / "[Content_Types].xml"
+    ct = parse(ct_path)
+    template = ct.getroot().xpath("ct:Override[@PartName='/ppt/slides/slide40.xml']", namespaces=NS)[0]
+    etree.SubElement(ct.getroot(), f"{{{NS['ct']}}}Override",
+                     PartName=f"/ppt/slides/{new}", ContentType=template.get("ContentType"))
+    write(ct, ct_path)
+    return new
+
+
+def resolve_video(video, seed, tmp):
+    """Reuse the exact versioned MP4 if no standalone recording is available."""
+    if video.is_file():
+        return video
+    if not seed.is_file():
+        raise ValueError(f"missing video {video}; supply --video MP4 or --video-from an existing 3D deck")
+    with zipfile.ZipFile(seed) as z:
+        matches = [n for n in z.namelist() if n.lower().endswith(".mp4")]
+        if len(matches) != 1:
+            raise ValueError(f"expected one embedded MP4 in {seed}, found {len(matches)}; supply --video")
+        data = z.read(matches[0])
+    if hashlib.sha256(data).hexdigest() != VIDEO_SHA256:
+        raise ValueError(f"embedded backup video checksum mismatch in {seed}; supply --video for a new recording")
+    result = tmp / "aus-flow-1080p.mp4"
+    result.write_bytes(data)
+    return result
 
 
 def zip_dir(d, out):
@@ -293,15 +402,7 @@ def slide_order(d):
 def add_video_slide(d):
     order = slide_order(d)
     assert order[38] == "slide39.xml" and order[39] == "slide40.xml", order[38:40]
-    # this package declares xmlns:r on each sldId, not on the root; add_slide.py writes a bare r:id,
-    # so declare r on the root first (a namespace declaration only, no content change)
-    pres = d / "ppt" / "presentation.xml"
-    xml = pres.read_text(encoding="utf-8-sig")
-    if not re.match(r'(<\?xml[^>]*>)?\s*<p:presentation[^>]*xmlns:r=', xml):
-        xml = re.sub(r"<p:presentation(?=[\s>])", f'<p:presentation xmlns:r="{NS["r"]}"', xml, count=1)
-        pres.write_text(xml, encoding="utf-8")
-    out = run_skill("add_slide.py", d, "slide40.xml", "--after", "slide39.xml")
-    new = re.search(r"Created ppt/slides/(slide\d+\.xml)", out).group(1)
+    new = duplicate_backup_template(d)
     path = d / "ppt" / "slides" / new
     tree = parse(path)
     root = tree.getroot()
@@ -326,14 +427,14 @@ def add_video_slide(d):
     return new
 
 
-def add_movie(pptx):
+def add_movie(pptx, video):
     from pptx import Presentation
     from pptx.util import Inches
     prs = Presentation(str(pptx))
     slide = prs.slides[39]
     title = [s for s in slide.shapes if s.has_text_frame and s.text_frame.text == VIDEO_TITLE]
     assert title, "video slide not at position 40"
-    slide.shapes.add_movie(str(VIDEO), Inches(0.67), Inches(1.9), Inches(8.9), Inches(5.0),
+    slide.shapes.add_movie(str(video), Inches(0.67), Inches(1.9), Inches(8.9), Inches(5.0),
                            poster_frame_image=str(POSTER), mime_type="video/mp4")
     slide.notes_slide.notes_text_frame.text = VIDEO_NOTE
     prs.save(str(pptx))
@@ -362,13 +463,28 @@ def scene_frame(cfg):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output", type=Path, default=OUT)
+    parser.add_argument("--test-output", type=Path, default=TEST)
+    parser.add_argument("--video", type=Path, default=VIDEO, help="Standalone MP4, if available")
+    parser.add_argument("--video-from", type=Path, default=OUT,
+                        help="Existing 3D deck containing the versioned backup MP4")
+    args = parser.parse_args()
+    if args.output.resolve() == SRC.resolve() or args.test_output.resolve() == SRC.resolve():
+        parser.error("output paths must not overwrite the original teaching deck")
+    if args.output.resolve() == args.test_output.resolve():
+        parser.error("output and test-output must be different files")
     cfg = json.loads((HERE / "steps.json").read_text(encoding="utf-8"))
     frame = scene_frame(cfg)
-    for need in [SRC, VIDEO, POSTER, *[HERE / "steps" / f"{s['id']}.glb" for s in cfg["slides"]],
+    for need in [SRC, POSTER, *[HERE / "steps" / f"{s['id']}.glb" for s in cfg["slides"]],
                  *[HERE / "renders" / f"{s['id']}.png" for s in cfg["slides"]]]:
         if not need.exists():
             raise SystemExit(f"missing {need}")
     with tempfile.TemporaryDirectory() as tmp:
+        try:
+            video = resolve_video(args.video, args.video_from, Path(tmp))
+        except ValueError as exc:
+            parser.error(str(exc))
         d = Path(tmp) / "deck"
         with zipfile.ZipFile(SRC) as z:
             z.extractall(d)
@@ -378,21 +494,19 @@ def main():
         # one-slide smoke test: slide 28 only
         t = Path(tmp) / "test"
         shutil.copytree(d, t)
-        pres = t / "ppt" / "presentation.xml"
-        xml = pres.read_text(encoding="utf-8-sig")
-        prels = (t / "ppt" / "_rels" / "presentation.xml.rels").read_text(encoding="utf-8-sig")
-        keep_rid = re.search(r'Target="/ppt/slides/slide28\.xml"[^>]*Id="([^"]+)"', prels).group(1)
-        xml = re.sub(r'<p:sldId [^>]*r:id="(?!' + re.escape(keep_rid) + r'")[^"]+"[^>]*/>', "", xml)
-        pres.write_text(xml, encoding="utf-8")
-        run_skill("clean.py", t)
-        zip_dir(t, TEST)
+        keep_slides(t, {"slide28.xml"})
+        prune_package(t)
+        zip_dir(t, args.test_output)
         # the backup video slide after slide 39, then tidy and pack
         new = add_video_slide(d)
-        print(run_skill("clean.py", d))
-        zip_dir(d, OUT)
-    add_movie(OUT)
-    finalise_content_types(OUT)
-    print(json.dumps({"embedded": done, "videoSlide": new, "deck": str(OUT), "test": str(TEST)}, indent=1))
+        prune_package(d)
+        # Stage the full deck until video insertion succeeds, leaving any seed intact.
+        built = Path(tmp) / "built.pptx"
+        zip_dir(d, built)
+        add_movie(built, video)
+        finalise_content_types(built)
+        shutil.copyfile(built, args.output)
+    print(json.dumps({"embedded": done, "videoSlide": new, "deck": str(args.output), "test": str(args.test_output)}, indent=1))
 
 
 if __name__ == "__main__":

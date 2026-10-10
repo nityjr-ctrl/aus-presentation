@@ -39,22 +39,50 @@ Built 8 October 2026 on branch `feat/3d-embedded-aus`. The lectern PC at the las
 | `steps/*.glb` | one GLB per 3D slide, same scene frame, 0.31 to 0.68 MB, 10,770 to 27,490 triangles |
 | `renders/*.png` | fallback pictures (three.js, same camera, transparent background) |
 | `contact-sheet.png`, `contact-sheet-3d.png` | LibreOffice render of every slide, and of the 3D slides larger (LibreOffice shows the fallback pictures) |
-| `video/aus-flow-1080p.mp4` | not in Git: 1920 x 1080 H.264, 159 s, 42.6 MB, no sound; copy in `C:\NityProjects\AUS-Presentation\archive\2026-10-08-3d-build\` |
+| `video/aus-flow-1080p.mp4` | optional standalone recording: 1920 x 1080 H.264, 159 s, 42.6 MB, no sound. The same MP4 is versioned inside the committed 3D PPTX and automatically reused on a clean checkout |
 | `steps.json` | mapping, node lists, cameras (resolved values written by the build), notes lines |
 | `AM3D-NOTES.md` | how the PowerPoint 3D XML was worked out, and what is still uncertain |
 | `validation-3d.json` | last `validate.py` result |
 
-Rebuild: `npm ci`, then `node build-steps.mjs`, `node render-fallbacks.mjs`, `node record-video.mjs`, `python embed-3d.py`, `python validate.py`, `python contact-sheets.py`.
+## Portable rebuild
+
+Use Python 3.11 or later. From the repository root:
+
+```sh
+python -m venv .venv
+# Activate .venv (Windows: .venv\Scripts\activate; macOS/Linux: source .venv/bin/activate).
+python -m pip install -r presentation/3d/requirements.txt
+python presentation/3d/embed-3d.py
+python presentation/3d/validate.py
+python -m unittest discover -s presentation/3d -p "test_*.py" -v
+```
+
+The slide-copy and package-pruning helpers now live in `embed-3d.py` and are versioned with the repository. There is no dependency on Claude, an installed skill, a session directory, Node or the live website for this rebuild. The original 5 October deck, committed step GLBs, fallback PNGs, poster and `steps.json` are the inputs. Python dependencies are pinned in `requirements.txt`.
+
+If the standalone MP4 is absent, the builder extracts the backup from the existing committed `AUS-teaching-deck-3d.pptx` **before** replacing it. It verifies SHA-256 `aea54cc59ed74e87e72b0194e76cb95f49329a0277419853ba6997bb2d9c2982`. Keep that seed PPTX when starting a clean build. To use a separate seed or a new recording:
+
+```sh
+python presentation/3d/embed-3d.py --video-from /path/to/existing-3d-deck.pptx
+python presentation/3d/embed-3d.py --video /path/to/recording.mp4
+```
+
+`--output` and `--test-output` allow builds in a separate directory; the original teaching deck cannot be used as either output. `validate.py --deck PATH --test PATH --report PATH` validates those files without modifying the default report. A full deck is staged until movie insertion succeeds, so a failed build preserves the video seed.
+
+The regression suite builds from a relocated checkout with spaces in its path, an unrelated working directory and an empty user-home path. It runs all 48 structural checks, checks the source deck and seed remain unchanged, and compares every slide, note, media and animation part against the versioned 3D deck byte for byte. Only package-level slide IDs and relationship IDs may differ. It also checks smoke-test pruning, explicit video selection, missing/corrupt video errors and protection against overwriting the original. GitHub Actions runs the suite on Windows and Linux. These checks do not exercise Microsoft PowerPoint rendering.
+
+For deliberate regeneration of the visual assets, run `npm ci`, `node build-steps.mjs`, `node render-fallbacks.mjs` and `node record-video.mjs` in this directory before embedding. That optional pipeline uses a browser and the live public UroOps page; it is separate from the offline rebuild above. Update the versioned seed and video checksum intentionally when changing the backup recording. The existing optional `contact-sheets.py` is configured for the author's Windows LibreOffice installation and also requires PyMuPDF and Pillow; it is not part of the portable rebuild or CI.
 
 ## Pre-talk checklist
 
-1. The day before, copy `AUS-teaching-deck-3d.pptx` (about 50 MB) and the original deck to the lectern PC.
+1. Before the 23 October presentation, test `test-one-slide.pptx` and the full deck in real desktop Microsoft PowerPoint. Record the PowerPoint version/build and the outcome. Repeat the checks on the actual lectern PC before the talk, with the network disconnected, using locally copied files. Also copy the original deck as the fallback.
 2. Open it in PowerPoint 2019 or Microsoft 365 on Windows 10 or later (3D models need both).
 3. On each 3D slide click the model: a 3D rotation handle should appear. A plain picture with no handle means PowerPoint is showing the fallback.
 4. Press F5 and step through 26 to 28 and 30 to 33 to see the Morph transitions.
 5. On slide 33 the 8 s cycle (cuff opens, balloon fills, cuff closes) should play. If it does not, select the model and add Animations > Scene.
 6. Play the video on slide 40 (backup, outside the timed talk, no sound).
 7. Keep the original deck open in the background as plan B.
+
+Still unverified: opening without a repair prompt, native rotation/zoom on all seven models, the slide 33 embedded eight-second animation, Morph versus cross-fade behaviour between different GLBs, video playback, and the lectern's policy/rendering behaviour. Structural validation cannot establish any of these. If a model cannot be manipulated, inspect whether PowerPoint has chosen the static fallback, then use the backup video or original deck. No real-PowerPoint test has been completed by this portability fix.
 
 ## Mapping
 
@@ -86,7 +114,7 @@ Morph is the only animation in the deck; every other slide still has none. Each 
 1. Open the original deck. Insert > 3D Models > This Device and pick the step GLB from `steps/` (for example `aus-28-sizing.glb`).
 2. Size it into the left column (clear of the bullets at 8.21 in).
 3. Rotate or zoom it to a useful view. For a fly-through, duplicate the slide, change the view, and set Transitions > Morph on the second slide.
-4. Repeat per step. The video slide can be rebuilt with Insert > Video > This Device using the archived MP4.
+4. Repeat per step. The video slide can be rebuilt with Insert > Video > This Device using a standalone MP4 or the MP4 extracted from `ppt/media/` inside a ZIP copy of the committed 3D deck.
 
 ## Known uncertainties
 
