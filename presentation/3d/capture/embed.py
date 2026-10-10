@@ -144,8 +144,11 @@ def d3(files, order):
     files['[Content_Types].xml'] = ct.encode()
     flow = CAP + '/out/aus-flow.mp4'
     if os.path.exists(flow):
-        files['ppt/media/media1.mp4'] = rd(flow)
-        files['ppt/media/image1.png'] = rd(CAP + '/out/aus-flow-poster.png')
+        # Look the video and its poster up from slide 40's own relationships. Writing to fixed media names
+        # (media1.mp4, image1.png) overwrote the cover picture on 10 October 2026.
+        rels40 = files['ppt/slides/_rels/slide40.xml.rels'].decode()
+        files['ppt/media/' + re.search(r'media/([^"]+\.mp4)"', rels40).group(1)] = rd(flow)
+        files[image_of(files, 40)] = rd(CAP + '/out/aus-flow-poster.png')
         print('flow video replaced')
 
 

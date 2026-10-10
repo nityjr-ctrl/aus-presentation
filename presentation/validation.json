@@ -16,8 +16,8 @@
   "notRerun": "Artifact Tool re-import, layout findings and font checks from 5 October were not repeated on this file. Slide layout outside the replaced pictures and the cover credits is unchanged from the 5 October checkpoint.",
   "animatedDeck": {
     "file": "AUS-teaching-deck-3d.pptx",
-    "sha256": "9901d5ae4dd08b8e9734a492476e1fc339fbd5b045f98460a8036c2cdf3e212f",
-    "byteCount": 69797834,
+    "sha256": "41248c6ba736cf6692fc70fd13187e6d20a4b14eeb3fbe9ed0e7ad900cf27e68",
+    "byteCount": 70386836,
     "slides": 50,
     "embeddedVideos": 8,
     "packageIntegrity": "pass",
