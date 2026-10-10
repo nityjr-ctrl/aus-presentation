@@ -4,7 +4,7 @@
 
 [Google Slides copy, last updated 5 October 2026](https://docs.google.com/presentation/d/1DbVurIgp3NeP9eeTm9jgekOyHzaTBbv3GfhC9eMolVo/edit?usp=drivesdk).
 
-The visual companion adds a clinical theatre cover, UroOps teaching schematics, a manufacturer component illustration, case votes, evidence tables and charts. It retains the 38 teaching slides and original 60-minute running order, with a cover, three clinical backups and seven reference slides (49 slides total). The speaker notes in the PowerPoint files hold the spoken text. References and evidence limits for each slide are in the manuscript and the presenter guide.
+The visual companion adds a UroOps cover picture, UroOps teaching schematics, a manufacturer component illustration, case votes, evidence tables and charts. It retains the 38 teaching slides and original 60-minute running order, with a cover, three clinical backups and seven reference slides (49 slides total). The speaker notes in the PowerPoint files hold the spoken text. References and evidence limits for each slide are in the manuscript and the presenter guide.
 
 - Standard deck: [`presentation/AUS-teaching-deck.pptx`](presentation/AUS-teaching-deck.pptx)
 - Animated deck with looping UroOps clips (50 slides): [`presentation/AUS-teaching-deck-3d.pptx`](presentation/AUS-teaching-deck-3d.pptx)

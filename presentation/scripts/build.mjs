@@ -49,7 +49,7 @@ function chart(s,type,opts){const ch=s.charts.add(type,opts);applyPresentationCh
 // The cover has no speaking allocation. The 38 teaching slides retain the source clock.
 {
  const s=p.slides.add();s.background.fill=C.white;
- await img(s,'theatre-illustration.png',630,0,650,720,'Illustrative operating theatre and instrument table');
+ await img(s,'uroops-cover.png',630,143,650,433,'UroOps 3D teaching schematic of an implanted artificial urinary sphincter');
  text(s,'Artificial urinary\nsphincter surgery',64,140,575,185,58,C.ink,true);
  text(s,'Patient selection, difficult bladders\nand difficult urethras',64,360,540,116,31,C.muted);
  rule(s,64,520,84);
@@ -60,7 +60,7 @@ function chart(s,type,opts){const ch=s.charts.add(type,opts);applyPresentationCh
  text(s,'Urology Consultant',64,619,535,24,19,C.muted);
  text(s,'Nity G',64,649,535,27,22,C.ink,true);
  text(s,'ST5 Urology Registrar',64,677,535,24,19,C.muted);
- s.speakerNotes.textFrame.setText('Cover, displayed before the timed teaching session. Presenters supplied by the user: Mr Andrew Baird, Urology Consultant, Mr Abu Yousif, Urology Consultant, and Nity G, ST5 Urology Registrar. Add the meeting and date. Add personal disclosures to the evidence slide before presenting. Image: AI-generated illustrative theatre scene, not a record of an actual operation. No personal operative experience or local outcomes are asserted.');
+ s.speakerNotes.textFrame.setText('Cover, displayed before the timed teaching session. Presenters supplied by the user: Mr Andrew Baird, Urology Consultant, Mr Abu Yousif, Urology Consultant, and Nity G, ST5 Urology Registrar. Add the meeting and date. Add personal disclosures to the evidence slide before presenting. Image: UroOps 3D teaching schematic of the implanted device, captured from https://uroops3d.com/lab/aus on 10 October 2026, with clinical review pending. It is not a record of an actual operation. No personal operative experience or local outcomes are asserted.');
 }
 
 for(const d of specs){

@@ -33,11 +33,11 @@ An animated version of the deck, AUS-teaching-deck-3d.pptx, plays a looping UroO
 
 The title sets the scope: selecting patients and managing difficult bladders and urethras. This is a decision-making talk with operative principles, rather than a complete implantation manual. As an ST5, your strongest contribution is to explain what would alter the plan and where you would seek specialist input.
 
-The cover has no outcome claim or scientific citation. The theatre image is an illustration. It is not a photograph and says nothing about the presenters' operative experience. Introduce all three presenters accurately, as named on the cover, and state the meeting context.
+The cover has no outcome claim or scientific citation. The cover picture is a UroOps 3D teaching schematic of the implanted device. It is not a photograph and says nothing about the presenters' operative experience. Introduce all three presenters accurately, as named on the cover, and state the meeting context.
 
 ### Evidence meaning
 
-There is no cited clinical evidence on this cover. The source notes identify the cover image as AI-generated. Do not infer patient data, institutional outcomes or endorsement from it.
+There is no cited clinical evidence on this cover. The cover picture is a teaching schematic with clinical review pending. Do not infer patient data, institutional outcomes or endorsement from it.
 
 ### A speaking line
 

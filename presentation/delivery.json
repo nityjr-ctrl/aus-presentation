@@ -37,8 +37,8 @@
   },
   "checkpoint": {
     "file": "AUS-teaching-deck.pptx",
-    "sha256": "127d0cd4f6f5e7f56caf6c78a2a9b4ba3e9578ac5379ba023bdb3c7c625cf789",
-    "byteCount": 11818998,
+    "sha256": "888ebeb35ed7b38a8a22849767f002d2712ff28926e36511d64ac895269a8dcf",
+    "byteCount": 11047039,
     "revised": "2026-10-10",
     "changesSince2026-10-05": "Three presenters on the cover; speaker notes for teaching slides 01 to 37 rewritten and reduced to spoken text; new UroOps stills on slides 6, 16, 26, 27, 28, 31 and 33. The on-slide clinical-review-pending captions under the UroOps pictures were removed at the owner's request; the speaker notes still carry that statement. Slide order, on-slide wording, tables, charts and citations unchanged.",
     "nativeCharts": 0,
