@@ -1,0 +1,742 @@
+{
+ "codes": {
+  "1": [
+   "BAUS25",
+   "AUA24",
+   "ICS16"
+  ],
+  "2": [
+   "BAUS25",
+   "EAU26",
+   "AUA24",
+   "ICS16",
+   "AP23",
+   "CCIFU",
+   "AUASTATUS26",
+   "DEVICE26"
+  ],
+  "3": [
+   "BAUS25",
+   "EAU26",
+   "AUA24",
+   "PAD26"
+  ],
+  "4": [
+   "AUA24",
+   "BAUS25",
+   "EAU26",
+   "MASTER22",
+   "MASTER26"
+  ],
+  "5": [
+   "AUA24",
+   "ICS16",
+   "CCIFU",
+   "FRAIL26"
+  ],
+  "6": [
+   "BAUS25",
+   "AUA24",
+   "EAU26",
+   "EAUSTR26",
+   "AUAUDS26"
+  ],
+  "7": [
+   "BAUS25",
+   "EAU26",
+   "AUA24",
+   "ICS16",
+   "AUASTATUS26",
+   "AUAUDS26"
+  ],
+  "8": [
+   "BAUS25",
+   "AUA24",
+   "ICS16",
+   "UDS14"
+  ],
+  "9": [
+   "AUSCO26",
+   "CCSAFETY",
+   "AUA24",
+   "RT22",
+   "FRAIL26",
+   "REGRET26",
+   "DEVICE26",
+   "REPORT26"
+  ],
+  "10": [
+   "DO24",
+   "OAB11",
+   "DOFAIL23",
+   "CCIFU"
+  ],
+  "11": [
+   "BAUS25",
+   "AUAOAB24",
+   "OAB11",
+   "CCIFU"
+  ],
+  "12": [
+   "DU23",
+   "AUA24",
+   "ICSUDS17",
+   "CCIFU"
+  ],
+  "13": [
+   "CIC23",
+   "CATH13",
+   "CCIFU",
+   "ICS16",
+   "BAUSSCI26",
+   "INSTR26"
+  ],
+  "14": [
+   "UDS09",
+   "ICS16",
+   "BAUS25",
+   "CCIFU",
+   "BAUSSCI26"
+  ],
+  "15": [
+   "EAUSTR26",
+   "BAUS25",
+   "AUA24"
+  ],
+  "16": [
+   "BAUS25",
+   "AUA24",
+   "EAUSTR26",
+   "ICS16"
+  ],
+  "17": [
+   "RT22",
+   "BAUS25",
+   "EAUSTR26",
+   "AUA24",
+   "RTTIME25"
+  ],
+  "18": [
+   "URETH26",
+   "BAUS25",
+   "AUA24",
+   "ICS16",
+   "URETHMETA26"
+  ],
+  "19": [
+   "TC20",
+   "TC23",
+   "BAUS25",
+   "AP23",
+   "TCSYS25"
+  ],
+  "20": [
+   "BAUS25",
+   "NICE",
+   "WHO09",
+   "PREP24",
+   "IRRIG26"
+  ],
+  "21": [
+   "YEUNG13",
+   "PREP24",
+   "NICE",
+   "CHLORA26",
+   "BAUS25"
+  ],
+  "22": [
+   "IDSA19",
+   "BAUS25",
+   "AUAABX20",
+   "ABX18",
+   "CCIFU",
+   "AUAABX26"
+  ],
+  "23": [
+   "TOUCH23",
+   "NICE",
+   "AP23",
+   "CCIFU",
+   "IRRIG26"
+  ],
+  "24": [
+   "NICE",
+   "BAUS25",
+   "CCIFU",
+   "AUAABX20",
+   "IRRIG26"
+  ],
+  "25": [
+   "AUA24",
+   "ICS16",
+   "AP23"
+  ],
+  "26": [
+   "ICS16",
+   "AP23",
+   "CCIFU",
+   "URETH26"
+  ],
+  "27": [
+   "ICS16",
+   "CCIFU",
+   "CCSAFETY",
+   "AP23"
+  ],
+  "28": [
+   "BAUS25",
+   "AP23",
+   "ICS16",
+   "CCIFU"
+  ],
+  "29": [
+   "CCIFU",
+   "AP23",
+   "ICS16"
+  ],
+  "30": [
+   "AP23",
+   "ICS16",
+   "CCIFU"
+  ],
+  "31": [
+   "CCIFU",
+   "ICS16",
+   "AP23",
+   "CATH13",
+   "INSTR26"
+  ],
+  "32": [
+   "ICS16",
+   "AP23",
+   "CCIFU"
+  ],
+  "33": [
+   "BAUS25",
+   "CCIFU",
+   "AUA24",
+   "CATH13",
+   "BAUSDAY26",
+   "DAYMETA26",
+   "DAYCASE26"
+  ],
+  "34": [
+   "ATROPHY20",
+   "BAUS25",
+   "AUA24",
+   "CCIFU",
+   "AUASAFER26",
+   "PRBFAT26",
+   "EROSION26",
+   "SECOND26"
+  ],
+  "35": [
+   "MASTER22",
+   "TC20",
+   "TC23",
+   "PREP24",
+   "CCSAFETY",
+   "DEVICE26",
+   "UROACTIVE26"
+  ],
+  "36": [
+   "BAUS25",
+   "EAU26",
+   "AUA24",
+   "DU23",
+   "ICS16"
+  ],
+  "37": [
+   "CCIFU",
+   "NICE",
+   "AP23",
+   "ATROPHY20",
+   "BAUS25"
+  ],
+  "38": []
+ },
+ "times": {
+  "1": {
+   "time": "1:30",
+   "clock": "00:00-01:30",
+   "mtitle": "The operation starts before theatre"
+  },
+  "2": {
+   "time": "1:30",
+   "clock": "01:30-03:00",
+   "mtitle": "The evidence has boundaries"
+  },
+  "3": {
+   "time": "1:45",
+   "clock": "03:00-04:45",
+   "mtitle": "Define the leakage that matters"
+  },
+  "4": {
+   "time": "1:30",
+   "clock": "04:45-06:15",
+   "mtitle": "Timing and alternatives: avoid both drift and haste"
+  },
+  "5": {
+   "time": "1:15",
+   "clock": "06:15-07:30",
+   "mtitle": "Can this patient use this pump in five years?"
+  },
+  "6": {
+   "time": "1:45",
+   "clock": "07:30-09:15",
+   "mtitle": "Flexible cystoscopy: know what will change the plan"
+  },
+  "7": {
+   "time": "1:45",
+   "clock": "09:15-11:00",
+   "mtitle": "Urodynamics: the guidelines really do differ"
+  },
+  "8": {
+   "time": "1:45",
+   "clock": "11:00-12:45",
+   "mtitle": "Read the study in the context of the patient"
+  },
+  "9": {
+   "time": "1:15",
+   "clock": "12:45-14:00",
+   "mtitle": "Consent to a pathway, not a promise of permanent dryness"
+  },
+  "10": {
+   "time": "1:45",
+   "clock": "14:00-15:45",
+   "mtitle": "Fictional case 1: six pads, urgency and DO"
+  },
+  "11": {
+   "time": "1:30",
+   "clock": "15:45-17:15",
+   "mtitle": "Treat urgency without creating an emptying problem"
+  },
+  "12": {
+   "time": "1:45",
+   "clock": "17:15-19:00",
+   "mtitle": "Fictional case 2: weak contraction and a raised residual"
+  },
+  "13": {
+   "time": "1:30",
+   "clock": "19:00-20:30",
+   "mtitle": "Intermittent catheterisation changes the consent and the operation"
+  },
+  "14": {
+   "time": "1:30",
+   "clock": "20:30-22:00",
+   "mtitle": "Poor compliance: dry can still be unsafe"
+  },
+  "15": {
+   "time": "1:15",
+   "clock": "22:00-23:15",
+   "mtitle": "Name the narrowing before choosing its treatment"
+  },
+  "16": {
+   "time": "1:30",
+   "clock": "23:15-24:45",
+   "mtitle": "Stability is a finding, not merely elapsed time"
+  },
+  "17": {
+   "time": "1:30",
+   "clock": "24:45-26:15",
+   "mtitle": "Fictional case 3: radiation and recurrent VUAS"
+  },
+  "18": {
+   "time": "1:30",
+   "clock": "26:15-27:45",
+   "mtitle": "A reconstructed urethra changes the dissection"
+  },
+  "19": {
+   "time": "1:15",
+   "clock": "27:45-29:00",
+   "mtitle": "Transcorporal placement is an option with a price"
+  },
+  "20": {
+   "time": "1:15",
+   "clock": "29:00-30:15",
+   "mtitle": "A fifteen-minute wash: which activity do we mean?"
+  },
+  "21": {
+   "time": "1:45",
+   "clock": "30:15-32:00",
+   "mtitle": "Skin preparation: what the studies can actually support"
+  },
+  "22": {
+   "time": "1:30",
+   "clock": "32:00-33:30",
+   "mtitle": "Urine and antibiotics: state the disagreement"
+  },
+  "23": {
+   "time": "1:30",
+   "clock": "33:30-35:00",
+   "mtitle": "Reduce contamination without turning tradition into proof"
+  },
+  "24": {
+   "time": "1:00",
+   "clock": "35:00-36:00",
+   "mtitle": "The theatre checklist I would actually use"
+  },
+  "25": {
+   "time": "1:15",
+   "clock": "36:00-37:15",
+   "mtitle": "Position and expose for the anatomy you have"
+  },
+  "26": {
+   "time": "1:30",
+   "clock": "37:15-38:45",
+   "mtitle": "Bulbar dissection: preserve the tissue you need to compress"
+  },
+  "27": {
+   "time": "1:45",
+   "clock": "38:45-40:30",
+   "mtitle": "Measurement: a tighter cuff is not a better measurement"
+  },
+  "28": {
+   "time": "1:30",
+   "clock": "40:30-42:00",
+   "mtitle": "Urethral injury or contamination: change the endpoint"
+  },
+  "29": {
+   "time": "1:30",
+   "clock": "42:00-43:30",
+   "mtitle": "Balloon placement and pressure: two different decisions"
+  },
+  "30": {
+   "time": "1:15",
+   "clock": "43:30-44:45",
+   "mtitle": "The pump must work for the patient"
+  },
+  "31": {
+   "time": "1:15",
+   "clock": "44:45-46:00",
+   "mtitle": "Finish the system, then hand over the risk"
+  },
+  "32": {
+   "time": "4:00",
+   "clock": "46:00-50:00",
+   "mtitle": "UroOps 3D: follow the anatomy, then follow the tubing"
+  },
+  "33": {
+   "time": "1:00",
+   "clock": "50:00-51:00",
+   "mtitle": "Early care: the device is only part of the handover"
+  },
+  "34": {
+   "time": "1:30",
+   "clock": "51:00-52:30",
+   "mtitle": "Fictional case 4: leakage after three good years"
+  },
+  "35": {
+   "time": "0:45",
+   "clock": "52:30-53:15",
+   "mtitle": "What we know, what we believe, what we cannot yet answer"
+  },
+  "36": {
+   "time": "0:45",
+   "clock": "53:15-54:00",
+   "mtitle": "Five decisions before the implant is opened"
+  },
+  "37": {
+   "time": "1:00",
+   "clock": "54:00-55:00",
+   "mtitle": "Five decisions that protect the result"
+  },
+  "38": {
+   "time": "5:00",
+   "clock": "55:00-60:00",
+   "mtitle": "Discussion: which finding would change your plan?"
+  }
+ },
+ "refs": [
+  {
+   "code": "BAUS25",
+   "label": "BAUS consensus, BJU Int 2025",
+   "url": "https://doi.org/10.1111/bju.16726"
+  },
+  {
+   "code": "EAU26",
+   "label": "EAU male LUTS guidelines, 2026",
+   "url": "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/disease-management"
+  },
+  {
+   "code": "AUA24",
+   "label": "AUA/GURS/SUFU IPT amendment, 2024",
+   "url": "https://www.auanet.org/documents/Guidelines/PDF/2024%20Guidelines/IPT%20Unabridged%20Final%206-18-24.pdf"
+  },
+  {
+   "code": "EAUSTR26",
+   "label": "EAU urethral strictures guidelines, 2026",
+   "url": "https://uroweb.org/guidelines/urethral-strictures/chapter/disease-management-in-males"
+  },
+  {
+   "code": "ICS16",
+   "label": "ICS AUS consensus, NUU 2016",
+   "url": "https://www.ics.org/folder/standardisation/current-ics-standardisations/d/artificial-urinary-sphincter-report-of-the-2015-consensus-conference/download"
+  },
+  {
+   "code": "AP23",
+   "label": "Asia-Pacific AMS 800 consensus, 2023",
+   "url": "https://doi.org/10.1111/iju.15083"
+  },
+  {
+   "code": "CCIFU",
+   "label": "Rigicon ContiClassic IFU, REV.03, 2023",
+   "url": "https://www.rigicon.com/files/e-labeling/ContiClassic-IFU.pdf"
+  },
+  {
+   "code": "ICSUDS17",
+   "label": "ICS good urodynamic practices, 2017",
+   "url": "https://doi.org/10.1002/nau.23124"
+  },
+  {
+   "code": "AUAOAB24",
+   "label": "AUA/SUFU idiopathic OAB guideline, 2024",
+   "url": "https://doi.org/10.1097/JU.0000000000003985"
+  },
+  {
+   "code": "NICE",
+   "label": "NICE NG125: surgical site infection",
+   "url": "https://www.nice.org.uk/guidance/ng125/chapter/recommendations"
+  },
+  {
+   "code": "WHO09",
+   "label": "WHO hand hygiene guidance, 2009",
+   "url": "https://www.who.int/publications/i/item/9789241597906"
+  },
+  {
+   "code": "CHLORA26",
+   "label": "ChloraPrep UK product information, 2026",
+   "url": "https://www.medicines.org.uk/emc/product/101238/smpc"
+  },
+  {
+   "code": "IDSA19",
+   "label": "IDSA asymptomatic bacteriuria, 2019",
+   "url": "https://www.idsociety.org/practice-guideline/asymptomatic-bacteriuria/"
+  },
+  {
+   "code": "AUAABX20",
+   "label": "AUA antimicrobial prophylaxis, 2020",
+   "url": "https://doi.org/10.1097/JU.0000000000000509"
+  },
+  {
+   "code": "CCSAFETY",
+   "label": "Wilson: ContiClassic safety, IJIR 2024",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37543658/"
+  },
+  {
+   "code": "MASTER22",
+   "label": "MASTER randomised trial, HTA 2022",
+   "url": "https://doi.org/10.3310/TBFZ0277"
+  },
+  {
+   "code": "UDS09",
+   "label": "Lai: pre-AUS urodynamics, Urology 2009",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19371935/"
+  },
+  {
+   "code": "OAB11",
+   "label": "Lai: OAB and post-prostatectomy AUS, 2011",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21497853/"
+  },
+  {
+   "code": "DO24",
+   "label": "Bhatt: preoperative DO systematic review, 2024",
+   "url": "https://doi.org/10.1002/bco2.442"
+  },
+  {
+   "code": "DOFAIL23",
+   "label": "Krughoff: earlier AUS failure, 2023",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36921845/"
+  },
+  {
+   "code": "DU23",
+   "label": "Han: AUS with detrusor underactivity, 2023",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36906798/"
+  },
+  {
+   "code": "CIC23",
+   "label": "Krughoff: CIC after bulbar AUS, 2023",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36332702/"
+  },
+  {
+   "code": "CATH13",
+   "label": "Seideman: prolonged catheterisation, 2013",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24074987/"
+  },
+  {
+   "code": "UDS14",
+   "label": "Weissbart: absent leak during UDS, 2014",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25483765/"
+  },
+  {
+   "code": "RT22",
+   "label": "Zhang: radiation meta-analysis, 2022",
+   "url": "https://doi.org/10.3389/fsurg.2022.825239"
+  },
+  {
+   "code": "URETH26",
+   "label": "Davis: AUS after urethroplasty, 2026",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41022035/"
+  },
+  {
+   "code": "TC20",
+   "label": "Redmond: transcorporal fragile urethra, 2020",
+   "url": "https://doi.org/10.5489/cuaj.6431"
+  },
+  {
+   "code": "TC23",
+   "label": "Kurtzman: high-risk transcorporal AUS, 2023",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36749394/"
+  },
+  {
+   "code": "ATROPHY20",
+   "label": "Bergeson: urethral atrophy and revision, 2020",
+   "url": "https://doi.org/10.21037/tau.2019.07.18"
+  },
+  {
+   "code": "PREP24",
+   "label": "Bourgi: AUS preparation protocols, 2024",
+   "url": "https://tau.amegroups.org/article/view/130351/html"
+  },
+  {
+   "code": "YEUNG13",
+   "label": "Yeung: GU skin preparation RCT, 2013",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23164373/"
+  },
+  {
+   "code": "ABX18",
+   "label": "Adamsky: postoperative antibiotics, 2018",
+   "url": "https://doi.org/10.1016/j.urology.2017.07.064"
+  },
+  {
+   "code": "TOUCH23",
+   "label": "Ziegelmann: minimal-touch AUS, 2023",
+   "url": "https://doi.org/10.5152/tud.2023.22136"
+  },
+  {
+   "code": "LINDER15",
+   "label": "Linder: long-term AMS 800 outcomes, 2015",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26135815/"
+  },
+  {
+   "code": "AUSCO26",
+   "label": "Kaufman: AMS 800 AUSCO study, 2026",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12794701/"
+  },
+  {
+   "code": "AUASTATUS26",
+   "label": "AUA current guideline register, July 2026",
+   "url": "https://helpdesk.auanet.org/hc/en-us/articles/40948838469143-Guidelines"
+  },
+  {
+   "code": "BAUSDAY26",
+   "label": "BAUS 2026 P4-8: day-case AUS audit",
+   "url": "https://journals.sagepub.com/doi/full/10.1177/20514158261451299"
+  },
+  {
+   "code": "BAUSSCI26",
+   "label": "BAUS 2026 P12-7: bulbar AUS in SCI",
+   "url": "https://journals.sagepub.com/doi/full/10.1177/20514158261451299"
+  },
+  {
+   "code": "AUAUDS26",
+   "label": "AUA 2026 IP09-22: pre-AUS UDS and cystoscopy",
+   "url": "https://doi.org/10.1097/01.JU.0001191316.72449.22.22"
+  },
+  {
+   "code": "AUAABX26",
+   "label": "AUA 2026 IP09-18: postoperative antibiotics",
+   "url": "https://doi.org/10.1097/01.JU.0001191316.72449.22.18"
+  },
+  {
+   "code": "AUASAFER26",
+   "label": "AUA 2026 IP09-17: SAFER erosion management",
+   "url": "https://doi.org/10.1097/01.JU.0001191316.72449.22.17"
+  },
+  {
+   "code": "MASTER26",
+   "label": "MASTER: 24-month RCT results, 2026",
+   "url": "https://doi.org/10.1016/j.euf.2026.07.012"
+  },
+  {
+   "code": "URETHMETA26",
+   "label": "Prior urethroplasty: meta-analysis, 2026",
+   "url": "https://doi.org/10.1016/j.urology.2026.05.024"
+  },
+  {
+   "code": "IRRIG26",
+   "label": "Gentamicin withdrawal: AMS 800 cohort, 2026",
+   "url": "https://doi.org/10.3390/antibiotics15090894"
+  },
+  {
+   "code": "DAYMETA26",
+   "label": "Day-case AUS meta-analysis: 2026 issue",
+   "url": "https://doi.org/10.1007/s11255-025-04711-y"
+  },
+  {
+   "code": "DAYCASE26",
+   "label": "Day-case versus inpatient AUS: 177 men, 2026",
+   "url": "https://doi.org/10.1016/j.fjurol.2026.103135"
+  },
+  {
+   "code": "FRAIL26",
+   "label": "Frailty and SUI surgery: Medicare cohort, 2026",
+   "url": "https://doi.org/10.1097/ju.0000000000005102"
+  },
+  {
+   "code": "PAD26",
+   "label": "Pad count versus 24-hour weight: 2026",
+   "url": "https://doi.org/10.1111/bju.70224"
+  },
+  {
+   "code": "PRBFAT26",
+   "label": "PRB material fatigue: 2026 issue",
+   "url": "https://doi.org/10.1016/j.urology.2025.12.031"
+  },
+  {
+   "code": "REGRET26",
+   "label": "Long-term decisional regret after AUS, 2026 issue",
+   "url": "https://doi.org/10.1016/j.euros.2025.12.006"
+  },
+  {
+   "code": "INSTR26",
+   "label": "AUS instrumentation knowledge survey, 2026",
+   "url": "https://doi.org/10.1002/nau.70417"
+  },
+  {
+   "code": "EROSION26",
+   "label": "Immediate urethral repair at explantation, 2026",
+   "url": "https://doi.org/10.1007/s00345-026-06629-1"
+  },
+  {
+   "code": "DEVICE26",
+   "label": "Emerging AUS devices review, 2026",
+   "url": "https://doi.org/10.1002/nau.70400"
+  },
+  {
+   "code": "SECOND26",
+   "label": "Second AUS survival: national French cohort, 2026",
+   "url": "https://doi.org/10.1590/s1677-5538.ibju.2025.0374"
+  },
+  {
+   "code": "TCSYS25",
+   "label": "Transcorporal systematic review, online 2025",
+   "url": "https://doi.org/10.1016/j.urology.2025.11.222"
+  },
+  {
+   "code": "RTTIME25",
+   "label": "Radiation and cuff-removal timing cohort, 2025",
+   "url": "https://doi.org/10.1007/s00345-025-05625-1"
+  },
+  {
+   "code": "UROACTIVE26",
+   "label": "Electronic AUS: first-in-human study, 2026",
+   "url": "https://doi.org/10.1097/ju.0000000000004945"
+  },
+  {
+   "code": "REPORT26",
+   "label": "Standardised complication reporting: 2026",
+   "url": "https://doi.org/10.1007/s00345-026-06246-y"
+  }
+ ]
+}

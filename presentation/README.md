@@ -6,20 +6,29 @@ The visual companion to `AUS-expert-presentation.md` retains its 38 teaching sli
 
 The deck uses a restrained clinical teaching style: readable text, case votes, source comparisons, operative schematics and selected evidence graphics. The speaker notes hold the spoken text, and the reference limits for each slide are in the manuscript and `source.json`. It does not claim a personal case series, clinical validation of UroOps, device superiority or an actual preparation duration.
 
+## Redesign of 19 October 2026
+
+Both decks were rebuilt by `design/build.mjs` (pptxgenjs) as a widescreen, Segoe UI deck: charcoal cover and act dividers that match the UroOps renders, white content slides, native tables and charts, and the four decision colours (Implant, Optimise, Investigate, Reconsider) carried from slide 01 through the case votes. Six act dividers were added (Decide before theatre, The bladder, The urethra, Preparation without ritual, The operation, After the implant); they take no clock time. Every teaching slide now shows its act, its number out of 38, the running clock at which it should start, its citation codes and its takeaway line. The references were condensed from seven slides to three. The standard deck has 51 slides; the animated deck has 52.
+
+The speaker notes were rewritten in a flowing script format: THIS SLIDE (what the slide represents), SAY (the 10 October spoken text in the "we" voice, with transitions added), STUDIES ON THIS SLIDE (every citation code decoded: the source, what it is and what it says) and TRANSITION. The same script, with a source glossary, is in `../presenter-guide/AUS-presenter-script.md` and `.pdf`.
+
+On-slide wording, slide order, tables, chart values, citation codes and evidence statements are unchanged from the 5 October checkpoint. Build, fonts and limits: `design/README.md`. The superseded 10 October files are in `C:\NityProjects\AUS-Presentation\archive\2026-10-19-pre-redesign\` (outside the repository), with hashes.
+
 ## Contents
 
-- `AUS-teaching-deck.pptx`: the 49-slide deck, revised 10 October 2026.
-- `AUS-teaching-deck-3d.pptx`: the 50-slide animated version (see below).
+- `AUS-teaching-deck.pptx`: the 51-slide deck, redesigned 19 October 2026.
+- `AUS-teaching-deck-3d.pptx`: the 52-slide animated version, same redesign.
+- `design/`: the current builder (`build.mjs`, `content.mjs`, `animate.py`, `script.mjs`) and its README.
 - `slides.json`: displayed wording and layout choices for the 38 teaching slides.
 - `source.json`: source notes, running clock, reference links and prepared questions.
-- `scripts/build.mjs`: deck builder using the supplied Codex `@oai/artifact-tool` runtime.
+- `scripts/build.mjs`: the 5 October Codex builder, superseded by `design/` and kept for history.
 - `assets/`: used illustrations with provenance in `assets/SOURCES.md`.
 - `delivery.json`: file hashes, presenters, and the Google Slides copy with its status.
 - `validation.json`: checks run on the current files, with the 5 October checkpoint record kept inside it.
 - `evidence-2026.json`: added source cards, clinical meaning, limitations and access level.
 - `EVIDENCE-AUDIT-2026-10-05.md`: slide-by-slide currency decisions.
 
-The PowerPoint files here are the current deck. The Google Slides copy linked in `delivery.json` was last updated and read back on 5 October 2026 (49 slides, two presenter credits, 49 sets of speaker notes, eight native tables). It has none of the 10 October changes: the third presenter, the rewritten notes or the new pictures. Three charts in the deck are images from the Google conversion. The original native-chart checkpoint is in Git history, and the design builder can regenerate native charts.
+The PowerPoint files here are the current deck (19 October 2026 redesign). The Google Slides copy linked in `delivery.json` was last updated and read back on 5 October 2026 (49 slides, two presenter credits, 49 sets of speaker notes, eight native tables). It has none of the 10 October changes: the third presenter, the rewritten notes or the new pictures. Three charts in the deck are images from the Google conversion. The original native-chart checkpoint is in Git history, and the design builder can regenerate native charts.
 
 ## Revision of 10 October 2026
 

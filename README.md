@@ -4,16 +4,18 @@
 
 [Google Slides copy, last updated 5 October 2026](https://docs.google.com/presentation/d/1DbVurIgp3NeP9eeTm9jgekOyHzaTBbv3GfhC9eMolVo/edit?usp=drivesdk).
 
-The visual companion adds a UroOps cover picture, UroOps teaching schematics, a manufacturer component illustration, case votes, evidence tables and charts. It retains the 38 teaching slides and original 60-minute running order, with a cover, three clinical backups and seven reference slides (49 slides total). The speaker notes in the PowerPoint files hold the spoken text. References and evidence limits for each slide are in the manuscript and the presenter guide.
+The deck was redesigned on 19 October 2026 (widescreen, Segoe UI, act dividers, running clock on every slide, native charts) without changing the on-slide wording, slide order, citations or evidence. It retains the 38 teaching slides and the 60-minute running order, with a cover, six act dividers, three clinical backups and three reference slides (51 slides; the animated deck adds a backup video, 52). The speaker notes hold a flowing script: what the slide represents, what to say, every cited study decoded, and the transition. The same script is in `presenter-guide/AUS-presenter-script.pdf`.
 
 - Standard deck: [`presentation/AUS-teaching-deck.pptx`](presentation/AUS-teaching-deck.pptx)
-- Animated deck with looping UroOps clips (50 slides): [`presentation/AUS-teaching-deck-3d.pptx`](presentation/AUS-teaching-deck-3d.pptx)
+- Animated deck with looping UroOps clips (52 slides): [`presentation/AUS-teaching-deck-3d.pptx`](presentation/AUS-teaching-deck-3d.pptx)
+- Presenter script, slide by slide with the study glossary: [`presenter-guide/AUS-presenter-script.pdf`](presenter-guide/AUS-presenter-script.pdf) (Markdown beside it)
+- Builder: [`presentation/design/README.md`](presentation/design/README.md)
 - Build, sources and delivery checks: [`presentation/README.md`](presentation/README.md)
 
 - Main document: `AUS-expert-presentation.md`
 - Branches: `manuscript/aus-expert-60min` (5 October checkpoint) and `feat/3d-embedded-aus` (10 October revision and animated deck)
 - Canonical working copy: `C:\NityProjects\AUS-Presentation\repo`
-- Evidence checked: 5 October 2026. Deck revised: 10 October 2026
+- Evidence checked: 5 October 2026. Deck redesigned: 19 October 2026
 - Scope: 38 main slides, full speaker notes, four fictional cases, four-minute UroOps demonstration and fallback, five-minute discussion, ten expert questions, 58 citation codes and evidence gaps.
 
 The manuscript separates general AUS evidence, AMS 800 studies, ContiClassic evidence/instructions, and expert practice. This is a critical narrative synthesis, not a systematic review or manufacturer operative manual.
