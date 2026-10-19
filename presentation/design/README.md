@@ -15,11 +15,11 @@ Needs Node 18+, `ffmpeg`/`ffprobe` on PATH (poster frames and clip durations), P
 
 ## What the design does
 
-- Widescreen 13.33 x 7.5 in, Segoe UI and Segoe UI Semibold, one accent (teal) plus the four decision colours used throughout: Implant teal, Optimise amber, Investigate blue, Reconsider terracotta.
+- Widescreen 13.33 x 7.5 in, Segoe UI and Segoe UI Semibold (Cambria for the large roman numerals on the act dividers, because I, II and III read as bars in a sans), one accent (teal) plus the four decision colours used throughout: Implant teal, Optimise amber, Investigate blue, Reconsider terracotta.
 - Charcoal `1F2326` for the cover, the six act dividers and the operative image slides, chosen to match the background of the UroOps renders so the pictures sit on the slide without a frame. White content slides.
 - Every teaching slide carries its act, its teaching number out of 38, the running clock at which it should start, the citation codes at the foot and the slide's takeaway line in italics.
 - Six act dividers (no clock time) list the slides in the act, the act's question and a progress strip.
-- Native tables and three native charts (two schematic urodynamic traces, one bar chart of the Yeung 2013 cultures).
+- Native tables and three native charts (two schematic urodynamic traces, one bar chart of the Yeung 2013 cultures). Tables with three rows or fewer get taller rows and larger type; stills and clips sit on the left grid line unless they are much narrower than their box.
 - Speaker notes in script form: `THIS SLIDE`, `SAY`, `STUDIES ON THIS SLIDE` (every code decoded: the source, what it is, what it says), `TRANSITION`.
 
 ## What did not change

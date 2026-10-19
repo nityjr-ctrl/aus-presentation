@@ -1,8 +1,8 @@
 {
   "schemaVersion": "presentation-checkpoint-verification.v1",
   "checkedDate": "2026-10-19",
-  "finalSha256": "6a9992973b29a5f28705e080b1466584d29c96fcb38d7c7918b19ec2d407297f",
-  "byteCount": 12215274,
+  "finalSha256": "371e0a48efd00f219aff14d49836e1bf96b01891ff9c91b392019778b4b35759",
+  "byteCount": 12215105,
   "slides": 51,
   "teachingSlides": 38,
   "actDividers": 6,
@@ -13,18 +13,19 @@
   "builder": "presentation/design/build.mjs (pptxgenjs 3.12.0), content in presentation/design/content.mjs, data in presentation/design/data/",
   "packageIntegrity": "pass: pptx skill validate.py (schema, relationships, content types, charts) on both decks",
   "powerPointOpen": "PowerPoint 16.0 opened both decks read-only without a repair prompt and exported every slide to PNG; all renders reviewed",
-  "visualReview": "Contact sheets of all 51 and 52 slides reviewed twice (before and after polish); cover, case and image slides inspected at full size; no overflow, overlap or placeholder text found; automated scan for leftover placeholder strings clean",
+  "visualReview": "All 51 and 52 slides exported by PowerPoint and reviewed at full size in two passes (initial build, then a polish pass that changed layout only); contact sheets reviewed after each; no overflow, overlap or placeholder text found; automated scan for leftover placeholder strings clean",
   "fontFamilies": [
     "Segoe UI",
-    "Segoe UI Semibold"
+    "Segoe UI Semibold",
+    "Cambria (act-divider numerals only)"
   ],
   "fontNote": "Installed with Windows and on the presenting PC; if presented from a Mac without Segoe UI the theme fonts substitute and text fit should be rechecked",
   "spokenWords": 7031,
   "timingBasis": "Same 60-minute clock and per-slide allocations as source.json; script kept to the 10 October spoken text with transitions added; not rehearsed aloud",
   "animatedDeck": {
     "file": "AUS-teaching-deck-3d.pptx",
-    "sha256": "5ed09dd0e98aa1c6f1a741de7f72d34c4544fa3baa6c7ba4b473340b1431b344",
-    "byteCount": 66210935,
+    "sha256": "796a1decfb3916c76fe54bfad8595edfb84bd9a5a6238eb9c8f21721eeb1baa7",
+    "byteCount": 66211085,
     "slides": 52,
     "embeddedVideos": 8,
     "packageIntegrity": "pass",

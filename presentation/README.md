@@ -8,7 +8,7 @@ The deck uses a restrained clinical teaching style: readable text, case votes, s
 
 ## Redesign of 19 October 2026
 
-Both decks were rebuilt by `design/build.mjs` (pptxgenjs) as a widescreen, Segoe UI deck: charcoal cover and act dividers that match the UroOps renders, white content slides, native tables and charts, and the four decision colours (Implant, Optimise, Investigate, Reconsider) carried from slide 01 through the case votes. Six act dividers were added (Decide before theatre, The bladder, The urethra, Preparation without ritual, The operation, After the implant); they take no clock time. Every teaching slide now shows its act, its number out of 38, the running clock at which it should start, its citation codes and its takeaway line. The references were condensed from seven slides to three. The standard deck has 51 slides; the animated deck has 52.
+Both decks were rebuilt by `design/build.mjs` (pptxgenjs) as a widescreen, Segoe UI deck: charcoal cover and act dividers that match the UroOps renders, white content slides, native tables and charts, and the four decision colours (Implant, Optimise, Investigate, Reconsider) carried from slide 01 through the case votes. Six act dividers were added (Decide before theatre, The bladder, The urethra, Preparation without ritual, The operation, After the implant); they take no clock time. Every teaching slide now shows its act, its number out of 38, the running clock at which it should start, its citation codes and its takeaway line. The references were condensed from seven slides to three. The standard deck has 51 slides; the animated deck has 52. A second review pass the same evening re-rendered every slide at full size and tightened the layout (serif act numerals, bullet alignment, short tables, statement slides, image alignment) without changing any text.
 
 The speaker notes were rewritten in a flowing script format: THIS SLIDE (what the slide represents), SAY (the 10 October spoken text in the "we" voice, with transitions added), STUDIES ON THIS SLIDE (every citation code decoded: the source, what it is and what it says) and TRANSITION. The same script, with a source glossary, is in `../presenter-guide/AUS-presenter-script.md` and `.pdf`.
 
@@ -41,6 +41,8 @@ The PowerPoint files here are the current deck (19 October 2026 redesign). The G
 - The notes and cover changes were patched into the PowerPoint files directly. `source.json` and `scripts/build.mjs` carry the same text, but the builder has not been rerun.
 
 ## Animated version (10 October 2026)
+
+Slide numbers in this section refer to the 10 October file. In the 19 October redesign the clips are on physical slides 31 to 33 and 35 to 38 (teaching slides 25 to 27 and 29 to 32) and the backup video is physical slide 49.
 
 `AUS-teaching-deck-3d.pptx` is the same deck with a looping clip of the matching UroOps 3D AUS lesson steps on slides 26 to 28 and 30 to 33, and a re-recorded backup video of the whole lesson on slide 40. The clips start by themselves when the slide appears and replace the native PowerPoint 3D models of the 8 October build, which rendered flat and pale. Both decks also carry new 4K-wide stills from the same scene on slides 6, 16, 26 to 28, 31 and 33. PowerPoint on the build PC opens both files without repair. Capture scripts, sources and limits are in `3d/README.md`.
 

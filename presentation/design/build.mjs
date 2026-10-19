@@ -28,6 +28,7 @@ const C = {
 };
 const HEAD = 'Segoe UI Semibold';
 const BODY = 'Segoe UI';
+const NUMERAL = 'Cambria'; // serif roman numerals on the act dividers (I, II, III read as bars in a sans)
 const W = 13.333, H = 7.5, MX = 0.7; // slide size and side margin
 const CONTENT_W = W - 2 * MX;
 
@@ -105,9 +106,9 @@ function frame(slide, n, title, { dark = false, takeaway = null } = {}) {
   text(slide, `${String(n).padStart(2, '0')} / 38   ·   ${t.clock.replace('-', ' – ')}`, { x: W - MX - 5, y: 0.42, w: 5, h: 0.3, fontSize: 9.5, color: mutedC, align: 'right', charSpacing: 1 });
   text(slide, title, { x: MX, y: 0.8, w: CONTENT_W, h: 0.9, fontSize: 30, color: inkC, fontFace: HEAD, valign: 'middle' });
   const codes = DATA.codes[n];
-  if (codes.length) text(slide, codes.join('  ·  '), { x: MX, y: H - 0.62, w: CONTENT_W - 1, h: 0.25, fontSize: 8, color: faintC, charSpacing: 0.5 });
+  if (codes.length) text(slide, codes.join('  ·  '), { x: MX, y: H - 0.56, w: CONTENT_W - 1, h: 0.25, fontSize: 8, color: faintC, charSpacing: 0.5 });
   if (takeaway) {
-    text(slide, takeaway, { x: MX, y: 6.3, w: CONTENT_W, h: 0.6, fontSize: 12, color: mutedC, italic: true, valign: 'bottom' });
+    text(slide, takeaway, { x: MX, y: 6.2, w: CONTENT_W, h: 0.62, fontSize: 12, color: mutedC, italic: true, valign: 'bottom' });
   }
 }
 
@@ -115,13 +116,13 @@ function frame(slide, n, title, { dark = false, takeaway = null } = {}) {
 function slideDecisions(slide, s) {
   frame(slide, s.n, s.title);
   text(slide, s.lead, { x: MX, y: 1.9, w: CONTENT_W, h: 0.5, fontSize: 18, color: C.muted });
-  const gap = 0.3, cw = (CONTENT_W - 3 * gap) / 4, y = 2.75, ch = 2.75;
+  const gap = 0.3, cw = (CONTENT_W - 3 * gap) / 4, y = 2.75, ch = 3.05;
   s.rows.forEach(([word, desc], i) => {
     const x = MX + i * (cw + gap);
     rect(slide, x, y, cw, ch, C.panel);
     slide.addShape(SHAPES.ellipse, { x: x + 0.32, y: y + 0.4, w: 0.2, h: 0.2, fill: { color: DECISION[word] }, line: { type: 'none' } });
     text(slide, word, { x: x + 0.3, y: y + 0.75, w: cw - 0.6, h: 0.55, fontSize: 24, color: DECISION[word], fontFace: HEAD });
-    text(slide, desc, { x: x + 0.3, y: y + 1.4, w: cw - 0.6, h: 1.2, fontSize: 15, color: C.ink, lineSpacingMultiple: 1.15 });
+    text(slide, desc, { x: x + 0.3, y: y + 1.4, w: cw - 0.6, h: 1.4, fontSize: 15.5, color: C.ink, lineSpacingMultiple: 1.15 });
   });
 }
 
@@ -137,17 +138,18 @@ function slideTable(slide, s) {
   frame(slide, s.n, s.title, { takeaway: s.bottom });
   const n = s.headers.length;
   const colW = n === 2 ? [4.2, CONTENT_W - 4.2] : n === 3 ? [2.6, 4.45, CONTENT_W - 7.05] : Array(n).fill(CONTENT_W / n);
-  const rowH = Math.max(0.6, Math.min(0.95, 3.85 / s.rows.length));
-  styledTable(slide, s.headers, s.rows, MX, 1.95, CONTENT_W, colW, { fontSize: 13.5, rowH: [0.45, ...Array(s.rows.length).fill(rowH)] });
+  const short = s.rows.length <= 3;
+  const rowH = Math.max(0.6, Math.min(short ? 1.2 : 0.95, 3.7 / s.rows.length));
+  styledTable(slide, s.headers, s.rows, MX, 1.95, CONTENT_W, colW, { fontSize: short ? 15 : 13.5, rowH: [0.45, ...Array(s.rows.length).fill(rowH)] });
 }
 
-function card(slide, x, y, w, h, header, items, { dark = false, accent = C.teal, fontSize = 14.5 } = {}) {
+function card(slide, x, y, w, h, header, items, { dark = false, accent = C.teal, fontSize = 15.5 } = {}) {
   rect(slide, x, y, w, h, dark ? C.darkPanel : C.panel);
   text(slide, header, { x: x + 0.35, y: y + 0.32, w: w - 0.7, h: 0.4, fontSize: 15, color: accent, fontFace: HEAD });
   let yy = y + 0.95;
-  const lineH = Math.min(0.95, (h - 1.25) / items.length);
+  const lineH = Math.min(0.9, (h - 1.25) / items.length);
   items.forEach((it) => {
-    dot(slide, x + 0.35, yy + 0.13, accent);
+    dot(slide, x + 0.35, yy + 0.09, accent);
     text(slide, it, { x: x + 0.62, y: yy, w: w - 0.97, h: lineH - 0.05, fontSize, color: dark ? C.onDark : C.ink, lineSpacingMultiple: 1.1 });
     yy += lineH;
   });
@@ -179,8 +181,9 @@ function imageBox(slide, asset, x, y, w, h, { dark = true } = {}) {
   const ratio = { 'uroops-exploded.png': 3105 / 1280, 'uroops-sagittal.png': 3105 / 1280, 'uroops-surgeon.png': 3104 / 1280, 'uroops-cuff-site.png': 3104 / 1280, 'uroops-aus.png': 3200 / 1800, 'uroops-three-spaces.png': 3104 / 1280, 'uroops-final.png': 3105 / 1280, 'conticlassic-000.png': 1 }[asset] || 2.4;
   let iw = w, ih = w / ratio;
   if (ih > h) { ih = h; iw = h * ratio; }
-  slide.addImage({ path: img, x: x + (w - iw) / 2, y: y + (h - ih) / 2, w: iw, h: ih });
-  return { x: x + (w - iw) / 2, y: y + (h - ih) / 2, w: iw, h: ih };
+  const ix = iw >= 0.8 * w ? x : x + (w - iw) / 2, iy = y + (h - ih) / 2;
+  slide.addImage({ path: img, x: ix, y: iy, w: iw, h: ih });
+  return { x: ix, y: iy, w: iw, h: ih };
 }
 
 // Animated deck: a looping clip replaces the still. Poster = first frame.
@@ -191,7 +194,7 @@ function placeClip(slide, name, x, y, w, h, panel = false) {
   const ratio = vw / vh;
   let iw = w, ih = w / ratio;
   if (ih > h) { ih = h; iw = h * ratio; }
-  const cx = x + (w - iw) / 2, cy = y + (h - ih) / 2;
+  const cx = !panel && iw >= 0.8 * w ? x : x + (w - iw) / 2, cy = y + (h - ih) / 2;
   if (panel) rect(slide, x, y, w, h, C.darkPanel);
   slide.addMedia({ type: 'video', path: path.join(VIDEO, name + '.mp4'), cover: poster(name), x: cx, y: cy, w: iw, h: ih, objectName: 'UroOps clip ' + name });
   CLIP_SPECS.push({ slide, name });
@@ -208,7 +211,7 @@ function slideImage(slide, s) {
   let yy = imgY + 0.6;
   const lineH = Math.min(0.85, 3.1 / s.items.length);
   s.items.forEach((it) => {
-    dot(slide, rx, yy + 0.13, C.tealDark);
+    dot(slide, rx, yy + 0.09, C.tealDark);
     text(slide, it, { x: rx + 0.27, y: yy, w: rw - 0.27, h: lineH - 0.05, fontSize: 14, color: C.onDark, lineSpacingMultiple: 1.12 });
     yy += lineH;
   });
@@ -220,7 +223,7 @@ function slideCase(slide, s) {
   pill(slide, MX, 1.95, 2.3, 0.34, C.amber, `FICTIONAL CASE ${s.case}`, 'FFFFFF', 9);
   let yy = 2.55;
   s.facts.forEach((f) => {
-    dot(slide, MX, yy + 0.14, C.teal);
+    dot(slide, MX, yy + 0.1, C.teal);
     text(slide, f, { x: MX + 0.3, y: yy, w: lw - 0.3, h: 0.75, fontSize: 15.5, color: C.ink, lineSpacingMultiple: 1.1 });
     yy += 0.82;
   });
@@ -258,7 +261,7 @@ function slideOutcomes(slide, s) {
 function slideStatement(slide, s, accent) {
   frame(slide, s.n, s.title, { takeaway: s.bottom });
   const lw = 5.6;
-  text(slide, s.lead, { x: MX, y: 1.95, w: lw, h: 2.6, fontSize: 32, color: accent, fontFace: HEAD, lineSpacingMultiple: 1.05 });
+  text(slide, s.lead, { x: MX, y: 1.95, w: lw, h: 4.0, fontSize: 32, color: accent, fontFace: HEAD, lineSpacingMultiple: 1.05, valign: 'middle' });
   const rx = MX + lw + 0.6, rw = W - MX - rx;
   rect(slide, rx, 1.95, rw, 4.0, C.panel);
   let yy = 2.3;
@@ -406,7 +409,7 @@ function divider(pres, act, idx) {
   const slide = pres.addSlide({ sectionTitle: `Act ${act.numeral} · ${act.title}` });
   slide.background = { color: C.dark };
   text(slide, 'ACT', { x: MX, y: 1.3, w: 3, h: 0.3, fontSize: 10, color: C.tealDark, bold: true, charSpacing: 3 });
-  text(slide, act.numeral, { x: MX, y: 1.55, w: 4.2, h: 1.9, fontSize: 110, color: C.tealDark, fontFace: HEAD, valign: 'middle' });
+  text(slide, act.numeral, { x: MX - 0.05, y: 1.5, w: 4.2, h: 1.95, fontSize: 112, color: C.tealDark, fontFace: NUMERAL, valign: 'middle' });
   text(slide, act.title, { x: MX, y: 3.55, w: 6.5, h: 0.9, fontSize: 36, color: C.onDark, fontFace: HEAD, valign: 'middle' });
   text(slide, act.question, { x: MX, y: 4.5, w: 6.3, h: 1.2, fontSize: 15, color: C.onDarkMuted, lineSpacingMultiple: 1.2 });
   // what is in this act
