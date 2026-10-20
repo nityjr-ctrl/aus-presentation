@@ -14,7 +14,7 @@ SRC = os.path.join(HERE, 'AUS-presenter-script.md')
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, 'AUS-presenter-script.pdf')
 INK, MUTED, TEAL, RULE, PANEL = HexColor('#1B2430'), HexColor('#5F6B7A'), HexColor('#0F7F86'), HexColor('#DDE2E8'), HexColor('#F3F4F6')
 HEADER = 'ARTIFICIAL URINARY SPHINCTER SURGERY  |  PRESENTER SCRIPT'
-FOOTER = 'Deck redesigned 19 October 2026  |  Evidence checked 5 October 2026'
+FOOTER = 'Script revised 20 October 2026  |  Evidence checked 5 October 2026'
 
 FONTS = 'C:/Windows/Fonts/'
 if os.path.exists(FONTS + 'segoeui.ttf'):
@@ -27,6 +27,8 @@ else:
 
 BODY = ParagraphStyle('body', fontName=R, fontSize=10.8, leading=15.6, textColor=INK, spaceAfter=8)
 SAY = ParagraphStyle('say', parent=BODY, fontSize=11.4, leading=17, leftIndent=10)
+EXAMPLE = ParagraphStyle('example', parent=BODY, fontSize=10.6, leading=15.2, leftIndent=10, rightIndent=6, backColor=PANEL, borderPadding=(6, 8, 6, 8), spaceBefore=4, spaceAfter=12)
+ASK = ParagraphStyle('ask', parent=BODY, fontSize=11.4, leading=16, textColor=TEAL)
 BULLET = ParagraphStyle('bullet', parent=BODY, fontSize=9.8, leading=13.6, leftIndent=16, bulletIndent=4, spaceAfter=5, textColor=INK)
 TITLE = ParagraphStyle('title', fontName=B, fontSize=28, leading=34, textColor=INK, spaceBefore=4, spaceAfter=12)
 H2 = ParagraphStyle('h2', fontName=B, fontSize=22, leading=27, textColor=INK, spaceBefore=6, spaceAfter=10, keepWithNext=1)
@@ -62,6 +64,7 @@ def build():
     story = []
     table_rows = []
     in_say = False
+    in_example = False
     for raw in lines:
         line = raw.rstrip()
         if line.startswith('|'):
@@ -82,7 +85,7 @@ def build():
         if line.startswith('# '):
             story.append(Paragraph(inline(line[2:]), TITLE))
         elif line.startswith('## '):
-            if story:
+            if story and not (len(story) == 1 and getattr(story[0], 'style', None) is TITLE):
                 story.append(PageBreak())
             story.append(Paragraph(inline(line[3:]), H2))
         elif line.startswith('### '):
@@ -94,17 +97,21 @@ def build():
         elif line.startswith('- '):
             story.append(Paragraph(inline(line[2:]), BULLET, bulletText='•'))
         elif line.startswith('**Say**'):
-            story.append(Paragraph('SAY', LABEL)); in_say = True
+            story.append(Paragraph('SAY', LABEL)); in_say, in_example = True, False
+        elif line.startswith('**Example**'):
+            story.append(Paragraph('EXAMPLE', LABEL)); in_say, in_example = False, True
         elif line.startswith('**Studies on this slide**'):
-            story.append(Paragraph('STUDIES ON THIS SLIDE', LABEL)); in_say = False
-        elif line.startswith('**Transition'):
-            story.append(Paragraph(inline(line), BODY)); in_say = False
-        elif line.startswith('**This slide'):
+            story.append(Paragraph('STUDIES ON THIS SLIDE: WHAT EACH ONE DOES HERE', LABEL)); in_say, in_example = False, False
+        elif line.startswith('**Next') or line.startswith('**Transition'):
+            story.append(Paragraph(inline(line), BODY)); in_say, in_example = False, False
+        elif line.startswith('**This slide wants'):
+            story.append(Paragraph(inline(line), ASK))
+        elif line.startswith('**On the slide') or line.startswith('**This slide') or line.startswith('**Divider'):
             story.append(Paragraph(inline(line), BODY))
         elif line.startswith('*') and line.endswith('*') and not line.startswith('**'):
             story.append(Paragraph(inline(line), META))
         else:
-            story.append(Paragraph(inline(line), SAY if in_say else BODY))
+            story.append(Paragraph(inline(line), SAY if in_say else EXAMPLE if in_example else BODY))
     doc = BaseDocTemplate(OUT, pagesize=A4, leftMargin=54, rightMargin=54, topMargin=58, bottomMargin=48,
                           title='AUS presenter script', author='Nity G')
     frame = Frame(doc.leftMargin, doc.bottomMargin, A4[0] - doc.leftMargin - doc.rightMargin, A4[1] - doc.topMargin - doc.bottomMargin, id='f')

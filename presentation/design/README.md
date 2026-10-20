@@ -20,7 +20,7 @@ Needs Node 18+, `ffmpeg`/`ffprobe` on PATH (poster frames and clip durations), P
 - Every teaching slide carries its act, its teaching number out of 38, the running clock at which it should start, the citation codes at the foot and the slide's takeaway line in italics.
 - Six act dividers (no clock time) list the slides in the act, the act's question and a progress strip.
 - Native tables and three native charts (two schematic urodynamic traces, one bar chart of the Yeung 2013 cultures). Tables with three rows or fewer get taller rows and larger type; stills and clips sit on the left grid line unless they are much narrower than their box.
-- Speaker notes in script form: `THIS SLIDE`, `SAY`, `STUDIES ON THIS SLIDE` (every code decoded: the source, what it is, what it says), `TRANSITION`.
+- No speaker notes in the slides (owner's decision, 20 October 2026); only picture, clip and IFU-illustration credits sit in the notes pane of image slides. The script is a separate PDF, `../../presenter-guide/AUS-presenter-script.pdf`, built by `script.mjs` and `build_script_pdf.py`: per slide `THIS SLIDE WANTS`, `ON THE SLIDE`, `SAY`, `EXAMPLE` (one concrete fictional example of the ask), `STUDIES ON THIS SLIDE: WHAT EACH ONE DOES HERE` (every footer code: the source, what it is, and how it supports this slide, with its limit) and `NEXT`. The ask, example and per-slide study lines live in `support.mjs`; the narration and the full glossary stay in `content.mjs`. `DECK_NOTES=1 node build.mjs` puts the script into the notes pane again.
 
 ## What did not change
 

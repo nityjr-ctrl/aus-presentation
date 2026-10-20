@@ -6,6 +6,7 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
 import { PRESENTERS, ACTS, actOf, GLOSSARY, SCRIPT, COVER_NOTES, IMAGE_CREDIT, CLIP_CREDIT, DEVICE_CREDIT, BACKUP_NOTES, REFERENCE_NOTES } from './content.mjs';
+import { ASK, EXAMPLE, SUPPORT } from './support.mjs';
 
 const require = createRequire(import.meta.url);
 const pptxgen = require('pptxgenjs');
@@ -50,25 +51,39 @@ function clipMs(name) {
 }
 
 // ---------- notes ----------
-function studiesBlock(codes) {
+// 20 October 2026: the script lives in presenter-guide/AUS-presenter-script.pdf, not in the slides.
+// Set DECK_NOTES=1 to put it back into the speaker notes. Picture and clip credits always stay.
+const NOTES_IN_DECK = process.env.DECK_NOTES === '1';
+function notes(slide, script, credit) {
+  const parts = [];
+  if (NOTES_IN_DECK && script) parts.push(script);
+  if (credit) parts.push(credit);
+  if (parts.length) slide.addNotes(parts.join('\n\n'));
+}
+// Script-format notes. Order on the day: what the slide wants, what to say, one example, what each
+// study does on this slide, the line into the next slide.
+function studiesBlock(n, codes) {
   if (!codes.length) return '';
   const lines = codes.map((c) => {
     const g = GLOSSARY[c];
+    const how = SUPPORT[n] && SUPPORT[n][c];
     if (!g) throw new Error('No glossary entry for ' + c);
-    return `• ${c} — ${g.name}. What it is: ${g.kind}. What it says: ${g.says}`;
+    if (!how) throw new Error(`No support line for ${c} on slide ${n}`);
+    return `• ${c} — ${g.name} (${g.kind}).\n   ${how}`;
   });
-  return 'STUDIES ON THIS SLIDE\n' + lines.join('\n');
+  return 'STUDIES ON THIS SLIDE: WHAT EACH ONE DOES HERE\n' + lines.join('\n');
 }
 function teachingNotes(n, extra) {
   const s = SCRIPT[n];
   const t = DATA.times[n];
   const act = actOf(n);
-  const head = `[Act ${act.numeral} · ${act.title} · Teaching slide ${String(n).padStart(2, '0')} of 38 · ${t.clock} · ${t.time}]\nTHIS SLIDE: ${s.frame}`;
+  if (!ASK[n] || !EXAMPLE[n]) throw new Error('No ask or example for slide ' + n);
+  const head = `[Act ${act.numeral} · ${act.title} · Teaching slide ${String(n).padStart(2, '0')} of 38 · ${t.clock} · ${t.time}]\nTHIS SLIDE WANTS: ${ASK[n]}\nON THE SLIDE: ${s.frame}`;
   const say = 'SAY\n' + s.say.join('\n\n');
-  const parts = [head, say];
-  const st = studiesBlock(DATA.codes[n]);
+  const parts = [head, say, 'EXAMPLE\n' + EXAMPLE[n]];
+  const st = studiesBlock(n, DATA.codes[n]);
   if (st) parts.push(st);
-  if (s.transition) parts.push('TRANSITION → ' + s.transition);
+  if (s.transition) parts.push('NEXT → ' + s.transition);
   if (extra) parts.push(extra);
   return parts.join('\n\n');
 }
@@ -401,7 +416,8 @@ function cover(pres) {
     text(slide, [{ text: name, options: { bold: true, color: C.onDark, fontSize: 13 } }, { text: '   ' + role, options: { color: C.onDarkMuted, fontSize: 11 } }], { x: MX, y: yy, w: 5.2, h: 0.36, valign: 'middle' });
     yy += 0.42;
   });
-  slide.addNotes(COVER_NOTES);
+  const [coverScript, coverCredit] = COVER_NOTES.split('\n\n');
+  notes(slide, coverScript, coverCredit);
 }
 
 function divider(pres, act, idx) {
@@ -430,17 +446,17 @@ function divider(pres, act, idx) {
     text(slide, a.title, { x: MX + i * (segW + 0.12), y: 6.7, w: segW, h: 0.3, fontSize: 8.5, color: i === idx ? C.onDark : C.onDarkFaint });
   });
   const span = `${act.slides[0]}–${act.slides[1]}`;
-  slide.addNotes(`[Act ${act.numeral} · ${act.title} · ${act.clock} · ${act.minutes} minutes · teaching slides ${span}]\nTransition slide; it takes no time from the clock. Read the act title, say the one-line question, and move on.\n\nSAY\n"${act.question}"`);
+  notes(slide, `[Act ${act.numeral} · ${act.title} · ${act.clock} · ${act.minutes} minutes · teaching slides ${span}]\nTransition slide; it takes no time from the clock. Read the act title, say the one-line question, and move on.\n\nSAY\n"${act.question}"`, null);
 }
 
-function backupTable(pres, t, notes) {
+function backupTable(pres, t, script) {
   const slide = pres.addSlide({ sectionTitle: 'Backup and references' });
   slide.background = { color: C.paper };
   text(slide, 'BACKUP  ·  OUTSIDE THE TIMED TALK', { x: MX, y: 0.42, w: 7, h: 0.3, fontSize: 9.5, color: C.teal, bold: true, charSpacing: 2.5 });
   text(slide, t.title, { x: MX, y: 0.8, w: CONTENT_W, h: 0.9, fontSize: 30, color: C.ink, fontFace: HEAD, valign: 'middle' });
   const colW = [3.6, 4.1, CONTENT_W - 7.7];
   styledTable(slide, t.headers, t.rows, MX, 1.95, CONTENT_W, colW, { fontSize: 12.5, rowH: [0.45, 1.15, 1.15, 1.15] });
-  slide.addNotes(notes);
+  notes(slide, script, null);
 }
 
 function backupGaps(pres, t) {
@@ -456,7 +472,7 @@ function backupGaps(pres, t) {
     numberBadge(slide, x + 0.3, y + 0.29, 0.42, String(i + 1), C.teal, 'FFFFFF', 12);
     text(slide, it, { x: x + 0.9, y: y + 0.15, w: cw - 1.2, h: ch - 0.3, fontSize: 14, color: C.ink, valign: 'middle' });
   });
-  slide.addNotes(BACKUP_NOTES.gaps);
+  notes(slide, BACKUP_NOTES.gaps, null);
 }
 
 function backupVideo(pres) {
@@ -470,7 +486,8 @@ function backupVideo(pres) {
   const rx = MX + vw + 0.5, rw = W - MX - rx;
   text(slide, 'Use only if the live page fails', { x: rx, y: 1.95, w: rw, h: 0.8, fontSize: 16, color: C.tealDark, fontFace: HEAD, lineSpacingMultiple: 1.1 });
   text(slide, 'Click to play. 102 seconds, no sound. Same four-minute narration as teaching slide 32.', { x: rx, y: 2.85, w: rw, h: 1.4, fontSize: 13, color: C.onDarkMuted, lineSpacingMultiple: 1.2 });
-  slide.addNotes(BACKUP_NOTES.video);
+  const videoCredit = IMAGE_CREDIT.replace('Image:', 'Video:');
+  notes(slide, BACKUP_NOTES.video.replace(videoCredit, '').trim(), videoCredit);
 }
 
 function references(pres) {
@@ -491,7 +508,7 @@ function references(pres) {
       text(slide, r.label, { x: x + 1.4, y, w: colW - 1.4, h: rowH, fontSize: 11.5, color: C.ink, valign: 'middle', hyperlink: { url: r.url } });
       if (row < 9) slide.addShape(SHAPES.line, { x, y: y + rowH, w: colW, h: 0, line: { color: C.rule, width: 0.5 } });
     });
-    slide.addNotes(REFERENCE_NOTES + '\n\n' + chunk.map((r) => `${r.code} ${r.url}`).join('\n'));
+    notes(slide, REFERENCE_NOTES + '\n\n' + chunk.map((r) => `${r.code} ${r.url}`).join('\n'), null);
   }
 }
 
@@ -533,7 +550,7 @@ function build(animated) {
       case 'discussion': slideDiscussion(slide, s); break;
       default: throw new Error('unknown type ' + s.type);
     }
-    slide.addNotes(teachingNotes(s.n, extra));
+    notes(slide, teachingNotes(s.n, null), extra);
   }
   pres.addSection({ title: 'Backup and references' });
   backupTable(pres, BACKUP[0], BACKUP_NOTES.outcomes);

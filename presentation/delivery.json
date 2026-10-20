@@ -37,20 +37,21 @@
   },
   "checkpoint": {
     "file": "AUS-teaching-deck.pptx",
-    "sha256": "371e0a48efd00f219aff14d49836e1bf96b01891ff9c91b392019778b4b35759",
-    "byteCount": 12215105,
-    "revised": "2026-10-19",
+    "sha256": "62c8dde41308ca8614bfede20e9201936a0adf299ba1f46e77a996d1125226f6",
+    "byteCount": 12066164,
+    "revised": "2026-10-20",
     "changesSince2026-10-10": "Full visual redesign built from presentation/design/build.mjs (pptxgenjs). Widescreen 13.33 x 7.5 in, Segoe UI, charcoal cover and act dividers matching the UroOps renders, white content slides. Six act-divider slides added (no clock time). Each teaching slide shows its act, teaching number, running clock and citation codes. Native line and bar charts rebuilt. References condensed from seven slides to three. On-slide wording, slide order, tables, citation codes and evidence statements unchanged from slides.json. Speaker notes rewritten in a flowing script format: THIS SLIDE, SAY, STUDIES ON THIS SLIDE (every code decoded: what the source is and what it says), TRANSITION.",
     "nativeCharts": 3,
     "nativeTables": 8,
-    "validation": "19 October 2026: pptx skill validator (schema, relationships, content types, charts) passed; PowerPoint 16.0 opened the file read-only without repair and exported all 51 slides, every render reviewed at contact-sheet size and sample slides at full size. A second review pass on 19 October 2026 re-rendered every slide at full size and adjusted layout only: serif (Cambria) act numerals, bullet alignment, taller rows on short tables, centred statement slides, stills aligned to the left grid line; no text changed.",
+    "validation": "20 October 2026: pptx skill validator passed on both decks; PowerPoint 16.0 opened both read-only without repair and exported every slide (51 and 52); python-pptx confirmed no script text in any notes pane (only credits on 9 and 11 slides respectively); all 58 reference codes present on the three reference slides with 58 live hyperlinks; footer codes match deck-data.json on every slide; slide renders unchanged from 19 October. Earlier: 19 October 2026: pptx skill validator (schema, relationships, content types, charts) passed; PowerPoint 16.0 opened the file read-only without repair and exported all 51 slides, every render reviewed at contact-sheet size and sample slides at full size. A second review pass on 19 October 2026 re-rendered every slide at full size and adjusted layout only: serif (Cambria) act numerals, bullet alignment, taller rows on short tables, centred statement slides, stills aligned to the left grid line; no text changed.",
     "previous": {
       "date": "2026-10-10",
       "sha256": "888ebeb35ed7b38a8a22849767f002d2712ff28926e36511d64ac895269a8dcf",
       "byteCount": 11047039,
       "validation": "10 October 2026: every XML part parses and every internal relationship resolves; PowerPoint on the build PC opened the file without repair and exported the changed slides for review. The Artifact Tool layout, font and geometry checks of 5 October were not rerun on this file.",
       "archivedCopy": "archive/2026-10-19-pre-redesign/AUS-teaching-deck.pptx"
-    }
+    },
+    "changesSince2026-10-19": "No slide changed. At the owner's request (20 October 2026) the speaker notes were removed from the slides: the script is kept as a separate PDF, presenter-guide/AUS-presenter-script.pdf, and is not linked from the slides. Only the picture, clip and IFU-illustration credits remain in the notes pane of the image slides. The script itself was rewritten for the day: per slide THIS SLIDE WANTS, ON THE SLIDE, SAY (unchanged 10 October text), EXAMPLE (one concrete fictional example of the ask), STUDIES ON THIS SLIDE: WHAT EACH ONE DOES HERE (every footer code with the source, what it is, and how it supports this slide, with its limit) and NEXT. Text in presentation/design/support.mjs; DECK_NOTES=1 with build.mjs puts the script back into the notes if ever wanted."
   },
   "structure": {
     "slides": 51,
@@ -76,11 +77,11 @@
   "previousCheckpoint": "fb238613dc7ddb0734ac9cfbd397f72c5316b3b6",
   "animatedDeck": {
     "file": "AUS-teaching-deck-3d.pptx",
-    "sha256": "796a1decfb3916c76fe54bfad8595edfb84bd9a5a6238eb9c8f21721eeb1baa7",
-    "byteCount": 66211085,
+    "sha256": "fa1ed583d7a62acd620682b9c91f2520693674badf6708d0bbb1b6d97b159d70",
+    "byteCount": 66137643,
     "slides": 52,
     "content": "Same redesigned deck with looping UroOps clips in place of the stills on teaching slides 25, 26, 27, 29, 30, 31 and 32 (physical slides 31, 32, 33, 35, 36, 37 and 38) and a backup recording of the whole lesson as physical slide 49, after the three clinical backup slides and before the reference slides (click to play).",
-    "validation": "19 October 2026: validator passed; PowerPoint opened it without repair and reported one autoplay effect and the media length on each of the seven clip slides (presentation/design/animate.py adds the start-on-show, loop timing). Playback in slide-show mode was not watched. A second review pass on 19 October 2026 re-rendered every slide at full size and adjusted layout only: serif (Cambria) act numerals, bullet alignment, taller rows on short tables, centred statement slides, stills aligned to the left grid line; no text changed.",
+    "validation": "20 October 2026: rebuilt without script notes (clip credits kept); validator passed; PowerPoint opened without repair; seven clip slides carry the autoplay timing from animate.py. Earlier: 19 October 2026: validator passed; PowerPoint opened it without repair and reported one autoplay effect and the media length on each of the seven clip slides (presentation/design/animate.py adds the start-on-show, loop timing). Playback in slide-show mode was not watched. A second review pass on 19 October 2026 re-rendered every slide at full size and adjusted layout only: serif (Cambria) act numerals, bullet alignment, taller rows on short tables, centred statement slides, stills aligned to the left grid line; no text changed.",
     "previous": {
       "sha256": "41248c6ba736cf6692fc70fd13187e6d20a4b14eeb3fbe9ed0e7ad900cf27e68",
       "byteCount": 70386836,
@@ -89,12 +90,16 @@
     },
     "details": "design/README.md"
   },
-  "deckRevised": "2026-10-19",
+  "deckRevised": "2026-10-20",
   "presenterScript": {
     "markdown": "presenter-guide/AUS-presenter-script.md",
     "pdf": "presenter-guide/AUS-presenter-script.pdf",
-    "pdfSha256": "a1b6de01c5ef3d9b058d0de66e754c237ba7940881bfc49fe58ceaa8cb6dd38b",
+    "pdfSha256": "342a8701298c24d5f195e6c2bc7737853c7e3de4d4a931faf31bcd11b9883d86",
     "spokenWords": 7031,
-    "generatedBy": "presentation/design/script.mjs and presenter-guide/build_script_pdf.py"
+    "generatedBy": "presentation/design/script.mjs (content.mjs + support.mjs) and presenter-guide/build_script_pdf.py",
+    "pdfPages": 54,
+    "exampleWords": 2144,
+    "format": "Per slide: This slide wants / On the slide / Say / Example / Studies on this slide (what each one does here) / Next; then backup notes and a full source glossary.",
+    "role": "The only copy of the script. The slides carry no speaker notes and do not link to this file."
   }
 }

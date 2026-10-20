@@ -12,6 +12,10 @@ Both decks were rebuilt by `design/build.mjs` (pptxgenjs) as a widescreen, Segoe
 
 The speaker notes were rewritten in a flowing script format: THIS SLIDE (what the slide represents), SAY (the 10 October spoken text in the "we" voice, with transitions added), STUDIES ON THIS SLIDE (every citation code decoded: the source, what it is and what it says) and TRANSITION. The same script, with a source glossary, is in `../presenter-guide/AUS-presenter-script.md` and `.pdf`.
 
+### Script revision of 20 October 2026
+
+No slide changed. The script now lives only in `../presenter-guide/AUS-presenter-script.pdf` (and `.md`); the slides carry no speaker notes and do not link to it, at the owner's request. Only the picture, clip and IFU-illustration credits remain in the notes pane of the image slides. For each teaching slide the script gives THIS SLIDE WANTS (the one thing the slide asks the room to do), ON THE SLIDE, SAY (unchanged), EXAMPLE (one concrete fictional example of the ask, about 55 words), STUDIES ON THIS SLIDE: WHAT EACH ONE DOES HERE (every footer code with the source, what it is, and how it supports this slide, with its limit) and NEXT, followed by the backup-slide notes and the full "what it says" glossary. The ask, example and study lines are in `design/support.mjs`. `DECK_NOTES=1 node build.mjs` would put the script back into the notes pane.
+
 On-slide wording, slide order, tables, chart values, citation codes and evidence statements are unchanged from the 5 October checkpoint. Build, fonts and limits: `design/README.md`. The superseded 10 October files are in `C:\NityProjects\AUS-Presentation\archive\2026-10-19-pre-redesign\` (outside the repository), with hashes.
 
 ## Contents
