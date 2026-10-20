@@ -35,9 +35,11 @@ export const CUES = {
   ],
   4: [
     'Do not let conservative management drift, and do not interrupt a convincing recovery.',
-    'BAUS: at least six months for severe leakage, twelve for mild to moderate. AUA: from six months if not improving, offer at one year.',
+    'BAUS: at least six months for severe leakage, twelve for mild to moderate. Severe means over 400 grams in 24 hours on the Nitti scale; mild is under 100.',
+    'AUA: from six months if not improving despite conservative care; offer surgery at one year.',
     'A sling remains an option for milder leakage and good tissue. Radiation and severe leakage move us towards AUS.',
-    'MASTER at 24 months: the sling stayed non-inferior, but further surgery was eleven per cent after sling, two after AUS.',
+    'MASTER at 24 months: the sling stayed non-inferior, but further surgery was eleven per cent after sling, two after AUS. After a sling that mostly meant an AUS; after an AUS, a mechanical revision.',
+    'Equal on one measure is not equal for everyone: men with a previous implant or an untreated narrowing were excluded.',
     'Next: timing assumes he can use the device. We test that; we do not ask about it.',
   ],
   5: [
@@ -45,13 +47,16 @@ export const CUES = {
     'Access matters as much as strength: can he reach the agreed side of the scrotum while seated?',
     'Check he understands cycling and deactivation, and what to tell the next clinician before a catheter.',
     'Frailty is more than age: in the Medicare cohort it raised early complications and later revision, independently of age.',
+    'That frailty was scored from billing codes, not examined, so it says frailty matters, not how to test it in clinic.',
     'Next: with the patient assessed, two investigations change the plan most often. First the cystoscope.',
   ],
   6: [
-    'AUA recommends cystourethroscopy before SUI surgery; BAUS selects it within its urodynamics pathway; EAU is selective.',
+    'AUA: cystourethroscopy before SUI surgery. EAU: selective.',
+    'BAUS: VUDS for every candidate, and cystoscopy only when a narrowing is suspected or the dipstick shows blood. No video? Then standard UDS plus cystoscopy for all.',
     'Our preference is to look in advance, so a surprise is discussed before the day of implantation.',
     'We are looking for stricture, anastomotic stenosis, bladder-neck contracture, foreign material, stones, tumour, previous erosion.',
     'With a narrowing, add flow, residual, site and length. Do not turn a diagnostic scope into an unplanned dilation.',
+    'Why not? A dilation is a treatment: it resets the six-month stability clock, tears the scar before we have measured it, and costs the tissue a cuff may need.',
     'Next: the second investigation is where the guidelines genuinely disagree, so we name the positions.',
   ],
   7: [

@@ -92,7 +92,24 @@
         "Offer surgery for persisting bothersome SUI"
       ]
     ],
-    "bottom": "MASTER 2026: sling remained non-inferior at 24 months; further surgery 11% after sling versus 2% after AUS. Selected population."
+    "bottom": "MASTER 2026: sling remained non-inferior at 24 months; further surgery 11% after sling versus 2% after AUS. Selected population.",
+    "severity": {
+      "label": "Severity by 24-hour pad weight: the Nitti classification BAUS uses",
+      "tiers": [
+        [
+          "Mild",
+          "Under 100 g in 24 hours"
+        ],
+        [
+          "Moderate",
+          "100 to 400 g in 24 hours"
+        ],
+        [
+          "Severe",
+          "Over 400 g in 24 hours"
+        ]
+      ]
+    }
   },
   {
     "n": 5,
@@ -115,7 +132,7 @@
       [
         "Guidance",
         "AUA recommends cystourethroscopy before SUI surgery",
-        "BAUS selects cystoscopy within its VUDS pathway",
+        "BAUS: VUDS for every candidate; cystoscopy when a narrowing is suspected, or with standard UDS where video is unavailable",
         "Advance inspection is a practical preference"
       ],
       [

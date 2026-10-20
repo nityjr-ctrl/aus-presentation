@@ -1,8 +1,8 @@
 {
   "schemaVersion": "presentation-checkpoint-verification.v1",
   "checkedDate": "2026-10-20",
-  "finalSha256": "16a990e94b1f1f930d70a934fd4356931d662b2611117254a2511b939665eaa0",
-  "byteCount": 12163207,
+  "finalSha256": "a1e89402def0fb618c8474c8979e5c59a91a5bcf1d1401549c8ef8aa5024fac6",
+  "byteCount": 12163782,
   "slides": 51,
   "teachingSlides": 38,
   "nativeTables": 8,
@@ -10,21 +10,21 @@
   "citationCodes": 58,
   "durationMinutes": 60,
   "builder": "presentation/design/build.mjs (pptxgenjs 3.12.0), content in presentation/design/content.mjs and support.mjs, data in presentation/design/data/",
-  "packageIntegrity": "pass: pptx skill validate.py on both decks, 20 October 2026 (image spread)",
-  "powerPointOpen": "PowerPoint 16.0 opened both decks read-only without a repair prompt and exported every slide to PNG (51 and 52), 20 October 2026, image spread",
-  "visualReview": "Image spread: slides 05, 15 and 29 reviewed at full size (standard), 05 (animated). Section layout: cover, six section slides, teaching slide 01, demonstration (32), discussion (38) and the first backup slide reviewed at full size; contact sheets regenerated. Act V divider (physical slide 30) reviewed at full size with the licensed photograph; all other slides unchanged from 19 October. Slides unchanged from 19 October (notes only); contact sheets regenerated and spot-checked. 19 October: All 51 and 52 slides exported by PowerPoint and reviewed at full size in two passes (initial build, then a polish pass that changed layout only); contact sheets reviewed after each; no overflow, overlap or placeholder text found; automated scan for leftover placeholder strings clean",
+  "packageIntegrity": "pass: pptx skill validate.py on both decks, 20 October 2026 (clarifications)",
+  "powerPointOpen": "PowerPoint 16.0 opened both decks read-only without a repair prompt and exported every slide to PNG (51 and 52), 20 October 2026, clarifications",
+  "visualReview": "Clarifications: slides 04 (Nitti strip) and 06 (BAUS cystoscopy routes) reviewed at full size. Image spread: slides 05, 15 and 29 reviewed at full size (standard), 05 (animated). Section layout: cover, six section slides, teaching slide 01, demonstration (32), discussion (38) and the first backup slide reviewed at full size; contact sheets regenerated. Act V divider (physical slide 30) reviewed at full size with the licensed photograph; all other slides unchanged from 19 October. Slides unchanged from 19 October (notes only); contact sheets regenerated and spot-checked. 19 October: All 51 and 52 slides exported by PowerPoint and reviewed at full size in two passes (initial build, then a polish pass that changed layout only); contact sheets reviewed after each; no overflow, overlap or placeholder text found; automated scan for leftover placeholder strings clean",
   "fontFamilies": [
     "Segoe UI",
     "Segoe UI Semibold",
     "Cambria (act-divider numerals only)"
   ],
   "fontNote": "Installed with Windows and on the presenting PC; if presented from a Mac without Segoe UI the theme fonts substitute and text fit should be rechecked",
-  "spokenWords": 7031,
+  "spokenWords": 7217,
   "timingBasis": "Same 60-minute clock. Say text unchanged from 10 October (7,031 words); examples add 2,144 words and are optional on the day; not rehearsed aloud",
   "animatedDeck": {
     "file": "AUS-teaching-deck-3d.pptx",
-    "sha256": "cabfb56df45df54e77ec6f65cd7d3d9220924f3d7414a2422ae1aa8b11373e33",
-    "byteCount": 66809253,
+    "sha256": "b03d8e7c1c519556576a2dd30177a027b04932f5992f2de1e8d24d0d8c887418",
+    "byteCount": 66809801,
     "slides": 52,
     "embeddedVideos": 8,
     "packageIntegrity": "pass",
@@ -32,7 +32,7 @@
     "notChecked": "Autoplay and looping were not watched in slide-show mode"
   },
   "clinicalEvidenceAudit": "EVIDENCE-AUDIT-2026-10-05.md",
-  "claimBoundary": "Package checks, a clean PowerPoint open and note checks do not establish clinical accuracy. No slide text, citation or evidence statement changed on 20 October; the examples are fictional illustrations and the per-slide study lines restate the 5 October audit and glossary findings.",
+  "claimBoundary": "The Nitti bands, the BAUS cystoscopy routes, the MASTER twelve-month further-surgery breakdown and the Claims-Based Frailty Index definition were verified against the source texts on 20 October 2026 (addenda in EVIDENCE-AUDIT-2026-10-05.md). Package checks, a clean PowerPoint open and note checks do not establish clinical accuracy. No slide text, citation or evidence statement changed on 20 October; the examples are fictional illustrations and the per-slide study lines restate the 5 October audit and glossary findings.",
   "previousCheckpoint": {
     "schemaVersion": "presentation-checkpoint-verification.v1",
     "checkedDate": "2026-10-19",

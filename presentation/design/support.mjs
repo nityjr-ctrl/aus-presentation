@@ -112,9 +112,9 @@ export const SUPPORT = {
   },
   4: {
     AUA24: 'The AUA row: surgery may be offered from six months for bothersome, non-improving SUI and should be offered at one year; it also favours AUS over sling or balloons in irradiated men.',
-    BAUS25: 'The BAUS row: at least six months\' recovery for severe SUI and twelve for mild-to-moderate, as consensus, not as a trial-proven interval.',
+    BAUS25: 'The BAUS row and the severity strip: at least six months\' recovery for severe SUI and twelve for mild-to-moderate, as consensus, not as a trial-proven interval. Severity is the 24-hour pad weight on the Nitti scale (statement 9): mild under 100 g, moderate 100 to 400 g, severe over 400 g.',
     EAU26: 'Supports conservative management first and a structured reassessment of the recovery trajectory before invasive treatment.',
-    MASTER22: 'The randomised comparison behind "where a sling fits": at twelve months the sling met non-inferiority on patient-reported continence in 380 selected men with no prior implant or unresolved narrowing.',
+    MASTER22: 'The randomised comparison behind "where a sling fits": at twelve months the sling met non-inferiority on patient-reported continence in 380 selected men with no prior implant or unresolved narrowing. The further surgery at twelve months was mostly an AUS after a failed sling (12 of the 13 sling-arm reoperations; one had a second sling), while the three AUS-arm reoperations were revisions for mechanical failure.',
     MASTER26: 'The footer: at 24 months the sling remained non-inferior, but further surgery was 11% after sling versus 2% after AUS, and secondary outcomes favoured AUS. Non-inferiority on one endpoint is not interchangeability.',
   },
   5: {
@@ -124,7 +124,7 @@ export const SUPPORT = {
     FRAIL26: 'The "frailty as well as pump use" bullet: in 7,252 men, claims-defined frailty raised 30-day complications (adjusted RR 1.5 prefrail, 2.5 frail) and revision, independently of age. A claims index, so it validates no bedside score.',
   },
   6: {
-    BAUS25: 'The BAUS row: cystoscopy selected for indication within its video-urodynamics pathway, or combined with standard urodynamics where video is unavailable.',
+    BAUS25: 'The BAUS row: VUDS for every surgical candidate; cystourethroscopy only in selected cases (suspected bladder-neck stenosis or stricture, or dipstick haematuria); where VUDS is unavailable, standard urodynamics plus cystourethroscopy for all; and an on-table cystoscopy before the incision if patency is in doubt.',
     AUA24: 'The AUA row: cystourethroscopy before SUI surgery is recommended, as expert opinion; it also supports interval cystoscopy after treating BNC or VUAS.',
     EAU26: 'Describes selective cystoscopy for suspected narrowing or bladder pathology with a weak general recommendation: the "practical preference" framing.',
     EAUSTR26: 'Gives the anatomical definitions of stricture, bladder-neck contracture and VUAS that the "findings that change the plan" column uses, and the imaging to define site and length.',

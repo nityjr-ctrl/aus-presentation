@@ -197,8 +197,23 @@ function slideTable(slide, s) {
   const n = s.headers.length;
   const colW = n === 2 ? [4.2, CONTENT_W - 4.2] : n === 3 ? [2.6, 4.45, CONTENT_W - 7.05] : Array(n).fill(CONTENT_W / n);
   const short = s.rows.length <= 3;
-  const rowH = Math.max(0.6, Math.min(short ? 1.2 : 0.95, 3.7 / s.rows.length));
+  let rowH = Math.max(0.6, Math.min(short ? 1.2 : 0.95, 3.7 / s.rows.length));
+  if (s.severity) rowH = Math.min(rowH, 0.85); // leave room for the severity strip below the table
   styledTable(slide, s.headers, s.rows, MX, 1.95, CONTENT_W, colW, { fontSize: short ? 15 : 13.5, rowH: [0.45, ...Array(s.rows.length).fill(rowH)] });
+  if (s.severity) {
+    // Three tiles in the decision-card style: the severity bands the timing rule depends on.
+    const top = 1.95 + 0.45 + s.rows.length * rowH + 0.35;
+    text(slide, s.severity.label, { x: MX, y: top, w: CONTENT_W, h: 0.35, fontSize: 13, color: C.teal, fontFace: HEAD });
+    const gap = 0.3, tw = (CONTENT_W - 2 * gap) / 3, ty = top + 0.45, th = 1.1;
+    const tone = [C.teal, C.amber, C.terra];
+    s.severity.tiers.forEach(([word, value], i) => {
+      const x = MX + i * (tw + gap);
+      rect(slide, x, ty, tw, th, C.panel);
+      slide.addShape(SHAPES.ellipse, { x: x + 0.3, y: ty + 0.3, w: 0.18, h: 0.18, fill: { color: tone[i] }, line: { type: 'none' } });
+      text(slide, word, { x: x + 0.6, y: ty + 0.17, w: tw - 0.9, h: 0.45, fontSize: 20, color: tone[i], fontFace: HEAD, valign: 'middle' });
+      text(slide, value, { x: x + 0.6, y: ty + 0.62, w: tw - 0.9, h: 0.4, fontSize: 14, color: C.ink, valign: 'middle' });
+    });
+  }
 }
 
 function card(slide, x, y, w, h, header, items, { dark = false, accent = C.teal, fontSize = 15.5 } = {}) {
