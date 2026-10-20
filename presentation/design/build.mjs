@@ -5,7 +5,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
-import { PRESENTERS, ACTS, actOf, GLOSSARY, SCRIPT, COVER_NOTES, IMAGE_CREDIT, CLIP_CREDIT, DEVICE_CREDIT, BACKUP_NOTES, REFERENCE_NOTES } from './content.mjs';
+import { PRESENTERS, ACTS, actOf, GLOSSARY, SCRIPT, COVER_NOTES, IMAGE_CREDIT, CLIP_CREDIT, DEVICE_CREDIT, SCHEMATIC_CREDIT, BACKUP_NOTES, REFERENCE_NOTES } from './content.mjs';
 import { ASK, EXAMPLE, SUPPORT } from './support.mjs';
 
 const require = createRequire(import.meta.url);
@@ -235,8 +235,10 @@ function slideSteps(slide, s, { clip = null } = {}) {
 
 function imageBox(slide, asset, x, y, w, h, { dark = true } = {}) {
   // UroOps stills are 2.43:1; contain inside the box, aligned to the top.
-  const img = path.join(ASSETS, asset);
-  const ratio = { 'uroops-exploded.png': 3105 / 1280, 'uroops-sagittal.png': 3105 / 1280, 'uroops-surgeon.png': 3104 / 1280, 'uroops-cuff-site.png': 3104 / 1280, 'uroops-aus.png': 3200 / 1800, 'uroops-three-spaces.png': 3104 / 1280, 'uroops-final.png': 3105 / 1280, 'conticlassic-000.png': 1 }[asset] || 2.4;
+  // Two assets are prepared at build time: the ContiClassic figure recoloured onto charcoal, and the narrowing
+  // schematic with its own title band and footer cropped off (the slide carries the title).
+  const img = asset === 'conticlassic-000.png' ? deviceDark() : asset === 'anatomical-narrowing-colour-annotations-2026.png' ? narrowingPanels() : path.join(ASSETS, asset);
+  const ratio = { 'uroops-exploded.png': 3105 / 1280, 'uroops-sagittal.png': 3105 / 1280, 'uroops-surgeon.png': 3104 / 1280, 'uroops-cuff-site.png': 3104 / 1280, 'uroops-aus.png': 3200 / 1800, 'uroops-three-spaces.png': 3104 / 1280, 'uroops-final.png': 3105 / 1280, 'uroops-balloon.png': 1200 / 820, 'conticlassic-000.png': 1, 'anatomical-narrowing-colour-annotations-2026.png': 1672 / 816 }[asset] || 2.4;
   let iw = w, ih = w / ratio;
   if (ih > h) { ih = h; iw = h * ratio; }
   const ix = iw >= 0.8 * w ? x : x + (w - iw) / 2, iy = y + (h - ih) / 2;
@@ -263,7 +265,11 @@ function slideImage(slide, s) {
   const imgW = 7.9, imgH = 3.6, imgY = 2.0;
   const clip = CLIPS_ON && clipFor[s.n];
   if (clip) placeClip(slide, clip, MX, imgY, imgW, imgH);
-  else imageBox(slide, s.asset, MX, imgY, imgW, imgH);
+  else {
+    const box = imageBox(slide, s.asset, MX, imgY, imgW, imgH);
+    if (s.asset.startsWith('anatomical-narrowing')) text(slide, 'Teaching schematic, not to scale.', { x: box.x, y: box.y + box.h + 0.12, w: imgW, h: 0.3, fontSize: 11, color: C.onDarkFaint });
+    if (s.asset === 'conticlassic-000.png') text(slide, 'Rigicon ContiClassic, manufacturer illustration.', { x: MX, y: imgY + imgH + 0.12, w: imgW, h: 0.3, fontSize: 11, color: C.onDarkFaint });
+  }
   const rx = MX + imgW + 0.5, rw = W - MX - rx;
   text(slide, s.label, { x: rx, y: imgY, w: rw, h: 0.4, fontSize: 15, color: C.tealDark, fontFace: HEAD });
   let yy = imgY + 0.6;
@@ -396,12 +402,17 @@ function deviceDark() {
   if (!fs.existsSync(out)) execFileSync('python', [path.join(HERE, 'device_dark.py'), path.join(ASSETS, 'conticlassic-000.png'), out, C.dark]);
   return out;
 }
+function narrowingPanels() {
+  const out = path.join(BUILD, 'narrowing-panels.png');
+  if (!fs.existsSync(out)) execFileSync('python', [path.join(HERE, 'crop_panels.py'), path.join(ASSETS, 'anatomical-narrowing-colour-annotations-2026.png'), out, '82', '898']);
+  return out;
+}
 
 function slideDevice(slide, s) {
   frame(slide, s.n, s.title, { dark: true, takeaway: s.bottom });
   const clip = CLIPS_ON && clipFor[s.n];
   if (clip) placeClip(slide, clip, MX, 1.95, 5.6, 4.0);
-  else slide.addImage({ path: deviceDark(), x: MX + 0.8, y: 1.95, w: 4.0, h: 4.0 });
+  else imageBox(slide, s.asset, MX, 1.95, 5.6, 4.0); // the UroOps balloon-pocket still (the device figure now sits on slide 05)
   const rx = MX + 5.6 + 0.6, rw = W - MX - rx;
   const stats = [['ContiClassic label', '60–69 cmH₂O'], ['AMS 800 consensus', 'Commonly 61–70 cmH₂O']];
   stats.forEach(([lab, val], i) => {
@@ -593,14 +604,14 @@ function build(animated) {
       case 'table': slideTable(slide, s); break;
       case 'columns': slideColumns(slide, s); break;
       case 'steps': slideSteps(slide, s, { clip: CLIPS_ON && clipFor[s.n] ? clipFor[s.n] : null }); if (CLIPS_ON && clipFor[s.n]) extra = CLIP_CREDIT; break;
-      case 'image': slideImage(slide, s); extra = CLIPS_ON && clipFor[s.n] ? CLIP_CREDIT : IMAGE_CREDIT; break;
+      case 'image': slideImage(slide, s); extra = CLIPS_ON && clipFor[s.n] ? CLIP_CREDIT : s.asset === 'conticlassic-000.png' ? DEVICE_CREDIT : s.asset.startsWith('anatomical-narrowing') ? SCHEMATIC_CREDIT : IMAGE_CREDIT; break;
       case 'case': slideCase(slide, s); break;
       case 'outcomes': slideOutcomes(slide, s); break;
       case 'statement': slideStatement(slide, s, s.n === 28 ? C.terra : C.teal); break;
       case 'physiology': slidePhysiology(slide, s); break;
       case 'wash': slideWash(slide, s); break;
       case 'prepchart': slidePrepChart(slide, s); break;
-      case 'device': slideDevice(slide, s); extra = DEVICE_CREDIT + (CLIPS_ON ? '\n\n' + CLIP_CREDIT : ''); break;
+      case 'device': slideDevice(slide, s); extra = CLIPS_ON ? CLIP_CREDIT : IMAGE_CREDIT; break;
       case 'demo': slideDemo(slide, s); extra = CLIPS_ON ? CLIP_CREDIT : IMAGE_CREDIT; break;
       case 'discussion': slideDiscussion(slide, s); break;
       default: throw new Error('unknown type ' + s.type);

@@ -1,8 +1,8 @@
 {
   "schemaVersion": "presentation-checkpoint-verification.v1",
   "checkedDate": "2026-10-20",
-  "finalSha256": "49d6fe646bc885504af998d5979dc564edaeb4bb5395b54e966f26ccd2b878f0",
-  "byteCount": 11505029,
+  "finalSha256": "16a990e94b1f1f930d70a934fd4356931d662b2611117254a2511b939665eaa0",
+  "byteCount": 12163207,
   "slides": 51,
   "teachingSlides": 38,
   "nativeTables": 8,
@@ -10,9 +10,9 @@
   "citationCodes": 58,
   "durationMinutes": 60,
   "builder": "presentation/design/build.mjs (pptxgenjs 3.12.0), content in presentation/design/content.mjs and support.mjs, data in presentation/design/data/",
-  "packageIntegrity": "pass: pptx skill validate.py on both decks, 20 October 2026 (section layout)",
-  "powerPointOpen": "PowerPoint 16.0 opened both decks read-only without a repair prompt and exported every slide to PNG (51 and 52), 20 October 2026, section layout",
-  "visualReview": "Section layout: cover, six section slides, teaching slide 01, demonstration (32), discussion (38) and the first backup slide reviewed at full size; contact sheets regenerated. Act V divider (physical slide 30) reviewed at full size with the licensed photograph; all other slides unchanged from 19 October. Slides unchanged from 19 October (notes only); contact sheets regenerated and spot-checked. 19 October: All 51 and 52 slides exported by PowerPoint and reviewed at full size in two passes (initial build, then a polish pass that changed layout only); contact sheets reviewed after each; no overflow, overlap or placeholder text found; automated scan for leftover placeholder strings clean",
+  "packageIntegrity": "pass: pptx skill validate.py on both decks, 20 October 2026 (image spread)",
+  "powerPointOpen": "PowerPoint 16.0 opened both decks read-only without a repair prompt and exported every slide to PNG (51 and 52), 20 October 2026, image spread",
+  "visualReview": "Image spread: slides 05, 15 and 29 reviewed at full size (standard), 05 (animated). Section layout: cover, six section slides, teaching slide 01, demonstration (32), discussion (38) and the first backup slide reviewed at full size; contact sheets regenerated. Act V divider (physical slide 30) reviewed at full size with the licensed photograph; all other slides unchanged from 19 October. Slides unchanged from 19 October (notes only); contact sheets regenerated and spot-checked. 19 October: All 51 and 52 slides exported by PowerPoint and reviewed at full size in two passes (initial build, then a polish pass that changed layout only); contact sheets reviewed after each; no overflow, overlap or placeholder text found; automated scan for leftover placeholder strings clean",
   "fontFamilies": [
     "Segoe UI",
     "Segoe UI Semibold",
@@ -23,8 +23,8 @@
   "timingBasis": "Same 60-minute clock. Say text unchanged from 10 October (7,031 words); examples add 2,144 words and are optional on the day; not rehearsed aloud",
   "animatedDeck": {
     "file": "AUS-teaching-deck-3d.pptx",
-    "sha256": "d6a9537b8b1cfa4559330ad2c2505de4c66bfd5abd13c7def889f7a929012455",
-    "byteCount": 66735529,
+    "sha256": "cabfb56df45df54e77ec6f65cd7d3d9220924f3d7414a2422ae1aa8b11373e33",
+    "byteCount": 66809253,
     "slides": 52,
     "embeddedVideos": 8,
     "packageIntegrity": "pass",
@@ -74,5 +74,6 @@
   "exampleWords": 2144,
   "licensedAssets": "section-5.jpg (Envato Elements GM295KD, winnievinzence) in the git-ignored assets/envato folder; fitted to 3240 x 2160 at build time",
   "sectionDividers": 6,
-  "onSlideTimings": "none; the running clock is in presenter-guide/AUS-presenter-script.pdf only"
+  "onSlideTimings": "none; the running clock is in presenter-guide/AUS-presenter-script.pdf only",
+  "images": "Cover and slides 25-27, 30, 32 (and 29 in the standard deck): UroOps 3D stills; slide 05: ContiClassic manufacturer figure; slide 15: AI-generated annotated narrowing schematic reviewed 5 October 2026 (assets/SOURCES.md); section 5 divider: licensed Envato photograph"
 }

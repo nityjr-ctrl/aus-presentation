@@ -18,6 +18,10 @@ Each is 3104 x 1280 pixels (3200 x 1800 for slide 28). The scene panel was enlar
 
 `uroops-cover.png` (3120 x 2080) is the same scene's final-configuration view with every label hidden, captured on 10 October 2026. It is the cover picture of both decks.
 
+`uroops-balloon.png` (1200 x 820) is the first frame of the 10 October balloon-pocket clip (`3d/video/aus-30-balloon.mp4`, lesson step "Lower abdominal incision"), kept as a still for the standard deck's balloon slide (teaching slide 29) from 20 October 2026. Same scene, same attribution and limits as the stills above.
+
+Image spread from 20 October 2026 (owner's request for variety): teaching slide 05 shows the ContiClassic manufacturer figure (recoloured onto the charcoal background at build time), slide 15 the annotated narrowing schematic below (title band and footer cropped at build time, caption "Teaching schematic, not to scale" on the slide), slide 29 the balloon-pocket still; `uroops-exploded.png` and `uroops-sagittal.png` are no longer placed in either deck.
+
 Attribution: © UroOps3D / UroRef / Nity G. The public page labels the ContiClassic scene as a schematic with clinical review pending. The slides carry no caption under these pictures (removed at the owner's request on 10 October 2026); the speaker notes on each picture slide identify them as teaching schematics. They do not establish geometric accuracy, tissue perfusion, operative safety or manufacturer instructions. The UroOps repository was not opened or edited.
 
 ## ContiClassic device illustration

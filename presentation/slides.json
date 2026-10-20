@@ -98,7 +98,7 @@
     "n": 5,
     "title": "Pump use over time",
     "type": "image",
-    "asset": "uroops-exploded.png",
+    "asset": "conticlassic-000.png",
     "label": "Pump assessment",
     "items": [
       "Watch the patient operate a demonstration pump",
@@ -265,7 +265,7 @@
     "n": 15,
     "title": "Three different sites of narrowing",
     "type": "image",
-    "asset": "uroops-sagittal.png",
+    "asset": "anatomical-narrowing-colour-annotations-2026.png",
     "label": "Anatomical distinctions",
     "items": [
       "Anterior stricture: urethra and spongiosum",
@@ -534,7 +534,7 @@
     "n": 29,
     "title": "Balloon pocket and pressure selection",
     "type": "device",
-    "asset": "conticlassic-000.png",
+    "asset": "uroops-balloon.png",
     "bottom": "A safe pocket and the correct pressure component are separate decisions. Fill volumes and selection rules require the current OR protocol."
   },
   {
