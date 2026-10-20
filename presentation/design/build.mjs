@@ -5,7 +5,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
-import { PRESENTERS, ACTS, actOf, GLOSSARY, SCRIPT, COVER_NOTES, IMAGE_CREDIT, CLIP_CREDIT, DEVICE_CREDIT, SCHEMATIC_CREDIT, BACKUP_NOTES, REFERENCE_NOTES } from './content.mjs';
+import { PRESENTERS, ACTS, actOf, GLOSSARY, SCRIPT, COVER_NOTES, IMAGE_CREDIT, CLIP_CREDIT, DEVICE_CREDIT, SCHEMATIC_CREDIT, FIGURE_CREDIT, BACKUP_NOTES, REFERENCE_NOTES } from './content.mjs';
 import { ASK, EXAMPLE, SUPPORT } from './support.mjs';
 
 const require = createRequire(import.meta.url);
@@ -323,8 +323,8 @@ function slideCase(slide, s) {
 function slideOutcomes(slide, s) {
   frame(slide, s.n, s.title, { takeaway: s.bottom });
   const stats = [
-    { label: 'AMS 800: zero-pad use', big: '60%', lines: ['61 / 101 at 12 months after activation', 'AUSCO 2026: 115 primary implants'], limit: 'Single-arm, manufacturer-funded study. Missing outcomes and one-year follow-up.' },
-    { label: 'ContiClassic: device survival', big: '93.2%', lines: ['12-month Kaplan–Meier estimate', 'First 116 recipients, mixed indications'], limit: 'Abstract-level, no comparator. A standardised continence result is unverified.' },
+    { label: 'AMS 800: zero-pad use', big: '60%', lines: ['61 / 101 at 12 months after activation', 'AUSCO 2026: 115 primary implants'], limit: 'Manufacturer-funded, no comparison group, missing data, one year of follow-up.' },
+    { label: 'ContiClassic: device survival', big: '93.2%', lines: ['12-month Kaplan–Meier estimate', 'First 116 recipients, mixed indications'], limit: 'Abstract only, no comparison group. A working device is not the same as a dry patient.' },
   ];
   const gap = 0.35, cw = (CONTENT_W - gap) / 2, y = 1.95, ch = 4.15;
   stats.forEach((st, i) => {
@@ -339,6 +339,21 @@ function slideOutcomes(slide, s) {
 
 function slideStatement(slide, s, accent) {
   frame(slide, s.n, s.title, { takeaway: s.bottom });
+  if (s.figure) {
+    // Statement on one line above a wide schematic (2200 x 1000 px drawn by cuff_bore_figure.py); steps in a narrower panel on the right.
+    const fh = 3.3, fw = fh * 2.2;
+    text(slide, s.lead.replace('\n', ' '), { x: MX, y: 1.9, w: fw, h: 0.75, fontSize: 24, color: accent, fontFace: HEAD, valign: 'middle' });
+    slide.addImage({ path: path.join(ASSETS, s.figure), x: MX, y: 2.75, w: fw, h: fh });
+    const rx = MX + fw + 0.35, rw = W - MX - rx;
+    rect(slide, rx, 1.9, rw, 4.15, C.panel);
+    let yy = 2.25;
+    s.items.forEach((it, i) => {
+      numberBadge(slide, rx + 0.3, yy, 0.4, String(i + 1), accent, 'FFFFFF', 12);
+      text(slide, it, { x: rx + 0.85, y: yy - 0.02, w: rw - 1.1, h: 1.1, fontSize: 13.5, color: C.ink, lineSpacingMultiple: 1.12 });
+      yy += 1.3;
+    });
+    return;
+  }
   const lw = 5.6;
   text(slide, s.lead, { x: MX, y: 1.95, w: lw, h: 4.0, fontSize: 32, color: accent, fontFace: HEAD, lineSpacingMultiple: 1.05, valign: 'middle' });
   const rx = MX + lw + 0.6, rw = W - MX - rx;
@@ -406,10 +421,10 @@ function slidePrepChart(slide, s) {
     plotArea: { fill: { color: C.panel } }, chartArea: { fill: { color: C.panel }, roundedCorners: false },
   });
   const rx = MX + cw + 0.5, rw = W - MX - rx;
-  text(slide, 'A microbiological endpoint', { x: rx, y: 2.0, w: rw, h: 0.5, fontSize: 20, color: C.ink, fontFace: HEAD });
-  text(slide, 'Direct AUS infection evidence remains limited', { x: rx, y: 2.7, w: rw, h: 0.8, fontSize: 15, color: C.muted, lineSpacingMultiple: 1.15 });
+  text(slide, 'A laboratory measure, not infections', { x: rx, y: 2.0, w: rw, h: 0.5, fontSize: 20, color: C.ink, fontFace: HEAD });
+  text(slide, 'No study shows fewer AUS infections', { x: rx, y: 2.7, w: rw, h: 0.8, fontSize: 15, color: C.muted, lineSpacingMultiple: 1.15 });
   rect(slide, rx, 3.75, rw, 1.3, C.panel);
-  text(slide, 'Correct product, anatomy and complete drying still matter', { x: rx + 0.35, y: 3.95, w: rw - 0.7, h: 0.9, fontSize: 15, color: C.teal, fontFace: HEAD, lineSpacingMultiple: 1.1 });
+  text(slide, 'The right product, the right site and full drying still matter', { x: rx + 0.35, y: 3.95, w: rw - 0.7, h: 0.9, fontSize: 15, color: C.teal, fontFace: HEAD, lineSpacingMultiple: 1.1 });
 }
 
 function deviceDark() {
@@ -622,7 +637,7 @@ function build(animated) {
       case 'image': slideImage(slide, s); extra = CLIPS_ON && clipFor[s.n] ? CLIP_CREDIT : s.asset === 'conticlassic-000.png' ? DEVICE_CREDIT : s.asset.startsWith('anatomical-narrowing') ? SCHEMATIC_CREDIT : IMAGE_CREDIT; break;
       case 'case': slideCase(slide, s); break;
       case 'outcomes': slideOutcomes(slide, s); break;
-      case 'statement': slideStatement(slide, s, s.n === 28 ? C.terra : C.teal); break;
+      case 'statement': slideStatement(slide, s, s.n === 28 ? C.terra : C.teal); if (s.figure) extra = FIGURE_CREDIT; break;
       case 'physiology': slidePhysiology(slide, s); break;
       case 'wash': slideWash(slide, s); break;
       case 'prepchart': slidePrepChart(slide, s); break;

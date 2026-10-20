@@ -7,19 +7,19 @@
     "rows": [
       [
         "Implant",
-        "SUI, safe storage, reliable emptying and usable pump"
+        "Stress leak shown, safe bladder, good emptying, can work the pump"
       ],
       [
         "Optimise",
-        "A treatable bladder or functional problem dominates"
+        "A treatable bladder or emptying problem is the bigger issue"
       ],
       [
         "Investigate",
-        "The mechanism, measurements or anatomy remain uncertain"
+        "Not sure why he leaks, what the tests mean, or the anatomy"
       ],
       [
         "Reconsider",
-        "Safe function or independent device use is unlikely"
+        "Safe bladder function or using the device alone is unlikely"
       ]
     ]
   },
@@ -38,18 +38,18 @@
       ],
       [
         "Clinical studies",
-        "Outcomes in a defined population"
+        "Results in one group of patients"
       ],
       [
         "Manufacturer IFU",
-        "Permitted use and device precautions"
+        "How the device may be used, and its warnings"
       ],
       [
         "Expert or local practice",
-        "A practical choice with stated uncertainty"
+        "A practical choice, with the uncertainty stated"
       ]
     ],
-    "bottom": "BAUS 2025 · AUA amendment 2024 · EAU 2026. Meeting abstracts are separate evidence. Device results are not interchangeable."
+    "bottom": "BAUS 2025 · AUA amendment 2024 · EAU 2026. Meeting abstracts are not guidelines. One device’s results do not transfer to another."
   },
   {
     "n": 3,
@@ -57,19 +57,19 @@
     "type": "columns",
     "cols": [
       [
-        "Characterise the leak",
-        "Demonstrated stress leakage",
+        "Describe the leak",
+        "Stress leak shown on examination",
         "Urgency, night-time symptoms and emptying",
         "Pad use, pad weight and activity"
       ],
       [
-        "Define useful improvement",
-        "Recovery trajectory and prior treatment",
-        "A validated symptom and quality-of-life measure",
+        "Agree what improvement is worth it",
+        "Is it still improving? What has been tried?",
+        "A validated symptom score",
         "The activity the patient wants back"
       ]
     ],
-    "bottom": "Pad count is useful; 2026 data show wide weight variability at 2–4 pads/day. Measure when severity is uncertain."
+    "bottom": "Pad count is useful, but 2–4 pads a day covers a wide range of weights (2026 data). Weigh the pads when unsure."
   },
   {
     "n": 4,
@@ -92,7 +92,7 @@
         "Offer surgery for persisting bothersome SUI"
       ]
     ],
-    "bottom": "MASTER 2026: sling remained non-inferior at 24 months; further surgery 11% after sling versus 2% after AUS. Selected population.",
+    "bottom": "MASTER 2026: at 24 months the sling was still non-inferior, but further surgery was 11% after sling vs 2% after AUS. Selected patients.",
     "severity": {
       "label": "Severity by 24-hour pad weight: the Nitti classification BAUS uses",
       "tiers": [
@@ -120,7 +120,7 @@
     "items": [
       "Watch the patient operate a demonstration pump",
       "Check reach, strength and understanding",
-      "Agree an accessible position before surgery",
+      "Agree a position he can reach before surgery",
       "Assess frailty as well as future pump use"
     ]
   },
@@ -133,16 +133,16 @@
         "Guidance",
         "AUA recommends cystourethroscopy before SUI surgery",
         "BAUS: VUDS for every candidate; cystoscopy when a narrowing is suspected, or with standard UDS where video is unavailable",
-        "Advance inspection is a practical preference"
+        "Looking in advance is our preference, not a rule"
       ],
       [
         "Findings that change the plan",
-        "Stricture, BNC or VUAS",
+        "Stricture, bladder-neck contracture or anastomotic narrowing",
         "Erosion, foreign material or stones",
-        "Tumour or likely repeated instrumentation"
+        "Tumour, or anything that means repeated scopes"
       ]
     ],
-    "bottom": "AUA 2026 IP09-22 revisits testing; full results unverified. Existing cystoscopy guidance remains applicable."
+    "bottom": "A 2026 AUA abstract (IP09-22) looks at testing again; results not published. Current guidance stands."
   },
   {
     "n": 7,
@@ -162,15 +162,15 @@
       [
         "EAU",
         "UDS before invasive treatment, weak recommendation",
-        "Interpret alongside the selective-testing narrative"
+        "Its own text still allows selective testing"
       ],
       [
         "AUA",
-        "UDS when diagnosis or counselling benefits",
-        "State the uncertainty the test should resolve"
+        "UDS when it would change the diagnosis or counselling",
+        "Say what question the test should answer"
       ]
     ],
-    "bottom": "BAUS 2025, EAU 2026 and AUA 2024 differ. AUA 2026 IP09-22 is conference material; full results remain unverified."
+    "bottom": "The three guidelines differ. The 2026 AUA abstract (IP09-22) is conference material; results not published."
   },
   {
     "n": 8,
@@ -179,7 +179,7 @@
     "rows": [
       [
         "1",
-        "Dominant symptoms and demonstrated SUI"
+        "Main symptom, and a stress leak shown"
       ],
       [
         "2",
@@ -191,20 +191,20 @@
       ],
       [
         "4",
-        "The chosen guideline-based UDS strategy"
+        "The urodynamic strategy your guideline recommends"
       ],
       [
         "5",
-        "Storage safety, emptying and outlet stability"
+        "Is storage safe? Can he empty? Is the outlet stable?"
       ]
     ],
-    "bottom": "Low capacity can reflect leakage. A weak laboratory contraction needs the real voiding history."
+    "bottom": "A small capacity may just be leakage. A weak contraction in the lab needs the real voiding history."
   },
   {
     "n": 9,
     "title": "Consent: improvement and lifetime burden",
     "type": "outcomes",
-    "bottom": "These endpoints do not compare devices. Long-term regret data reinforce counselling about leakage and future surgery."
+    "bottom": "These two numbers do not compare the devices. The regret data say: counsel about leakage and future surgery."
   },
   {
     "n": 10,
@@ -212,14 +212,14 @@
     "type": "case",
     "case": "01",
     "facts": [
-      "Demonstrated post-prostatectomy stress leakage",
+      "Stress leak after prostatectomy, shown on examination",
       "Urgency leakage and detrusor overactivity",
-      "Reassuring compliance and emptying",
+      "Safe storage pressures and good emptying",
       "Goal: walk without soaking his clothes"
     ],
     "question": "Implant now or optimise first?",
     "options": "Implant / Optimise / Investigate / Reconsider",
-    "bottom": "DO alone need not exclude general AUS surgery. ContiClassic labelling requires bladder conditions to be controlled or resolved."
+    "bottom": "DO alone does not rule out an AUS. The ContiClassic label requires bladder problems to be controlled or resolved first."
   },
   {
     "n": 11,
@@ -228,22 +228,22 @@
     "rows": [
       [
         "1",
-        "Address reversible contributors and symptom burden"
+        "Fix the reversible causes first"
       ],
       [
         "2",
-        "Choose medication with cognition and residual urine in mind"
+        "Choose the drug with his memory and his residual in mind"
       ],
       [
         "3",
-        "Plan retention and repeated access before botulinum toxin"
+        "Before botulinum toxin, plan for retention and for repeat injections through a cuff"
       ],
       [
         "4",
-        "Treat persistent urgency as a separate outcome after AUS"
+        "Urgency after an AUS is a separate outcome; agree that beforehand"
       ]
     ],
-    "bottom": "No universally superior treatment sequence around a cuff has been established."
+    "bottom": "No one order of treatments has been shown to be best around a cuff."
   },
   {
     "n": 12,
@@ -252,13 +252,13 @@
     "case": "02",
     "facts": [
       "Stress leakage with slow voiding",
-      "Repeatedly raised residual urine",
+      "Urine left behind, again and again",
       "Weak contraction and abdominal straining",
-      "Obstruction and test inhibition remain possible"
+      "Could still be a narrowing, or a test that inhibited him"
     ],
     "question": "Would a reliable emptying plan change your answer?",
     "options": "Implant / Investigate / Reconsider",
-    "bottom": "Selected DU cohorts do not establish safety in unresolved retention. There is no universal residual cutoff."
+    "bottom": "The weak-bladder studies do not prove safety in unresolved retention. No residual number decides it."
   },
   {
     "n": 13,
@@ -266,17 +266,18 @@
     "type": "statement",
     "lead": "Cuff fully deflated.\nDevice deactivated.",
     "items": [
-      "Establish the reason and likely frequency of catheterisation",
-      "Test competence and agree the drainage route before implantation",
-      "Plan repeated or prolonged access with specialist input"
+      "Why does he catheterise, and how often?",
+      "Check he can really do it, and agree the drainage route before the implant",
+      "Repeated or long-term catheters need a specialist plan"
     ],
-    "bottom": "2026 survey highlights deactivation training gaps. Follow the actual device instructions; no universal French-size rule applies."
+    "bottom": "A 2026 survey found gaps in deactivation training. Follow the device instructions; there is no universal catheter size.",
+    "figure": "cuff-bore-schematic.png"
   },
   {
     "n": 14,
     "title": "Detrusor overactivity and poor compliance",
     "type": "physiology",
-    "bottom": "Schematic traces only, with arbitrary units. Confirm trace quality and assess renal function or upper tracts when indicated."
+    "bottom": "Schematic traces, arbitrary units. Check the trace quality; check kidneys and upper tracts when storage pressure worries you."
   },
   {
     "n": 15,
@@ -285,11 +286,11 @@
     "asset": "anatomical-narrowing-colour-annotations-2026.png",
     "label": "Anatomical distinctions",
     "items": [
-      "Anterior stricture: urethra and spongiosum",
+      "Anterior stricture: the urethra and its spongy tissue",
       "Bladder-neck contracture: prostate partly present",
-      "VUAS: anastomosis after radical prostatectomy"
+      "VUAS: the bladder–urethra join after prostatectomy"
     ],
-    "bottom": "Symptoms, flow, residual and anatomy must support a stable outlet."
+    "bottom": "Symptoms, flow, residual and the scope must all say the outlet is stable."
   },
   {
     "n": 16,
@@ -304,12 +305,12 @@
       [
         "AUA",
         "At least 4–6 weeks",
-        "Interval cystoscopy after symptomatic BNC/VUAS treatment"
+        "A check scope after treating a symptomatic bladder-neck or anastomotic narrowing"
       ],
       [
         "EAU",
         "3–6 months",
-        "Advice after redo vesicourethral anastomosis"
+        "After a redo bladder–urethra anastomosis"
       ],
       [
         "BAUS",
@@ -317,7 +318,7 @@
         "After treatment of post-prostatectomy narrowing"
       ]
     ],
-    "bottom": "These intervals describe different pathways. Recurrence pattern, tissue quality and future access remain decisive."
+    "bottom": "Three intervals for three situations. The pattern of recurrence, the tissue and future access decide."
   },
   {
     "n": 17,
@@ -326,13 +327,13 @@
     "case": "03",
     "facts": [
       "Radical prostatectomy and salvage radiotherapy",
-      "Severe SUI between endoscopic treatments",
-      "Recurrent vesicourethral anastomotic stenosis",
-      "Patency still depends on further intervention"
+      "Severe leak whenever the narrowing is open",
+      "The anastomosis keeps narrowing",
+      "It only stays open because we keep treating it"
     ],
     "question": "Implant, stage reconstruction or reconsider the endpoint?",
     "options": "Implant / Stage / Reconsider",
-    "bottom": "Radiation increases risk. A 2025 timing study does not establish a fixed waiting rule; stable patency and reconstruction come first."
+    "bottom": "Radiotherapy raises the risk. A 2025 study sets no waiting rule; a stable outlet and reconstruction come first."
   },
   {
     "n": 18,
@@ -342,17 +343,17 @@
       [
         "The reconstruction history",
         "Repair site and operative report",
-        "Transecting or non-transecting repair",
+        "Was the urethra cut across, or not?",
         "Prior erosion, graft or posterior reconstruction"
       ],
       [
         "The next operation",
-        "Preserve remaining tissue and attachments",
-        "Select viable cuff-bearing tissue",
-        "Reassess unsafe planes or stage the procedure"
+        "Keep the remaining tissue and its blood supply",
+        "Choose healthy tissue for the cuff",
+        "No safe plane? Reassess, or do it in stages"
       ]
     ],
-    "bottom": "2026 meta-analysis: prior urethroplasty is associated with more explantation; transecting repairs carry higher erosion risk. Observational."
+    "bottom": "2026 meta-analysis: a previous urethroplasty means more removals; repairs that cut the urethra across carry more erosion. Observational data."
   },
   {
     "n": 19,
@@ -361,49 +362,49 @@
     "cols": [
       [
         "Selected role",
-        "A hazardous dorsal dissection plane",
-        "A manoeuvre addressing a defined dissection problem",
-        "Comparative erosion protection remains uncertain"
+        "A dangerous plane behind the urethra",
+        "A move for one specific dissection problem",
+        "Whether it protects from erosion is unproven"
       ],
       [
         "Costs and limitations",
-        "Corporal injury and bleeding",
-        "Sexual consequences and future prosthesis surgery",
-        "Confounding by indication in comparative series"
+        "Injury and bleeding from the erectile bodies",
+        "Effects on erections and on any future penile implant",
+        "The worst urethras get it, which muddies the comparisons"
       ]
     ],
-    "bottom": "Latest systematic review suggests less erosion but more revision. Non-randomised data do not prove causal protection."
+    "bottom": "The latest review suggests less erosion but more revision. Non-randomised data cannot prove protection."
   },
   {
     "n": 20,
     "title": "The fifteen-minute wash question",
     "type": "wash",
-    "lead": "No direct AUS outcome evidence establishes a fixed 15-minute preparation",
+    "lead": "No AUS evidence supports a fixed 15-minute preparation",
     "rows": [
       [
-        "Patient washing",
-        "Preoperative hygiene"
+        "Washing at home",
+        "Soap, the day before or the day of surgery"
       ],
       [
-        "Skin preparation",
-        "Correct product, site, contact and drying"
+        "Skin preparation in theatre",
+        "Right product, right site, contact time, fully dry"
       ],
       [
         "Hand antisepsis",
         "The team’s hands and forearms"
       ],
       [
-        "Irrigation and device preparation",
-        "Separate interventions and compatibility rules"
+        "Washout and device preparation",
+        "Separate steps, each with its own rules"
       ]
     ],
-    "bottom": "BAUS’s five-minute topical field scrub is consensus with extrapolation. Product timings address different activities."
+    "bottom": "BAUS’s five-minute field scrub is consensus, borrowed from other implants. Product timings are for different activities."
   },
   {
     "n": 21,
     "title": "Skin culture reduction and clinical infection",
     "type": "prepchart",
-    "bottom": "Yeung 2013: 100 initial GU prosthetic procedures, 50 per arm. Immediate skin cultures, not AUS infection or a duration trial."
+    "bottom": "Yeung 2013: 100 first genitourinary implants, 50 per arm. Skin cultures after preparation, not AUS infections; no timing tested."
   },
   {
     "n": 22,
@@ -420,18 +421,18 @@
       ],
       [
         "Asymptomatic bacteriuria",
-        "BAUS urine pathway and IDSA’s AUS-specific position differ"
+        "BAUS says test and treat; IDSA says do not screen or treat for an AUS alone"
       ],
       [
         "Prophylaxis",
-        "Complete before incision and plan appropriate redosing"
+        "Give before the incision; repeat the dose if the operation is long"
       ],
       [
         "Postoperative antibiotics",
-        "Older observational data show no clear benefit; retrieved ContiClassic IFU differs."
+        "Older observational data show no clear benefit; the ContiClassic label asks for a longer course"
       ]
     ],
-    "bottom": "AUA 2026 IP09-18 addresses postoperative antibiotics; full results unverified. Reconcile regional IFU and local microbiology policy."
+    "bottom": "A 2026 AUA abstract (IP09-18) covers antibiotics after surgery; results not published. Agree the label with local microbiology policy."
   },
   {
     "n": 23,
@@ -442,10 +443,10 @@
     "items": [
       "Protect the implant until the field is ready",
       "Limit skin contact and unnecessary handling",
-      "Use fresh sterile gloves and a clean handling pause",
-      "Separate irrigation, device dipping and internal filling"
+      "Fresh sterile gloves before touching the device, and a pause to check",
+      "Keep washout, device dipping and device filling separate"
     ],
-    "bottom": "2026 uncoated AMS 800 cohort: 90-day SSI 1/59 with gentamicin versus 2/114 without. Wide uncertainty; no equivalence proof.",
+    "bottom": "2026 AMS 800 cohort: infections 1 in 59 with gentamicin vs 2 in 114 without. Three events prove nothing either way.",
     "rows": [
       [
         "1",
@@ -457,11 +458,11 @@
       ],
       [
         "3",
-        "Use fresh sterile gloves and a clean handling pause"
+        "Fresh sterile gloves before touching the device, and a pause to check"
       ],
       [
         "4",
-        "Separate irrigation, device dipping and internal filling"
+        "Keep washout, device dipping and device filling separate"
       ]
     ]
   },
@@ -488,11 +489,11 @@
       ],
       [
         "Clean handling pause and contamination response",
-        "Expert implementation"
+        "Expert practice, not trial evidence"
       ],
       [
-        "Fixed 15 minutes, best irrigant, prolonged prophylaxis",
-        "Unresolved evidence"
+        "A fixed 15 minutes, the best washout, long antibiotic courses",
+        "Unresolved"
       ]
     ]
   },
@@ -504,9 +505,9 @@
     "label": "The access plan",
     "items": [
       "Respect hip mobility and protect pressure points",
-      "Plan perineal, abdominal and pump access together",
+      "Plan the perineal, balloon and pump sites together",
       "Review scars, mesh, previous devices and repairs",
-      "Improve limited exposure before further dissection"
+      "Poor exposure? Improve it before dissecting further"
     ]
   },
   {
@@ -516,10 +517,10 @@
     "asset": "uroops-cuff-site.png",
     "label": "The cuff-bearing segment",
     "items": [
-      "Viable tissue with adequate spongiosal support",
-      "Dorsal dissection under direct control",
-      "Mobilisation limited to the required length",
-      "Uncertain plane or integrity prompts reassessment"
+      "Healthy tissue with enough spongy support",
+      "Dissect the plane behind the urethra under direct vision",
+      "Free only the length the cuff needs",
+      "Unsure of the plane or the wall? Stop and reassess"
     ]
   },
   {
@@ -529,10 +530,10 @@
     "asset": "uroops-aus.png",
     "label": "Sizing errors",
     "items": [
-      "Release traction and artificial compression",
+      "Let go of the traction; do not squash the urethra",
       "Confirm which tissue the cuff will enclose",
-      "Use the exact system’s supplied sizing method",
-      "Recheck poor fit rather than increasing pressure"
+      "Use the device’s own sizing method",
+      "Poor fit? Measure again; do not raise the pressure"
     ]
   },
   {
@@ -541,9 +542,9 @@
     "type": "statement",
     "lead": "The endpoint can change\nto repair and safe drainage",
     "items": [
-      "Confirm uncertain integrity with controlled testing or endoscopy",
-      "Recognised urethral injury prompts stopping implantation",
-      "Replace contaminated disposables and restore the clean setup"
+      "Not sure the wall is intact? Leak test or scope",
+      "A known urethral injury means no implant today",
+      "Replace contaminated single-use items and reset the clean field"
     ],
     "bottom": "An improvised antiseptic soak cannot rescue a contaminated single-use implant."
   },
@@ -552,7 +553,7 @@
     "title": "Balloon pocket and pressure selection",
     "type": "device",
     "asset": "uroops-balloon.png",
-    "bottom": "A safe pocket and the correct pressure component are separate decisions. Fill volumes and selection rules require the current OR protocol."
+    "bottom": "A safe pocket and the right pressure are two separate decisions. Fill volumes and selection rules need the current OR protocol."
   },
   {
     "n": 30,
@@ -562,9 +563,9 @@
     "label": "A functional position",
     "items": [
       "Use the accessible side agreed in clinic",
-      "Avoid crowding, skin tension and testicular compression",
-      "Check orientation and tubing traction before closure",
-      "Recheck access with the patient at activation"
+      "Avoid crowding, tight skin and pressure on the testis",
+      "Check the orientation and tubing pull before closing",
+      "Check he can reach it at activation"
     ]
   },
   {
@@ -574,22 +575,22 @@
     "rows": [
       [
         "1",
-        "Trace tubing for tension, bends and entrapment"
+        "Trace the tubing: no tension, bends or trapping"
       ],
       [
         "2",
-        "Confirm compatible connections and device function"
+        "Check the connections and cycle the device"
       ],
       [
         "3",
-        "Confirm an open cuff and correct deactivation"
+        "Confirm the cuff is open and the device is off"
       ],
       [
         "4",
-        "Record device details, drainage and the urgent contact route"
+        "Record the device, the catheter plan and whom to call"
       ]
     ],
-    "bottom": "Deactivation and urgent-contact instructions matter: a 2026 survey identifies training gaps. Filling follows the actual product protocol."
+    "bottom": "A 2026 survey found gaps in deactivation training. Fill the device by its own protocol."
   },
   {
     "n": 32,
@@ -605,18 +606,18 @@
     "cols": [
       [
         "Planned care",
-        "Selected day-case care with verified emptying",
-        "ContiClassic: 4–6 weeks deactivated until pain and oedema settle",
-        "Activation includes patient demonstration and device information"
+        "Day case for selected men, once he has voided",
+        "ContiClassic: switched off for 4–6 weeks until pain and swelling settle",
+        "At activation he works it himself and gets the device card"
       ],
       [
         "Earlier assessment",
         "Retention or difficult voiding",
-        "Worsening pain, erythema, discharge or fever",
+        "Worsening pain, redness, discharge or fever",
         "Suspected infection or erosion needs specialist review"
       ]
     ],
-    "bottom": "BAUS 2026 day-case audit and comparative studies support selected pathways. Confirm emptying, support and rapid access to review."
+    "bottom": "The 2026 day-case audit and studies support selected pathways. Confirm he empties, has support, and can get seen fast."
   },
   {
     "n": 34,
@@ -624,14 +625,14 @@
     "type": "case",
     "case": "04",
     "facts": [
-      "An initially useful AUS result",
-      "Recurrent leakage after three years",
-      "Leakage mechanism and pump use still need assessment",
-      "Erosion, mechanics and bladder dysfunction remain possible"
+      "A good result for three years",
+      "Now leaking again",
+      "Why he leaks, and how he uses the pump, still to be checked",
+      "Could be erosion, a mechanical fault, or the bladder"
     ],
     "question": "What would you investigate before choosing revision?",
     "options": "Use / Urethra / Mechanics / Bladder",
-    "bottom": "2026 PRB fatigue study adds a mechanical explanation. Diagnose the cause; do not automatically downsize or replace the balloon."
+    "bottom": "A 2026 lab study shows balloons wear with age. Find the cause; do not automatically fit a smaller cuff or a new balloon."
   },
   {
     "n": 35,
@@ -640,18 +641,18 @@
     "cols": [
       [
         "Supported or plausible",
-        "Selected patients gain substantial continence benefit",
-        "Tissue preservation and contamination control have strong rationale",
-        "Future access belongs in the operative plan"
+        "Well-chosen patients get a big improvement",
+        "Keeping tissue and controlling contamination make sense",
+        "Plan for future catheters and scopes"
       ],
       [
         "Still uncertain",
-        "The best salvage strategy for a fragile urethra",
-        "Optimal irrigants and preparation duration",
-        "Comparable long-term ContiClassic outcomes"
+        "The best rescue for a fragile urethra",
+        "The best washout fluid and preparation time",
+        "Long-term ContiClassic results compared with AMS 800"
       ]
     ],
-    "bottom": "2026 reviews and early electronic-AUS data add options, while comparative and long-term evidence remains limited."
+    "bottom": "2026 reviews and the first electronic sphincters add options; comparative and long-term evidence is still thin."
   },
   {
     "n": 36,
@@ -660,19 +661,19 @@
     "rows": [
       [
         "1",
-        "Demonstrated SUI and a meaningful patient goal"
+        "A stress leak shown, and a goal that matters to him"
       ],
       [
         "2",
-        "Pump use, access and future capability"
+        "Can he use the pump now, and in five years?"
       ],
       [
         "3",
-        "Investigations resolving anatomy, storage and emptying"
+        "Tests that answer: anatomy, safe storage, emptying"
       ],
       [
         "4",
-        "Separate DO, DU and poor compliance"
+        "Overactive, weak, or high-pressure bladder: keep them separate"
       ],
       [
         "5",
@@ -687,23 +688,23 @@
     "rows": [
       [
         "6",
-        "Correct antisepsis and appropriate prophylaxis"
+        "The right antisepsis and the right antibiotics"
       ],
       [
         "7",
-        "Preserved tissue and undistorted measurement"
+        "Keep the tissue; measure without distortion"
       ],
       [
         "8",
-        "Actual device protocol and explicit stop conditions"
+        "The real device protocol, and clear reasons to stop"
       ],
       [
         "9",
-        "Verified deactivation, drainage and patient teaching"
+        "Check the device is off, the drainage plan, and teach the patient"
       ],
       [
         "10",
-        "A diagnosis before choosing revision"
+        "A diagnosis before any revision"
       ]
     ]
   },

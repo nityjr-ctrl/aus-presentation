@@ -47,3 +47,7 @@ The DO and poor-compliance plots are explicitly labelled synthetic schematics wi
 Terminology checked against EAU Urethral Strictures section 4.1.1: https://uroweb.org/guidelines/urethral-strictures/chapter/classifications . Separate panels show different anatomical settings. This is a simplified teaching illustration, not to scale or clinically validated. Image inspected for label accuracy, arrow placement and consistent colours. No patient or UroOps3D source image used; no UroOps3D repository accessed.
 
 Dimensions: 1672 x 941 pixels; 1444046 bytes. SHA-256: `ae30ca22ab4d2004cd5006fccfc9f0488c14af5387913e2bb6363e981c3fff97`. Final prompt and mode are recorded in `anatomical-narrowing-generation-notes-2026.md`. Intended as a replacement illustration for teaching slide 15 / physical slide 16; existing deck and guide were not edited in this image-only request.
+
+## Cuff bore schematic - 20 October 2026
+
+`cuff-bore-schematic.png` (2200 x 1000): original two-panel diagram drawn by `design/cuff_bore_figure.py` (Pillow, deck palette) for teaching slide 13. Left, the deflated cuff's advertised internal diameter as an empty bore; right, the same cuff with the urethral wall filling it and the small collapsed lumen that is all the room a catheter has. Diagrammatic cross-sections, not to scale, not derived from any device drawing, patient image or UroOps3D asset; no French sizes or device dimensions are shown.

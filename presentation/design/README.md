@@ -7,7 +7,7 @@ cd presentation/design
 npm install                      # pptxgenjs 3.12.0 (node_modules is git-ignored)
 node build.mjs                   # build/AUS-teaching-deck.pptx and build/AUS-teaching-deck-3d.pptx
 python animate.py build/AUS-teaching-deck-3d.pptx build/clip-slides.json   # start-on-show, looping clips
-node script.mjs                  # ../../presenter-guide/AUS-presenter-script.md
+node script.mjs                  # ../../presenter-guide/AUS-presenter-script.md (narration in script-text.mjs)
 node cue-cards.mjs               # ../../presenter-guide/AUS-cue-cards.md (short spoken lines per slide, from cues.mjs)
 python ../../presenter-guide/build_script_pdf.py                           # the PDF of the script
 python ../../presenter-guide/build_script_pdf.py AUS-cue-cards.pdf AUS-cue-cards.md   # run inside presenter-guide: the cue-card PDF
