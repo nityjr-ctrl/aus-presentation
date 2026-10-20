@@ -26,6 +26,10 @@ Needs Node 18+, `ffmpeg`/`ffprobe` on PATH (poster frames and clip durations), P
 
 On-slide wording, slide order, tables, chart values, citation codes, the 60-minute clock and every evidence statement. The glossary and script text follow `presenter-guide/AUS-ST5-presenter-guide.md` and `EVIDENCE-AUDIT-2026-10-05.md`. The references were condensed from seven slides to three with the same 58 linked entries.
 
+## Optional stock assets (20 October 2026)
+
+`build.mjs` looks in `../assets/envato/` (git-ignored apart from its README) for licensed Envato Elements files: `divider-texture.jpg` goes under all six act dividers, `act-<numeral>.jpg` under one act's divider. The picture is full-bleed under a uniform charcoal veil plus a second veil whose solid fill is replaced with a left-to-right charcoal gradient by `gradientVeils()` after pptxgenjs writes the file, so the slide list on the right always sits on near-solid charcoal. With the folder empty the dividers are plain charcoal, exactly as before. The shortlist and the licensing rule are in `../assets/envato/README.md`.
+
 ## Animated deck
 
 `build.mjs` embeds the seven step clips with pptxgenjs and a first-frame poster. pptxgenjs reuses a shape id for the media picture, so `animate.py` renumbers it and adds the same timing block the 10 October deck used (start on slide show, loop). The 102-second backup recording sits after the discussion slide and plays on click.

@@ -13,6 +13,42 @@ const pptxgen = require('pptxgenjs');
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const PRES = path.resolve(HERE, '..');
 const ASSETS = path.join(PRES, 'assets');
+// Optional licensed stock assets (Envato Elements), git-ignored; see assets/envato/README.md.
+// act-<numeral>.jpg|png: full-bleed photo behind that act's divider. divider-texture.jpg|png: texture behind every divider.
+const ENVATO = path.join(ASSETS, 'envato');
+const VEIL_NAME = 'divider gradient veil';
+// Replace the marker veil's solid fill with a charcoal gradient: clear over the left 40%, easing to near-solid at the
+// right edge, so the divider's slide list always sits on charcoal whatever the picture shows.
+async function gradientVeils(file) {
+  const JSZip = require('jszip');
+  const zip = await JSZip.loadAsync(fs.readFileSync(file));
+  const grad = `<a:gradFill rotWithShape="1"><a:gsLst>` +
+    `<a:gs pos="0"><a:srgbClr val="${C.dark}"><a:alpha val="0"/></a:srgbClr></a:gs>` +
+    `<a:gs pos="40000"><a:srgbClr val="${C.dark}"><a:alpha val="0"/></a:srgbClr></a:gs>` +
+    `<a:gs pos="72000"><a:srgbClr val="${C.dark}"><a:alpha val="62000"/></a:srgbClr></a:gs>` +
+    `<a:gs pos="100000"><a:srgbClr val="${C.dark}"><a:alpha val="96000"/></a:srgbClr></a:gs>` +
+    `</a:gsLst><a:lin ang="0" scaled="0"/></a:gradFill>`;
+  let n = 0;
+  for (const name of Object.keys(zip.files).filter((f) => /^ppt\/slides\/slide\d+\.xml$/.test(f))) {
+    let xml = await zip.file(name).async('string');
+    if (!xml.includes(`name="${VEIL_NAME}"`)) continue;
+    xml = xml.replace(/<p:sp>(?:(?!<\/p:sp>).)*?<\/p:sp>/gs, (sp) => {
+      if (!sp.includes(`name="${VEIL_NAME}"`)) return sp;
+      n++;
+      return sp.replace(/<a:solidFill>(?:(?!<\/a:solidFill>).)*?<\/a:solidFill>/s, grad);
+    });
+    zip.file(name, xml);
+  }
+  if (n) fs.writeFileSync(file, await zip.generateAsync({ type: 'nodebuffer', compression: 'DEFLATE' }));
+  return n;
+}
+function envatoAsset(stem) {
+  for (const ext of ['.jpg', '.jpeg', '.png']) {
+    const f = path.join(ENVATO, stem + ext);
+    if (fs.existsSync(f)) return f;
+  }
+  return null;
+}
 const VIDEO = path.join(PRES, '3d', 'video');
 const BUILD = path.join(HERE, 'build');
 fs.mkdirSync(BUILD, { recursive: true });
@@ -424,6 +460,19 @@ function divider(pres, act, idx) {
   pres.addSection({ title: `Act ${act.numeral} · ${act.title}` });
   const slide = pres.addSlide({ sectionTitle: `Act ${act.numeral} · ${act.title}` });
   slide.background = { color: C.dark };
+  const photo = envatoAsset('act-' + act.numeral);
+  const texture = photo ? null : envatoAsset('divider-texture');
+  if (photo || texture) {
+    // Full-bleed image under a charcoal veil so the type keeps its contrast. A photo gets a heavier veil than a
+    // texture, and the veil deepens from the middle to the right edge in narrow strips (pptxgenjs has no gradient
+    // fill), so the slide list on the right always sits on near-solid charcoal whatever the picture shows.
+    slide.addImage({ path: photo || texture, x: 0, y: 0, w: W, h: H, sizing: { type: 'cover', w: W, h: H } });
+    const base = photo ? 30 : 45; // transparency of the uniform veil (lower = darker)
+    slide.addShape(SHAPES.rect, { x: 0, y: 0, w: W, h: H, fill: { color: C.dark, transparency: base }, line: { type: 'none' } });
+    // The second veil is given a real left-to-right gradient by gradientVeils() after the file is written
+    // (pptxgenjs writes solid fills only); its name is the marker.
+    slide.addShape(SHAPES.rect, { x: 0, y: 0, w: W, h: H, fill: { color: C.dark, transparency: 100 }, line: { type: 'none' }, objectName: VEIL_NAME });
+  }
   text(slide, 'ACT', { x: MX, y: 1.3, w: 3, h: 0.3, fontSize: 10, color: C.tealDark, bold: true, charSpacing: 3 });
   text(slide, act.numeral, { x: MX - 0.05, y: 1.5, w: 4.2, h: 1.95, fontSize: 112, color: C.tealDark, fontFace: NUMERAL, valign: 'middle' });
   text(slide, act.title, { x: MX, y: 3.55, w: 6.5, h: 0.9, fontSize: 36, color: C.onDark, fontFace: HEAD, valign: 'middle' });
@@ -565,11 +614,11 @@ async function main() {
   const std = build(false);
   const stdPath = path.join(BUILD, 'AUS-teaching-deck.pptx');
   await std.writeFile({ fileName: stdPath });
-  console.log('wrote', stdPath);
+  console.log('wrote', stdPath, 'gradient veils', await gradientVeils(stdPath));
   const anim = build(true);
   const animPath = path.join(BUILD, 'AUS-teaching-deck-3d.pptx');
   await anim.writeFile({ fileName: animPath });
-  console.log('wrote', animPath, 'clips', CLIP_SPECS.length);
+  console.log('wrote', animPath, 'clips', CLIP_SPECS.length, 'gradient veils', await gradientVeils(animPath));
   fs.writeFileSync(path.join(BUILD, 'clip-slides.json'), JSON.stringify(CLIP_SPECS.map((c) => ({ name: c.name, ms: clipMs(c.name) })), null, 1));
 }
 main().catch((e) => { console.error(e); process.exit(1); });

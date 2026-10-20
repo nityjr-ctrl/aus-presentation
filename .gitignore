@@ -7,3 +7,7 @@ __pycache__/
 
 presentation/design/node_modules/
 presentation/design/build/
+
+# Licensed stock assets (Envato Elements): keep out of the public repository
+presentation/assets/envato/*
+!presentation/assets/envato/README.md
