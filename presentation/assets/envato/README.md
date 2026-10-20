@@ -13,7 +13,7 @@ Download from your own Elements account with a licence registered to this presen
 |---|---|---|---|
 | `section-5.jpg` (6000 x 4000; was `act-V.jpg` until the act naming was dropped) | Bright lights of surgical lamp in operating room, GM295KD ("Surgical light in the operating theatre") | winnievinzence | Downloaded by Nity G from their Elements account, 20 October 2026; certificate kept with the project records |
 
-Shortlisted on 20 October 2026 (professional and sleek, the owner's brief; none downloaded yet):
+Owner's decision, 20 October 2026: the other five section slides stay plain charcoal; only "The operation" carries a photograph. No divider texture is to be licensed. The shortlist below is kept for the record only:
 
 - Divider texture, in order: Dark Background, liquid silk (Zffoto, 7HPGKLL); 20 Black Metal Textures HQ (CCpreset, NYQX4NR); Minimal Futuristic Wave Background "Light Waves" (NeoSketch, 6Y84QKF); Brushed Steel Textures (DavidBalev, LFWF49J). Charcoal paper textures were set aside as too rustic.
 - Act V photo: Surgical light in the operating theatre (winnievinzence, GM295KD); alternatives The operating room lamps in the hospital (karrastock, RPB3HEL) and Midsection of surgeon putting on glove in dark operating theatre (Wavebreakmedia, P2TYCQL).
