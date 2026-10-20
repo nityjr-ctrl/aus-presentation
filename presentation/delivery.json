@@ -114,5 +114,14 @@
       }
     ],
     "note": "The licence covers the finished deck; the raw file is not redistributed through the repository."
+  },
+  "cueCards": {
+    "markdown": "presenter-guide/AUS-cue-cards.md",
+    "pdf": "presenter-guide/AUS-cue-cards.pdf",
+    "pdfSha256": "ba080fe6842f74eea1b7e62dfbc90ab531a1b45135226ae2d5102b237d9aacf2",
+    "pdfPages": 21,
+    "spokenWords": 3678,
+    "format": "One card per slide: three to six short spoken lines in order, ending with the line into the next slide; one line per section slide. Distilled from the full script, no new claims.",
+    "generatedBy": "presentation/design/cue-cards.mjs (cues.mjs) and presenter-guide/build_script_pdf.py AUS-cue-cards.pdf AUS-cue-cards.md"
   }
 }

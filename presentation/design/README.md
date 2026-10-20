@@ -8,7 +8,9 @@ npm install                      # pptxgenjs 3.12.0 (node_modules is git-ignored
 node build.mjs                   # build/AUS-teaching-deck.pptx and build/AUS-teaching-deck-3d.pptx
 python animate.py build/AUS-teaching-deck-3d.pptx build/clip-slides.json   # start-on-show, looping clips
 node script.mjs                  # ../../presenter-guide/AUS-presenter-script.md
+node cue-cards.mjs               # ../../presenter-guide/AUS-cue-cards.md (short spoken lines per slide, from cues.mjs)
 python ../../presenter-guide/build_script_pdf.py                           # the PDF of the script
+python ../../presenter-guide/build_script_pdf.py AUS-cue-cards.pdf AUS-cue-cards.md   # run inside presenter-guide: the cue-card PDF
 ```
 
 Needs Node 18+, `ffmpeg`/`ffprobe` on PATH (poster frames and clip durations), Python 3 with Pillow (the ContiClassic illustration is recoloured onto the dark slide) and the clip files in `../3d/video/` (git-ignored, see `../3d/README.md`). `render.ps1` exports every slide through desktop PowerPoint for visual checks; `sheets.py` tiles the exports into contact sheets.

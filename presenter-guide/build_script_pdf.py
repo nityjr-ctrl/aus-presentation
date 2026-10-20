@@ -10,10 +10,11 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import BaseDocTemplate, Frame, PageTemplate, Paragraph, PageBreak, Spacer, Table, TableStyle, KeepTogether
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SRC = os.path.join(HERE, 'AUS-presenter-script.md')
+SRC = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, 'AUS-presenter-script.md')
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, 'AUS-presenter-script.pdf')
+CUE = 'cue' in os.path.basename(SRC).lower()  # the cue cards get lectern-sized bullets
 INK, MUTED, TEAL, RULE, PANEL = HexColor('#1B2430'), HexColor('#5F6B7A'), HexColor('#0F7F86'), HexColor('#DDE2E8'), HexColor('#F3F4F6')
-HEADER = 'ARTIFICIAL URINARY SPHINCTER SURGERY  |  PRESENTER SCRIPT'
+HEADER = 'ARTIFICIAL URINARY SPHINCTER SURGERY  |  ' + ('CUE CARDS' if 'cue' in ' '.join(sys.argv[1:]).lower() else 'PRESENTER SCRIPT')
 FOOTER = 'Script revised 20 October 2026  |  Evidence checked 5 October 2026'
 
 FONTS = 'C:/Windows/Fonts/'
@@ -30,6 +31,7 @@ SAY = ParagraphStyle('say', parent=BODY, fontSize=11.4, leading=17, leftIndent=1
 EXAMPLE = ParagraphStyle('example', parent=BODY, fontSize=10.6, leading=15.2, leftIndent=10, rightIndent=6, backColor=PANEL, borderPadding=(6, 8, 6, 8), spaceBefore=4, spaceAfter=12)
 ASK = ParagraphStyle('ask', parent=BODY, fontSize=11.4, leading=16, textColor=TEAL)
 BULLET = ParagraphStyle('bullet', parent=BODY, fontSize=9.8, leading=13.6, leftIndent=16, bulletIndent=4, spaceAfter=5, textColor=INK)
+CUEBULLET = ParagraphStyle('cuebullet', parent=BODY, fontSize=13.2, leading=18.5, leftIndent=22, bulletIndent=6, spaceAfter=7, textColor=INK)
 TITLE = ParagraphStyle('title', fontName=B, fontSize=28, leading=34, textColor=INK, spaceBefore=4, spaceAfter=12)
 H2 = ParagraphStyle('h2', fontName=B, fontSize=22, leading=27, textColor=INK, spaceBefore=6, spaceAfter=10, keepWithNext=1)
 H3 = ParagraphStyle('h3', fontName=B, fontSize=15, leading=19, textColor=TEAL, spaceBefore=8, spaceAfter=4, keepWithNext=1)
@@ -95,7 +97,7 @@ def build():
             else:
                 story.append(Paragraph(inline(line[4:]), H3))
         elif line.startswith('- '):
-            story.append(Paragraph(inline(line[2:]), BULLET, bulletText='•'))
+            story.append(Paragraph(inline(line[2:]), CUEBULLET if CUE else BULLET, bulletText='•'))
         elif line.startswith('**Say**'):
             story.append(Paragraph('SAY', LABEL)); in_say, in_example = True, False
         elif line.startswith('**Example**'):
@@ -113,7 +115,7 @@ def build():
         else:
             story.append(Paragraph(inline(line), SAY if in_say else EXAMPLE if in_example else BODY))
     doc = BaseDocTemplate(OUT, pagesize=A4, leftMargin=54, rightMargin=54, topMargin=58, bottomMargin=48,
-                          title='AUS presenter script', author='Nity G')
+                          title='AUS cue cards' if CUE else 'AUS presenter script', author='Nity G')
     frame = Frame(doc.leftMargin, doc.bottomMargin, A4[0] - doc.leftMargin - doc.rightMargin, A4[1] - doc.topMargin - doc.bottomMargin, id='f')
     doc.addPageTemplates([PageTemplate(id='p', frames=[frame], onPage=furniture)])
     doc.build(story)
