@@ -37,13 +37,13 @@
   },
   "checkpoint": {
     "file": "AUS-teaching-deck.pptx",
-    "sha256": "2333d130611592c6917785a905eb5b2cb79b58c871ea9c3dce3bd58517af979c",
-    "byteCount": 11507060,
+    "sha256": "49d6fe646bc885504af998d5979dc564edaeb4bb5395b54e966f26ccd2b878f0",
+    "byteCount": 11505029,
     "revised": "2026-10-20",
     "changesSince2026-10-10": "Full visual redesign built from presentation/design/build.mjs (pptxgenjs). Widescreen 13.33 x 7.5 in, Segoe UI, charcoal cover and act dividers matching the UroOps renders, white content slides. Six act-divider slides added (no clock time). Each teaching slide shows its act, teaching number, running clock and citation codes. Native line and bar charts rebuilt. References condensed from seven slides to three. On-slide wording, slide order, tables, citation codes and evidence statements unchanged from slides.json. Speaker notes rewritten in a flowing script format: THIS SLIDE, SAY, STUDIES ON THIS SLIDE (every code decoded: what the source is and what it says), TRANSITION.",
     "nativeCharts": 3,
     "nativeTables": 8,
-    "validation": "20 October 2026 (evening): validator passed on both decks; PowerPoint 16.0 opened both without repair and exported every slide; Act V divider reviewed at full size. 20 October 2026: pptx skill validator passed on both decks; PowerPoint 16.0 opened both read-only without repair and exported every slide (51 and 52); python-pptx confirmed no script text in any notes pane (only credits on 9 and 11 slides respectively); all 58 reference codes present on the three reference slides with 58 live hyperlinks; footer codes match deck-data.json on every slide; slide renders unchanged from 19 October. Earlier: 19 October 2026: pptx skill validator (schema, relationships, content types, charts) passed; PowerPoint 16.0 opened the file read-only without repair and exported all 51 slides, every render reviewed at contact-sheet size and sample slides at full size. A second review pass on 19 October 2026 re-rendered every slide at full size and adjusted layout only: serif (Cambria) act numerals, bullet alignment, taller rows on short tables, centred statement slides, stills aligned to the left grid line; no text changed.",
+    "validation": "20 October 2026 (sections): validator passed on both decks; PowerPoint 16.0 opened both without repair and exported every slide; cover, all six section slides, a teaching slide, the demonstration, discussion and backup slides reviewed at full size. 20 October 2026 (evening): validator passed on both decks; PowerPoint 16.0 opened both without repair and exported every slide; Act V divider reviewed at full size. 20 October 2026: pptx skill validator passed on both decks; PowerPoint 16.0 opened both read-only without repair and exported every slide (51 and 52); python-pptx confirmed no script text in any notes pane (only credits on 9 and 11 slides respectively); all 58 reference codes present on the three reference slides with 58 live hyperlinks; footer codes match deck-data.json on every slide; slide renders unchanged from 19 October. Earlier: 19 October 2026: pptx skill validator (schema, relationships, content types, charts) passed; PowerPoint 16.0 opened the file read-only without repair and exported all 51 slides, every render reviewed at contact-sheet size and sample slides at full size. A second review pass on 19 October 2026 re-rendered every slide at full size and adjusted layout only: serif (Cambria) act numerals, bullet alignment, taller rows on short tables, centred statement slides, stills aligned to the left grid line; no text changed.",
     "previous": {
       "date": "2026-10-10",
       "sha256": "888ebeb35ed7b38a8a22849767f002d2712ff28926e36511d64ac895269a8dcf",
@@ -51,18 +51,19 @@
       "validation": "10 October 2026: every XML part parses and every internal relationship resolves; PowerPoint on the build PC opened the file without repair and exported the changed slides for review. The Artifact Tool layout, font and geometry checks of 5 October were not rerun on this file.",
       "archivedCopy": "archive/2026-10-19-pre-redesign/AUS-teaching-deck.pptx"
     },
-    "changesSince2026-10-19": "Act V divider now carries a licensed Envato Elements photograph (surgical light, winnievinzence GM295KD) full-bleed under a charcoal veil with a left-to-right gradient; the file lives in the git-ignored presentation/assets/envato/ and is fitted to 4K by design/envato_fit.py at build time. The other five dividers are unchanged plain charcoal. No slide changed. At the owner's request (20 October 2026) the speaker notes were removed from the slides: the script is kept as a separate PDF, presenter-guide/AUS-presenter-script.pdf, and is not linked from the slides. Only the picture, clip and IFU-illustration credits remain in the notes pane of the image slides. The script itself was rewritten for the day: per slide THIS SLIDE WANTS, ON THE SLIDE, SAY (unchanged 10 October text), EXAMPLE (one concrete fictional example of the ask), STUDIES ON THIS SLIDE: WHAT EACH ONE DOES HERE (every footer code with the source, what it is, and how it supports this slide, with its limit) and NEXT. Text in presentation/design/support.mjs; DECK_NOTES=1 with build.mjs puts the script back into the notes if ever wanted."
+    "changesSince2026-10-19": "Owner's request, 20 October 2026: a traditional medical presentation, so the act framing and all on-slide timings were removed. The six dividers are plain section slides (title, one-line question, \"In this section\" outline, section strip); each teaching slide's header shows the section name and slide number only (no running clock); the cover eyebrow no longer states 60 minutes; the discussion slide lost its \"five minutes\" badge; the UroOps slide badge reads \"Live demonstration\"; backup and reference eyebrows read \"Backup\" and \"References\". Rehearsal timings remain in the presenter script only. Act V divider now carries a licensed Envato Elements photograph (surgical light, winnievinzence GM295KD) full-bleed under a charcoal veil with a left-to-right gradient; the file lives in the git-ignored presentation/assets/envato/ and is fitted to 4K by design/envato_fit.py at build time. The other five dividers are unchanged plain charcoal. No slide changed. At the owner's request (20 October 2026) the speaker notes were removed from the slides: the script is kept as a separate PDF, presenter-guide/AUS-presenter-script.pdf, and is not linked from the slides. Only the picture, clip and IFU-illustration credits remain in the notes pane of the image slides. The script itself was rewritten for the day: per slide THIS SLIDE WANTS, ON THE SLIDE, SAY (unchanged 10 October text), EXAMPLE (one concrete fictional example of the ask), STUDIES ON THIS SLIDE: WHAT EACH ONE DOES HERE (every footer code with the source, what it is, and how it supports this slide, with its limit) and NEXT. Text in presentation/design/support.mjs; DECK_NOTES=1 with build.mjs puts the script back into the notes if ever wanted."
   },
   "structure": {
     "slides": 51,
     "teachingSlides": 38,
     "coverSlides": 1,
-    "actDividerSlides": 6,
     "clinicalBackupSlides": 3,
     "referenceSlides": 3,
     "durationMinutes": 60,
     "fictionalCases": 4,
-    "citationCodes": 58
+    "citationCodes": 58,
+    "sectionDividerSlides": 6,
+    "onSlideTimings": "none (rehearsal clock in the presenter script only)"
   },
   "beforeDelivery": [
     "Meeting and date on the cover",
@@ -77,11 +78,11 @@
   "previousCheckpoint": "fb238613dc7ddb0734ac9cfbd397f72c5316b3b6",
   "animatedDeck": {
     "file": "AUS-teaching-deck-3d.pptx",
-    "sha256": "613edc790ea793de1a5afc887e1d938f03003cb6c45786682af187f6a6f26e3e",
-    "byteCount": 66737612,
+    "sha256": "d6a9537b8b1cfa4559330ad2c2505de4c66bfd5abd13c7def889f7a929012455",
+    "byteCount": 66735529,
     "slides": 52,
     "content": "Same redesigned deck with looping UroOps clips in place of the stills on teaching slides 25, 26, 27, 29, 30, 31 and 32 (physical slides 31, 32, 33, 35, 36, 37 and 38) and a backup recording of the whole lesson as physical slide 49, after the three clinical backup slides and before the reference slides (click to play).",
-    "validation": "20 October 2026 (evening): rebuilt with the Act V photograph; validator passed; opened without repair; seven clip slides keep the autoplay timing. 20 October 2026: rebuilt without script notes (clip credits kept); validator passed; PowerPoint opened without repair; seven clip slides carry the autoplay timing from animate.py. Earlier: 19 October 2026: validator passed; PowerPoint opened it without repair and reported one autoplay effect and the media length on each of the seven clip slides (presentation/design/animate.py adds the start-on-show, loop timing). Playback in slide-show mode was not watched. A second review pass on 19 October 2026 re-rendered every slide at full size and adjusted layout only: serif (Cambria) act numerals, bullet alignment, taller rows on short tables, centred statement slides, stills aligned to the left grid line; no text changed.",
+    "validation": "20 October 2026 (sections): rebuilt with the same change; validator passed; opened without repair; clip timing retained. 20 October 2026 (evening): rebuilt with the Act V photograph; validator passed; opened without repair; seven clip slides keep the autoplay timing. 20 October 2026: rebuilt without script notes (clip credits kept); validator passed; PowerPoint opened without repair; seven clip slides carry the autoplay timing from animate.py. Earlier: 19 October 2026: validator passed; PowerPoint opened it without repair and reported one autoplay effect and the media length on each of the seven clip slides (presentation/design/animate.py adds the start-on-show, loop timing). Playback in slide-show mode was not watched. A second review pass on 19 October 2026 re-rendered every slide at full size and adjusted layout only: serif (Cambria) act numerals, bullet alignment, taller rows on short tables, centred statement slides, stills aligned to the left grid line; no text changed.",
     "previous": {
       "sha256": "41248c6ba736cf6692fc70fd13187e6d20a4b14eeb3fbe9ed0e7ad900cf27e68",
       "byteCount": 70386836,
@@ -94,7 +95,7 @@
   "presenterScript": {
     "markdown": "presenter-guide/AUS-presenter-script.md",
     "pdf": "presenter-guide/AUS-presenter-script.pdf",
-    "pdfSha256": "342a8701298c24d5f195e6c2bc7737853c7e3de4d4a931faf31bcd11b9883d86",
+    "pdfSha256": "806d7c36a4e56e21d303673cec15bdaf06fc4a70f32ab4fbe572b0ed45e6bcb8",
     "spokenWords": 7031,
     "generatedBy": "presentation/design/script.mjs (content.mjs + support.mjs) and presenter-guide/build_script_pdf.py",
     "pdfPages": 54,
@@ -106,7 +107,7 @@
     "folder": "presentation/assets/envato/ (git-ignored except README.md)",
     "files": [
       {
-        "file": "act-V.jpg",
+        "file": "section-5.jpg (was act-V.jpg)",
         "item": "Bright lights of surgical lamp in operating room, Envato Elements GM295KD",
         "author": "winnievinzence",
         "licence": "Downloaded by Nity G, 20 October 2026; certificate with the project records"

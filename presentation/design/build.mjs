@@ -14,7 +14,7 @@ const HERE = path.dirname(fileURLToPath(import.meta.url));
 const PRES = path.resolve(HERE, '..');
 const ASSETS = path.join(PRES, 'assets');
 // Optional licensed stock assets (Envato Elements), git-ignored; see assets/envato/README.md.
-// act-<numeral>.jpg|png: full-bleed photo behind that act's divider. divider-texture.jpg|png: texture behind every divider.
+// section-<1..6>.jpg|png: full-bleed photo behind that section's divider. divider-texture.jpg|png: texture behind every divider.
 const ENVATO = path.join(ASSETS, 'envato');
 const VEIL_NAME = 'divider gradient veil';
 // Replace the marker veil's solid fill with a charcoal gradient: clear over the left 40%, easing to near-solid at the
@@ -71,7 +71,7 @@ const C = {
 };
 const HEAD = 'Segoe UI Semibold';
 const BODY = 'Segoe UI';
-const NUMERAL = 'Cambria'; // serif roman numerals on the act dividers (I, II, III read as bars in a sans)
+// (the serif act numerals were dropped on 20 October 2026: plain section dividers)
 const W = 13.333, H = 7.5, MX = 0.7; // slide size and side margin
 const CONTENT_W = W - 2 * MX;
 
@@ -120,7 +120,7 @@ function teachingNotes(n, extra) {
   const t = DATA.times[n];
   const act = actOf(n);
   if (!ASK[n] || !EXAMPLE[n]) throw new Error('No ask or example for slide ' + n);
-  const head = `[Act ${act.numeral} · ${act.title} · Teaching slide ${String(n).padStart(2, '0')} of 38 · ${t.clock} · ${t.time}]\nTHIS SLIDE WANTS: ${ASK[n]}\nON THE SLIDE: ${s.frame}`;
+  const head = `[${act.title} · Teaching slide ${String(n).padStart(2, '0')} of 38 · ${t.clock} · ${t.time}]\nTHIS SLIDE WANTS: ${ASK[n]}\nON THE SLIDE: ${s.frame}`;
   const say = 'SAY\n' + s.say.join('\n\n');
   const parts = [head, say, 'EXAMPLE\n' + EXAMPLE[n]];
   const st = studiesBlock(n, DATA.codes[n]);
@@ -159,8 +159,9 @@ function frame(slide, n, title, { dark = false, takeaway = null } = {}) {
   const inkC = dark ? C.onDark : C.ink;
   const accent = dark ? C.tealDark : C.teal;
   slide.background = { color: dark ? C.dark : C.paper };
-  text(slide, `ACT ${act.numeral}  ·  ${act.title.toUpperCase()}`, { x: MX, y: 0.42, w: 7, h: 0.3, fontSize: 9.5, color: accent, bold: true, charSpacing: 2.5 });
-  text(slide, `${String(n).padStart(2, '0')} / 38   ·   ${t.clock.replace('-', ' – ')}`, { x: W - MX - 5, y: 0.42, w: 5, h: 0.3, fontSize: 9.5, color: mutedC, align: 'right', charSpacing: 1 });
+  // Section name on the left, slide number on the right; the running clock lives in the presenter script only.
+  text(slide, act.title.toUpperCase(), { x: MX, y: 0.42, w: 7, h: 0.3, fontSize: 9.5, color: accent, bold: true, charSpacing: 2.5 });
+  text(slide, `${String(n).padStart(2, '0')} / 38`, { x: W - MX - 5, y: 0.42, w: 5, h: 0.3, fontSize: 9.5, color: mutedC, align: 'right', charSpacing: 1 });
   text(slide, title, { x: MX, y: 0.8, w: CONTENT_W, h: 0.9, fontSize: 30, color: inkC, fontFace: HEAD, valign: 'middle' });
   const codes = DATA.codes[n];
   if (codes.length) text(slide, codes.join('  ·  '), { x: MX, y: H - 0.56, w: CONTENT_W - 1, h: 0.25, fontSize: 8, color: faintC, charSpacing: 0.5 });
@@ -433,8 +434,7 @@ function slideDemo(slide, s) {
 
 function slideDiscussion(slide, s) {
   frame(slide, s.n, s.title, { dark: true });
-  pill(slide, MX, 1.95, 1.7, 0.34, C.tealDark, 'FIVE MINUTES', C.dark, 9);
-  let yy = 2.6;
+  let yy = 2.3;
   s.items.forEach((q, i) => {
     numberBadge(slide, MX, yy + 0.12, 0.5, String(i + 1), C.tealDark, C.dark, 14);
     text(slide, q, { x: MX + 0.8, y: yy, w: CONTENT_W - 0.8, h: 0.75, fontSize: 24, color: C.onDark, fontFace: HEAD, valign: 'middle' });
@@ -449,7 +449,7 @@ function cover(pres) {
   const slide = pres.addSlide({ sectionTitle: 'Opening' });
   slide.background = { color: C.dark };
   slide.addImage({ path: path.join(ASSETS, 'uroops-cover.png'), x: 5.9, y: 0, w: W - 5.9, h: H, sizing: { type: 'cover', w: W - 5.9, h: H } });
-  text(slide, 'EXPERT TEACHING SESSION  ·  60 MINUTES', { x: MX, y: 1.1, w: 5.5, h: 0.3, fontSize: 9.5, color: C.tealDark, bold: true, charSpacing: 2.5 });
+  text(slide, 'EXPERT TEACHING SESSION', { x: MX, y: 1.1, w: 5.5, h: 0.3, fontSize: 9.5, color: C.tealDark, bold: true, charSpacing: 2.5 });
   text(slide, 'Artificial urinary sphincter surgery', { x: MX, y: 1.55, w: 5.4, h: 2.0, fontSize: 42, color: C.onDark, fontFace: HEAD, lineSpacingMultiple: 0.98, valign: 'top' });
   text(slide, 'Patient selection, difficult bladders and difficult urethras', { x: MX, y: 3.65, w: 5.0, h: 0.9, fontSize: 17, color: C.onDarkMuted, lineSpacingMultiple: 1.15 });
   text(slide, '[Meeting and date]', { x: MX, y: 4.65, w: 5, h: 0.3, fontSize: 11, color: C.onDarkFaint });
@@ -463,10 +463,10 @@ function cover(pres) {
 }
 
 function divider(pres, act, idx) {
-  pres.addSection({ title: `Act ${act.numeral} · ${act.title}` });
-  const slide = pres.addSlide({ sectionTitle: `Act ${act.numeral} · ${act.title}` });
+  pres.addSection({ title: act.title });
+  const slide = pres.addSlide({ sectionTitle: act.title });
   slide.background = { color: C.dark };
-  const photo = envatoAsset('act-' + act.numeral);
+  const photo = envatoAsset('section-' + (idx + 1));
   const texture = photo ? null : envatoAsset('divider-texture');
   if (photo || texture) {
     // Full-bleed image under a charcoal veil so the type keeps its contrast. A photo gets a heavier veil than a
@@ -479,13 +479,13 @@ function divider(pres, act, idx) {
     // (pptxgenjs writes solid fills only); its name is the marker.
     slide.addShape(SHAPES.rect, { x: 0, y: 0, w: W, h: H, fill: { color: C.dark, transparency: 100 }, line: { type: 'none' }, objectName: VEIL_NAME });
   }
-  text(slide, 'ACT', { x: MX, y: 1.3, w: 3, h: 0.3, fontSize: 10, color: C.tealDark, bold: true, charSpacing: 3 });
-  text(slide, act.numeral, { x: MX - 0.05, y: 1.5, w: 4.2, h: 1.95, fontSize: 112, color: C.tealDark, fontFace: NUMERAL, valign: 'middle' });
-  text(slide, act.title, { x: MX, y: 3.55, w: 6.5, h: 0.9, fontSize: 36, color: C.onDark, fontFace: HEAD, valign: 'middle' });
-  text(slide, act.question, { x: MX, y: 4.5, w: 6.3, h: 1.2, fontSize: 15, color: C.onDarkMuted, lineSpacingMultiple: 1.2 });
-  // what is in this act
+  // Plain section divider: title and its one-line question on the left, the section's slides on the right.
+  rect(slide, MX, 2.25, 0.6, 0.06, C.tealDark, { rectRadius: 0.03 });
+  text(slide, act.title, { x: MX, y: 2.45, w: 6.6, h: 1.3, fontSize: 40, color: C.onDark, fontFace: HEAD, valign: 'top', lineSpacingMultiple: 1.0 });
+  text(slide, act.question, { x: MX, y: 3.95, w: 6.3, h: 1.3, fontSize: 15, color: C.onDarkMuted, lineSpacingMultiple: 1.2 });
+  // what is in this section
   const rx = 7.9, rw = W - MX - rx;
-  text(slide, `${act.clock}   ·   ${act.minutes} MINUTES`, { x: rx, y: 1.3, w: rw, h: 0.3, fontSize: 10, color: C.onDarkMuted, bold: true, charSpacing: 2 });
+  text(slide, 'IN THIS SECTION', { x: rx, y: 1.3, w: rw, h: 0.3, fontSize: 10, color: C.onDarkMuted, bold: true, charSpacing: 2 });
   let yy = 1.8;
   const list = SLIDES.filter((s) => s.n >= act.slides[0] && s.n <= act.slides[1]);
   const lineH = Math.min(0.5, 4.2 / list.length);
@@ -501,13 +501,13 @@ function divider(pres, act, idx) {
     text(slide, a.title, { x: MX + i * (segW + 0.12), y: 6.7, w: segW, h: 0.3, fontSize: 8.5, color: i === idx ? C.onDark : C.onDarkFaint });
   });
   const span = `${act.slides[0]}–${act.slides[1]}`;
-  notes(slide, `[Act ${act.numeral} · ${act.title} · ${act.clock} · ${act.minutes} minutes · teaching slides ${span}]\nTransition slide; it takes no time from the clock. Read the act title, say the one-line question, and move on.\n\nSAY\n"${act.question}"`, null);
+  notes(slide, `[Section: ${act.title} · ${act.clock} · ${act.minutes} minutes · teaching slides ${span}]\nSection slide; it takes no time from the clock. Read the title, say the one-line question, and move on.\n\nSAY\n"${act.question}"`, null);
 }
 
 function backupTable(pres, t, script) {
   const slide = pres.addSlide({ sectionTitle: 'Backup and references' });
   slide.background = { color: C.paper };
-  text(slide, 'BACKUP  ·  OUTSIDE THE TIMED TALK', { x: MX, y: 0.42, w: 7, h: 0.3, fontSize: 9.5, color: C.teal, bold: true, charSpacing: 2.5 });
+  text(slide, 'BACKUP', { x: MX, y: 0.42, w: 7, h: 0.3, fontSize: 9.5, color: C.teal, bold: true, charSpacing: 2.5 });
   text(slide, t.title, { x: MX, y: 0.8, w: CONTENT_W, h: 0.9, fontSize: 30, color: C.ink, fontFace: HEAD, valign: 'middle' });
   const colW = [3.6, 4.1, CONTENT_W - 7.7];
   styledTable(slide, t.headers, t.rows, MX, 1.95, CONTENT_W, colW, { fontSize: 12.5, rowH: [0.45, 1.15, 1.15, 1.15] });
@@ -517,7 +517,7 @@ function backupTable(pres, t, script) {
 function backupGaps(pres, t) {
   const slide = pres.addSlide({ sectionTitle: 'Backup and references' });
   slide.background = { color: C.paper };
-  text(slide, 'BACKUP  ·  OUTSIDE THE TIMED TALK', { x: MX, y: 0.42, w: 7, h: 0.3, fontSize: 9.5, color: C.teal, bold: true, charSpacing: 2.5 });
+  text(slide, 'BACKUP', { x: MX, y: 0.42, w: 7, h: 0.3, fontSize: 9.5, color: C.teal, bold: true, charSpacing: 2.5 });
   text(slide, t.title, { x: MX, y: 0.8, w: CONTENT_W, h: 0.9, fontSize: 30, color: C.ink, fontFace: HEAD, valign: 'middle' });
   const items = t.items;
   const gap = 0.25, cw = (CONTENT_W - gap) / 2, ch = 1.0;
@@ -533,7 +533,7 @@ function backupGaps(pres, t) {
 function backupVideo(pres) {
   const slide = pres.addSlide({ sectionTitle: 'Backup and references' });
   slide.background = { color: C.dark };
-  text(slide, 'BACKUP  ·  OUTSIDE THE TIMED TALK', { x: MX, y: 0.42, w: 7, h: 0.3, fontSize: 9.5, color: C.tealDark, bold: true, charSpacing: 2.5 });
+  text(slide, 'BACKUP', { x: MX, y: 0.42, w: 7, h: 0.3, fontSize: 9.5, color: C.tealDark, bold: true, charSpacing: 2.5 });
   text(slide, 'UroOps 3D lesson: recorded run-through', { x: MX, y: 0.8, w: CONTENT_W, h: 0.9, fontSize: 30, color: C.onDark, fontFace: HEAD, valign: 'middle' });
   const vw = 8.9, vh = vw * 1080 / 1920;
   const posterPng = path.join(VIDEO, 'aus-flow-poster.png');
@@ -552,7 +552,7 @@ function references(pres) {
   for (let p = 0; p < pages; p++) {
     const slide = pres.addSlide({ sectionTitle: 'Backup and references' });
     slide.background = { color: C.paper };
-    text(slide, 'REFERENCES  ·  OUTSIDE THE TIMED TALK', { x: MX, y: 0.42, w: 7, h: 0.3, fontSize: 9.5, color: C.teal, bold: true, charSpacing: 2.5 });
+    text(slide, 'REFERENCES', { x: MX, y: 0.42, w: 7, h: 0.3, fontSize: 9.5, color: C.teal, bold: true, charSpacing: 2.5 });
     text(slide, `Sources ${p + 1} of ${pages}`, { x: MX, y: 0.8, w: CONTENT_W, h: 0.9, fontSize: 30, color: C.ink, fontFace: HEAD, valign: 'middle' });
     const chunk = refs.slice(p * perSlide, (p + 1) * perSlide);
     const colW = (CONTENT_W - 0.4) / 2, rowH = 0.46;
@@ -586,7 +586,7 @@ function build(animated) {
     const act = actOf(s.n);
     const ai = ACTS.indexOf(act);
     if (ai !== actIdx) { actIdx = ai; divider(pres, act, ai); }
-    const slide = pres.addSlide({ sectionTitle: `Act ${act.numeral} · ${act.title}` });
+    const slide = pres.addSlide({ sectionTitle: act.title });
     let extra = null;
     switch (s.type) {
       case 'decisions': slideDecisions(slide, s); break;

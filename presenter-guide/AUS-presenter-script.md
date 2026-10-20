@@ -17,28 +17,28 @@ This is the spoken script for `presentation/AUS-teaching-deck.pptx` and the anim
 
 ### The sixty minutes at a glance
 
-| Act | Title | Teaching slides | Clock | Minutes |
-|---|---|---|---|---|
-| I | Decide before theatre | 01–09 | 00:00 – 14:00 | 14 |
-| II | The bladder | 10–14 | 14:00 – 22:00 | 8 |
-| III | The urethra | 15–19 | 22:00 – 29:00 | 7 |
-| IV | Preparation without ritual | 20–24 | 29:00 – 36:00 | 7 |
-| V | The operation | 25–32 | 36:00 – 50:00 | 14 |
-| VI | After the implant | 33–38 | 50:00 – 60:00 | 10 |
+| Section | Teaching slides | Clock | Minutes |
+|---|---|---|---|
+| Decide before theatre | 01–09 | 00:00 – 14:00 | 14 |
+| The bladder | 10–14 | 14:00 – 22:00 | 8 |
+| The urethra | 15–19 | 22:00 – 29:00 | 7 |
+| Preparation without ritual | 20–24 | 29:00 – 36:00 | 7 |
+| The operation | 25–32 | 36:00 – 50:00 | 14 |
+| After the implant | 33–38 | 50:00 – 60:00 | 10 |
 
 ### Before you start
 
 - Add the meeting and date to the cover and your personal disclosures to teaching slide 02.
 - Open https://uroops3d.com/lab/aus in a second window before the session for teaching slide 32. If it fails, the slide's notes carry the four-minute spoken fallback, and the animated deck has a recorded run-through as a backup slide after the discussion.
-- The clock in the top-right corner of every teaching slide is the running time at which that slide should start. Act dividers take no time.
+- The slides carry no timings. The clock beside each slide in this script is the running time at which that slide should start; the six section slides take no time.
 - Say aloud, when the first UroOps picture appears, that the model is a teaching schematic with clinical review pending.
 - Examples are there to be used if the room needs one. Skipping an example saves about twenty seconds; the clock already allows for the Say text alone.
 
-## Act I · Decide before theatre
+## Decide before theatre
 
 *00:00 – 14:00 · 14 minutes · teaching slides 01 to 09*
 
-**Divider slide, no clock time.** Read the act title, then say: "Can this patient obtain useful continence while storing and emptying safely and operating the device?"
+**Section slide, no clock time.** Read the title, then say: "Can this patient obtain useful continence while storing and emptying safely and operating the device?"
 
 ### 01 | The decision before theatre
 
@@ -328,11 +328,11 @@ The patient asks "what are my chances of being dry?" The answer has three parts:
 
 **Next →** That is the decision before theatre. Now let us put it to work with our first fictional patient, and hand the decision to you.
 
-## Act II · The bladder
+## The bladder
 
 *14:00 – 22:00 · 8 minutes · teaching slides 10 to 14*
 
-**Divider slide, no clock time.** Read the act title, then say: "Separate overactivity, weak contraction and poor compliance, because each leads to a different decision."
+**Section slide, no clock time.** Read the title, then say: "Separate overactivity, weak contraction and poor compliance, because each leads to a different decision."
 
 ### 10 | Case 1: six pads and urgency
 
@@ -492,11 +492,11 @@ Two men are both dry after an AUS. One had a transient detrusor contraction at 2
 
 **Next →** That closes the bladder. The urethra is next, and the first job there is simply to name the narrowing correctly.
 
-## Act III · The urethra
+## The urethra
 
 *22:00 – 29:00 · 7 minutes · teaching slides 15 to 19*
 
-**Divider slide, no clock time.** Read the act title, then say: "Name the narrowing, prove the outlet is stable, and plan the tissue the cuff will need."
+**Section slide, no clock time.** Read the title, then say: "Name the narrowing, prove the outlet is stable, and plan the tissue the cuff will need."
 
 ### 15 | Three different sites of narrowing
 
@@ -655,11 +655,11 @@ During a revision the dorsal plane behind a previously eroded segment will not o
 
 **Next →** That is the urethra. Now a different kind of decision: the things we do before the skin is opened, and whether the evidence supports them.
 
-## Act IV · Preparation without ritual
+## Preparation without ritual
 
 *29:00 – 36:00 · 7 minutes · teaching slides 20 to 24*
 
-**Divider slide, no clock time.** Read the act title, then say: "Identify the activity, the product and the evidence before debating a duration."
+**Section slide, no clock time.** Read the title, then say: "Identify the activity, the product and the evidence before debating a duration."
 
 ### 20 | The fifteen-minute wash question
 
@@ -822,11 +822,11 @@ Before the implant is opened the team runs the five rows aloud: indication and i
 
 **Next →** Now into theatre. The next eight slides follow the operation in order, and the model will show us each space.
 
-## Act V · The operation
+## The operation
 
 *36:00 – 50:00 · 14 minutes · teaching slides 25 to 32*
 
-**Divider slide, no clock time.** Read the act title, then say: "Preserve tissue, measure what the cuff will enclose, follow the actual device protocol, and verify before closing."
+**Section slide, no clock time.** Read the title, then say: "Preserve tissue, measure what the cuff will enclose, follow the actual device protocol, and verify before closing."
 
 ### 25 | Positioning and exposure
 
@@ -1083,11 +1083,11 @@ On the model, start at the cuff: point to the bulbar urethra and the spongiosal 
 
 **Next →** Back from the model: the operation is finished, and the first weeks decide whether it was worth doing.
 
-## Act VI · After the implant
+## After the implant
 
 *50:00 – 60:00 · 10 minutes · teaching slides 33 to 38*
 
-**Divider slide, no clock time.** Read the act title, then say: "Hand over the risk, diagnose late leakage before revising, and say where the evidence stops."
+**Section slide, no clock time.** Read the title, then say: "Hand over the risk, diagnose late leakage before revising, and say where the evidence stops."
 
 ### 33 | Aftercare, activation and urgent review
 

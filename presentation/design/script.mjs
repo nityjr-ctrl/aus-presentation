@@ -35,15 +35,15 @@ p('- **Next:** the sentence that carries the room to the next slide.');
 p();
 p('### The sixty minutes at a glance');
 p();
-p('| Act | Title | Teaching slides | Clock | Minutes |');
-p('|---|---|---|---|---|');
-for (const a of ACTS) p(`| ${a.numeral} | ${a.title} | ${nn(a.slides[0])}–${nn(a.slides[1])} | ${a.clock} | ${a.minutes} |`);
+p('| Section | Teaching slides | Clock | Minutes |');
+p('|---|---|---|---|');
+for (const a of ACTS) p(`| ${a.title} | ${nn(a.slides[0])}–${nn(a.slides[1])} | ${a.clock} | ${a.minutes} |`);
 p();
 p('### Before you start');
 p();
 p('- Add the meeting and date to the cover and your personal disclosures to teaching slide 02.');
 p('- Open https://uroops3d.com/lab/aus in a second window before the session for teaching slide 32. If it fails, the slide\'s notes carry the four-minute spoken fallback, and the animated deck has a recorded run-through as a backup slide after the discussion.');
-p('- The clock in the top-right corner of every teaching slide is the running time at which that slide should start. Act dividers take no time.');
+p('- The slides carry no timings. The clock beside each slide in this script is the running time at which that slide should start; the six section slides take no time.');
 p('- Say aloud, when the first UroOps picture appears, that the model is a teaching schematic with clinical review pending.');
 p('- Examples are there to be used if the room needs one. Skipping an example saves about twenty seconds; the clock already allows for the Say text alone.');
 p();
@@ -53,11 +53,11 @@ for (const s of SLIDES) {
   const act = actOf(s.n);
   if (act !== currentAct) {
     currentAct = act;
-    p(`## Act ${act.numeral} · ${act.title}`);
+    p(`## ${act.title}`);
     p();
     p(`*${act.clock} · ${act.minutes} minutes · teaching slides ${nn(act.slides[0])} to ${nn(act.slides[1])}*`);
     p();
-    p(`**Divider slide, no clock time.** Read the act title, then say: "${act.question}"`);
+    p(`**Section slide, no clock time.** Read the title, then say: "${act.question}"`);
     p();
   }
   const t = DATA.times[s.n];
