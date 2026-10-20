@@ -27,3 +27,15 @@ Canonical path: `C:\NityProjects\AUS-Presentation\repo`.
 Dedicated branch: `manuscript/aus-expert-60min`.
 
 The source and output copy are compared by SHA-256 before committing. Git commit metadata and remote refs provide the final checkpoint rather than a self-referential commit hash in this file.
+
+## Revision of 10 October 2026
+
+The sections above record the manuscript as first checked on 30 September 2026. Later changes are recorded in `presentation/EVIDENCE-AUDIT-2026-10-05.md` (evidence, 58 citation codes) and here.
+
+- Speaker notes for slides 1 to 31 and 33 to 37 were rewritten in a plainer first-person-plural voice, using the owner's slide 1 text as the pattern. Slides 32 and 38 changed "I" to "we" only. Clinical statements, figures, caveats, references and evidence status were not changed.
+- Estimated spoken notes: 6,300 words on the same counting basis as above (6,385 before the revision). Demo: 380 live spoken words; fallback: 442 words.
+- Every slide still fits its allocation at 135 words per minute with three seconds for changeover. No rehearsal was timed.
+- Presenter credits now name Mr Andrew Baird, Mr Abu Yousif and Nity G.
+- Both PowerPoint files carry the new notes. Their notes pages hold the spoken text only, so the references and evidence status for each slide are in this manuscript, in `presentation/source.json` and in the presenter guide.
+- New UroOps stills and clips were captured from the public page `https://uroops3d.com/lab/aus/` on 10 October 2026. No UroOps repository was entered.
+- Working branch for this revision: `feat/3d-embedded-aus`.

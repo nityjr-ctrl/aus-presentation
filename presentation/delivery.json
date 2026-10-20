@@ -1,7 +1,11 @@
 {
   "createdUtc": "2026-10-01",
-  "title": "Artificial urinary sphincter surgery — Mr Abu Yousif & Nity G",
+  "title": "Artificial urinary sphincter surgery: Mr Andrew Baird, Mr Abu Yousif & Nity G",
   "presenters": [
+    {
+      "name": "Mr Andrew Baird",
+      "role": "Urology Consultant"
+    },
     {
       "name": "Mr Abu Yousif",
       "role": "Urology Consultant"
@@ -28,35 +32,96 @@
     },
     "conversionLimit": "Three PPTX charts converted to images. Text and eight tables remain native editable objects.",
     "visualCheck": "All 49 cloud-exported PDF pages and all 49 local slide renders reviewed; changed evidence tables and references checked at larger size.",
-    "revisionId": "S--4mxKHZqlHYw"
+    "revisionId": "S--4mxKHZqlHYw",
+    "status": "Not updated since the 5 October 2026 readback. It still shows two presenters, the 5 October speaker notes and the earlier UroOps pictures. The readback and visual check in this block describe that 5 October version."
   },
   "checkpoint": {
     "file": "AUS-teaching-deck.pptx",
-    "sha256": "d13e3fc578cbfa3b20a639e5e5a4be48dd45177c6184e8182d36129b5c7ae12d",
-    "byteCount": 4513210,
-    "nativeCharts": 0,
-    "embeddedChartWorkbooks": 0,
-    "geometryFindings": 0,
-    "geometryWarnings": 0,
-    "validation": "Package, source-bound fonts, layout and Artifact Tool re-import passed; private reports retained in originating task."
+    "sha256": "410106d9485100d14698a2f3f99bc97d41bdf00c0a4bf930a7f6d5bf6ea4eff2",
+    "byteCount": 12379482,
+    "revised": "2026-10-20",
+    "changesSince2026-10-10": "Full visual redesign built from presentation/design/build.mjs (pptxgenjs). Widescreen 13.33 x 7.5 in, Segoe UI, charcoal cover and act dividers matching the UroOps renders, white content slides. Six act-divider slides added (no clock time). Each teaching slide shows its act, teaching number, running clock and citation codes. Native line and bar charts rebuilt. References condensed from seven slides to three. On-slide wording, slide order, tables, citation codes and evidence statements unchanged from slides.json. Speaker notes rewritten in a flowing script format: THIS SLIDE, SAY, STUDIES ON THIS SLIDE (every code decoded: what the source is and what it says), TRANSITION.",
+    "nativeCharts": 3,
+    "nativeTables": 8,
+    "validation": "20 October 2026 (plain-English pass): validator passed on both decks; PowerPoint 16.0 opened both without repair and exported every slide; all 51 slides reviewed on contact sheets and the reworded slides 01, 13, 20, 22, 24 and 33 at full size; no overflow. 20 October 2026 (clarifications): validator passed on both decks; PowerPoint 16.0 opened both without repair and exported every slide; slides 04 and 06 reviewed at full size. 20 October 2026 (images): validator passed on both decks; PowerPoint 16.0 opened both without repair and exported every slide; slides 05, 15 and 29 reviewed at full size in the standard deck and 05 in the animated deck. 20 October 2026 (sections): validator passed on both decks; PowerPoint 16.0 opened both without repair and exported every slide; cover, all six section slides, a teaching slide, the demonstration, discussion and backup slides reviewed at full size. 20 October 2026 (evening): validator passed on both decks; PowerPoint 16.0 opened both without repair and exported every slide; Act V divider reviewed at full size. 20 October 2026: pptx skill validator passed on both decks; PowerPoint 16.0 opened both read-only without repair and exported every slide (51 and 52); python-pptx confirmed no script text in any notes pane (only credits on 9 and 11 slides respectively); all 58 reference codes present on the three reference slides with 58 live hyperlinks; footer codes match deck-data.json on every slide; slide renders unchanged from 19 October. Earlier: 19 October 2026: pptx skill validator (schema, relationships, content types, charts) passed; PowerPoint 16.0 opened the file read-only without repair and exported all 51 slides, every render reviewed at contact-sheet size and sample slides at full size. A second review pass on 19 October 2026 re-rendered every slide at full size and adjusted layout only: serif (Cambria) act numerals, bullet alignment, taller rows on short tables, centred statement slides, stills aligned to the left grid line; no text changed.",
+    "previous": {
+      "date": "2026-10-10",
+      "sha256": "888ebeb35ed7b38a8a22849767f002d2712ff28926e36511d64ac895269a8dcf",
+      "byteCount": 11047039,
+      "validation": "10 October 2026: every XML part parses and every internal relationship resolves; PowerPoint on the build PC opened the file without repair and exported the changed slides for review. The Artifact Tool layout, font and geometry checks of 5 October were not rerun on this file.",
+      "archivedCopy": "archive/2026-10-19-pre-redesign/AUS-teaching-deck.pptx"
+    },
+    "changesSince2026-10-19": "Plain-English pass (owner's request, 20 October 2026): the narration (presentation/design/script-text.mjs), the cue cards and the denser on-slide bullets on 36 teaching slides were rewritten in shorter, everyday sentences with the mechanism spelled out; every figure, citation code and caveat is unchanged. Slide 13 gained an original two-panel schematic (assets/cuff-bore-schematic.png) showing why a deflated cuff's bore is not a catheter-size chart. Evidence clarifications (owner's questions, 20 October 2026): slide 04 gains a three-tile strip with the Nitti severity bands BAUS uses (mild under 100 g, moderate 100 to 400 g, severe over 400 g in 24 hours); slide 06's BAUS bullet now states the two routes (VUDS for every candidate with cystoscopy only when a narrowing is suspected; standard UDS plus cystoscopy where video is unavailable). Script, cue cards and study lines add the MASTER further-surgery breakdown at twelve months, the Claims-Based Frailty Index explanation, the simplified MASTER caveat and the reason not to dilate during a diagnostic cystoscopy; see the 20 October addenda in EVIDENCE-AUDIT-2026-10-05.md. Image spread (owner's request, 20 October 2026): teaching slide 05 now shows the ContiClassic manufacturer figure (recoloured onto charcoal at build time) with the caption \"Rigicon ContiClassic, manufacturer illustration\"; slide 15 shows the annotated three-panel narrowing schematic made on 5 October (title band and footer cropped at build time, caption \"Teaching schematic, not to scale\"); slide 29 in the standard deck shows the UroOps balloon-pocket still (assets/uroops-balloon.png). The exploded and sagittal UroOps stills are no longer placed. Slide text unchanged. Owner's request, 20 October 2026: a traditional medical presentation, so the act framing and all on-slide timings were removed. The six dividers are plain section slides (title, one-line question, \"In this section\" outline, section strip); each teaching slide's header shows the section name and slide number only (no running clock); the cover eyebrow no longer states 60 minutes; the discussion slide lost its \"five minutes\" badge; the UroOps slide badge reads \"Live demonstration\"; backup and reference eyebrows read \"Backup\" and \"References\". Rehearsal timings remain in the presenter script only. Act V divider now carries a licensed Envato Elements photograph (surgical light, winnievinzence GM295KD) full-bleed under a charcoal veil with a left-to-right gradient; the file lives in the git-ignored presentation/assets/envato/ and is fitted to 4K by design/envato_fit.py at build time. The other five dividers are unchanged plain charcoal. No slide changed. At the owner's request (20 October 2026) the speaker notes were removed from the slides: the script is kept as a separate PDF, presenter-guide/AUS-presenter-script.pdf, and is not linked from the slides. Only the picture, clip and IFU-illustration credits remain in the notes pane of the image slides. The script itself was rewritten for the day: per slide THIS SLIDE WANTS, ON THE SLIDE, SAY (unchanged 10 October text), EXAMPLE (one concrete fictional example of the ask), STUDIES ON THIS SLIDE: WHAT EACH ONE DOES HERE (every footer code with the source, what it is, and how it supports this slide, with its limit) and NEXT. Text in presentation/design/support.mjs; DECK_NOTES=1 with build.mjs puts the script back into the notes if ever wanted."
   },
   "structure": {
-    "slides": 49,
+    "slides": 51,
     "teachingSlides": 38,
     "coverSlides": 1,
-    "backupSlides": 10,
+    "clinicalBackupSlides": 3,
+    "referenceSlides": 3,
     "durationMinutes": 60,
     "fictionalCases": 4,
-    "referenceSlides": 7,
-    "clinicalBackupSlides": 3,
-    "citationCodes": 58
+    "citationCodes": 58,
+    "sectionDividerSlides": 6,
+    "onSlideTimings": "none (rehearsal clock in the presenter script only)"
   },
   "beforeDelivery": [
-    "Meeting and date",
-    "Both presenters' actual personal disclosures",
+    "Meeting and date on the cover",
+    "All three presenters' actual personal disclosures on teaching slide 02",
     "Applicable current regional device IFU and separate OR protocol",
-    "Local perioperative protocol"
+    "Local perioperative protocol",
+    "Watch the seven clip slides and the backup video of the animated deck in slide-show mode on the presenting computer",
+    "Rehearse aloud against the clock shown on each slide",
+    "Bring the Google Slides copy up to date or stop using it (it still shows the 5 October version)"
   ],
   "evidenceUpdated": "2026-10-05",
-  "previousCheckpoint": "fb238613dc7ddb0734ac9cfbd397f72c5316b3b6"
+  "previousCheckpoint": "fb238613dc7ddb0734ac9cfbd397f72c5316b3b6",
+  "animatedDeck": {
+    "file": "AUS-teaching-deck-3d.pptx",
+    "sha256": "19ad828917139b75a4648623378db4cf3511a644cf411b29b8eb3f1a41fc5799",
+    "byteCount": 67035200,
+    "slides": 52,
+    "content": "Same redesigned deck with looping UroOps clips in place of the stills on teaching slides 25, 26, 27, 29, 30, 31 and 32 (physical slides 31, 32, 33, 35, 36, 37 and 38) and a backup recording of the whole lesson as physical slide 49, after the three clinical backup slides and before the reference slides (click to play).",
+    "validation": "20 October 2026 (images): rebuilt; slides 05 and 15 carry the new pictures, the seven clip slides are unchanged. 20 October 2026 (sections): rebuilt with the same change; validator passed; opened without repair; clip timing retained. 20 October 2026 (evening): rebuilt with the Act V photograph; validator passed; opened without repair; seven clip slides keep the autoplay timing. 20 October 2026: rebuilt without script notes (clip credits kept); validator passed; PowerPoint opened without repair; seven clip slides carry the autoplay timing from animate.py. Earlier: 19 October 2026: validator passed; PowerPoint opened it without repair and reported one autoplay effect and the media length on each of the seven clip slides (presentation/design/animate.py adds the start-on-show, loop timing). Playback in slide-show mode was not watched. A second review pass on 19 October 2026 re-rendered every slide at full size and adjusted layout only: serif (Cambria) act numerals, bullet alignment, taller rows on short tables, centred statement slides, stills aligned to the left grid line; no text changed.",
+    "previous": {
+      "sha256": "41248c6ba736cf6692fc70fd13187e6d20a4b14eeb3fbe9ed0e7ad900cf27e68",
+      "byteCount": 70386836,
+      "slides": 50,
+      "archivedCopy": "archive/2026-10-19-pre-redesign/AUS-teaching-deck-3d.pptx (working-tree copy, includes an uncommitted 10 October PowerPoint save)"
+    },
+    "details": "design/README.md"
+  },
+  "deckRevised": "2026-10-20",
+  "presenterScript": {
+    "markdown": "presenter-guide/AUS-presenter-script.md",
+    "pdf": "presenter-guide/AUS-presenter-script.pdf",
+    "pdfSha256": "59c17eb58dc86db5d2ae68d326e29db0fdb8d456f3ee51518087c76d2986047b",
+    "spokenWords": 7756,
+    "generatedBy": "presentation/design/script.mjs (content.mjs + support.mjs) and presenter-guide/build_script_pdf.py",
+    "pdfPages": 54,
+    "exampleWords": 2144,
+    "format": "Per slide: This slide wants / On the slide / Say / Example / Studies on this slide (what each one does here) / Next; then backup notes and a full source glossary.",
+    "role": "The only copy of the script. The slides carry no speaker notes and do not link to this file."
+  },
+  "licensedAssets": {
+    "folder": "presentation/assets/envato/ (git-ignored except README.md)",
+    "files": [
+      {
+        "file": "section-5.jpg (was act-V.jpg)",
+        "item": "Bright lights of surgical lamp in operating room, Envato Elements GM295KD",
+        "author": "winnievinzence",
+        "licence": "Downloaded by Nity G, 20 October 2026; certificate with the project records"
+      }
+    ],
+    "note": "The licence covers the finished deck; the raw file is not redistributed through the repository."
+  },
+  "cueCards": {
+    "markdown": "presenter-guide/AUS-cue-cards.md",
+    "pdf": "presenter-guide/AUS-cue-cards.pdf",
+    "pdfSha256": "938e5d0ddc7cb2dcd1325a669089a07f00c413485ed322c08c5cfaa38f1146a6",
+    "pdfPages": 21,
+    "spokenWords": 4141,
+    "format": "One card per slide: three to six short spoken lines in order, ending with the line into the next slide; one line per section slide. Distilled from the full script, no new claims.",
+    "generatedBy": "presentation/design/cue-cards.mjs (cues.mjs) and presenter-guide/build_script_pdf.py AUS-cue-cards.pdf AUS-cue-cards.md"
+  }
 }

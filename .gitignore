@@ -2,3 +2,12 @@ presentation/build/
 presentation/output/
 presentation/scripts/node_modules
 presentation/.chart-data-*/
+.venv/
+__pycache__/
+
+presentation/design/node_modules/
+presentation/design/build/
+
+# Licensed stock assets (Envato Elements): keep out of the public repository
+presentation/assets/envato/*
+!presentation/assets/envato/README.md

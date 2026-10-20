@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>AUS step viewer</title>
+<style>html,body{margin:0;background:transparent;overflow:hidden}canvas{display:block}</style>
+<script type="importmap">
+{ "imports": { "three": "./node_modules/three/build/three.module.js", "three/addons/": "./node_modules/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+<script type="module">
+// Renders one step GLB with the camera from steps.json. Used headless by render-fallbacks.mjs,
+// and by hand: serve this folder and open viewer.html?step=aus-28-sizing
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+const q = new URLSearchParams(location.search);
+const id = q.get('step') ?? 'aus-33-overview';
+const cfg = await (await fetch('./steps.json')).json();
+const step = cfg.slides.find((s) => s.id === id);
+const w = Number(q.get('w') ?? Math.round(step.frame.width * 200));
+const h = Number(q.get('h') ?? Math.round(step.frame.height * 200));
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true, alpha: true });
+renderer.setClearColor(0x000000, 0);
+renderer.setPixelRatio(1);
+renderer.setSize(w, h);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.NoToneMapping;
+document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+scene.background = null; // transparent, like a PowerPoint 3D model, so dark slides and nearby text stay visible
+scene.add(new THREE.HemisphereLight(0xffffff, 0xd9d2c9, 1.9));
+const r = step.camera.resolved;
+const key = new THREE.DirectionalLight(0xffffff, 1.6);
+const camPos = new THREE.Vector3(...r.posMetres);
+const focus = new THREE.Vector3(...r.focusMetres);
+key.position.copy(camPos).add(new THREE.Vector3(-0.15, 0.25, 0.1));
+key.target.position.copy(focus);
+scene.add(key, key.target);
+const gltf = await new GLTFLoader().loadAsync(`./steps/${id}.glb`);
+scene.add(gltf.scene);
+const camera = new THREE.PerspectiveCamera(r.fovDegrees, w / h, 0.002, 5);
+camera.position.copy(camPos);
+camera.up.set(...r.up);
+camera.lookAt(focus);
+renderer.render(scene, camera);
+window.__nodes = [];
+gltf.scene.traverse((o) => { if (o.name) window.__nodes.push(o.name); });
+window.__ready = true;
+</script>
+</body>
+</html>

@@ -25,7 +25,7 @@
       33
     ],
     "meaning": "An audit of 98 men reported 88% same-day discharge. It supports feasibility within an established service.",
-    "limits": "Conference audit with short follow-up and selection; does not establish long-term equivalence or antibiotic policy.",
+    "limits": "As a conference audit with short follow-up and a selected population, it does not establish long-term equivalence or antibiotic policy.",
     "access": "Published BAUS abstract read in full"
   },
   {
@@ -40,7 +40,7 @@
       14
     ],
     "meaning": "A small retrospective SCI series explored predominantly bulbar placement. It is a specialist discussion point.",
-    "limits": "Small selected cohort; no direct bladder-neck comparator and no equivalence proof. Keep safe storage and an emptying plan central.",
+    "limits": "The cohort was small and selected, with no direct bladder-neck comparator and no proof of equivalence. Keep safe storage and an emptying plan central.",
     "access": "Published BAUS abstract read in full"
   },
   {
@@ -55,7 +55,7 @@
       7
     ],
     "meaning": "The 2026 male-incontinence session revisited the value of preoperative UDS and cystoscopy.",
-    "limits": "Programme/title verified; complete methods, results and denominators unavailable. No numerical result or change in practice is inferred. This is conference material, not an AUA guideline.",
+    "limits": "The programme and title were verified, but complete methods, results and denominators were unavailable. No numerical result or change in practice is inferred. This is conference material, not an AUA guideline.",
     "access": "Official journal/programme record and publisher-deposited Crossref metadata only"
   },
   {
@@ -69,7 +69,7 @@
       22
     ],
     "meaning": "The 2026 meeting included an AUS postoperative-antibiotic report. Its title states no infection benefit.",
-    "limits": "Programme/title verified; complete methods, results and denominators unavailable. No numerical result or change in practice is inferred. This is conference material, not an AUA guideline.",
+    "limits": "The programme and title were verified, but complete methods, results and denominators were unavailable. No numerical result or change in practice is inferred. This is conference material, not an AUA guideline.",
     "access": "Official journal/programme record and publisher-deposited Crossref metadata only"
   },
   {
@@ -83,7 +83,7 @@
       34
     ],
     "meaning": "SAFER compared in situ urethroplasty with conservative management at explantation for cuff erosion.",
-    "limits": "Programme/title verified; complete methods, results and denominators unavailable. No numerical result or change in practice is inferred. This is conference material, not an AUA guideline.",
+    "limits": "The programme and title were verified, but complete methods, results and denominators were unavailable. No numerical result or change in practice is inferred. This is conference material, not an AUA guideline.",
     "access": "Official journal/programme record and publisher-deposited Crossref metadata only"
   },
   {
@@ -172,7 +172,7 @@
       9
     ],
     "meaning": "In 7,252 men undergoing AUS or sling, claims-defined frailty was associated with 30-day complications independently of age and comorbidity. Relative to not frail, adjusted relative risks were 1.5 for prefrail and 2.5 for mildly-to-severely frail men. Revision/removal was also associated with frailty.",
-    "limits": "Mixed AUS/sling procedures, historical Medicare data and a claims frailty index. These relative risks are not an individual AUS-specific absolute probability, and they do not validate a bedside pump score. Use a practical frailty assessment alongside observed dexterity and cognition.",
+    "limits": "The data mix AUS and sling procedures, come from historical Medicare records and rely on a claims frailty index. These relative risks are not an individual AUS-specific absolute probability, and they do not validate a bedside pump score. Use a practical frailty assessment alongside observed dexterity and cognition.",
     "access": "Publisher abstract via Europe PMC"
   },
   {
@@ -215,7 +215,7 @@
       40
     ],
     "meaning": "Ninety-one men responded (87.5%), with median follow-up 82 months. Reoperation was the only independent predictor of regret in the reported model (+18 points on the Decisional Regret Scale). Continence benefit persisted but deteriorated over time.",
-    "limits": "A retrospective single-centre survivor/respondent cohort without a nonsurgical comparator. Association does not prove reoperation causes all regret or predict an individual response. Counselling should include residual leakage, future surgery and psychological burden. Online December 2025; 2026 issue.",
+    "limits": "This was a retrospective single-centre cohort of survivors who responded, with no nonsurgical comparator. Association does not prove reoperation causes all regret or predict an individual response. Counselling should include residual leakage, future surgery and psychological burden. Online December 2025; 2026 issue.",
     "access": "Full open article read"
   },
   {
@@ -230,7 +230,7 @@
       31
     ],
     "meaning": "A survey of 286 Turkish urologists identified training and confidence gaps in AUS deactivation and instrumentation. It reinforces the practical value of patient/device information and a clear urgent-contact route.",
-    "limits": "A self-selected knowledge survey, not a catheter-safety trial. Its proposed diameter/duration answers cannot become universal rules for every cuff, tissue or device. Follow the actual system's instructions.",
+    "limits": "It was a self-selected knowledge survey and did not test catheter safety. Its proposed diameter/duration answers cannot become universal rules for every cuff, tissue or device. Follow the actual system's instructions.",
     "access": "Publisher abstract via Europe PMC"
   },
   {
@@ -244,7 +244,7 @@
       34
     ],
     "meaning": "In a selected single-centre series of 16 men, one developed a stricture after repair at eroded-cuff explantation (6.3%); seven developed wound dehiscence requiring closure (43.8%). The low stricture rate therefore sits beside a substantial wound-treatment burden.",
-    "limits": "No drainage-only comparator, small sample and median 14-month follow-up. This is not an interim SAFER comparative result and does not establish universal immediate repair. Partial and circumferential erosions require different reconstructive assessments.",
+    "limits": "The series had no drainage-only comparator, a small sample and a median follow-up of 14 months. This is not an interim SAFER comparative result and does not establish universal immediate repair. Partial and circumferential erosions require different reconstructive assessments.",
     "access": "Publisher abstract via Europe PMC"
   },
   {
@@ -289,7 +289,7 @@
       19
     ],
     "meaning": "Twenty studies were included, eight comparative. The meta-analysis associated transcorporal placement with more revisions (OR 2.99, 95% CI 1.16-7.75), less erosion (OR 0.35, 0.15-0.81) and infection (OR 0.33, 0.12-0.95), with no significant explantation difference.",
-    "limits": "Non-randomised series and heterogeneous risk selection; pooled estimates conflict with some individual cohorts. Search ended January 2024 despite online publication in November 2025. Present it as a specialist option with uncertain causal protection, not proof that every fragile urethra should receive it.",
+    "limits": "The series were non-randomised with heterogeneous risk selection, and the pooled estimates conflict with some individual cohorts. Search ended January 2024 despite online publication in November 2025. Present it as a specialist option with uncertain causal protection, not proof that every fragile urethra should receive it.",
     "access": "Publisher abstract via Europe PMC"
   },
   {
@@ -317,7 +317,7 @@
       35
     ],
     "meaning": "Six men received the electronic UroActive AUS; all activated successfully, with no explant or surgical revision during one year after activation. Nine device deficiencies involved the remote control.",
-    "limits": "A very small single-arm feasibility study. Zero observed revisions is not zero risk or comparative superiority; it does not establish replacement of manual hydraulic devices in routine practice.",
+    "limits": "This was a very small single-arm feasibility study. Zero observed revisions is not zero risk or comparative superiority; it does not establish replacement of manual hydraulic devices in routine practice.",
     "access": "Publisher abstract via Europe PMC"
   },
   {

@@ -1,0 +1,439 @@
+# Artificial urinary sphincter surgery
+
+## Cue cards: what to say on each slide
+
+Prepared for Mr Andrew Baird, Mr Abu Yousif, Nity G | 20 October 2026
+
+One card per slide: the spoken lines in order, each one a sentence you can say as written, ending with the line that carries the room to the next slide. Pauses are in square brackets. The clock under each title is the running time at which the slide should start; it is not on the slides. The full narration, the examples and what each study does on its slide are in the presenter script; this is the short version for the lectern.
+
+## Decide before theatre
+
+*00:00 – 14:00 · 14 minutes · slides 01 to 09*
+
+**Section slide:** Our first question for every man: can he get useful continence, keep his bladder safe, empty it, and work the device?
+
+### 01 | The decision before theatre
+
+*00:00 – 01:30 · 1:30*
+
+- An AUS can work perfectly and still disappoint: the cuff closes, the pump works, and he still stays at home.
+- Today we follow the decisions that separate a good result from a disappointing one: what he wants, then the bladder, then the urethra.
+- One question keeps coming back, in four words: implant now, treat something else first, investigate more, or reconsider.
+- We will test it on four fictional patients, and hand the decision to you each time.
+- Next: before we lean on any evidence, let us be honest about what kind of evidence it is.
+
+### 02 | Evidence and device boundaries
+
+*01:30 – 03:00 · 1:30*
+
+- Thank you to Rigicon for organising the meeting; the clinical discussion stays independent of the sponsor.
+- Guidelines give us a pathway. Experts agreeing is not a trial.
+- A manufacturer's instructions say how to use a product, not whether it beats another one.
+- BAUS sets out the UK pathway; we compare it with EAU and AUA where they differ. ICS and Asia-Pacific are AMS 800 documents.
+- Where the evidence stops, we will say so. Next: start where the patient starts, with the leak.
+
+### 03 | Leakage mechanism and patient goals
+
+*03:00 – 04:45 · 1:45*
+
+- Start with a bad day. Standing, walking, coughing? Does an urge come first? Dry at night?
+- "Mixed" is a description, not an explanation. Show the stress leak with a full bladder and a cough.
+- Pad count is easy, but two to four pads a day covers a huge range. Weigh the pads over 24 hours when you are not sure.
+- Then ask what improvement would be worth an operation: the golf course, work, one pad.
+- Next: once we know what he wants back, the question is when, and whether an AUS is the only way.
+
+### 04 | Timing after prostate treatment
+
+*04:45 – 06:15 · 1:30*
+
+- Do not let conservative treatment drift, and do not interrupt a recovery that is still happening.
+- BAUS: wait at least six months for severe leakage, twelve for mild or moderate. Severe means over 400 grams in 24 hours on the Nitti scale; mild is under 100.
+- AUA: from six months if it is bothersome and not improving; offer surgery at one year.
+- A sling still suits milder leakage and good tissue. Radiotherapy and severe leakage push towards an AUS.
+- MASTER at 24 months: the sling was still non-inferior, but further surgery was eleven per cent after a sling, two after an AUS. After a sling that mostly meant an AUS; after an AUS, a mechanical revision.
+- Equal on one measure is not equal for everyone: men with a previous implant or an untreated narrowing were excluded.
+- Next: timing assumes he can use the device. We check that by watching, not asking.
+
+### 05 | Pump use over time
+
+*06:15 – 07:30 · 1:15*
+
+- Put a demonstration pump in his hand and watch. Arthritis, tremor and a weak pinch only show when he tries.
+- Reach matters as much as strength: can he reach the chosen side of the scrotum while sitting?
+- Check he understands cycling, switching off, and what to tell the next doctor before any catheter.
+- Frailty is more than age: in the Medicare cohort it raised early complications and later revision, independently of age.
+- That frailty was scored from billing codes, not examined, so it says frailty matters, not how to test it.
+- Next: with the patient assessed, two investigations change the plan most often. First, the cystoscope.
+
+### 06 | Flexible cystoscopy before implantation
+
+*07:30 – 09:15 · 1:45*
+
+- AUA: a cystoscopy before any stress-incontinence operation. EAU: scope when it would change the plan.
+- BAUS: video-urodynamics for every candidate, and a scope only when a narrowing is suspected or the dipstick shows blood. No video? Then urodynamics plus a scope for everyone.
+- Our preference is to look in advance, so a surprise is discussed before the day of surgery.
+- We are looking for a stricture, a narrowing at the anastomosis or bladder neck, old erosion, foreign material, stones, tumour, radiation change.
+- If there is a narrowing, add flow, residual, site and length. Do not turn a diagnostic scope into an unplanned dilation.
+- Why not? A dilation is a treatment: it resets the six-month clock, tears the scar before we have measured it, and costs tissue a cuff may need.
+- Next: the second investigation is where the guidelines really disagree, so we name the positions.
+
+### 07 | Urodynamics: BAUS, EAU and AUA
+
+*09:15 – 11:00 · 1:45*
+
+- BAUS: video-urodynamics for every candidate. EAU: urodynamics before invasive treatment, but only weakly. AUA: when it would change the diagnosis or the counselling.
+- Most useful when the stress leak is uncertain, urgency dominates, emptying is poor or compliance worries us.
+- Before you order it, say what question it should answer and what result would change the plan.
+- No trial shows that testing every man improves AUS results. The 2026 AUA abstract looks again; its results are not published.
+- Next: whichever route you follow, the study that comes back will be imperfect. Here is how we read it.
+
+### 08 | Interpreting an imperfect study
+
+*11:00 – 12:45 · 1:45*
+
+- A man who leaks all the way through filling never gets a real storage test: a small capacity may be leakage, not a stiff bladder.
+- Look at the traces, the subtraction, the filling rate and why filling stopped. A compliance number printed during artefact means nothing.
+- Weissbart: 32 of 169 men did not leak with the catheter in, and every one leaked once it came out.
+- Five steps: symptoms and a shown stress leak; urine, diary, flow, residual; the urethral anatomy; the urodynamic strategy; then classify storage, emptying and outlet.
+- Next: when the assessment is complete, we consent, and consent is where numbers need their denominators.
+
+### 09 | Consent: improvement and lifetime burden
+
+*12:45 – 14:00 · 1:15*
+
+- Consent covers residual leakage, urgency, erosion, infection, mechanical failure and revision.
+- AUSCO, AMS 800: 61 of 101 men used no pads at twelve months. Manufacturer-funded, no comparison group, missing data.
+- ContiClassic: 93.2 per cent device survival at twelve months in 116 men. The device working, not the man dry; no comparison group.
+- The regret study: needing another operation was the only independent predictor of regret, and benefit faded with time. Future surgery goes into consent from the start.
+- Next: that is the decision before theatre. Our first fictional patient puts it to work, and the decision is yours.
+
+## The bladder
+
+*14:00 – 22:00 · 8 minutes · slides 10 to 14*
+
+**Section slide:** Three bladder problems, three different decisions: an overactive bladder, a weak bladder, and a bladder that stores at high pressure.
+
+### 10 | Case 1: six pads and urgency
+
+*14:00 – 15:45 · 1:45*
+
+- Six pads on an active day, an obvious stress leak, urgency leak with detrusor overactivity, safe pressures, good emptying, open urethra.
+- Implant now or treat the bladder first? [Pause eight seconds.]
+- Overactive bladder is symptoms; DO is what we see on the trace. The systematic review found no good reason to refuse surgery for DO alone.
+- It does not promise the urgency settles; in one reintervention group, DO went with earlier reintervention.
+- Our approach: treat the storage symptoms, agree urgency is a separate goal, reassess. For ContiClassic the instructions require the bladder condition controlled or resolved.
+- Next: so how do we treat that urgency without creating an emptying problem?
+
+### 11 | Urgency treatment and emptying
+
+*15:45 – 17:15 · 1:30*
+
+- Reversible things first: fluids, caffeine, constipation, infection, medication. Then bladder training and a drug chosen for his memory and his residual.
+- Botulinum toxin works for stubborn urgency, but could he catheterise, and how would repeat injections pass a future cuff?
+- Lai: most men with mixed symptoms still had urgency after a successful AUS. Fixing one is not failure in the other, if discussed.
+- Severe urgency after surgery gets checked: infection, residual, device problems, before more drugs.
+- Next: our second patient has the opposite problem. He cannot empty well even before a cuff.
+
+### 12 | Case 2: weak contraction and residual urine
+
+*17:15 – 19:00 · 1:45*
+
+- An obvious stress leak, but he voids slowly, strains and leaves urine behind; the study shows a weak contraction.
+- Is that enough to refuse him an AUS? [Pause eight seconds.]
+- First rule out a narrowing, check his drugs and his nerves, and compare the lab void with how he voids at home.
+- The weak-bladder cohort looked reasonable, but it left out early revisions and does not stretch to severe retention.
+- An AUS is not like a sling. A sling adds resistance that never goes away; the cuff opens when he presses the pump, so he voids through an open urethra.
+- Our answer: investigate and set up a reliable emptying plan. If it holds, an implant may be reasonable; if he cannot empty or manage the rescue plan, reconsider.
+- Next: if his rescue plan is a catheter, we must be clear what catheterising through a cuff involves.
+
+### 13 | Catheterisation with a cuff in place
+
+*19:00 – 20:30 · 1:30*
+
+- Self-catheterisation does not rule out an AUS, but it changes the consent and the operation.
+- First ask why he catheterises: a weak bladder, a narrowing coming back, or an outlet problem to fix first?
+- The rule: cuff fully deflated, device switched off, gentlest instrument, stop at resistance you cannot explain.
+- The picture: the number on the box is the empty, deflated cuff. In the patient the urethral wall fills it, and only the small lumen is left for a catheter. Choose the catheter for the urethra, not the cuff.
+- A 2026 survey found real gaps in confidence on exactly this step. Long catheterisation is linked with erosion, so repeated or long drainage needs a specialist plan.
+- Next: one bladder problem can look like success. A dry patient can still be unsafe.
+
+### 14 | Detrusor overactivity and poor compliance
+
+*20:30 – 22:00 · 1:30*
+
+- Poor compliance means the pressure keeps rising as the bladder fills, not just a contraction. Left: a brief contraction. Right: a steady rise.
+- Check the trace: a sustained rise, a proper fill, valid subtraction. Think radiotherapy, scarring, nerves, years of leaking.
+- Check the kidneys and upper tracts when storage pressure worries you; treat the bladder and repeat the test before making the outlet tighter.
+- Lai 2009: pad results can look good while poor compliance still threatens the kidneys.
+- Our four decisions are now clear: implant, treat first, investigate, reconsider. A way of thinking, not a score.
+- Next: that closes the bladder. The urethra is next, and the first job is to name the narrowing.
+
+## The urethra
+
+*22:00 – 29:00 · 7 minutes · slides 15 to 19*
+
+**Section slide:** Name the narrowing, prove the outlet is stable, and plan the tissue the cuff will need.
+
+### 15 | Three different sites of narrowing
+
+*22:00 – 23:15 · 1:15*
+
+- "Stricture" hides three problems: an anterior stricture in the spongy tissue, a bladder-neck contracture with prostate still there, and a narrowing at the anastomosis after prostatectomy.
+- Go through every dilation, urethrotomy and repair, with the notes. How fast did it come back? Does it stay open only because someone keeps dilating it?
+- Stable means time without recurrence, with symptoms, flow, residual and scope all agreeing. A scope that passed once is not that.
+- Think ahead: a man likely to need more incisions or checks needs an access plan before a cuff makes them harder.
+- Next: stability is a finding, not a date. Here is what the three guidelines say about the interval.
+
+### 16 | Reassessment and urethral stability
+
+*23:15 – 24:45 · 1:30*
+
+- BAUS: at least six months with no recurrence after treating a narrowing after prostatectomy. Consensus, not a trial.
+- AUA: a check scope at least four to six weeks after treating a bladder-neck or anastomotic narrowing, as a point to reassess, not a clearance.
+- EAU: three to six months after a redo anastomosis, and only for that situation.
+- Treat first and implant later lets us watch for recurrence and spares a new cuff from instruments. Doing both at once is for selected expert hands.
+- A man who re-narrows every few weeks is not low risk because the calendar reached a date.
+- Next: our third patient brings all of this together, with radiotherapy added.
+
+### 17 | Case 3: radiation and recurrent VUAS
+
+*24:45 – 26:15 · 1:30*
+
+- Prostatectomy, salvage radiotherapy, repeated treatment of a narrowing at the anastomosis. Open, he leaks; then it closes again. He wants to be dry now.
+- Would you put an AUS into that? [Pause six seconds.]
+- Our answer: hold off and get a reconstructive plan. The urethra does not stay open on its own; check compliance and radiation cystitis too.
+- Radiotherapy roughly doubles the odds of erosion in pooled studies. That is counselling, not his personal number. The 2025 timing study sets no waiting rule.
+- Reconstruction, proven stability, then an AUS may be reasonable. In a ruined outlet with an unsafe bladder, diversion can be the better life.
+- Next: suppose he gets his reconstruction. What does a repaired urethra mean for the later operation?
+
+### 18 | AUS after urethral reconstruction
+
+*26:15 – 27:45 · 1:30*
+
+- A previous urethroplasty is several different operations: cut across or not, graft, posterior repair, old erosion, fistula. Where is the healthy spongy tissue now?
+- Keep what is left, do not free the urethra through a repair, and stage the operation if there is no safe plane.
+- Davis: device removal in 56 per cent after a repair that cut the urethra across, versus 24 per cent after one that did not. The 2026 meta-analysis points the same way.
+- Observational and muddied by the worst cases; it supports a detailed history and careful counselling, not blame.
+- Plan the reconstruction and the continence surgery together. Next: when the plane behind the urethra is hostile, one option goes through the corpora. It has a price.
+
+### 19 | Transcorporal placement: role and costs
+
+*27:45 – 29:00 · 1:15*
+
+- Transcorporal placement passes the cuff through the erectile bodies behind the urethra, avoiding a dangerous plane and putting tough tissue under the cuff. Sensible, but not proven protection.
+- The data point both ways: Redmond favoured it on the numbers; Kurtzman found more erosions and infections; the 2025 review pooled less erosion but more revision.
+- Surgeons choose it for the worst urethras, so the comparison is muddied in both directions.
+- Discuss bleeding, erections and any future penile implant. Size the cuff by the device method, with no home-made correction.
+- If the plan is just to squeeze a failing urethra harder, look again at the diagnosis and the aim.
+- Next: now a different kind of decision, the things we do before the skin is opened.
+
+## Preparation without ritual
+
+*29:00 – 36:00 · 7 minutes · slides 20 to 24*
+
+**Section slide:** Before we argue about how long anything takes, we say which activity, which product, and what evidence.
+
+### 20 | The fifteen-minute wash question
+
+*29:00 – 30:15 · 1:15*
+
+- Is a fifteen-minute wash needed before an AUS? We found no evidence for a rule like that.
+- First say which activity: the patient's wash, the skin preparation, the team's hands, the washout, the device dip. Each has its own instruction.
+- BAUS recommends a five-minute field scrub, by consensus, borrowed openly from other implant surgery. Not fifteen minutes.
+- Fifteen minutes does not make up for missed skin, the wrong product, pooled alcohol or a contaminated field. Correct and repeatable beats long.
+- Next: what the studies can actually support is narrower than the folklore, and here is the best of them.
+
+### 21 | Skin culture reduction and clinical infection
+
+*30:15 – 32:00 · 1:45*
+
+- Yeung: 100 men having their first genitourinary implant; positive skin cultures 8 per cent with chlorhexidine-alcohol, 32 with povidone-iodine.
+- A laboratory measure, in a mix of devices. It did not show fewer AUS infections, and it tested no duration.
+- The later povidone comparison showed no advantage for the intensive protocol, and never compared fifteen minutes with shorter.
+- Use an alcohol-based preparation where the product allows; check allergy, permitted sites and full drying before diathermy.
+- Do not remove hair routinely; clip on the day if you must. Next: skin is one disagreement. Urine and antibiotics are another.
+
+### 22 | Urine and antibiotic disagreements
+
+*32:00 – 33:30 · 1:30*
+
+- Treat a symptomatic infection and reassess. Bacteria without symptoms is a different question.
+- BAUS asks for a urine sample and treatment. IDSA advises against screening or treating symptomless bacteriuria for an AUS alone, on very weak evidence.
+- Agree the pathway with microbiology; choose prophylaxis by policy, isolates, allergy and kidneys; give it before the incision and repeat if needed.
+- Adamsky: removal 3.9 versus 4.0 per cent with and without antibiotics after surgery. The ContiClassic label describes a longer course.
+- We check the current label and write a local protocol. Next: once the patient is prepared, the remaining risk is our hands and the implant.
+
+### 23 | Contamination control during implantation
+
+*33:30 – 35:00 · 1:30*
+
+- Get ready before opening the implant, protect a handling area, touch skin as little as possible, cut traffic and hand-offs.
+- Fresh gloves before the device and after any worry: common sense, not proof. The minimal-touch series compare different eras.
+- Keep wound washout, device dipping and device filling separate. NICE does not support washout just to prevent infection.
+- The gentamicin cohort: one infection in 59 with, two in 114 without. Three events prove nothing either way.
+- For ContiClassic, follow the verified instructions and get the operative protocol; no remembered AMS 800 recipe, no improvised bath.
+- Next: all of this collapses into one checklist the whole team runs before the implant is opened.
+
+### 24 | The pre-implant theatre checklist
+
+*35:00 – 36:00 · 1:00*
+
+- Before opening: patient, operation, tissue worries, stop conditions; infection review, prophylaxis given, repeat-dose plan; skin preparation suitable and dry.
+- Then the exact device and components, cuff sizes, planned pressure, current instructions, who prepares it, and the drainage plan.
+- Decide now what happens if the urethra is injured or sterility is lost. A checklist makes that response automatic.
+- The last row matters: a fixed fifteen minutes, the best washout and long antibiotic courses sit there as unresolved, not required.
+- Next: into theatre. The next eight slides follow the operation in order.
+
+## The operation
+
+*36:00 – 50:00 · 14 minutes · slides 25 to 32*
+
+**Section slide:** Keep the tissue, measure what the cuff will really enclose, follow the real device protocol, check before closing.
+
+### 25 | Positioning and exposure
+
+*36:00 – 37:15 · 1:15*
+
+- Expose the bulbar urethra while protecting pressure points and respecting stiff hips; check before he is asleep if movement is limited.
+- A single cuff through a perineal incision has guideline support for the standard first implant.
+- Plan balloon and pump sites now: pelvic surgery, mesh, scars and an existing penile implant change the plan. Have the notes.
+- If exposure is poor, improve the incision, the retraction or the position. Pulling harder transfers the force to the urethra.
+- Next: with the urethra exposed, which tissue will the cuff sit on, and how much of it do we disturb?
+
+### 26 | Bulbar dissection and tissue preservation
+
+*37:15 – 38:45 · 1:30*
+
+- The aim is a cuff round a healthy segment, not a stripped urethra. The upper bulbar urethra usually has good spongy support.
+- The plane behind the urethra, against the erectile bodies, is where a slip becomes a hole. Dissect under direct vision; never pass an instrument blind.
+- Keep the spongy tissue and its blood supply, free only what the cuff needs, control bleeding without burning everything.
+- If the plane disappears, stop: improve the view, change the site, or get reconstructive help. Transcorporal is a planned move, not a rescue.
+- Next: once the segment is chosen, we measure it, and measurement is where the most avoidable errors live.
+
+### 27 | Cuff measurement and fit
+
+*38:45 – 40:30 · 1:45*
+
+- Measurement goes wrong when you measure the wrong tissue: traction stretches, a tight tape squashes, fat and scar make it read bigger.
+- Let go of the traction, confirm the plane, use the manufacturer's method, and measure again if the reading looks odd.
+- Too small: retention and damage. Too large: leakage. Neither is fixed by a higher-pressure balloon.
+- Four of the eight revisions in the first ContiClassic series were sizing errors. That is why we re-measure, not which method is best.
+- Next: sometimes the dissection or the measurement shows something that changes what today's operation is for.
+
+### 28 | Urethral injury or contamination
+
+*40:30 – 42:00 · 1:30*
+
+- Suspect an injury when the plane is wrong, the wall looks breached, fluid leaks or the instruments were difficult. Test and scope; a negative test does not make rough dissection safe.
+- A known injury changes the aim: stop the implant, define it, repair, drain, explain, and check healing before any new implant.
+- Contamination: stop handling, find what was contaminated, replace single-use items, restore a clean setup, or come back another day.
+- These are single-use implants. A dropped cuff does not go back in after a home-made soak. Finishing without an implant can be the right outcome.
+- Next: if the cuff is safely in, two separate balloon decisions remain: where it goes, and which pressure.
+
+### 29 | Balloon pocket and pressure selection
+
+*42:00 – 43:30 · 1:30*
+
+- The usual pocket behind the pubic bone becomes dangerous after pelvic surgery, radiotherapy, mesh or a previous implant. Never push through resistance.
+- A pocket under the abdominal muscle can be right in experienced hands, with its own problems: bad position, felt through the skin, hernia.
+- Pressure is a separate decision. ContiClassic lists sixty to sixty-nine; AMS 800 consensus usually sixty-one to seventy. Not interchangeable.
+- The public instructions confirm saline filling but send the detail to a separate operating-room protocol; confirm volumes and selection before surgery.
+- A higher pressure never covers a poor cuff fit. Next: the third component is the one the patient touches every day.
+
+### 30 | Pump position and patient access
+
+*43:30 – 44:45 · 1:15*
+
+- Where the pump sits is part of the result. He has already shown us where he can reach and which hand he uses.
+- Low and easy to reach, but the pocket must fit: too much dissection lets it migrate; too little causes pain and pressure.
+- Keep it clearly separate from the testis and away from thin skin. Check how it sits standing and whether the tubing pulls it up.
+- Easy on a table says nothing about a swollen scrotum. Check again at activation, with him doing it.
+- Next: then we finish the system, and we hand over the risk with it.
+
+### 31 | System checks and handover
+
+*44:45 – 46:00 · 1:15*
+
+- Follow every tube: no tension, loops, kinks or trapping. Keep needles away from the components.
+- Prepare and connect by the device's own protocol, cycle it, then confirm the cuff is open and the device is off. Pressing a button is not enough.
+- A small catheter, placed gently, out early after a straightforward implant. No improvised "standard" size.
+- Record model, cuff site and size, balloon type and position, device off, catheter plan and whom to call. The next clinician must know before any drainage.
+- The 2026 survey is why we labour this: the gap in confidence about switching off is real. Next: all three spaces on the model, four minutes.
+
+### 32 | UroOps 3D: anatomy and component routes
+
+*46:00 – 50:00 · 4:00*
+
+- Open the live page. Say it is a teaching model with clinical review pending: where things sit, not validated anatomy.
+- Stop one, the cuff: healthy bulbar tissue and its spongy support; let go of the traction before measuring.
+- Stop two, the plane behind the urethra: careful dissection in a normal plane, a change of plan in scar.
+- Stop three, the pump: can he find it and reach the controls sitting and standing? Stop four, the balloon: after pelvic surgery the space is not the textbook space.
+- Follow the tubing back, check connections, cycle, confirm an open cuff and a switched-off device. If the page fails, use the spoken fallback in the full script.
+- Next: the operation is done, and the first weeks decide whether it was worth doing.
+
+## After the implant
+
+*50:00 – 60:00 · 10 minutes · slides 33 to 38*
+
+**Section slide:** Hand over the risk, work out why a late leak has come back before revising, and say where the evidence stops.
+
+### 33 | Aftercare, activation and urgent review
+
+*50:00 – 51:00 · 1:00*
+
+- After a straightforward implant, catheter out early and check he voids. If he cannot: assess, drain safely, no repeated blind attempts.
+- Day-case works for selected men: the BAUS audit sent 88 per cent home the same day, and the meta-analysis found no significant excess of retention. Selected, not everyone.
+- Pain, redness, discharge, fever or trouble voiding come back to a specialist. Infection or erosion usually means the device comes out, not antibiotics.
+- ContiClassic: switched off for four to six weeks; at activation he works it himself and we check he empties.
+- Device card and clear instructions: warn any clinician before a catheter or a scope. Next: our last patient did everything right for three years.
+
+### 34 | Case 4: leakage after three good years
+
+*51:00 – 52:30 · 1:30*
+
+- Three good years, now leaking again. Would you book a smaller cuff? [Pause five seconds.]
+- Separate a leak that never went away from a true return. Activity, urgency, overflow or trouble cycling? Watch his technique; check the device state.
+- Urine and residual, examine the components, scope with the device off for erosion, then fluid loss, mechanics and the bladder.
+- Bergeson: atrophy in eight per cent of revisions, the balloon in a third; the 2026 lab study shows balloons stiffen and thin with age. A mechanism, not a rule to replace them.
+- Options run from retraining and bladder treatment to replacing a component or the whole system. Second implants: 68 per cent free of reintervention at five years.
+- Next: so where does all this leave us? What is established, and what honestly is not.
+
+### 35 | Established benefit and unresolved questions
+
+*52:30 – 53:15 · 0:45*
+
+- An AUS gives real benefit, and revision and erosion are part of what he signs up for.
+- Keeping tissue, controlling contamination and planning for future instruments all make sense; the individual details often have no comparative evidence.
+- We cannot name one best salvage for a fragile urethra, one best washout fluid, or a proven preparation time.
+- New devices, including the first electronic sphincters, need outcome data in comparable patients before engineering becomes a clinical claim.
+- Make that uncertainty visible in consent and planning. Next: the hour in ten decisions. Five belong before theatre.
+
+### 36 | Five decisions before implantation
+
+*53:15 – 54:00 · 0:45*
+
+- One: a shown stress leak and an improvement that matters to him.
+- Two: watch him use a pump, and think about reach in years, not months.
+- Three: investigations that answer specific questions, admitting the guidelines differ.
+- Four: keep an overactive bladder, a weak bladder and poor compliance separate. Five: a stable outlet and a plan for future instruments.
+- Applied to the cases: treat case one first, investigate case two, stage case three. Next: five decisions protect the result once the implant is open.
+
+### 37 | Five decisions protecting the result
+
+*54:00 – 55:00 · 1:00*
+
+- Six: preparation right for the product, the anatomy and the pathway. A fifteen-minute ritual is not a substitute.
+- Seven: keep the tissue you need and measure what the cuff will actually enclose.
+- Eight: the instructions for the device you are implanting, and clear conditions for stopping.
+- Nine: confirm the cuff state, the drainage and that he can use the device; spell out the precautions for future catheters and scopes.
+- Ten: when the leak comes back, diagnose it before choosing a smaller cuff or a higher pressure. Next: that is our ten. The last five minutes are yours.
+
+### 38 | Discussion
+
+*55:00 – 60:00 · 5:00*
+
+- We would like these minutes on decisions, not preferences. Pick a case, say what you would do, and name the finding that would change your plan.
+- Take one view on the bladder or on urethral stability, then one contrasting view. Ask: guideline requirement, device instruction, or your reading of the evidence?
+- Then one question on operative practice, preparation or failure. Keep contributions short enough to allow disagreement.
+- A show of hands is opinion, not evidence. Beyond the evidence we have, say exactly what is uncertain.
+- Close: the useful differences are now clear, what the evidence supports, what the device requires, and where judgement stays decisive.
