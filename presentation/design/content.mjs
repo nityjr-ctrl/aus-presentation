@@ -152,7 +152,7 @@ export const SCRIPT = {
       'BAUS favours video-urodynamics in the surgical pathway. EAU recommends urodynamics before invasive treatment, with weak strength, and its narrative still discusses selective testing and limited outcome evidence. The AUA permits testing when it helps diagnosis or counselling. The older ICS consensus also takes a selective approach.',
       'The yield is greatest when stress leakage is uncertain, urgency is dominant, emptying is poor, compliance is a concern, or previous treatment has complicated the mechanism. In an uncomplicated man with demonstrable severe stress leakage, reassuring emptying and no worrying storage symptoms, urodynamics may add little under the AUA approach. BAUS and EAU still take a different position.',
       'Before requesting the test, state the question. Is this unsafe storage, obstruction, weak contraction, or a bladder that never gets a chance to fill? Decide in advance what would change surgery or counselling.',
-      'We found no comparative trial showing that routine testing itself improves AUS outcomes for every candidate. A consensus can recommend a sensible investigation without proof that its universal use is superior. The 2026 AUA abstract revisits this question, but its full results were not available, so we quote the topic and nothing more.',
+      'No trial has shown that testing every man improves AUS results. A consensus can still recommend a sensible test; that is not the same as proof. A 2026 AUA abstract looks at this again, but its results are not published, so we name the topic and claim nothing from it.',
     ],
     transition: 'Whichever pathway you follow, the study you get back will be imperfect. Here is how we read it.',
   },

@@ -95,7 +95,7 @@
   "presenterScript": {
     "markdown": "presenter-guide/AUS-presenter-script.md",
     "pdf": "presenter-guide/AUS-presenter-script.pdf",
-    "pdfSha256": "b9fd52c084ef17fe044d69024f011ec60015bb60d93b21663db441b71acc1b70",
+    "pdfSha256": "bd19c67c2543e0c9d320fcf863c229dcbf8a0ad11c03eff09dbbb987e25c50c5",
     "spokenWords": 7217,
     "generatedBy": "presentation/design/script.mjs (content.mjs + support.mjs) and presenter-guide/build_script_pdf.py",
     "pdfPages": 54,
