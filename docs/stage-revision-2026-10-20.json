@@ -1,0 +1,116 @@
+{
+  "source_path": "C:\\NityProjects\\AUS-Presentation\\repo\\presentation\\AUS-teaching-deck-template-redesign.pptx",
+  "source_sha256": "d09cc1b19445ffb255cbcd7d412be34b48795dc8cf59e421c53d1771bb8a673d",
+  "notes_rewritten_physical_slides": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "notes_format": [
+    "Short version",
+    "Read aloud",
+    "Next",
+    "Terms if needed",
+    "Retained figure credits and reference links"
+  ],
+  "video_edit": "Omitted the incorrect closure/scrotal-lift sequence from slide 36 and backup slide 51, retaining checks and correct final views. No 3D anatomy was regenerated.",
+  "retained_source_frames": {
+    "slide_36": [
+      [
+        0,
+        315
+      ],
+      [
+        468,
+        544
+      ]
+    ],
+    "slide_51": [
+      [
+        0,
+        2790
+      ],
+      [
+        2958,
+        3064
+      ]
+    ]
+  },
+  "video_frames": {
+    "slide_36": 391,
+    "slide_51": 2896
+  },
+  "conclusion": "Heading Conclusion; removed Thank you and Questions welcome; three clinical takeaways retained.",
+  "presenters": {
+    "Mr Andrew Baird": [
+      "Consultant Urologist",
+      "Royal Liverpool University Hospital"
+    ],
+    "Mr Mohamed Abu Yousif": [
+      "Consultant Urologist",
+      "Royal Liverpool University Hospital"
+    ],
+    "Nity G": [
+      "ST5 Urology Registrar",
+      "Northwest (Mersey)"
+    ]
+  },
+  "scope": "Edited the redesigned presentation only. Original standard/3D decks, source scene and pre-existing project edits preserved.",
+  "verification": {
+    "package_integrity": "pass",
+    "layout_geometry": "pass",
+    "artifact_tool_import": "pass",
+    "powerpoint_rendered_slides": 51,
+    "nonempty_speaker_notes": 51,
+    "slides_1_to_18_have_short_read_aloud_and_next": true,
+    "unchanged_parts_byte_identical": true,
+    "changed_parts": [
+      "ppt/slides/slide1.xml",
+      "ppt/notesSlides/notesSlide1.xml",
+      "ppt/notesSlides/notesSlide2.xml",
+      "ppt/notesSlides/notesSlide3.xml",
+      "ppt/notesSlides/notesSlide4.xml",
+      "ppt/notesSlides/notesSlide5.xml",
+      "ppt/notesSlides/notesSlide6.xml",
+      "ppt/notesSlides/notesSlide7.xml",
+      "ppt/notesSlides/notesSlide8.xml",
+      "ppt/notesSlides/notesSlide9.xml",
+      "ppt/notesSlides/notesSlide10.xml",
+      "ppt/notesSlides/notesSlide11.xml",
+      "ppt/notesSlides/notesSlide12.xml",
+      "ppt/notesSlides/notesSlide13.xml",
+      "ppt/notesSlides/notesSlide14.xml",
+      "ppt/notesSlides/notesSlide15.xml",
+      "ppt/notesSlides/notesSlide16.xml",
+      "ppt/notesSlides/notesSlide17.xml",
+      "ppt/notesSlides/notesSlide18.xml",
+      "ppt/slides/slide36.xml",
+      "ppt/notesSlides/notesSlide36.xml",
+      "ppt/slides/slide44.xml",
+      "ppt/notesSlides/notesSlide44.xml",
+      "ppt/slides/slide51.xml",
+      "ppt/notesSlides/notesSlide51.xml",
+      "ppt/media/media-36-1.mp4",
+      "ppt/media/media-51-1.mp4"
+    ],
+    "corrected_videos_full_decode": "pass",
+    "visual_review": "Cover, conclusion and retained video sequences reviewed",
+    "final_notes_only_recheck": "Removed closing thanks from spoken notes; repeated package/layout/import/chart checks passed. Slide visuals and all media byte-identical to PowerPoint-rendered candidate."
+  },
+  "final_sha256": "35071a35df10878914229243926831a49e47eb303597742ce19a641915020157"
+}
