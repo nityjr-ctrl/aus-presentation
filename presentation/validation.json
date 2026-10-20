@@ -1,8 +1,8 @@
 {
   "schemaVersion": "presentation-checkpoint-verification.v1",
   "checkedDate": "2026-10-20",
-  "finalSha256": "62c8dde41308ca8614bfede20e9201936a0adf299ba1f46e77a996d1125226f6",
-  "byteCount": 12066164,
+  "finalSha256": "2333d130611592c6917785a905eb5b2cb79b58c871ea9c3dce3bd58517af979c",
+  "byteCount": 11507060,
   "slides": 51,
   "teachingSlides": 38,
   "actDividers": 6,
@@ -11,9 +11,9 @@
   "citationCodes": 58,
   "durationMinutes": 60,
   "builder": "presentation/design/build.mjs (pptxgenjs 3.12.0), content in presentation/design/content.mjs and support.mjs, data in presentation/design/data/",
-  "packageIntegrity": "pass: pptx skill validate.py (schema, relationships, content types, charts) on both decks, 20 October 2026",
-  "powerPointOpen": "PowerPoint 16.0 opened both decks read-only without a repair prompt and exported every slide to PNG (51 and 52), 20 October 2026",
-  "visualReview": "Slides unchanged from 19 October (notes only); contact sheets regenerated and spot-checked. 19 October: All 51 and 52 slides exported by PowerPoint and reviewed at full size in two passes (initial build, then a polish pass that changed layout only); contact sheets reviewed after each; no overflow, overlap or placeholder text found; automated scan for leftover placeholder strings clean",
+  "packageIntegrity": "pass: pptx skill validate.py on both decks, 20 October 2026 (after the Act V photograph was added)",
+  "powerPointOpen": "PowerPoint 16.0 opened both decks read-only without a repair prompt and exported every slide to PNG (51 and 52), 20 October 2026, after the Act V photograph was added",
+  "visualReview": "Act V divider (physical slide 30) reviewed at full size with the licensed photograph; all other slides unchanged from 19 October. Slides unchanged from 19 October (notes only); contact sheets regenerated and spot-checked. 19 October: All 51 and 52 slides exported by PowerPoint and reviewed at full size in two passes (initial build, then a polish pass that changed layout only); contact sheets reviewed after each; no overflow, overlap or placeholder text found; automated scan for leftover placeholder strings clean",
   "fontFamilies": [
     "Segoe UI",
     "Segoe UI Semibold",
@@ -24,8 +24,8 @@
   "timingBasis": "Same 60-minute clock. Say text unchanged from 10 October (7,031 words); examples add 2,144 words and are optional on the day; not rehearsed aloud",
   "animatedDeck": {
     "file": "AUS-teaching-deck-3d.pptx",
-    "sha256": "fa1ed583d7a62acd620682b9c91f2520693674badf6708d0bbb1b6d97b159d70",
-    "byteCount": 66137643,
+    "sha256": "613edc790ea793de1a5afc887e1d938f03003cb6c45786682af187f6a6f26e3e",
+    "byteCount": 66737612,
     "slides": 52,
     "embeddedVideos": 8,
     "packageIntegrity": "pass",
@@ -72,5 +72,6 @@
     "claimBoundary": "Package checks, a clean PowerPoint open and rendered-slide review do not establish clinical accuracy. No evidence statement, citation or on-slide wording changed in the 19 October redesign; the study glossary in the notes follows the ST5 presenter guide."
   },
   "speakerNotes": "Owner's decision 20 October 2026: no script in the slides. python-pptx check on both decks: no SAY, EXAMPLE, THIS SLIDE WANTS, STUDIES or NEXT text in any notes pane; only picture, clip and IFU-illustration credits remain (9 slides in the standard deck, 11 in the animated deck). The script is presenter-guide/AUS-presenter-script.pdf (54 pages). 58 reference codes with 58 hyperlinks on the three reference slides; footer codes match deck-data.json on every slide.",
-  "exampleWords": 2144
+  "exampleWords": 2144,
+  "licensedAssets": "act-V.jpg (Envato Elements GM295KD, winnievinzence) in the git-ignored assets/envato folder; fitted to 3240 x 2160 at build time"
 }

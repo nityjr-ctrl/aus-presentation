@@ -45,7 +45,13 @@ async function gradientVeils(file) {
 function envatoAsset(stem) {
   for (const ext of ['.jpg', '.jpeg', '.png']) {
     const f = path.join(ENVATO, stem + ext);
-    if (fs.existsSync(f)) return f;
+    if (!fs.existsSync(f)) continue;
+    // fit the licensed original to 4K once per build (keeps the decks small; the original is never modified)
+    const fitted = path.join(BUILD, `envato-${stem}.jpg`);
+    if (!fs.existsSync(fitted) || fs.statSync(fitted).mtimeMs < fs.statSync(f).mtimeMs) {
+      execFileSync('python', [path.join(HERE, 'envato_fit.py'), f, fitted], { stdio: 'inherit' });
+    }
+    return fitted;
   }
   return null;
 }
